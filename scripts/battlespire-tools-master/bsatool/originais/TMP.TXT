@@ -1,0 +1,71 @@
+File DR2B.TXT:
+        41-60   DR2A31  NoTalk default  
+        61-80   DR2A32  NoTalk default  
+        81-00   DR2A33  NoTalk default  
+File DR3M.TXT:
+        41-55   DR3A41  NoTalk default  
+        56-70   DR3A42  NoTalk default  
+        71-85   DR3A43  NoTalk default  
+File SK2B.TXT:
+        64-72   SK2A41  NoTalk default          
+        73-81   SK2A42  NoTalk default          
+        82-90   SK2A43  NoTalk default          
+File DN1T.TXT:
+        DN1B11  "[[From its baleful glance, you infer little interest in conversation.]]"               TRUE                    NOTE: This is a NoTalk default dialog.  END             
+File DG1B.TXT:
+        01-33   DG1A21  NoTalk  
+        34-66   DG1A22  NoTalk  
+        67-00   DG1A23  NoTalk  
+File VM2T.TXT:
+        VM2A31  [[It sneers and refuses to speak with you.]]                                    NOTE: This is a NoTalk default dialog.                                  
+        VM2A32  [[It hisses and spits at you.]]                                 NOTE: This is a NoTalk default dialog.                                  
+        VM2A33  "[[Fixing you with a wary eye, it makes no response.]]"                                 NOTE: This is a NoTalk default dialog.                                          
+File SK1M.TXT:
+Scamp   SKNoTalk        SK1A42  local
+        51-63   SK1A41  NoTalk default
+        63-76   SK1A42  NoTalk default
+        77-90   SK1A43  NoTalk default
+File FT1T.TXT:
+        FT1B71  [[The icy giant fixes you with piercing contempt and ignores your attempt to speak with him.]]  FT1B7A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+        FT1B81  "[[He nods patronizingly, but shows no inclination to speak.]]" FT1B8A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+File FR2T.TXT:
+        FR2B41  [[The firey titan scowls furiously and refuses to speak with you.]]     FR2B4A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+        FR2B51  [[He has nothing to say to you.]]       FR2B5A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+File MA2T.TXT:
+        MA2A51  [[Apparently the daedra has nothing to say to you.]]    MA2A5A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+        MA2A61  "[[The daedra looks almost fondly upon you, but doesn't say a word.]]"  MA2A6A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+File SR2T.TXT:
+        SR2A11  "What DO you think you're doing, you -- wait -- are  you -- "   SR2A1A  TRUE                    Yes! You see your doom before you. Flee while you still can.    END     MONSTERFLEE_120 &SeduceNoTalk           
+        SR2A21  "CURSE the GODS, it IS the manling!"    SR2A2A  &JacielFree                     "Yes! Behold the BOLD MANLING, and TASTE FEAR! I -- hey. Where are you going?"  END     MONSTERFLEE_120 &SeduceNoTalk           
+        SR2A31  "[[The creature gestures threateningly and says nothing, its eyes furtively scanning for an escape route.]]"    SR2A3A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+File DR4T.TXT:
+        DR4B61  [[The bold Dremora is silent and menacing.]]                                    NOTE: This is a NoTalk default dialog.                  &DremoraSpeak           
+        DR4B71  "[[The Dremora eyes you significantly, but pointedly  avoids acknowledging your presence.]]"                                    NOTE: This is a NoTalk default dialog.                                  
+File JK1T.TXT:
+        JK1A11  "[[He does not respond. He seems to be unconscious, or in a deep sleep.]]"      JK1A1A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+File ML2T.TXT:
+        ML2A31  "[[He watches you eagerly, fidgeting with his weapon, but says nothing.]]"      ML2A3A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+        ML2A41  "[[Without a word, he glares at you and brandishes his weapon.]]"       ML2A4A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+        ML2A51  "[[He watches you coolly, but says nothing.]]"  ML2A5A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+File MD1T.TXT:
+        MD1A31  [[It doesn't seem to be in a mood to chat.]]                                    NOTE: This is a NoTalk default dialog.                  &MorphNoTalk            
+        MD1A32  [[Apparently it has nothing to say at this time.]]                                      NOTE: This is a NoTalk default dialog.                  &MorphNoTalk            
+        MD1A33  [[It doesn't say a word or respond in any way.]]                                        NOTE: This is a NoTalk default dialog.                  &MorphNoTalk            
+        MD1A61  "I have to make sure you aren't the manling. So I'm going to beat on you a little.  So if you really are a daedra, you can show me while I'm pounding on you."  MD1A6A  TRUE                    "Come on. I'm a DAEDRA. Anybody can see that. No manling could wade his way through an army of daedra and show up here, fresh as a daisy."      END     MONSTERATTACK   &MorphNoTalk            
+        MD1A91  "Xivilai Moath. He's my boss and he's very important. Mehrunes Dagon likes my boss a lot, because he's so smart and tough. He sent me here to guard this place and look for the manling. He wants the manling. Alive, he said. Okay. We talked. Now we wrestle."        MD1A9A  TRUE                    No. You should talk. Makes you feel better. Good exercise for the mind. END     MONSTERATTACK   &MorphNoTalk            
+                        MD1A9B  TRUE                    Sure. I love wrestling. END     MONSTERATTACK   &MorphNoTalk            
+        MD1A01  "Battlespire was a cinch. Traitor opens a gate, we go in, mop things up. Catch Battlemages and guards asleep. Some are pretty tough for manlings, but just a couple. Hundreds of us. Bang, bang bang. Job's done. So rest of troops head home, leave Scamps and Vermai to clean up. Okay. Nice talk. Fun. Now we wrestle."      MD1A0A  TRUE                    No. You should talk. Lovely voice. I could listen to you for hours.     END     MONSTERATTACK   &MorphNoTalk            
+                        MD1A0B  TRUE                    Sure. I love wrestling. END     MONSTERATTACK   &MorphNoTalk            
+        MD1B11  "Oh. When I capture you, I wait here a while, and someone opens a gate. I don't know how to open gates. So then we take the gate to Shade Perilous, then we take another gate to the Chimera and then home to the Wellhead. Okay. We talk enough? Now we wrestle?"      MD1B1A  TRUE                    "No. Wait. I haven't had a chance to talk yet. It's my turn, isn't it?" END     MONSTERATTACK   &MorphNoTalk            
+                        MD1B1B  TRUE                    Sure. Let's wrestle.    END     MONSTERATTACK   &MorphNoTalk            
+        MD1B21  "Capture the manling. Alive. That's what Xivilai Moath said. Capture ALL  the manlings alive. So they talk. Just like the three Battlemages. They talked and talked and talked about all sorts of things. Xivilai Moath MAKES them talk. They were HAPPY to talk. Tell lots of secrets. Xivilai Moath MAKE you talk, too, you bet. Tell all your secrets. So. Now it's pounding time. Ready?"   MD1B2A  TRUE                    Sure. I'm ready. But don't forget. Capture. Alive. Very important. Wouldn't want to upset your boss.    END     MONSTERATTACK   &MorphNoTalk            
+File VM1T.TXT:
+        VM1A31  [[It snears and refuses to speak with you.]]                                    NOTE: This is a NoTalk default dialog.                                  
+        VM1A32  [[It hisses and spits at you.]]                                 NOTE: This is a NoTalk default dialog.                                  
+        VM1A33  "[[Fixing you with a wary eye, it makes no response.]]"                                 NOTE: This is a NoTalk default dialog.                                  
+File DS1T.TXT:
+        DS1A81  [[She stares at you haughtily and ignores your entreaties.]]    DS1A8A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+        DS1A91  [[She wrinkles her nose disdainfully and ignores you.]] DS1A9A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+        DS1A01  "[[She says nothing, but observes you cautiously.]]"    DS1A0A  TRUE                    NOTE: This is a NoTalk default dialog.  END                             
+File WR1T.TXT:
+        WR1A41  [[The ghostly presence offers no answering response.]]          TRUE                    NOTE: This is a NoTalk default dialog.  END                             

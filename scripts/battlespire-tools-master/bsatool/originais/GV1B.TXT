@@ -1,0 +1,27 @@
+	Random Talk Tables			file Gv1B.xls
+	Uncooperative Gem Vampire			
+	talkcheck			
+	&GemNoTalk	GV1A21		
+	&GemMad	GV1A91		
+				
+				
+				
+	talktable			
+	First	GV1A11		
+	Second	GV1A11		
+	Third	GV1A11		
+	Fourth +	GV1A11		
+				
+	Random			
+		TalkGroup	Notes	
+	Not Applicable			
+				
+				
+				
+				
+				
+				
+
+
+				
+				

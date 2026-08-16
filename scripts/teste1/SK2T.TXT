@@ -1,0 +1,39 @@
+		Scamp Oathkin					file sk2t.xls			SCAMPTALK			
+	Saycode	NPC SAY	Replycode	response CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SK2A11	- Nao! Mais coisas de Homem. Tudo o mesmo. - Qual deles? Servir quem?	SK2A1A	TRUE			Nao e da tua conta. E podes morder-me. - Imediatamente.	SK2A61					
+	SK2A12	- O que? O homem, tudo parece o mesmo. Es um mago? - Um helicoptero? Sangue? Escravos?	SK2A1B	TRUE			Acalma-te. Tambem nao vos distingo de criaturas. Sou um homem, mas trabalho para o teu chefe, por isso, vai tratar dos teus assuntos e deixa-me em paz.	SK2A71					
+	SK2A13	- Estou cansado! Odeio coisas estupidas de Homem. Chefe? - Quem? - O que? Diz-me! - Agora mesmo! Ou mordidas e arranhoes!	SK2A1C	TRUE			Talvez queiras tremer e cair de joelhos perante o Mestre Mago de Batalha Clarentavious Valisious, que prefere explodir-te a conversar contigo.	SK2A81					
+			SK2A1D	&RishaalName			Chama-me de "Trouble". Servo os interesses do Rishaal, assim como os meus. Por isso, nao me atrapalhes, ou mato-te.	01-25: SK2A91
+26-50: SK2A01							
+51-75: SK1B11							
+76-00: SK1B21							
+			SK2A1E	&ZenaideName AND NOT &WearAmuletZ 			Nao te importas com quem sou. Tu queres saber que estou sob a protecao da Zenaide. Entao, cuidado.	SK1B31					
+			SK2A1F	&WonshalaName AND NOT &WearAmuletW			Nao entenderias o meu nome. Talvez compreenda o nome "Wonshala"?	SK2B41					
+			SK2A1G	&MethatsName AND NOT &WearAmuletM			Eu... nao sou... homem. Eu... so... olho... como... um homem. E magico, tu... vai. Sou da equipa do METHAT. Entao... vao... embora.	SK2B51					
+			SK2A1H	&WearAmuletM AND &MethatsName			- Olha. Es estupido. Nao me importo. E assim que as coisas sao. Mas se nao reconheces este amuleto, ou o nome do Methats, entao por favor mata-te agora e poupa-nos o incomodo.	SK2B61					
+			SK2A1I	&WearAmuletZ AND &ZenaideName			Ves este amuleto? Toca-me e a Zenaide vai saber.	SK2B71					
+			SK2A1J	&WearAmuletW AND &WonshalaName			Ves um belo amuleto? Compreendes "Wonshala"? Agora, vai-te embora e nao me incomodes, ou usas as tuas tripas como ligas.	SK2B81					
+	SK2A21	Conhecemos este! Mata os nossos amigos! Entao, rasgamos a sua carne e a devorei em pedacos.	SK2A2A	TRUE			- Eu? - Nao. - Deves estar a brincar. Nao faria mal a uma mosca.	END		&ScampMad			
+	SK2A22	Olhem! Olhem! O Homem-Coisa Desagradavel! - Vamos! - Vamos! Mata-o depressa!	SK2A2B	TRUE			Vou levar-te a ti e aos teus amigos.	END	MonsterRally_2	&ScampMad			
+	SK2A23	Esquecido, mentiroso, homem. Esgueira-se e engana-nos, magoa-nos. Agora, pegamos-lhe, puxamos os bracos...	SK2A2C	TRUE			- Meu Deus. Suponho que agora devo esmagar-te um pouco.	END		&ScampMad			
+	SK2A31	- Ola, meu. O que e que fazes? Es um homem simpatico, nao es? Se simpatico e vai-te embora.	SK2A3A	TRUE			O homem bom faz o que lhe apetece, e nao te esquecas disso.	END					
+	SK2A41	E ele olha para ti sem dizer uma palavra.		TRUE			NOTA: Este e um dialogo padrao do NoTalk.	END					
+	SK2A42	[Ela] arruma o nariz como se cheirasse a algo nojento.		TRUE			NOTA: Este e um dialogo padrao do NoTalk.	END					
+	SK2A43	E nao fala, mas observa-te.		TRUE			NOTA: Este e um dialogo padrao do NoTalk.	END					
+	SK2A51	Odeia o homem! Mordidas e arranhoes!	SK2A5A	TRUE			O sentimento e mutuo, grandes orelhas.	END					
+													
+													
+	SK2A61	Queres um pouco? Morde partes moles! E duro!	AK2A6A	TRUE			Aqui mesmo, amigo.	END	MONSTERATTACK 	&ScampMad			
+	SK2A71	- Nao. Achas que sou estupido? Es um grande mentiroso, aposto. Mentiroso do gosto.	SK2A7A	TRUE			- Sim, sim. Vem buscar acucar, bolha da bexiga.	END	MONSTERATTACK 	&ScampMad			
+	SK2A81	Blah-blah-blah-blah! Nao, nao, nao! Mentir-mentir-mentir! Agora, ficas com grandes mordidas e arranhoes!	SK2A8A	TRUE			Uma daedra de orelhas de flap chama-me mentirosa e foge impune.	END	MONSTERATTACK 	&ScampMad			
+	SK2A91	Homem-coisa inteligente. Entao, trabalhem. Encontrar coisas. - O que e? - Escintilhos. Artificios. - O zoom. Muita gente.	SK2A9A	TRUE			Obrigado, amigo. Vemo-nos depois para comer.	END	PCTeam	&ScampNice			
+	SK2A01	- Muito bem. Muita pilhagem. Dezenas e dezenas e dezenas. Cuidado, porem. - Um pouco mau. Arranja sumo BAD, e vai boom!	SK2A0A	TRUE			Obrigado pelo aviso. Cuidado ai fora.	END	PCTeam	&ScampNice			
+	SK1B11	Esta bem. Nos partilhamos! Muita e muita porcaria. Coisas de bruxo... nao tao seguras, talvez. Mas e bom suco. - Quem e?	SK1B1A	TRUE			- Sim, e. Aquilo dos bruxos e complicado. E melhor deixar isso para mim. Mas obrigado pela dica.	END	PCTeam	&ScampNice			
+	SK1B21	- Esta bem. As aranhas sao loucas. Entao, nao fales do Voidguide. Desfeito. Triste demais. Para de piscar.	SK1B2A	TRUE			Pincadinho. Nao vou dizer uma palavra. Obrigado pelo aviso.	END	PCTeam	&Voidguide AND &ScampNice			
+	SK1B31	- Nao, nao. Mentiroso! Seu SNAK-sneak. Os espioes morrem e ficam com os pes no chao.	SK1B3A	TRUE			Vais arrepender-te quando a Zenaide souber disto.	END		&ScampMad			
+	SK2B41	Mentiroso! Nao es uma aranha. Agora talvez morda a tua lingua nojenta.	SK2B4A	TRUE			Estupido animal. Pode ter a certeza que Wonshala vai ouvir da sua traicao.	END		&ScampMad			
+	SK2B51	Diz-me so. E um grande mentiroso, aposto. Precisa de mordidas e arranhoes, ensina-lhe maneiras, sim.	SK2B5A	TRUE			Obrigado pela oferta. E em troca, talvez possa ensinar-te os rudimentos da anatomia. Ja viste o teu baco?	END		&ScampMad			
+	SK2B61	Metatas, nao e? Bem, woopie-doo. Achas-te mesmo esperto, nao achas? - Nao, nao. Nao encontraram nada. Nao, nao, nao. Esta tudo partido. - Oops, boom. - Nao, nao. Entao, vai-te embora. Ou arranhar-se muito.	SK2B6A	TRUE			- Nao, nao. Continua a procurar. E faca rapido.	END		&ScampNice			
+	SK2B71	Nao toque! Minas de espumantes! Mastiga-mastiga-mastiga!	SK2B7A	TRUE			Morde-se, seu pequeno esguicho.	END		&ScampNice			
+	SK2B81	Nao sabemos nada sobre o Voidguide. Nao, nao, nao. E um grande erro. Foi VERMAI roubar, furtivos. E DREMORAS, sim, sim.	SK2B8A	TRUE			Tirarias a cabeca antes de me mentires, nao e, pequenino? E melhor que facas isso, porque e o que fazemos com as mentiras.	END		&ScampNice	&Voidguide		
+													

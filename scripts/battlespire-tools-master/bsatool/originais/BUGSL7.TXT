@@ -1,0 +1,18 @@
+BugsL7
+
+
+
+
+LEVEL 7 BUGS TO BE CHECKED:
+
+DATE		NAME		DESCRIP
+
+
+
+
+
+BUGS TO BE FIXED:
+
+DATE		NAME		DESCRIP
+
+8/18		Ken		Mark: if you get a chance: talking chair

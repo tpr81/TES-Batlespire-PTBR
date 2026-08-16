@@ -1,0 +1,21 @@
+		Clannfear Oathkin					file CF2T.xls			Clannfear Truculent Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CF2A11	- Nao, nao. Cheira a carne! O que faz a carne aqui? - Nao, nao. E fresco? Ou estupido?	CF2A1A	TRUE			Estamos extra frescos, labios de lagarto. E nao queremos problemas de si. Entao, deixe-nos em paz, e nos deixamos voce em paz, e todos estao felizes.	01-50: CF2A21 51-00: CF2A51				
+	CF2A12	E isso... carne humana que cheiro? Sim, sim! E agora tenho-te a ti, manling!	CF2A1B	&Tayem			Amuleto. Veja o amuleto. Amigos? Aliados? Monstros armados? Entao, o que e que a estas a fazer no territorio da Faydra? Estas a procura de sarilhos? Queres comecar?	01-50: CF2A21 51-00: CF2A31				
+			CF2A1C	&Tayem			- Nao! Segredo! Eu carrego o amuleto de Xivilai, e espiono aqui a seu pedido.	01-50: CF2A21 51-00: CF2A41				
+	CF2A21	- Vamos. Ajude-nos. Eles tiram o que e nosso e reclamam a melhor parte. Temos de encontrar o que nos roubaram e devolve-lo ao Senhor Xivilai e ao cla.	CF2A2A	TRUE			Parece um bom plano. - Apresente-me o caminho.	END	PCTeam			
+	CF2A31	- Homem tolo. Mentiras tao estupidas. Que insultos! Pensar que vamos engolir tais residuos de sapo? Faz-nos um grande mal.	CF2A3A	TRUE			Lagarto esperto. Belo lagarto. Venha buscar-me.	END	MonsterAttack	&FearMad		
+	CF2A41	- Nao, nao. Esgueira-se e mente-nos, nao e? - Nao, nao.	CF2A4A	TRUE			- Nao, nao. Vem ca e da-me um pontape nos teus doces dentes, sua coisa nojenta.	END	MonsterAttack	&FearMad		
+	CF2A51	- Nao. Os intrusos tem de ser apanhados, certo? Nao somos intrusos? - Sim, sim. - Entao?	CF2A5A	TRUE			- Esta bem. - Nao, tens razao. Sou um intruso. Entao, faca o seu dever. Vou esfolar-te de qualquer maneira.	END	MonsterAttack	&FearMad		
+	CF2A61	- O que? - O que? Porque falar? Que conversa? Odeia falar!	CF2A6A	TRUE			- Ola, meu. O vosso senhor Xivilai concede-me a sua proteccao. Porque me bates?	CF2A71				
+	CF2A71	Clanfear nao manchado como traidores, nao! O Senhor diz: "A carne nao e morta, mas castigada como carne desagradavel, Oathkin, transgressao dos costumes". Sente os dentes e as garras. Mas vai silencioso, deixa-nos? Carne inteligente, sim.	CF2A7A	TRUE			- Esta bem. - Esta bem. - Morde-me.	END	MonsterAttack	&FearMad		
+			CF2A7B	TRUE			Prove o meu aco. E uma bota. E bola de fogo. E este velho pedaco de pano. E este pedaco de cera. E um pouco de pelos.	END	MonsterAttack	&FearMad		
+	CF2A91	Vinganca! O nosso Senhor esta ferido! Alguem feriu o nosso Senhor!	CF2A9A	TRUE			- Ola, meu. - Fui eu. - Nao. Acabei de dar um pontape no cu do teu Senhor no Oblivion. Vem ca e eu tambem te dou um pontape no rabo escamoso.	END	MonsterAttack	&FearMad		
+			CF2A9B	TRUE			- Nao. - Nao. - Traicao! - Traicao! Faydra e os seus Hernes lancaram traicoeiramente Xivilai para o Oblivion! Ataquem os traidores e vingem o exilio do nosso nobre senhor.	01-50: CF2A01 51-00: CF2B11				
+	CF2A01	- E voce? - Sim. Nao tomaste parte, carne? - MENTIS! E tu morres!	CF2A0A	TRUE			Estas verde. - Sabes disso? - Sim. So animais e plantas sao verdes. Portanto, voce e um animal estupido ou uma planta estupida. E logica. Ou talvez sejas um insecto.	END	MonsterAttack	&FearMad		
+	CF2B11	- Traicao! - Traicao! Guerra a Faydra e a toda a sua faccao!	CF2B1A	TRUE			- Sim, sim! Apanhem-nos! Poe-no no alto! Queimem os traidores! Faca guerra a Faydra! - Nao, nao.	END	PCTeam			
+												
+												
+	CF2B21	[Ela sussurra e cuspe, mas nao fala.]	CF2B2A	TRUE				END				
+	CF2B31	Que cheira e olha.	CF2B3A	TRUE				END				
+	CF2B41	E ele vos olha, e depois, com as garras, boceja.	CF2B41	TRUE				END				

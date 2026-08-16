@@ -1,0 +1,16 @@
+		Seducer Oathkin					file SR1T.xls			Good Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR1A11	I SPIT on Dagon's treacherous dogs! You'll get no mercy from me, maggot-eater! Come. Come closer so you can hear my EVERY CURSE UPON YOUR AND ALL YOUR SPIT-LICKING KIN!	SR1A1A	TRUE			Sentiments close to my own heart, and spoken like a warrior. But you mistake me for a dog, when I am actually an innocent manling, tossed like a leaf in the flood. Let us join forces and kick dogs that NEED kicking.	SR1A21				
+			SR1A1B	TRUE			Mother of Monsters! I take GREAT offense! Do I LOOK like one of Dagon's dogs? 	SR1A21				
+			SR1A1C	&JacielName			Look. I'm siding with Jaciel and Deyanira, and I don't care WHO knows it! So if we're enemies, have at it. But if we are allies, let's stop burning each other!	SR1A31				
+			SR1A1D	&JacielFree			WAIT! Jaciel is FREE! I set her free! I'm a manling! I'm on your side!	SR1A41				
+	SR1A21	Lying, cowardly, spit-sucking DOGS! Don't try your lying tricks on me! Come CLOSER and let me KISS you, you spotty, craven, CRETIN!	SR1A2A	TRUE			Wait.	END	MonsterAttack	&Dog		
+	SR1A31	Oh. Yes. We've heard about you. Leave us alone, and we will return the favor. Harm or hinder us at your peril.	SR1A3A	TRUE			Understood. Truce. Goodbye.	END	Command SR_13	&Buddy		
+	SR1A41	Oh. YOU are the one who freed our Lady. We who remained loyal salute you, and praise your name. Our Lady  has commanded us to safeguard you, and treat you as Oathsister. We stand between you and your enemies.	SR1A4A	TRUE			Aw, shucks. It was nothing. But thanks for taking arms against my enemies. I have plenty enough for EVERYbody.	END	PCTeam	&Hero		
+	SR1A71	You look familiar, but I must be sure.	SR1A7A	TRUE			I'm just a little manling, remember?	SR1A21				
+			SR1A7B	&Buddy			I'm the manling, remember? Friend to Deyanira and Jaciel?	SR1A81	PCTeam			
+			SR1A7C	&Hero			I'm the manling, remember? I helped free Jaciel?	SR1A91	PCTeam			
+			SR1A7D	&JacielName			I'm working with Jaciel and Deyanira. Remember me?	SR1A31	PCTeam			
+			SR1A7E	&JacielFree			Remember me? I'm the guy who freed Jaciel.	SR1A41	PCTeam			
+	SR1A81	Yes. We watch and wait.	SR1A8A	TRUE			Good work. And goodbye.	END				
+	SR1A91	Yes. We welcome our ally  in the crusade to win back Shade Perilous.	SR1A9A	TRUE			And things are coming along marvelously. Keep up the good work.	END				

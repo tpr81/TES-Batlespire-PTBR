@@ -1,0 +1,27 @@
+	Random Talk Tables			file WN1B.xls
+				
+	talkcheck			
+Wonshala	&WonshalaTask	WN1A21		
+	&WonshalaMad	WN1A31		
+				
+				
+				
+	talktable			
+	First	WN1A11		
+	Second	WN1A11		
+	Third	WN1A11		
+	Fourth +	WN1A11		
+				
+	Random			
+		TalkGroup	Notes	
+	Not Applicable			
+				
+				
+				
+				
+				
+				
+
+
+				
+				

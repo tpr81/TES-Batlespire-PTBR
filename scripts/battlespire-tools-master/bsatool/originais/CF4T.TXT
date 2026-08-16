@@ -1,0 +1,29 @@
+		Clannfear Oathkin					file CF4T.xls			Clannfear Boxers Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CF4A11	Pao de rosa! Fiquem afastados. Este combate pela honra de Xivilai e Clannfear!	CF4A1A	TRUE			Deves ter-me confundido com outra pessoa. Nao sou um rosa. Sou um Deus Vivo. Caem de joelhos e venerem-me, e talvez eu os poupe de eons de tormento num buraco negro e ruidoso da Eternidade.	CF4A31				
+	CF4A12	Julgamento de honra! Pinkskin esta a intrometer-se no julgamento de honra. - Pessoa de pele rosa!	CF4A1B	&Tayem			- Ola, meu. Olha para o amuleto. Nao sou um fiel e confiavel servo do Xivilai? Porque nao se afastam e deixam que eu faca o trabalho rapido com este lixo do Herne. - Nao. Ha algum premio envolvido?	CF4A21				
+			CF4A1C	&Tayem			- Nao! - Nao. Ves este amuleto? Estou numa missao secreta para o Xivilai. Tenho de espiar os Hernes e descobrir onde guardam as coisas fixes. Entao, a mae e a palavra.	CF4A41				
+	CF4A21	- Nao. Ouvimos sussurros. Mata o Egahirn com a sua propria lanca. Um truque bem feito. Entao, limpa este Herne, sim? Grande premio! Tem a Adaga do Coracao Potente. Grande magia. Bater o Herne, apanhar o Dagger.	CF4A2A	TRUE			Parece-me optimo. Alguma regra?	CF4A51				
+	CF4A31	- Homem tolo. Mentiras tao estupidas. Que insultos! Pensar que vamos engolir tais residuos de sapo? Faz-nos um grande mal.	CF4A3A	TRUE			Peco desculpa por ter questionado a sua modesta inteligencia. - Desculpa-me. Nem sabia que tinhas bom humor! - Nao, nao. Eu mato-me.	END	MonsterAttack	&FearMad		
+	CF4A41	- O que? O amuleto nao significa nada! VOCEs pisam na terra do Senhor, e nao mostram sinal de seu prazer. Talvez ele fique satisfeito com a tua pele!	CF4A4A	TRUE			- Nao. Nao tem uma bebida de agua a mao? Porque este descascar Clannfear e um trabalho sedento.	END	MonsterAttack	&FearMad		
+	CF4A51	Regras? - O Hernes? As suas trapacas sujas. As regras nao fazem sentido. Apanha-o.	CF4A5A	TRUE			- Esta bem. - Esta bem. Ele e uma sopa. - Aqui esta. Segura o meu casaco.	END		&FearFite		
+												
+	CF4A61	O que, rosa? - O que e agora? Queres que facamos contigo?	CF4A6A	TRUE			- Nao, nao. Leva-me se puderes.	END	MonsterAttack	&FearMad		
+			CF4A6B	&WarAxe			- Olha. - Foi o que disseste. Nao ha regras, certo?	CF4A71				
+			CF4A6C	&Dagger			- Ola, meu. - Olha. Ganhei de forma justa. Eu bati o traseiro do Herne. - Nao e? Tenho a Adaga do Coracao Potente. - Nao e? Uma luta limpa? Qual e o problema?	CF4A81				
+	CF4A71	Mas atacaste o Clan Fear! Leva o Machado de Guerra! Que vergonha! Que vergonha!	CF4A7A	TRUE			Ah, ultrapassa isso.	END	MonsterAttack	&FearMad		
+	CF4A81	- Sim, e verdade. - Sim, e verdade. Nos dizemos isso. E justo. Quadrado. Es bom! Que diversao. Vamos buscar outro lixo de Herne? Serve o Xivilai? Leal? Amigo do Clannfear?	CF4A8A	TRUE			- Claro que sim. Parece-me optimo. Dar uma coca no rabo do Herne? Sou o teu... homem, acho eu. Vamos, vamos.	END	PCTeam			
+							
+	CF4A91	Vinganca! O nosso Senhor esta ferido! Alguem feriu o nosso Senhor!	CF4A9A	TRUE			- Ola, meu. - Fui eu. - Nao. Acabei de dar um pontape no cu do teu Senhor no Oblivion. Vem ca e eu tambem te dou um pontape no rabo escamoso.	END	MonsterAttack	&FearMad		
+			CF4A9B	TRUE			- Nao. - Nao. - Traicao! - Traicao! Faydra e os seus Hernes lancaram traicoeiramente Xivilai para o Oblivion! Ataquem os traidores e vingem o exilio do nosso nobre senhor.	01-50: CF4A01 51-00: CF4B11				
+	CF4A01	- E voce? - Sim. Nao tomaste parte, carne? - MENTIS! E tu morres!	CF4A0A	TRUE			Estas verde. - Sabes disso? - Sim. So animais e plantas sao verdes. Portanto, voce e um animal estupido ou uma planta estupida. E logica. Ou talvez sejas um insecto.	END	MonsterAttack	&FearMad		
+	CF4B11	- Traicao! - Traicao! Guerra a Faydra e a toda a sua faccao!	CF4B1A	TRUE			- Sim, sim! Apanhem-nos! Poe-no no alto! Queimem os traidores! Faca guerra a Faydra! - Nao, nao.	END	PCTeam			
+												
+												
+	CF4B21	[Ela sussurra e cuspe, mas nao fala.]	CF4B2A	TRUE				END				
+	CF4B31	Que cheira e olha.	CF4B3A	TRUE				END				
+	CF4B41	E ele vos olha, e depois, com as garras, boceja.	CF4B41	TRUE				END				
+	CF4B51	- O que? - O que? Porque falar? Que conversa? Odeia falar!	CF4B5A	TRUE			- Ola, meu. O vosso senhor Xivilai concede-me a sua proteccao. Porque e que todos os teus amigos do Clannfear me batem?	CF4B61				
+	CF4B61	Clanfear nao manchado como traidores, nao! O Senhor diz: "A carne nao e morta, mas castigada como carne desagradavel, Oathkin, transgressao dos costumes". Sente os dentes e as garras. Mas vai silencioso, deixa-nos? Carne inteligente, sim.	CF4B6A	TRUE			Eu estava a sair. - Nao, nao.	END	MonsterAttack	&FearMad		
+			CF4B6B	TRUE			Prove o meu aco. E uma bota. E bola de fogo. E este velho pedaco de pano. E este pedaco de cera. E um pouco de pelos.	END	MonsterAttack	&FearMad		
+												

@@ -1,0 +1,44 @@
+		Xivilai Moath					file XM1T.xls			Xivilai L6 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	XM1A11	I will speak to you simply and directly in the manner of your race.	XM1A1A	TRUE			Thank you, your Lordship. I am sensible of the honor you do me.	XM1A41				
+			XM1A1B	TRUE			No. I will speak to YOU, and you will listen.	XM1A21				
+	XM1A21	Perhaps you first need lessons in civility before we should treat further.	XM1A2A	TRUE			You and what legion of fiends?	END	Summon CF_2	&XivMad		
+	XM1A31	Yes?	XM1A3A	TRUE			Please excuse me, sir. I have been much injured by my enemies, and am quick to temper. I wish to hear what you have to say, and will listen respectfully and attentively. 	XM1A41				
+			XM1A3B	TRUE			Give me the gatekey or I'll slap you so far into Oblivion that when you get back your clothes will be out of style.	END	Summon CF_2	&XivMad		
+	XM1A41	You’ve gotten this far against considerable opposition. Therefore, you are able to protect yourself. You are talking to us. Therefore you have something to sell. We will hear your plea – simple and direct. Then we will consider your appeal, or call your bluff.	XM1A4A	&PCFemale			Clearly my actions have inconvenienced you. If you could arrange that my friend Josian Kaid and myself be returned to Tamriel, I could scarcely trouble you any further.	XM1B31				
+			XM1A4B	&PCMale			Clearly my actions have inconvenienced you. If you could arrange that my friend Vatasha Trenelle and myself be returned to Tamriel, I could scarcely trouble you any further.	XM1B31				
+			XM1A4C	&Neonymic			Bluntly spoken, sir. In short, my Lord, I have your neonymic. I can tell you where I got it. I want to rescue my friend from your Lord Dagon. I need to get to his Hunting Lodge to accomplish this rescue. As you know, I can use the neonymic to banish you, take the key, then fight my way through your troops. Or you can give me the key, tell your troops to display honorable but prudent valor in defending the gate, and I keep the neonymic my little secret pending the unlikely event of a future encounter between us. 	XM1A81				
+			XM1A4D	&PCFemale AND &Neonymic			I require the return of Battlespire to the Empire, deathprice for those killed in the invasion, reparations for physical damage, and delivery of myself and my companion, Josian Kaid, to Tamriel.	XM1A51				
+			XM1A4E	&PCMale AND &Neonymic			I require the return of Battlespire to the Empire, deathprice for those killed in the invasion, reparations for physical damage, and delivery of myself and my companion, Vatasha Trenelle, to Tamriel.	XM1A51				
+	XM1A51	I'm sure you are in earnest, but your expectations are unrealistic and your inference of my inferior status insulting. Our interview is at an end.	XM1A5A	TRUE			I see. Perhaps after further consideration, we may have other proposals to discuss.	END				
+	XM1A61	[Grudging, disbelieving chuckle.] This is somewhat worse than I thought. Perhaps you would like to make clear your proposal while I consider my position in  light of your unwelcome claims.	XM1A6A	TRUE			As you know, I can use the neonymic to banish you, take the key, then fight my way through your troops. Or you can give me the key, tell your troops to display honorable but prudent valor in defending the gate, and I keep the neonymic my little secret pending the unlikely event of a future encounter between us. 	XM1A71				
+			XM1A6B	TRUE			Actually, we have nothing to talk about. I banish you, Xivilai Moath, Wegerohseh-chehkohieu, to the Wells of Oblivion. And good riddance.	END	Kill AND DROP 35_10000	&XivEnemy		
+	XM1A71	[Sober] Why do you deal with me? Why not take your weapon and offer it to my enemies?	XM1A7A	TRUE			You aren’t completely crazy, reckless, and irrational. I like that in an ally. And your enemies are not my kind of people. In fact, to sweeten the deal, I can tell you who told me your neonymic, so you can watch your back, or stab someone else’s back as a precautionary measure.	XM1A81				
+	XM1A81	Who gave you my neonymic?	XM1A8A	TRUE			Your erstwhile ally, Faydra Shardai. You ought to keep an eye on that one, Lord. She's a sneaky one.	XM1A91				
+	XM1A91	I misjudged Faydra. I wonder how she discovered my neonymic? Very well. I shall require a oath to the Powers that you will never reveal the neonymic to another soul...	XM1A9A	TRUE			Other than yourself, of course...	XM1A01				
+	XM1A01	Ah. Yes. Of course. You will never reveal my neonymic to any soul save myself; in return, you shall have the gatekey to Dagon’s Hunting Lodge, and a secret safe conduct from my clan.	XM1A0A	TRUE			To your proposal, by the Great Powers, I so swear.	XM1B11	PUT 35_10000 			
+	XM1B11	Here is the gatekey. I shall issue orders to my clan immediately. I believe I shall comfort myself with the conquest of Battlespire, and be grateful to have you out of my way at so modest a price. And now, if you'll excuse me, my clan and I have some pressing business with Shardai clan and its honor-stained leader.	XM1B1A	TRUE			If you don't mind, I think I'll make myself scarce before things get too dangerous around here. Good luck, and good hunting.	END	Teleport_0	&XivAlly		
+	XM1B21	You have tried my patience. I have no desire to speak with you.	XM1B2A	TRUE			I am sorry. I did not wish to give offense.	END		&XivCalm		
+			XM1B2B	TRUE			Go ahead. Be that way. See if I care.	END				
+	XM1B31	You overestimate the inconvenience you have caused me, and overvalue your status in negotiations with an immortal lord. I am willing to overlook your gaucheries as a feature of your youth and inexperience. I suggest your withdraw to reconsider your appeal.	XM1B3A	TRUE			Uh... Can I take that as a no?	END				
+	XM1B41	[[From his sober and forbidding countenance, it is clear that he has no wish to speak further with you.]]	XM1B4A	TRUE				END				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+
+
+
+
+
+												

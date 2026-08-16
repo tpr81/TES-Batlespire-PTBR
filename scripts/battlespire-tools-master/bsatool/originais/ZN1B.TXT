@@ -1,0 +1,27 @@
+	Random Talk Tables			file ZN1B.xls
+				
+	talkcheck			
+Zenaide	&ZenaideTwo AND &PCFemale	ZN1A21		
+	&ZenaideTwo AND &PCMale	ZN1A31		
+	&ZenaideMad	ZN1A41		
+				
+				
+	talktable			
+	First	ZN1A11		
+	Second	ZN1A11		
+	Third	ZN1A11		
+	Fourth +	ZN1A11		
+				
+	Random			
+		TalkGroup	Notes	
+	Not Applicable			
+				
+				
+				
+				
+				
+				
+
+
+				
+				

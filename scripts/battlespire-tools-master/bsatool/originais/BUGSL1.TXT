@@ -1,0 +1,28 @@
+BugsL1
+
+
+
+
+LEVEL 1 BUGS TO BE CHECKED:
+
+DATE		NAME		DESCRIP
+
+
+
+
+
+
+BUGS TO BE FIXED:
+
+DATE		NAME		DESCRIP
+
+8/22		gary		teleport to wiz 3 is bad
+8/22		gary		teleport to wiz 4 is bad
+8/22		gary		bad link on power up #3
+8/22		gary		fell through turtle lair floor
+8/23		ken		Remove all monster flats from Weir Gate Central. New players will be figuring out the interface [see Starting Walkthrough section in Manual], and will go mad trying to stay alive and learn how to move and equip weapons and fight.
+8/23		ken		All existing Character Classes should be rewritten: 1. add lanterns. 2. delete olds spells [to wipe old spell costs] and add new spells with current costs, 3. increase magic school skills for efficient spell point use in casting.
+8/23		ken		Check all levels for match of North-South orientation between: 1. automap, 2. game view, and 3. bsedit files.
+
+
+

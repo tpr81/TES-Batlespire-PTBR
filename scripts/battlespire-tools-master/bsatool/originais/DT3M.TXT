@@ -1,0 +1,18 @@
+	Random Talk Tables			file dt3m.xls
+	Tanchelm Male L2.2			
+	talkcheck			
+	&TalchelmDone	DT3A33		
+	&TalchelmMad	DT3A41		
+				
+				
+	talktable			
+	First	DT3A21		
+	Second	DT3A21		
+	Third	DT3A21		
+	Fourth +	DT3A21		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	DT3A31	NoTalk default	
+	34-66	DT3A32	NoTalk default	
+	67-00	DT3A33	NoTalk default	

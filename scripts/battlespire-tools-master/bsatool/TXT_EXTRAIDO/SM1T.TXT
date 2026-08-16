@@ -1,0 +1,28 @@
+		Sumeer Jabran					file SM1T.xls			Sumeer TALK	superhero-looking chick	
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SM1A11	So. You're Kaid. You've made quite a nuisance of yourself. I hope you don't mind if I summon minions to rend you limb from limb?	SM1A1A	TRUE			No, no, no. Go right ahead. Perfectly right.	END		&SumeerOpen		
+	SM1A12	So. You're Trenelle. You've made quite a nuisance of yourself. I hope you don't mind if I summon my minions to rend you limb from limb?	SM1A1B	TRUE			If you had a mother, I'm sure she'd be ashamed of your dreadful manners.	END	HealthHalf AND PainSFX AND SummonVM_2	&SumeerMad		
+			SM1A1C	TRUE			Do you suppose that being limbless might interfere with my ability to discuss delivery of a working voidguide?	SM1A51				
+	SM1A21	You look familiar… but it's so hard to tell you humans apart.	SM1A2A	TRUE			I'm the human who can get you the voidguide. Are you interested?	SM1A61				
+	SM1A31	You are fit only to speak with the half-witted beasts who serve me. Speak with them, if you please, but they speak only in the language of pain... a language I command, but do not understand.	SM1A3A	TRUE			What is THAT supposed to mean?	END	HealthHalf AND PainSFX AND SummonVM_2			
+	SM1A41	Please place the assembled voidguide in the gate panel before us. When you have tested the voidguide and are confident that it functions properly, I anticipate receiving a personal report from your lips.	SM1A4A	TRUE			As you wish, milord, so be it.	END				
+												
+	SM1A51	Not necessarily. I've kept heads running long after the other bits have been put to other uses. But I take your point. What do you propose?	SM1A5A	TRUE			I think a fellow with my talents might go far in Tamriel with a little backing from the outerworlds. Just a word here and there, a little help with the arcane and mystical. Nothing formal. No binding contracts, no oaths of fealty -- just good neighbors with common interests. 	SM1A61				
+	SM1A52	That depends. What do you propose?	SM1A5B	TRUE			Look. It's nothing personal. I don't know a soul here on Battlespire. But I need out of here. If you will swear before the Great Powers, in front of witnesses, to grant me safe passage out of Battlespire and open the weir gate for me back to Tamriel, I'll give you the voidguide.	SM1A71				
+			SM1A5C	TRUE			You got the loot you want. I'll give you the voidguide, and you guys go back to the void. Where you belong. Nobody else gets hurt. Whattya say?	SM1A91				
+												
+	SM1A61	Only someone very foolish, or very sure of himself, would propose so casual an understanding with a High Lord of the Clans. Very well. Let us be friends. And in expectation of your generous gift of the voidguide, be so good as to accept a token of my esteem? Say, a sigil amulet of my clan?	SM1A6A	TRUE			A generous gift, your Highness, but perhaps too public a statement. I decline the honor, though I do most earnestly thank you for your interest.	SM1A01				
+			SM1A6B	TRUE			I am sensible of the honor you do me. And by its sign shall others know where my loyalties lie.	SM1B11				
+	SM1A71	Sorry. I can't open the weir gate. That's Dagon's sigil on the weir gate, and none may command it save with his leave. So you aren't going back. Ever. But here's what I can do. Seal yourself by oath in fealty to me, and I promise you shall never want for honor or respect in my service.	SM1A7A	TRUE			Sure thing. I so swear. Now what?	SM1B21				
+			SM1A7B	TRUE			Thank you, but I am bound in service to the Emperor so long as I shall live.	SM1A81				
+	SM1A81	Your loyalty to your lord does you credit. I regret that we find ourselves with irreconcilable conflicts. If circumstances dictate a review of loyalties, please approach me at that time.	SM1A8A	TRUE			I take my leave, then, milord.	END				
+	SM1A91	I'm afraid we have no intention of abandoning Battlespire. We are not particularly concerned about who will get hurt. There. Now, weren't we about to rend you limb from limb?	SM1A9A	TRUE			Suit yourself.	END		&SumeerOpen		
+
+
+												
+	SM1A01	I understand. Now I shall eagerly anticipate your delivery of the voidguide.	SM1A0A	TRUE			I go in haste, milord.	END		&SumeerAlly		
+	SM1B11	It is completely as I wish. Now I shall eagerly anticipate your delivery of the voidguide.	SM1B1A	TRUE			I go in haste, milord.	END		&SumeerAlly		
+	SM1B21	You will now deliver the voidguide, and set it in place. And you will remain here on the Battlespire in my service, assisting Clan Dremora in cataloguing its treasures. 	SM1B2A	TRUE			Ehr… that sounds swell, milord. I'll get right to work.	END		&SumeerServe		
+			SM1B2A	TRUE			Ehr… remain on Battlespire? How long, milord?	SM1B31				
+												
+	SM1B31	So long as I should desire of course. And now, you are dismissed.	SM1B3A	TRUE			Your Highness….	END		&SumeerServe		

@@ -1,0 +1,31 @@
+		Dremora Oathkin					file DR2T.xls			Dremora L2 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DR2A11	Come here, little manling. I won't hurt you. I just want to tell you a... secret.	DR2A1A	TRUE			I'm a Battlespire guard.	END	MONSTERATTACK 	&DremoraFoe		
+	DR2A12	What are you? And what are you doing here. Come closer, so I can talk to you.	DR2A1B	TRUE			I'm a Battlemage. Let me show you my credentials.	END	MONSTERATTACK 	&DremoraFoe		
+	DR2A13	Hmm. Welcome. I am very happy to see you. I have a present for you.	DR2A1C	&RishaalName			Ask Rishaal. If she wants you to know, she can tell you.	DR2A51				
+			DR2A1D	&ZenaideName			You have no right to question me. I serve Zenaide, and do as she wills.	DR2A61				
+			DR2A1E	&WonshalaName			Wonshala knows my name. You do not, and will not.	DR2A71				
+			DR2A1F	&MethatsName			I come from Methats, who wants a report immediately.	DR2A81				
+			DR2A1G	&SumeerName			Sumeer is my master, and I'll brook no interference from the likes of you.	DR2B11				
+			DR2A1H	TRUE			I am Wrath and Vengeance. In the name of the Emperor, I abjure thee, and condemn thy spirit to Oblivion for thy crimes.	END	MONSTERATTACK 	&DremoraFoe		
+	DR2A21	You do not belong here. Drop your weapons and submit, or be destroyed.	DR2A2A	TRUE			Oh, very well. If you insist.	END	DROPREADYWEAPON AND  MONSTERAttack	&DremoraMad		
+			DR2A2B	TRUE			I hope you've had a good diet and plenty of rest, because I'm going to take a whole lot  of destroying, friend.	END	MONSTERATTACK 	&DremoraMad		
+	DR2A31	[[It doesn't seem to want to speak with you.]]										
+	DR2A32	[[Apparently it has nothing to say at this time.]]										
+	DR2A33	[[It looks like it isn't listening to you.]]										
+	DR2A41	You're still here? What in Creation ARE those Scamps and Vermai doing? Can't ANYONE do ANYTHING around here?	DR2A4A	TRUE			I guess I'm just too tough for a bunch of wimpy daedric lackeys.	END	MONSTERATTACK 	&DremoraMad		
+												
+	DR2A51	Ahgh. THAT figures. With the load of Scamps she's got, she'll take ANYTHING in her service… even humans.	DR2A5A	TRUE			I'm sure you mean no offense. So I'll just be about my business, then.	END	MonsterWander_120	&DremoraNice		
+	DR2A61	Nice try, but Zenaide likes her soldiers dumb and ugly, and you don't qualify.	DR2A6A	TRUE			Thanks for the compliment.	END	MONSTERATTACK 	&DremoraMad		
+	DR2A71	Oh. I see. Excellent. I have a special message for her. Lean over and I'll whisper in your ear.	DR2A7A	TRUE			Yes? Yes? Tell me…	END	MONSTERATTACK 	&DremoraMad		
+			DR2A7B	TRUE			Don't come NEAR me.	END	MONSTERATTACK 	&DremoraMad		
+	DR2A81	Oh. Yeah. That's extremely likely. I believe I'll be killing you now.	DR2A8A	TRUE			Oh, don't trouble yourself…	END	MONSTERATTACK 	&DremoraMad		
+	DR2A91	Boy, are you confused. Or stupid. Or both. Please die now.	DR2A9A	TRUE			Anything to be of assistance.	END	MONSTERATTACK 	&DremoraMad		
+	DR2A01	Your pardon, Syndic. So this is the original form, then? No point maintaining the Mariel form any more, I suppose… though it was not an unpleasing form, was it, heh, heh?	DR2A0A	TRUE			You presume upon my genial disposition. Perhaps that is not wise. Perhaps you would leave me in peace.	END	MonsterWander_120	&DremoraNice		
+	DR2B11	Indeed, Sumeer is the master of us all, and his every breath is as nectar to his servants. A thousand pardons for disturbing your reflections. 	DR2B1A	TRUE			You are excused.	END	Command DR_4	&DremoraNice		
+
+
+
+
+
+												

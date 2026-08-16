@@ -1,0 +1,3 @@
+		Josian Kaid					file Jk1T.xls			Josian Kaid Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	JK1A11	"[[Ele nao responde. Ele esta inconsciente ou em sono profundo.	JK1A1A	TRUE				END				

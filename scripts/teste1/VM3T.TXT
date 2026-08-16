@@ -1,0 +1,25 @@
+		Vermai Oathkin					file Vm3T.xls			VERMAI TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	VM3A11	- Nao, nao. - Nao, nao. - Nao, nao. - Nao, nao. - Nao, nao. - Nao, nao.	VM3A1A	TRUE			- Nao, nao, nao, nao! Aferir Vermai durante horas!	END	MONSTERATTACK			
+	VM3A12	- Nao! - Nao, nao. - Nao, nao.	VM3A1B	TRUE			- Esta bem. - Esta bem. - Olha. Arma-preta! Para o ex-tra-estupido Vermai! - Ves? Poe a arma aqui para ti, idiota.	END	DROPREADYWEAPON AND MONSTERWAIT_120			
+	VM3A13	- Nao, nao, nao.	VM3A1C	TRUE			- Nao, nao.	END	MONSTERATTACK	&VermaiMad		
+			VM3A1D	&ZenaideName AND &WearAmuletZ			- Olha. Amuleto. Zenaide! Doi-me! Doi-me! - Nao, nao.	VM3A41				
+	VM3A21	- Nao, nao. Doi-me! - Nao, nao. - Doenca! - Nao, nao.	VM3A2A	TRUE			Bem, para ser justo, admito que tambem pretendo magoar-magoar-magoar-te, seu bruto teimoso.	END	MONSTERATTACK	&VermaiMad		
+	VM3A31	[Ela] rosna para ti.										
+	VM3A32	[E mostra-te um belo par de dentes.]										
+	VM3A33	[Ela pisca, olha, e depois rosna.]										
+												
+												
+	VM3A41	- Nao, nao. - Nao, nao.	VM3A4A				Belo monstro. Desaparece.	END	PCTeam	&VermaiNice		
+												
+												
+												
+													
+													
+													
+													
+													
+													
+													
+													
+													

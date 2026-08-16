@@ -1,0 +1,33 @@
+		Wonshala Keriayn					file WN1T.xls			Wonshala TALK [spider chief]		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	WN1A11	Nao es estupido, humano. Entao, vais ouvir, e nao me incomodes com as tuas mentiras.	WN1A1A	TRUE			Nao gosto do teu tom. Farei o que quiser e direi o que quiser, e vais gostar.	WN1A41				
+			WN1A1B	TRUE			Nunca sonharia em tentar engana-lo, Vossa Alteza. So espero agradar-te.	WN1A51				
+			WN1A1C	TRUE			Estou a ouvir.	WN1A61				
+	WN1A21	- Entao? Finalmente me trouxeste o SCOURGE e a sua palavra-chave?	WN1A2A	NOT &Scourge			- Desculpa. - Nao. Nao tenho o Azoto.	WN1A71				
+			WN1A2B	&Scourge			- Desculpa. - Nao. Nao tenho o Azoto.	WN1A81				
+			WN1A2C	NOT &Scourge			Tenho o Azoto, mas nunca receberas um tesouro destas minhas maos.	WN1A91				
+			WN1A2D	&Scourge			Tenho o Azoto, mas nunca receberas um tesouro destas minhas maos.	WN1A01				
+			WN1A2E	NOT &Scourge			Tenho o Azoto, e so te o darei depois de ter o pedaco do guia que me prometeste.	WN1B11				
+			WN1A2F	&Scourge			Tenho o Azoto, e so te o darei depois de ter o pedaco do guia que me prometeste.	WN1B21				
+	WN1A31	- Entao? Esta pronto para ouvir respeitosamente?	WN1A3A	TRUE			Nao, nao.	END	HealthHalf, PainSFX	&WonshalaMad		
+			WN1A3B	TRUE			- Sim, sim.	WN1A61				
+												
+	WN1A41	As vezes eu estou errado, estupido humano. Talvez a dor te faca mais civil.	WN1A4A	TRUE			...e talvez nao.	END	HealthHalf AND PainSFX	&WonshalaMad		
+	WN1A51	- Voce mente! Ouve, verme, ou eu ensino a tua carne a respeitar.	WN1A5A	TRUE			Com todo o respeito, es uma velha bruxa tola e nao me importo com as tuas parvoices.	END	HealthHalf AND PainSFX	&WonshalaMad		
+			WN1A5B	TRUE			Entao diga algo que valha a pena ouvir, Alteza.	WN1A61				
+	WN1A61	Tenho um pedaco do guia de vaidade. Troco-a por uma arma chamada SCOURGE. Esta aqui no Battlespire, e as suas funcoes sao protegidas por uma palavra-chave magica, mas e tudo o que sei. Entregue-me a flagelacao, e me forneca a palavra-chave, e voce tera sua peca vazia.	WN1A6A	TRUE			- Nao, nao. Se tiveres uma peca de voidguide, eu levo-a. E nunca te daria nada do que quisesses.	END		&WonshalaMad		
+			WN1A6B	TRUE			Eu percebo.	END		&WonshalaTask		
+			WN1A6C	TRUE			- Estou de acordo. Entao, mantem as tuas tropas fora dos meus cabelos e eu volto muito mais depressa.	END		&WonshalaTask		
+	WN1A71	Nao falo contigo ate teres SCOURGE.	WN1A7A	TRUE			- Esta bem. - Esta bem.	END				
+	WN1A81	Detesto tolos mentirosos. Nao vou ouvir as tuas mentiras.	WN1A8A	TRUE			- Esta bem. - Esta bem.	END	HealthHalf AND PainSFX			
+	WN1A91	Talvez pense que as suas mentiras e o seu tom de zombaria me divertem? A dor pode convence-lo a nao?	WN1A9A	TRUE			Acho que vamos ter uma oportunidade de descobrir.	END	HealthHalf AND PainSFX			
+	WN1A01	Mal estou impressionado com a sua pretensao de desafiar. Ou trocas a Maldicao pelo guia do vazio, ou nao temos nada para falar.	WN1A0A	TRUE			Veremos se o meu desafio e apenas uma pretensao, Alteza.	END	HealthHalf AND PainSFX			
+	WN1B11	Nao estou nem um pouco curioso sobre o truque que pensa que vai fazer comigo. Mal consigo despertar interesse na tua resposta a uma dose de dor educativa.	WN1B1A	TRUE			Vais arrepender-te. Foi um truque muito giro.	END	HealthHalf AND PainSFX			
+	WN1B21	Vou agora entregar-lhe o pedaco do guia de vazio com uma mao enquanto aceito o SCOURGE com a outra. Quando cada um de nos agarrar estes objetos valiosos, voce me dira a palavra-chave, e eu vou ativar o SCOURGE para provar que voce nao tentou me dar uma palavra-chave falsa.	WN1B2A	NOT &Mischief			- E louco. A palavra-chave. Esqueci-me de tudo. Conseguir isso deve ser facil. Volto num piscar de olhos.	END	HealthHalf AND PainSFX			
+			WN1B2B	NOT &Mischief AND NOT &Malacath			- Estou de acordo. Aqui esta o SCOURGE. E a palavra-chave e Malacath!	WN1B31				
+			WN1B2C	&Mischief			- Nao. Duplo hmm. Nao! Esqueci-me completamente. Tenho de testar a senha primeiro, certo? Ou vais dar-me outro choque educativo. Entao desculpe-me.	END	HealthHalf AND PainSFX			
+			WN1B2D	&Mischief			- Estou de acordo. Aqui esta o SCOURGE. E a palavra-chave e igualdade!	WN1B41	TAKE 7_2017 AND PUT 30_10000			
+												
+	WN1B31	Maldicao, invoco-te em nome de Malacath... - Nao. Talvez nao seja essa a palavra-chave. Um erro honesto, tenho a certeza. Talvez uma clara lembranca da minha ira possa concentrar a tua mente.	WN1B3A	TRUE			Obrigado, Vossa Alteza.	END	HealthHalf AND PainSFX	&Malacath		
+	WN1B41	Scurry, invoco-te em nome da Igualdade... Sim, sim!	WN1B4A	TRUE			Satisfeito, Alteza?	WN1B51				
+	WN1B51	E com este poder, posso agora livrar-me do teu mau cheiro irritante... - Mas... - Nao. - O que e que... - Nao, nao. Oh, Deus!	WN1B5A	TRUE			Adeus, Alteza. Ouvi dizer que umas longas ferias na escuridao exterior sao um excelente tonico para os nervos.	END	Kill			

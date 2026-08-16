@@ -1,0 +1,27 @@
+	Random Talk Tables			file ML2B.xls
+Minor lord L8				
+	talkcheck			
+	&LordMad	ML2A41		
+				
+				
+				
+				
+	talktable			
+	First	ML2A11		
+	Second	ML2A31		
+	Third	ML2A11		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-25	ML2A11		
+	26-50	ML2A31		
+	51-75	ML2A41		
+	76-00	ML2A51		
+				
+				
+				
+
+
+				
+				

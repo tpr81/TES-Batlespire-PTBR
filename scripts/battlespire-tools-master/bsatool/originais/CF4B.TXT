@@ -1,0 +1,27 @@
+	Random Talk Tables			file CF4B.xls
+Clannfear Boxers				
+	talkcheck			
+	&XivAlly	CF4B51		
+	&XivEnemy	CF4A91		
+	&FearFite	CF4A61		
+	&FearMad	CF4B21		
+				
+	talktable			
+	First	CF4A11		
+	Second	CF4B41		
+	Third	CF4A12		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-20	CF4A11		
+	21-40	CF4A12		
+	41-60	CF4B21		
+	61-80	CF4B31		
+	81-00	CF4B41		
+				
+				
+
+
+				
+				

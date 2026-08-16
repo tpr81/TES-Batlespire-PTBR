@@ -1,0 +1,27 @@
+	Random Talk Tables			file DG1B.xls
+Dremora Gatanas				
+	talkcheck			
+				
+	&GatanasNice	DG1A21		
+	&GatanasMad	DG1A23		
+				
+				
+	talktable			
+	First	DG1A11		
+	Second	DG1A11		
+	Third	DG1A11		
+	Fourth +	DG1A11		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	DG1A21	NoTalk	
+	34-66	DG1A22	NoTalk	
+	67-00	DG1A23	NoTalk	
+				
+				
+				
+				
+
+
+				
+				

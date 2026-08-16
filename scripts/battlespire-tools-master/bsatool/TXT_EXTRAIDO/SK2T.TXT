@@ -1,0 +1,39 @@
+		Scamp Oathkin					file sk2t.xls			SCAMPTALK			
+	Saycode	NPC SAY	Replycode	response CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SK2A11	Akgh! More MAN-thing. All SAME-same. Which? Serve who?	SK2A1A	TRUE			None of your business. And you can go ahead and bite me. Immediately.	SK2A61					
+	SK2A12	Whehn! MAN-thing, all LOOK same. You wizard? Chopper? Blood? Slave?	SK2A1B	TRUE			Simmer down. Can't tell you critters apart either. I'm a man-thing, all right, but I'm working for your boss, so go about your business and leave me alone.	SK2A71					
+	SK2A13	TIRED! Hate stupid MAN-things. Boss? Who? Tell! Now! Or bites and scratches!	SK2A1C	TRUE			Perhaps you’d like to tremble and fall to your knees before the Master Battlemage Clarentavious Valisious, who'd rather burst you than chat with you.	SK2A81					
+			SK2A1D	&RishaalName			Just call me Trouble. I serve Rishaal's interests, as well as my own. So don't cross me, or I'll pop you. 	01-25: SK2A91
+26-50: SK2A01
+51-75: SK1B11
+76-00: SK1B21					
+			SK2A1E	&ZenaideName AND NOT &WearAmuletZ 			You don't care who I am. You DO care that I'm under Zenaide's protection. So watch it.	SK1B31					
+			SK2A1F	&WonshalaName AND NOT &WearAmuletW			You wouldn't understand my name. You would, perhaps, understand the name "Wonshala"?	SK2B41					
+			SK2A1G	&MethatsName AND NOT &WearAmuletM			I… AM… NOT… MAN. I… JUST… LOOK… LIKE… A… MAN. IT'S… MAGIC…YOU… GIT. I'm with METHAT'S crew. So… GO… AWAY.	SK2B51					
+			SK2A1H	&WearAmuletM AND &MethatsName			Look. You are stupid. I don't mind. It's just the way things are. But if you don't recognize this amulet, or Methats's name, then please kill yourself now and spare us the bother.	SK2B61					
+			SK2A1I	&WearAmuletZ AND &ZenaideName			See this amulet? Touch me, and Zenaide will hear about it.	SK2B71					
+			SK2A1J	&WearAmuletW AND &WonshalaName			See pretty amulet? Understand "Wonshala"? Now, go away and don't pester me, or you'll wear your guts for garters.	SK2B81					
+	SK2A21	We knows this one! It kills our FRIENDS! So WE rips its flesh and eats it bits.	SK2A2A	TRUE			Me? You must be kidding. I wouldn't hurt a fly.	END		&ScampMad			
+	SK2A22	LOOK! LOOK! NASTY MAN-THING! COME! COME! KILL QUICK!	SK2A2B	TRUE			I'll take you on, and your squeaky  friends, too.	END	MonsterRally_2	&ScampMad			
+	SK2A23	Sneaky, lying, man-thing. Sneaks and cheats us, hurts us. Now we catch it, pull its arms HARD… POP!	SK2A2C	TRUE			Oh, dear. I suppose now I must pound you to a pulp for a bit.	END		&ScampMad			
+	SK2A31	Hey? What you do? You nice man-thing, yes? Act nice, and go away.	SK2A3A	TRUE			Nice man-thing does as he pleases, and don't you forget it.	END					
+	SK2A41	[[It stares at you and says not one word.]]		TRUE			NOTE: This is a NoTalk default dialog.	END					
+	SK2A42	[[It wrinkles its nose as if it smells something nasty.]]		TRUE			NOTE: This is a NoTalk default dialog.	END					
+	SK2A43	[[It says nothing, but watches you carefully.]]		TRUE			NOTE: This is a NoTalk default dialog.	END					
+	SK2A51	HATES man-thing! Bites and scratches!	SK2A5A	TRUE			The feeling is mutual, big ears.	END					
+													
+													
+	SK2A61	Want BITES? Bites SOFT parts! HARD!	AK2A6A	TRUE			Right here, pal.	END	MONSTERATTACK 	&ScampMad			
+	SK2A71	Ahhh. Think me STUPID? You big fat liar, betcha. TAST-TEE liar.	SK2A7A	TRUE			Right. Come get some sugar, bladder bag.	END	MONSTERATTACK 	&ScampMad			
+	SK2A81	Blah-blah-blah-blah-BLAH! Lie-lie-LIE! Now you get BIG bites and scratches!	SK2A8A	TRUE			No runty, flap-earred daedra calls me a liar and gets away with it.	END	MONSTERATTACK 	&ScampMad			
+	SK2A91	Man-thing smart. So get to work. Find stuff. GOOD stuff. Sparklies. Artyfaks. Zoom juice. Plenty EVERYbody.	SK2A9A	TRUE			Thanks, pal. See you later for chow.	END	PCTeam	&ScampNice			
+	SK2A01	Gooood. Plenty loot. Tens and tens and tens. Careful, though. Some BAD. Get BAD juice, go BOOM! 	SK2A0A	TRUE			Thanks for the warning. Take care out there.	END	PCTeam	&ScampNice			
+	SK1B11	Okay-fine. We SHARE! Lots and lots of booty. Wizard stuff… not so safe, maybe. But GOOOOD juice. Whoopie!	SK1B1A	TRUE			Yeah. That wizard stuff is tricky. Best leave it to me. But thanks for the tip.	END	PCTeam	&ScampNice			
+	SK1B21	Well, okay. Tell you… Spiders MAD. So hush-hush 'bout voidguide. Gone-gone-broken. SOOOO sad. Wink wink.	SK1B2A	TRUE			Wink-wink. I won't say a word. Thanks for the warning.	END	PCTeam	&Voidguide AND &ScampNice			
+	SK1B31	Ha! Liar-Liar! You SNEAK-sneak. Sneak-sneaks die and make jerky.	SK1B3A	TRUE			You'll be sorry when Zenaide hears about this.	END		&ScampMad			
+	SK2B41	Liar! You no spider. Now maybe I bite your nasty tongue.	SK2B4A	TRUE			Stupid animal. You may be sure Wonshala will hear of your treachery.	END		&ScampMad			
+	SK2B51	Just say-say. Big liar, betcha. Needs little bites and scratches, teaches it MANNERS, yes.	SK2B5A	TRUE			Thanks for the offer. And in return, perhaps I can teach you the rudiments of anatomy. Have you ever seen your spleen?	END		&ScampMad			
+	SK2B61	Methats, eh? Well, woopie-doo. Think you real smart, eh? Well. Not find NOTHING. No, no. ALL broken. Ooops, go boom. Ha-ha. So go away. Or get big scratches.	SK2B6A	TRUE			Well. Keep looking. And make it snappy.	END		&ScampNice			
+	SK2B71	No touch! Sparklies MINE! Bite-bite-bite!	SK2B7A	TRUE			Bite yourself, you little squirt.	END		&ScampNice			
+	SK2B81	Oh, we doesn't know NOTHING 'bout voidguide. No, no, no. Big mistake. Was VERMAI steal it, sneaky-sneaks. And DREMORAS, yes, yes.	SK2B8A	TRUE			You'd pull your head off before you'd tell me a lie, wouldn't you, little one? You might as well, because that's what WE do with lying little sneaks.	END		&ScampNice	&Voidguide		
+													

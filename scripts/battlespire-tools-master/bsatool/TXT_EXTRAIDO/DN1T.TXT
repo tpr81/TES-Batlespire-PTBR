@@ -1,0 +1,25 @@
+		Dremora Rathine					file DN1T.xls		Rathine TALK	standard Dremora		
+	Saycode	NPC SAY	ReplyCode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DN1A11	Gods and garters! Another mortal, here, wandering around unsupervised on my watch? And why do you suppose my nimble-witted minions have neglected to batter, humble, and restrain you?	DN1A1A	TRUE			If the warty clowns I've seen so far are any indication, I doubt your minions capable of handling so grand a hero as myself.	DN1A21				
+			DN1A1B	TRUE			I have no idea, my Lord. Perhaps they hesitate to interfere with someone of my evident prowess and good breeding.	DN1A21				
+			DN1A1C	&MethatsName			I serve Lord Methats. Apparently your minions appreciate that and all it implies.	DN1A31				
+	DN1A21	Indeed. Even as a mere animal, you tower above them in intellect. In much the same regard as we exceed your wits, I expect. I am Dremora Rathine. Ahem. At this stage humble grovelling is customary, accompanied by a handsome gift. Or alternatively a lingering death may be your object?	DN1A2A	TRUE			What a coincidence. I just happen to have a little gift for you. How about a little -- FIST, FLAME, STEEL, AND STARFIRE!?	END	MonsterAttack	&RathineMad		
+			DN1A2B	&PCFemale			A thousand apologies, Lord Rathine, but I am a stranger to your customs. What sort of gift is customary?	DN1A41				
+			DN1A2C	&PCMale			A thousand apologies, Lord Rathine, but I am a stranger to your customs. What sort of gift is customary?	DN1A51				
+			DN1A2D	TRUE			I bow to no creature, flesh or spirit.	DN1A61				
+	DN1A31	Oh really? You are Methat's errand boy? Say on, by all means. His will must be obeyed, after all.	DN1A3A	TRUE			His Lordship says you are dismissed, and may go about you own affairs, thank you. You will, of course,  leave me what you've gathered for delivery to his Lordship.	DN1A71				
+			DN1A3B	TRUE			In fact, he had nothing specific to impart, other than to inquire if you needed any help. Or anything.	DN1A71				
+			DN1A3C	&PCFemale			He wants to know if you've captured Kaid yet.	DN1A81				
+			DN1A3D	&PCMale			He wants to know if you've captured Trenelle yet.	DN1A81				
+	DN1A41	I doubt that you can give me what I would really like, fleshling. However... I'll settle for the head of one Josian Kaid. Bring it, and we might find a position for you here. I'll put a word in for you with Methats. Now leave me. As you can see... I'm inordinately busy.	DN1A4A	TRUE			Certainly, My Lord. Goodbye.	END		&RathineNice		
+			DN1A4B	TRUE			I shall consider your words, and take counsel with Methats on your proposition. Goodbye.	END		&RathineNice		
+	DN1A51	I doubt that you can give me what I would really like, fleshling. However... I'll settle for the head of one Vatasha Trenelle. Bring it, and we might find a position for you here. There are many new vacancies here on Battlespire as a result of the recent unpleasantnesses, and I'll put a word in for you with your Lord. Now go. As you can see... I'm inordinately busy.	DN1A5A	TRUE			Certainly, My Lord. Goodbye.	END		&RathineNice		
+			DN1A5B	TRUE			I shall consider your words, and take counsel with Methats on your proposition. Goodbye.	END		&RathineNice
+	DN1A61	Haughty words for a thing carved of clay. It will be my pleasure to instruct you on the art of prostration.	DN1A6A	TRUE			Come over here and say that, pretty boy.	END	MonsterAttack	&RathineMad
+	DN1A71	Oh dear. And you started rather well. Methats would never be so generous or considerate. I am quite distressed that you have lied to me.	DN1A7A	TRUE			I'm pretty much alarmed I got CAUGHT lying, your Lordship. So goodbye, and see you around.	END	MonsterAttack	&RathineMad
+	DN1A81	I see. Indeed. Well. Ahem. Inform him... that we believe we have the troublesome mortal boxed in. And... If you should find him first, be sure to bring him immediately to me. Yes? Good. Now go. As you can see... I'm inordinately busy.	DN1A8A	TRUE			Certainly, My Lord. Goodbye.	END		&RathineNice
+	DN1A91	You again. How tiresome. I assume you bring me news of Kaid?	DN1A9A	TRUE			Not yet, my lord. I'll keep looking.	END		
+			DN1A9B	TRUE			By the Powers, sir! I think I see him over there! Heavens! I may be in danger! Please excuse me.	END	MONSTERWANDER_120	
+	DN1A01	You again. How tiresome. I assume you bring me news of Trenelle?	DN1A0A	TRUE			Not yet, my lord. I'll keep looking.	END		
+			DN1A0B	TRUE			By the Powers, sir! I think I see him over there! Heavens! I may be in danger! Please excuse me.	END	MONSTERWANDER_120	
+	DN1B11	[[From its baleful glance, you infer little interest in conversation.]]		TRUE				END		

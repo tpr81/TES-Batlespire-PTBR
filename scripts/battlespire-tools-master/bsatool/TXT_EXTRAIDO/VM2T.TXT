@@ -1,0 +1,32 @@
+		Vermai Oathkin					file Vm2T.xls			VERMAI TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	VM2A11	HNNNRRGH!	VM2A1	TRUE			Look. Is there anyone else here I can talk with?	END	MONSTERATTACK 			
+	VM2A12	HNNNRRGH?	VM2A1B	TRUE			See? Prit-ty wea-pon? Me not smack you. Me GIVE you! Drop prit-ty wea-pon right here. Prit-ty. Look. Emp-ty hands. You like?	END	DROPREADYWEAPON AND MONSTERWAIT_120 			
+	VM2A13	Hnnrrgh. Hnnnrrgh? HNNNRRGH!	VM2A1C	TRUE			HNNNRRGH! HNNNRRGH! HNNNRRGH! HNNNRRGH! HNNNRRGH! HNNNRRGH!	END	MONSTERATTACK	&VermaiMad		
+			VM2A1D	&MethatsName AND NOT &WearAmuletM			METHATS! HURT! HURT! HNNNRRGH?	END	MONSTERATTACK 			
+			VM2A1E	&RishaalName AND NOT &WearAmuletR			RISHAAL! HURT! HURT! HNNNRRGH?	END	MONSTERATTACK 	&VermaiMad		
+			VM2A1F	&ZenaideName AND NOT &WearAmuletZ			ZENAIDE! HURT! HURT! HNNNRRGH?	END	PCTeam			
+			VM2A1G	&WonshalaName AND NOT &WearAmuletW			WONSHALA! HURT! HURT! HNNNRRGH?	END	MONSTERATTACK 			
+			VM2A1H	&MethatsName AND &WearAmuletM			Look. Amulet. METHATS! HURT! HURT! HNNNRRGH?	END				
+			VM2A1I	&RishaalName AND &WearAmuletR			Look. Amulet. RISHAAL! HURT! HURT! HNNNRRGH?	END	MONSTERATTACK 	&VermaiMad		
+			VM2A1J	&ZenaideName AND &WearAmuletZ			Look. Amulet. ZENAIDE! HURT! HURT! HNNNRRGH?	VM2A41				
+			VM2A1K	&WonshalaName AND &WearAmuletW			Look. Amulet. WONSHALA! HURT! HURT! HNNNRRGH?	END				
+	VM2A21	HNNNRRGH! HURT! HNNNRRGH! HURT-HURT-HURT! HNNNRRGH!	VM2A2A	TRUE			Oh, very well. If you insist.	END	MONSTERATTACK	&VermaiMad		
+	VM2A31	[[It sneers and refuses to speak with you.]]					NOTE: This is a NoTalk default dialog.					
+	VM2A32	[[It hisses and spits at you.]]					NOTE: This is a NoTalk default dialog.					
+	VM2A33	[[Fixing you with a wary eye, it makes no response.]]					NOTE: This is a NoTalk default dialog.						
+													
+													
+	VM2A41	Hrnn. HRRRRRngh.	VM2A4A	TRUE			Yes. YES! Exactly. Phew. You must be exhausted from the terrible strain of thinking. Why don't you go have a lie-down?	END	PCTeam	&VermaiNice			
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													

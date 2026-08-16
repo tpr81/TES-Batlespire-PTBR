@@ -1,0 +1,33 @@
+		Scamp Oathkin							SCAMPTALK				
+	Saycode	NPC SAY	Replycode	response CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SK1A11	Ooh --  MANkin! Drops its weapons? SURE we'll be NICE!	SK1A1A	true			Certainly. Pleased to oblige. There -- .	END	DROPREADYWEAPON				
+	SK1A12	MANkin! Drop WEApon! NOW!	SK1A1B	TRUE			Weapon? Oh --  you mean --  THIS?	END	PCATTACK _100	&ScampMad			
+	SK1A13	Oooo! MEAN mankin. Scamp aFRAID. Drop Weapon, so Scamp feel safe?	SK1A1C	TRUE			Fool! Do I LOOK like a mankin? Cower and serve, or I'll rip your ears off.	END	MONSTERATTACK				
+			SK1A1D	&MethatsName			Fool! Do I LOOK like a mankin? Methats calls, and when called, dogs crawl to their masters.	SK1A71					
+			SK1A1E	&WearAmuletD			Look, clown. I'm wearing the amulet. So kiss my butt. Then be REAL nice, and beat it, before I paint the walls with you.	SK1A81					
+	SK1A21	What? Manflesh? It talks? What WANTS it?	SK1A2A	TRUE			Give me the keys out of this place, or you'll be one sorry little monkey.	SK1A91					
+	SK1A22	WHAT!! What want?	SK1A2B	&PCFemale			Tell me where Josian Kaid is, and I'll spare your miserable life.	SK1A01					
+	SK1A23	Why me? HATES mankin jabber-jabber.	SK1A2C	&PCMale			Tell me where Vatasha Trenelle is, and I'll spare your miserable life.	SK1B11					
+			SK1A2D	TRUE			Tell me how to get out of this place, and I swear by all the gods that you shall go unharmed.	SK1B21					
+				&RishaalName			Rishaal summons me. Where is the gate to the other worlds?	SK1B41					
+	SK1A31	NASTY mankin! Die! Now!	SK1A3A	TRUE			No, thank you.	END	MONSTERATTACK				
+	SK1A41	[[It sneers and refuses to speak with you.]]											
+	SK1A42	[[It hisses and spits at you.]]											
+	SK1A43	[[Fixing you with a wary eye, it makes no response.]]											
+	SK1A51	Eyuh? You what? How here? You Kaid-thing? Rishaal WANT Kaid-thing!	SK1A5A	TRUE			Fool! Touch me and die! But JOIN my Glorious War Band, smite my enemies, and and feast forever in the Halls of the Mighty. In fact, join me, and as a token of my favor, I won't kill you... not even a little bit.	END	PCTeam	&RishaalName			
+			SK1A5B	TRUE			Look upon me, and know your Doom. Touch not Josiah Kaid, or I will shatter your skin and spray your steaming entrails across the walls.	END	Command SK_4 	&RishaalName			
+			SK1A5C	TRUE			Idiot! Kaid is a MALE-creature. Do I look like a MALE-creature? Scram, or your lord Rishaal may hear how you offended me.	END	Command SK_4	&RishaalName			
+	SK1A61	Eyuh? You what? How here? You Trenelle-thing? Rishaal WANT Trenelle-thing!	SK1A6A	TRUE			Fool! Touch me and die! But JOIN my Glorious War Band, smite my enemies, and and feast forever in the Halls of the Mighty. In fact, join me, and as a token of my favor, I won't kill you... not even a little bit.	END	PCTeam	&RishaalName			
+			SK1A6B	TRUE			Look upon me, and know your Doom. Touch not Vatasha Trenelle, or I will shatter your skin and feed you its steaming contents.	END	Command SK_4 	&RishaalName			
+			SK1A6C	TRUE			Idiot! Trenelle is a FEE-male. Do I look like a FEE-male? Scram, or Rishaal will hear how you offended me.	END	Command SK_4	&RishaalName			
+													
+													
+	SK1A71	Oh! Oh! Oh! No!! We didn't! It was the VerMAI! It was all the VERMAI! We didn't touch the Anchors, or the Cogs!	SK1A7A	TRUE			And a good thing too. We are gratified by the zeal with which you inform upon your co-workers. Now. Go away. Be busy about your tasks. Goodbye.	END	Command SK_4				
+	SK1A81	WAAH! MANkin got BOSS! WAAH! DANger! DANger!	SK1A8A	TRUE			Wait! No! It's MY amulet. What makes you think --  ah, fooey.	END	Command SK_4 AND MONSTERRALLY_2				
+	SK1A91	Keys? Keys in dark, NASTY  place. Near my tail. Want look? See?	SK1A9A	TRUE			No, thank you.	END					
+	SK1A01	Boykin? Boykin gone, fleshbits.	SK1A0A	TRUE			Wrong answer.	END					
+	SK1B11	Girly? Girly gone, fleshbits.	SK1B1A	TRUE			Wrong answer.	END					
+	SK1B21	REALLY? Okay-sure. One way back to manworld, BIG boss sigil, touch, go BOOM! One way out, go with bosses. Ha-ha! Real safe. One way, ride busted magic boat, say bosses. Ha-ha. Real safe. Now, you promised! No hurt! Gods ROT  you if you sneaky-sneak-sneak.	SK1B2A	TRUE			An oath is an oath, and sacred before the gods.	END	PCTeam	&ScampOath			
+	SK1B31	Sure-sure. Mankin PROMISE worth CRAP! Ptui!	SK1B3A	TRUE			I'm sorry you feel that way.	END		&SKNoTalk			
+	SK1B41	Dunno, brother. Little bosses say magic boat, gotta fix, busted, bits gone, gotta find. Find bits, fix'um up, THEN we go. 	SK1B4A	TRUE			Thanks,  brother, and fare well.	END	PCTeam				
+												

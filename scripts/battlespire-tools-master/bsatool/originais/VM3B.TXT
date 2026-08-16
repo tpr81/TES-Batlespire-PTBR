@@ -1,0 +1,27 @@
+	Random Talk Tables			file vm3b.xls
+	"Vermai L2, pt. 2"			
+	talkcheck			
+	&VermaiNice	VM3A32		
+	&VermaiMad	VM3A21		
+				
+				
+				
+	talktable			
+	First	VM3A11		
+	Second	VM3A32		
+	Third	VM3A21		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-10	VM3A11	Angry	
+	11-20	VM3A22	Angry	
+	21-30	VM3A33	Angry	
+	31-40	VM3A21	More Angry	
+	41-60	VM3A31	NoTalk default	
+	61-80	VM3A32	NoTalk default	
+	81-00	VM3A33	NoTalk default	
+
+
+				
+				

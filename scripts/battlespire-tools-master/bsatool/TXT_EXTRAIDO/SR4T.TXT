@@ -1,0 +1,22 @@
+		Seducer Oathkin					file SR4T.xls		Good Seducer Talk			
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR4A11	I SPIT on Dagon's treacherous dogs! You'll get no mercy from me, maggot-eater! Come. Come closer so you can hear my EVERY CURSE UPON YOUR AND ALL YOUR SPIT-LICKING KIN!	SR4A1A	TRUE			Sentiments close to my own heart, and spoken like a warrior. But you mistake me for a dog, when I am actually an innocent manling, tossed like a leaf in the flood. Let us join forces and kick dogs that NEED kicking.	SR4A21				
+			SR4A1B	TRUE			Mother of Monsters! I take GREAT offense! Do I LOOK like one of Dagon's dogs? 	SR4A21				
+			SR4A1C	&JacielName			Look. I'm siding with Jaciel and Deyanira, and I don't care WHO knows it! So if we're enemies, have at it. But if we are allies, let's stop burning each other!	SR4A31				
+			SR4A1D	&JacielFree			WAIT! Jaciel is FREE! I set her free! I'm a manling! I'm on your side!	SR4B21				
+	SR4A21	Lying, cowardly, spit-sucking DOGS! Don't try your lying tricks on me! Come CLOSER and let me KISS you, you spotty, craven, CRETIN!	SR4A2A	TRUE			Wait.	END	MonsterAttack	&Dog		
+	SR4A31	Oh. Yes. We've heard about you, and that you favor our cause. Deyanira says you will be seeking the Book of the Wheels of Heaven for the Sacred Code. There is a copy of the book here, and in the Mortal Sciences Chamber. The code will be a series of four letters, but they will be in the Daedric alphabet.	SR4A3A	TRUE			Great. I am not real familiar with the daedric alphabet.	SR4A41				
+	SR4A41	No matter. Look at the Hand of Kindness. There is today's Sacred Code -- Doht. Yoodt. Seht. Koht. Or, in Tamrielic, DUSK.	SR4A4A	TRUE			Oh. So who needs the book? 	SR4A51				
+	SR4A51	Perhaps Deyanira thought you could read, and that it would be a handy reference.	SR4A5A	TRUE			Yeah? Well, I do read, just fine, thank you. And do you know anything about the stools?	SR4A61				
+	SR4A61	Stools? What stools?	SR4A6A	TRUE			Deyanira said something about stools and the tourbillion things.	SR4A71				
+	SR4A71	Are you sure? Stools?	SR4A7A	TRUE			Of course I'm sure.	SR4A81				
+			SR4A7B	TRUE			Well. I'm pretty sure.	SR4A81				
+	SR4A81	I know nothing about stools. Nothing special, anyway.	SR4A8A	TRUE			Fine. I'll figure it out. Thanks for the help. Goodbye.	END	Command SR_13	&Buddy		
+	SR4A91	You look familiar, but I must be sure.	SR4A9A	TRUE			I'm the manling, remember? Friend to Deyanira and Jaciel?	SR4A21	PCTeam			
+			SR4A9B	&Buddy			I'm the manling, remember? Friend to Deyanira and Jaciel?	SR4A01	PCTeam			
+			SR4A9C	&Hero			I'm the manling, remember? I helped free Jaciel?	SR4B11	PCTeam			
+			SR4A9D	&JacielName			I'm working with Jaciel and Deyanira. Remember me?	SR4A31	PCTeam			
+			SR4A9E	&JacielFree			Remember me? I'm the guy who freed Jaciel.	SR4B21	PCTeam			
+	SR4A01	Yes. We watch and wait.	SR4A0A	TRUE			Good work. And goodbye.	END				
+	SR4B11	Yes. We welcome our ally  in the crusade to win back Shade Perilous.	SR4B1A	TRUE			And things are coming along marvelously. Keep up the good work.	END				
+	SR4B21	Oh. YOU are the one who freed our Lady. We who remained loyal salute you, and praise your name. Our Lady  has commanded us to safeguard you, and treat you as Oathsister. We stand between you and your enemies.	SR4B2A	TRUE			Aw, shucks. It was nothing. But thanks for taking arms against my enemies. I have plenty enough for EVERYbody.	END		&Hero		

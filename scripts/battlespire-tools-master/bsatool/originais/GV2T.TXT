@@ -1,0 +1,42 @@
+		Ideal Master					file Gv2T.xls			Friendly Gem Vampire		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	GV2A11	Quem perturba o nosso descanso?	GV2A1A	TRUE			- Ninguem. Ninguem. Peco desculpa. Estou a ir embora. - Desculpa. - Desculpa.	END				
+			GV2A1B	TRUE			Um humilde mortal que implora a tua ajuda.	GV2A31				
+			GV2A1C	TRUE			Um celebre mestre de artes marciais e arcanos, em busca de uma missao, e digno da tua ajuda.	GV2A31				
+			GV2A1D	TRUE			- Olha. Nao sei o que se passa aqui, mas cheira a necromancia, e nao vou tolerar.	GV2A91				
+	GV2A21	[Voce dirige-se a joia, mas nao ha resposta.]]								&GemReady		
+	GV2A91	E claro que tem pouca ou nenhuma compreensao da necromancia, e, portanto, nao esta em posicao de julgar. E evidente que e mortal, ignorante e lamentavel, por isso vou ignorar a sua insolencia. - Agora mesmo. Apresente-se ou va-se embora.	GV2A9A	TRUE			Como ja adivinhou, sou mortal. Cheguei aqui sem vontade propria, e peco a sua ajuda.	GV2A41				
+			GV2A9B	TRUE			Desprezo a tua piedade e resisto ao teu modo de agir. - Adeus. - Adeus.	END		&GemMad		
+												
+	GV2A31	Nao esta convidado para vir aqui. Por que perturbas o nosso descanso?!	GV2A3A	TRUE			Bem, nao tenho a certeza, a serio. Na verdade, pareco estar preso aqui, onde quer que este lugar seja, e estou a procura de algo ou de alguem que me possa ajudar.	GV2A41				
+			GV2A3B	TRUE			Eu, uma pobre e desesperada criatura de carne, escolhi competir com os Principes do Oblivion e os seus asseclas, e humildemente peco a vossa ajuda.	GV2A41				
+			GV2A3C	TRUE			Eu entendo. Queres que me va embora e te deixe em paz. - Esta bem. - Esta bem. So nao espere que eu faca favores.	END		&GemMad		
+			GV2A3D	TRUE			Um viajante atraves dos reinos exteriores, cheguei ao vosso mundo, e achei-o maravilhosamente estranho. Procuro aprender mais dos seus misterios. O que e esse lugar, e qual e o seu proposito?	GV2A81				
+												
+	GV2A41	Entrarias no nosso servico, mortal?	GV2A4A	TRUE			Nao, nao. Nao lhe ofereco servico. - Adeus. - Adeus.	END				
+			GV2A4B	TRUE			Estou surpreendido e honrado com a perspectiva, mas estou curioso. Como posso entrar no seu servico?	GV2A51				
+												
+	GV2A51	Tens de morrer e nascer de novo. A forma que o espirito pode tomar depois varia. Teras visto os servos do nosso reino.	GV2A5A	TRUE			Estou surpreendido. Isto e uma coisa maravilhosa. Desculpe-me enquanto me retiro para contemplar este milagre.	END				
+			GV2A5B	TRUE			Queres dizer que morro e me transformo num esqueleto ambulante ou num fantasma a uivar? Se e assim que funciona, entao nao me vou juntar ao seu servico.	GV2A61				
+												
+	GV2A61	Talvez possa explicar por que desejariamos fazer favores a alguem tao grosseiro que nos recuse o servico?	GV2A6A	TRUE			Os Daedra invadiram o Espirito de Batalha, a Escola de Guerra e a Cidadela Celestial do meu Imperador. Mataram os seus guardas e magos, saquearam as suas bibliotecas e armazens, e saquearam as suas artes e tesouros.	GV2A71				
+			GV2A6B	TRUE			Vais fazer favores a este gajo ou vou esmagar os teus servos, tirar tudo o que puder e destruir tudo o que nao puder.	GV2A01				
+												
+	GV2A71	E como e que isto me interessaria?	GV2A7A	TRUE			Os Daedra que invadiram o Espirito de Batalha estao aqui, destruindo os vossos servos e saqueando os vossos tesouros. Eles claramente planeiam manter este lugar como uma estacao de transito entre os seus reinos e os seus dominios recem-conquistados. Duvido que gostes do transito, ou da qualidade dos hospedes que viajam por aqui.	GV2B11				
+												
+	GV2A81	Estao dentro do recinto do Cairn da Alma, um refugio de outro mundo dedicado a paz, amor, descanso eterno e harmonia. Voce esta diante de um de seus Criadores, cujo nome e tao exaltado que nem pode pronuncia-lo. Andas entre os seus servos, que se comprometeram a servir-nos, e que foram recompensados com a vida eterna e a paz que ultrapassa todo o entendimento mortal.	GV2A8A	TRUE			Sinto-me humilde perante o esplendor da tua criacao e a gloria dos seus fieis servos.	GV2A41				
+			GV2A8B	TRUE			Esta treta religiosa esta a deixar-me nervoso. Vais ajudar-me ou nao?	GV2A41				
+												
+	GV2A01	- Entao, e isso. Se conseguem fazer face a tais ameacas, entao nao precisam da nossa ajuda. Deves ter muito que fazer, por isso nao te vou atrasar. - Adeus. - Adeus.	GV2A0A	TRUE			- Adeus. - Adeus.	END				
+												
+	GV2B11	- Sim, e verdade. Eu entendo. Nao quero ficar entre ti e a tua vinganca contra estes saqueadores daedricos. - Muito bem. - Esta bem. Ouca com atencao.	GV2B1A	TRUE			Ouvi, e note as suas palavras.	GV2B21				
+												
+	GV2B21	Olhem atentamente para os pilares que sustentam os nossos saloes. Em torno de alguns destes pilares ha quatro barras. Se olharem de perto, verao que a maioria e quadrada em secao transversal. Tres deles sao excepcionais, redondos na seccao transversal. Uma foi encontrada numa capela de caixoes. Outro foi encontrado na sala com discos giratorios. Outra e encontrada na antecamara da Capela do Amor. Estas tres hastes sao as hastes de controlo para a fonte de Mana na Capela do Amor.	GV2B2A	TRUE			Deixa-me ver se percebi. A maioria das barras ao redor dos pilares sao quadradas em secao transversal. Tres sao diferentes, e redondas na seccao transversal. Estas sao barras de controlo para uma fonte de Mana na Capela do Amor. E correto? Esta Capela do Amor esta perto? Como vou reconhecer a fonte Mana?	GV2B31				
+												
+	GV2B31	A Capela do Amor fica perto, a sudoeste. Procurem os dedos gemeos da Vida que primeiro devem acender.	GV2B3A	TRUE			- Sim, sim. Passo Um. Acende os dedos da vida na capela do amor. - Entao? - Sim.	GV2B41				
+	GV2B41	Entrem na piscina antes dos Portoes Esmeralda e serao transportados para o topo do cofre.	GV2B4A	TRUE			- Esta bem. - Esta bem. Passo dois. Salta para a piscina e teletransporta-te para o topo do cofre.	GV2B51				
+	GV2B51	Depois, pega nas tres hastes, a da Piloto, a da Coluna e a da Passagem, e coloca cada uma delas, uma a uma, no soquete do pedestal.	GV2B5A	TRUE			- Sim, e verdade. Passo tres. Tres hastes vao para o soquete no pedestal.	GV2B61				
+	GV2B61	Entao a fonte de Mana enviara-te para qualquer um dos reinos externos conhecidos, desde que saibas o nome desse reino, e que pronuncies esse nome nos Portoes Esmeraldas do cofre que encerra o portal.	GV2B6A	TRUE			E... Finalmente, o que e? Passo Quatro. Diz o nome do destino nos Portoes Esmeraldas	GV2B71				
+	GV2B71	Voce sabe o nome do reino que procura, nao sabe?	GV2B7A	TRUE			Sim, eu sei para onde vou. Obrigado pela sua ajuda. Estou em divida consigo. - Adeus. - Adeus.	END		&GemDone		
+			GV2B7B	TRUE			Nao, nao. Mas vou descobrir o nome, de alguma forma. Obrigado e adeus.	END		&GemDone		
+	GV2B81	Quem perturba o nosso descanso?	GV2B8A	TRUE			- Desculpa. - Desculpa. Sou so eu. - Olha. Pode repetir o negocio das hastes, dos Dedos da Vida, da piscina e dos Portoes Esmeralda? Lamento imenso, mas com todas as coisas mortas a andar por ai a bater-me e a correr no escuro a estudar pilares, bem...	GV2B21				

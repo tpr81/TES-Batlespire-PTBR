@@ -1,0 +1,27 @@
+		Dremora Oathkin					file DR6T.xls			Dremora Informant Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DR6A11	Pensei que me encontrasses aqui. Nao tenho nada a dizer agora, mas quando voltares, talvez.	DR6A1A	TRUE			- Sim, sim. Bem, tenho umas perguntas para ti, amigo.	DR6A21				
+			DR6A1B	TRUE			Mais tarde, entao. - Adeus. - Adeus.	END				
+	DR6A21	E ainda as teras quando voltarmos a falar. - Esta livre. Deixa-me em paz.	DR6A2A	TRUE			Grr. - Esta bem. - Esta bem.	END				
+	DR6A31	Mais uma vez, superaste as nossas expectativas. Nao esperavamos que encontrasses o Jaciel.	DR6A3A	TRUE			- Nao, nao. - E bom, nao e?	DR6A61				
+			DR6A3B	TRUE			- Eu pensei que sim. Nunca esperaste que eu a encontrasse e a ajudasse a sair. So me querias usar como um pau para bater no fogo e gelo da Daedra.	DR6A61				
+			DR6A3C	&StormName			- Sim, e. E sei quem e o teu chefe, e posso adivinhar o teu jogo. Imago Storm estaria disposto a ver o seu Mestre Dagon abaixado e ele proprio elevado. - Nao e?	DR6A71				
+	DR6A61	Nao vou confirmar nem negar a sua suposicao.	DR6A6A	TRUE			Se queres a minha cooperacao, tens de ser honesto comigo.	DR6B11				
+	DR6A71	- Que disparate. Nao ha ninguem mais leal a Dagon do que Imago Storm e todo o cla Dremora. Esperamos acelerar a campanha do Battlespire com o minimo de desordem e risco possivel.	DR6A7A	TRUE			- Claro que sim. Talvez o Lorde Imago esteja contente, ate confortavel, como o poder por tras do trono.	DR6A81				
+	DR6A81	Nao duvide da minha lealdade a Dagon, ou da lealdade do meu senhor, ou respondera por isso.	DR6A8A	TRUE			- Esta bem. - Esta bem. Quero falar com o Lorde Imago. Onde e que ele esta?	DR6A01				
+			DR6A8A	TRUE			Nao me ameaces, ou o meu orgulho violento vai sobrepujar o meu bom humor natural e a minha civilidade.	DR6A91				
+	DR6A91	Talvez valorize demais o seu orgulho. Talvez possa ajudar-te a reavaliar o teu verdadeiro valor a luz de uma boa surra.	DR6A9A	TRUE			Isso fica-me bem, durao.	DR6B21				
+	DR6A01	Sobrevalora o seu valor aos nossos olhos. Se o Lorde Imago deseja ve-lo, entao voce o vera.	DR6A0A	TRUE			Se vou ser o teu peao, ha coisas que preciso de saber.	DR6B21				
+	DR6B11	Vamos dizer-lhe o que precisa de saber.	DR6B1A	TRUE			- Esta bem. - Esta bem. Sou um homem grande. Eu posso ser humilde. Estou a implorar-te. O que me pode dizer? Da-me alguma coisa. Um pouco de lixo.	DR6B21				
+			DR6B1B	TRUE			Dizes-me o que quero saber, ou podes encontrar a tua ferramenta virada contra ti noutras maos.	DR6B21				
+	DR6B21	Testas a minha paciencia, mortal!	DR6B2A	TRUE			Entao porque e que ainda me falas?	DR6B31				
+	DR6B31	- Nao. - Nao. - E um bom ponto. Poe de lado a postura. Tenho uma coisa para te dizer. Nos, os Daedra, temos uma piada comum sobre noticias, que nao ha boas noticias sem mas noticias.	DR6B3A	TRUE			Nos, humanos, temos uma percepcao similar.	DR6B41				
+	DR6B41	- Entao? A ma noticia e que o Dagon tem a tua companheira.	DR6B4A	&PCFemale			- O que? - O que? - Quando? - Quando? - Como e que o fizeram?	DR6B51				
+			DR6B4B	&PCMale			- O que? - O que? - Quando? - Quando? - Como e que o fizeram?	DR6B61				
+	DR6B51	- Nao sabemos. - Nao sei. Tudo o que sabemos e que Josian Kaid foi levado para a casa de caca do Lorde Dagon. E tudo o que sabemos.	DR6B5A	TRUE			- Eu entendo. E as boas noticias?	DR6B71				
+	DR6B61	- Nao sabemos. - Nao sei. Tudo o que sabemos e que Vatasha Trenelle foi levado para a cabana de caca do Senhor Dagon. E tudo o que sabemos.	DR6B6A	TRUE			- Eu entendo. E as boas noticias?	DR6B71				
+	DR6B71	Podemos ajudar-te a resgatar o teu amigo. Nao lhe diremos como, onde ou quando, mas vamos mante-lo como um incentivo para a sua cooperacao continua.	DR6B7A	TRUE			Sao aliados tao fieis e confiantes.	DR6B81				
+	DR6B81	Procura aliados mais justos, se puderes. E agora, mais mas noticias. Havera uma caca. E tu es a presa. Escape Shade Perilous, e sera cacado na Quimera da Desolacao pelos Ritos da Pedreira Inocente.	DR6B8A	TRUE			Isso seria uma ma noticia. E as boas noticias?	DR6B91				
+	DR6B91	Na caca, ha regras. Use essas regras para o seu proprio uso. E no chao, procure recursos ocultos. Procura uma coisa que ja foi homem. Ele esta vestido com o manto da distincao. Seja paciente, escute-o e aprenda.	DR6B9A	TRUE			Poderia ser mais obscuro?	DR6B01				
+	DR6B01	Nao se pode confiar mais em ti. Nao estas obrigado por nenhum juramento ou codigo, salvo pelo teu proprio interesse. Arriscamos muito nos nossos negocios contigo. Nao procure mais. Se julgarmos seguro, deixaremos mensagens. Agora tenho de ir. Ate agora, tem-se saido bem. Seria muito assustador para nos saber que voces sao o tipo, e nao a excecao, dos humanos. - Adeus. - Adeus. E na caca, boa sorte.	DR6B0A	TRUE			- Esta bem. - Esta bem. Nao gosto, mas nao tenho muita escolha. - Adeus. - Adeus.	END	Teleport_0			
+			DR6B0B	TRUE			Estou a tentar apreciar o que estas a fazer. Ajudaria se pudesse confiar em ti e no teu chefe. Se ha interesses comuns entre nos, seria inteligente que o fizesses mais claro. Diz isso ao teu chefe. - Adeus. - Adeus.	END	Teleport_0			

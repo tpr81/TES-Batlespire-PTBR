@@ -1,0 +1,43 @@
+		Wrathman					file WR1T.xls			Wraiths		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	WR1A11	Enganado! Traido! Enganado! Prometeste! Mas mentiste! Para sempre!	WR1A1A	TRUE			Nao sei quem pensas que sou, ou do que estas a falar. Deixa-me em paz, ou vou ter de te magoar muito.	WR1A61				
+	WR1A12	Tiraste-me a vida e nao me deste nada! Felicidade eterna? Vida eterna? Nao, nao! Um pesadelo eterno! Morte eterna! Agora nada. Nada para sempre.	WR1A1B	TRUE			Sem ofensa, mas estas louco como um louco. E nao gostar, e pena maior. Ha alguma esperanca para a sua salvacao? Ou queres que eu te ponha fora do teu sofrimento?	WR1A71				
+	WR1A13	Onde esta esta terra de alegria e abundancia que prometeste? Sem dias, sem noites. Cansado sem descanso. Cansado sem esperanca. Tempo sem fim. E este e o paraiso que prometeste?	WR1A1C	TRUE			Parece terrivel. Entao, com quem achas que estas a falar? Ou estas a falar sozinho?	WR1A81				
+			WR1A1D	TRUE			Apanhei-te numa ma altura? Nao importa. Podemos falar mais tarde. - Adeus. - Adeus.	END				
+			WR1A1E	&RestBook			Com estas palavras, liberto-te, espirito imundo e miseravel, dos lacos da morte. De cinquenta Padres congelados em escravos! Rompem o artificio! Rompam a teia da vida! Encoste bem a presa a terra! Segure-se firme no jejum da sepultura!	END	Kill AND WraithMeltSFX			
+	WR1A21	Uma vez fui um homem cheio de amor e odio. Agora sou um monstro, vazio e com fome. Entreguei a minha vida e agora devo comer a tua. Foge, mortal, pois nao tenho coracao, e me alimentaria do teu.	WR1A2A	TRUE			Obrigado pelo aviso. - Adeus. - Adeus.	END				
+	WR1A22	Cheiro a tua vida e estou cheia de fome. Posso sugar-te ate a casca e ainda assim gritar de sede. Corra, agora. Nao ha esperanca... So horror.	WR1A2B	TRUE			Posso ajuda-lo de alguma forma? Queres que ponha fim a tua existencia miseravel?	WR1A51				
+	WR1A23	Eu quero-te. Todos voces. Nao sobrou nada. Podia por-vos todos dentro de mim e ainda me sentir vazio. Como podes ficar ai? Nao sabes o que sou? Um fantasma? Uma casca? Uma casca louca, faminta e odiosa?	WR1A2C	TRUE			Gostava de poder ajudar-te, mas tambem estou em sarilhos. Se te vale alguma coisa, sinto muito por ti, mas estou a avisar-te... Se te meteres no meu caminho, vais magoar-te. Acho que sim. Estas armas e feiticos, estao a magoar-te, certo?	WR1A61				
+			WR1A2D	&RestBook			De cinquenta Padres
+Frozen in slavepast							
+Rip from the wraithloom							
+Sunder the lifeweave							
+Lock tight in earthgrip							
+Hold firm in gravefast	END	Matar E WraithMeltSFX					
+	WR1A31	As vossas armas divertim-me. Contra a carne, podem triunfar, mas mal agitam os fios amargos do espirito ressuscitado.	WR1A3A	TRUE			Fala muito. Nao tenho medo de ti. Ainda estou vivo e gosto disso. Es apenas uma nuvem de ar mau com uma boca grande, e vou livrar este lugar do teu fedor, mesmo que seja a ultima coisa que faca.	WR1A61				
+	WR1A32	Mostra-me os teus brinquedos, crianca. Faz os teus truques de salao. Veja como pouca lata e ornamentacao ajudam contra a Alma Que Nunca Morre.	WR1A3B	TRUE			Ajuda! Ajuda! Ajuda! Ajuda! Estou muito, muito assustada. Vou fugir de terror. - Agora mesmo. PEDO-TE ter piedade de mim, o ser poderoso e maravilhoso de poder e gloria eternos, e deixa-me correr e esconder-me da tua presenca assustadora.	END				
+			WR1A3C	&RestBook			Com estas palavras, liberto-te, espirito imundo e miseravel, dos lacos da morte. De cinquenta Padres congelados em escravos! Rompem o artificio! Rompam a teia da vida! Encoste bem a presa a terra! Segure-se firme no jejum da sepultura!	END	Kill AND WraithMeltSFX			
+												
+	WR1A41	A presenca fantasmagorica nao oferece resposta.		TRUE				END				
+												
+	WR1A51	Como e que alguma vez conseguiste entender a minha dor? Nao sabes de nada. Nao entendes nada! Es um animal... Uma erva... Uma pedra... comparado comigo. Vejo tudo, sinto tudo, sofre tudo, odeio tudo, para sempre! Nao sabes de nada!	WR1A5A	TRUE			- Eu entendo. Desculpe, mas esta conversa perdeu o seu brilho.	END				
+	WR1A61	Que podem fazer as vossas armas fracas, as vossas feiticarias fracas, contra um espirito imortal? Nao posso morrer, seu tolo! Nao pode morrer! RIO da sua pena. Eu gozo com os teus punhos minusculos.	WR1A6A	TRUE			Es uma coisa ma. Em breve vou fazer-te ir embora. Muito, muito longe.	END				
+	WR1A71	Ouca com atencao. Nao sofremos muito mal com as vossas armas ou feiticos. Procura o Livro do Descanso e dos Termos. Diz as palavras e dissolve os vinculos.	WR1A7A	TRUE			- Obrigado, meu. Farei o que me disseres, e com a tua bencao.	END	PCTeam			
+	WR1A81	- O que e que isso importa? A culpa nao e minha! Disseste que eu viveria para sempre. E isto e a LIFE? Enganaste-me! Eu odeio-te!	WR1A8A	TRUE			Parece-me, amigo, que foste tu que te meteste nesta confusao. Nao me culpes. Nao brinques com necromancia e culpes outra pessoa quando nao gostares dos resultados. E se andas por ai a sugar as almas das pessoas, nao te surpreendas se elas te quiserem eliminar como um insecto. - Adeus. - Adeus.	END				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+							
+							
+							
+							
+							
+							

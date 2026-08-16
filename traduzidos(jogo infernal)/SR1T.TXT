@@ -1,0 +1,16 @@
+		Seducer Oathkin					file SR1T.xls			Good Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR1A11	Eu cuspo nos caes traicoeiros de Dagon! Nao vais ter piedade de mim, comedor de vermes! - Vamos. Aproxima-te para ouvires a minha maldicao sobre ti e sobre todo o teu coelho que lambe cuspo!	SR1A1A	TRUE			Sentimentos proximos do meu coracao, e falados como um guerreiro. Mas voce me confunde com um cao, quando na verdade sou um homem inocente, jogado como uma folha na inundacao. Vamos unir forcas e dar pontapes aos caes que precisam de pontapes.	SR1A21				
+			SR1A1B	TRUE			Mae dos Monstros! Estou ofendido! Pareco um dos caes de Dagon?	SR1A21				
+			SR1A1C	&JacielName			- Olha. Estou do lado do Jaciel e da Deyanira, e nao me interessa quem sabe! Entao, se somos inimigos, vamos la. Mas se somos aliados, vamos parar de nos queimar!	SR1A31				
+			SR1A1D	&JacielFree			- Espera! O Jaciel esta livre! Eu libertei-a! Sou um homem! Estou do teu lado!	SR1A41				
+	SR1A21	Caes mentirosos, covardes e chupadores de cuspo! Nao me facas truques de mentiras! Aproxima-te e deixa-me beijar-te, seu cobarde, idiota!	SR1A2A	TRUE			- Espera, espera.	END	MonsterAttack	&Dog		
+	SR1A31	- Nao. - Sim, e verdade. Ja ouvimos falar de si. Deixe-nos em paz e nos retribuiremos o favor. Faca-nos mal ou impeca-nos a seu risco.	SR1A3A	TRUE			- Entendido. - Esta bem. Tregua. - Adeus. - Adeus.	END	Command SR_13	&Buddy		
+	SR1A41	- Nao. Foste tu que libertaste a Nossa Senhora. Nos que permanecemos leais te saudamos e louvamos o teu nome. Nossa Senhora ordenou-nos que a salvaguardassemos e a tratassemos como uma irma juramentada. Estamos entre vos e os vossos inimigos.	SR1A4A	TRUE			- Raios partam. Nao foi nada. Mas obrigado por pegar nas armas contra os meus inimigos. Tenho bastante para todos.	END	PCTeam	&Hero		
+	SR1A71	Pareces-me familiar, mas tenho de ter a certeza.	SR1A7A	TRUE			Sou so um pequeno homem, lembras-te?	SR1A21				
+			SR1A7B	&Buddy			Sou o homem, lembras-te? Amigo da Deyanira e do Jaciel?	SR1A81	PCTeam			
+			SR1A7C	&Hero			Sou o homem, lembras-te? Ajudei a libertar o Jaciel?	SR1A91	PCTeam			
+			SR1A7D	&JacielName			Estou a trabalhar com o Jaciel e a Deyanira. Lembras-te de mim?	SR1A31	PCTeam			
+			SR1A7E	&JacielFree			Lembras-te de mim? Sou o tipo que libertou o Jaciel.	SR1A41	PCTeam			
+	SR1A81	- Sim, e verdade. Nos observamos e esperamos.	SR1A8A	TRUE			- Bom trabalho. - Sim. E adeus.	END				
+	SR1A91	- Sim, e verdade. Damos as boas vindas ao nosso aliado na cruzada para reconquistar a Sombra Perigosa.	SR1A9A	TRUE			E as coisas estao a correr maravilhosamente bem. Continua com o bom trabalho.	END				

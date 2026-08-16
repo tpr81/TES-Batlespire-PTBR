@@ -1,0 +1,23 @@
+BugsL2
+
+
+
+
+LEVEL 2 BUGS TO BE CHECKED:
+
+DATE		NAME		DESCRIP
+
+8/18		Ken		Delete amulet of entry from Dremora in West Study [Lair1]; ken THINKS he fixed it, but best check
+8/19		Ken		Gary: Did you set up two-way teleport between L3_1 & L3_2? Has it been tested?
+
+
+BUGS TO BE FIXED:
+
+DATE		NAME		DESCRIP
+
+8/18		Ken		Update bk2_001.txt and bk2_008.txt to gamedata; revision of earlier placeholder text
+8/18		Ken		Find Book 011: Answers to Riddles; I moved it and didn't note where I put it in my docs; if someone finds a scroll or book with the answers to the four riddles on this level, let ken know
+8/21		gary		man, this thing is choppier than stormy seas
+8/23		ken		Check all levels for match of North-South orientation between: 1. automap, 2. game view, and 3. bsedit files.
+
+

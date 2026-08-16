@@ -1,0 +1,23 @@
+		Dremora Gatanas TALK					file DG1T.xls					
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DG1A11	Ainda vivo? Estou impressionado. Tens coragem, crianca. Tens inteligencia? Porque preciso de tal no meu servico.	DG1A1A	PCFemale			Voce me detesta, e todos os seus parentes. Mas poupo-te se me disseres onde encontrar o Josian Kaid.	DG1A51				
+			DG1A1B	PCMale			Voce me detesta, e todos os seus parentes. Mas poupo-te se me disseres onde encontrar Vatasha Trenelle.	DG1A61				
+			DG1A1C	TRUE			- Nao. Nao soubeste? O Methats mandou-me ajudar-te?	DG1A71				
+			DG1A1D	TRUE			Faz-me uma oferta.	DG1A81				
+	DG1A21	Sorri genial, nao diz nada.		TRUE								
+	DG1A22	Parece que esta a tentar ignorar-te.		TRUE								
+	DG1A23	[Mostra pouco interesse em falar contigo.]		TRUE								
+	DG1A31	Acho que e hora de nos livrarmos da tua cansativa carcaca.	DG1A3A	TRUE			- Espera, espera. Podemos fazer negocios.	END	MONSTERATTACK			
+			DG1A3B	TRUE			- Esta bem. - Esta bem. Sem ressentimentos, idiota.	END	MONSTERATTACK			
+	DG1A41	Tens o guia de vaidade?	DG1A4A	TRUE			- Sim, e verdade.	DG1A91				
+			DG1A4B	TRUE			Ainda nao, meu senhor.	DG1A01				
+			DG1A4C	TRUE			Nao, meu senhor. Dei-o ao Rishaal, como disseste.	DG1B11				
+												
+	DG1A51	E muito gentil da sua parte oferecer-se para poupar a minha miseravel vida. Em troca, fico feliz em dizer-lhe onde pode encontrar os restos de Kaid. Tenta a alavanca na parede leste.	DG1A5A	TRUE			Se isto for um truque, vais arrepender-te.	END		&GatanasMad		
+	DG1A61	E muito gentil da sua parte oferecer-se para poupar a minha miseravel vida. Em troca, fico feliz em dizer-lhe onde pode encontrar os restos mortais do Trenelle. Tenta a alavanca na parede leste.	DG1A6A	TRUE			Se isto for um truque, vais arrepender-te.	END		&GatanasMad		
+	DG1A71	Que atencioso. Tudo parece estar completamente sob controlo... mas podias ser tao simpatico e ir buscar-me o guia de vacuo desaparecido.	DG1A7A	TRUE			Imediatamente, honrado.	END		&GatanasNice		
+	DG1A81	Pegue neste amuleto de sigilo encantado e jure solene juramento as Grandes Potencias para me servir, e eu, por sua vez, jurarei e farei de si meu tenente-chefe.	DG1A8A	TRUE			Parece uma boa oferta. - Esta bem.	END	PUT  31_9039	&GatanasNice		
+			DG1A8B	TRUE			Parece uma oferta generosa. Deixa-me pensar.	END		&GatanasNice		
+	DG1A91	Entao entregue-o ao Rishaal imediatamente. Ela vai levar para o Sumeer.	DG1A9A	TRUE			Imediatamente, honrado.	END				
+	DG1A01	Entao nao me incomode ate o ter.	DG1A0A	TRUE			Mil perdoes, honrado.	END				
+	DG1B11	- Muito bem. Agora, vai-te embora. Tenho conselhos profundos para ponderar, e as suas interrupcoes sao muito irritantes.	DG1B1A	TRUE			Sou seu para comandar, honrado.	END				

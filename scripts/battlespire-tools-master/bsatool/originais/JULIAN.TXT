@@ -1,0 +1,96 @@
+8/18	ken	When two monsters die in same spot, treasure
+		bags overlap, and block access to one of two
+		bags. Vital inventory can be lost that way.
+		Fix? 1. Reposition monster markers in maps
+		to spread them more widely. 2. Place monsters
+		with critical inventory in isolated terrains.
+		3. Julian clever idea.
+
+8/20	TOSH	Install locked after files were copied when I
+		agreed to configure my sound next.  A portion
+		of the opening sound config screen appeared and
+		then the PC froze.  Running setsound after a
+		reboot worked fine.
+
+8/23	ken	Forgets sound level when restoring a game, even though
+		it recalls the length of the Sound Level red bar graphic.
+		[Plays TOO LOUD!]
+
+8/23	ken	Correct stats for Egahirn, Mastema, and Clannfear still
+		not entered into game code [by ken; did you do this, Julian,
+		from my hard copy?]. Need also to check Daedra Lord and
+		Daedra Count stats.
+
+8/23	ken	STOP changing all objects with book file index into scrolls.
+		[Now book and corpse objects with this structure are
+		displaying as scrolls.] Change structure if necessary.
+
+8/11	ken	wraparound graphics in inventory
+
+8/21	TOSH	Neither the PageUp/PageDown keys (control panel) nor the
+		Ins/Del keys (manual) work at all to allow you to look up/down.
+
+8/21	JJS	When picking a race, the description of the races do not
+		appear in the scroll at the bottom of the screen.
+
+8/22	RS	Selecting OKAY more than once in char gen/equipment gives
+		free additional items.
+
+9/11/97	JW	While manipulating my inventory (right side - sack), the
+		sack showed up not only in the top of the column but also
+		among the items.  When I tried to move the sack back to
+		the top, the game locked up.
+
+9/11/97	AMA	While generating a character on my AMD system, I left the
+		system sitting on the first screen where you pick your skills.
+		After about ten minutes, the screen started flashing and
+		displayed the middle of the screen in an interesting pattern.
+		The mouse was totally locked up.  Keyboard commands didn't
+		work, except escape.  Got the blue WIN error screen with
+		the error in "VSD VMOUSE"
+
+9/10	ken	Highlights on modified skill names and scores in PC Sheet
+		[F9] are STILL cocked up. Mark says he can't find anything
+		wrong at his end. So it's YOU, Julian.
+
+9/10	ken	L5: Crash on long idle when in the water, swimming or in boat.
+
+9/11	KEN	Spells that may be cast from a readied item [in hand or worn]
+		should be added to the spell casting list for easy casting.
+		Permits user to assign hot keys to these spells. Otherwise,
+		the hassle of the interface makes using magic items no fun
+		and not effective.
+
+9/12	ken	L5: Boat disappears from game. PC stands in boat in saved game.
+		On restore saved game, no boat.
+
+9/12	ken	L2: Crash while moving through room near Sumeer.
+		0e 0004; EIP 83410b4F; adr.tx = 833d6010.
+
+8/7	Marvin	World jitters badly in certain places ( see me for demo )
+
+8/11	ken	wraparound graphics in inventory
+
+8/12	ken	In general, click, and double-click are not as responsive
+		as they should be. Often click, then click again in inventory,
+		save and load, and all other interface areas.
+
+8/26	Body slams heavily saturates network because body slam operation is
+	performed many times when doing one slam.  This is starting on line 350
+	of movement.c...  To test, start up a multiplayer level (but play by
+	yourself).  Choose level 3 to play on.  Start game.  Go up to any monster,
+	and body slam it.  Network games will report body slams via a GameMessage
+	call... you'll be bombarded by them.  Each one sends out a critical
+	message that all networked computers must respond to.  This can destroy
+	network integrity.  Suggestion: After a successful body slam, move
+	userObject backwards opposite movement vector a few units to break
+	contact with victim object.
+
+8/27	Need astar information on the 4 deathmatch levels.  They are called l9
+	through l12... also need to fix redbook playback routine so that l9
+	through l12 plays back music for l1 thru l4.
+
+9/4	PlaceMonsterNearUser call creates a brand new monster. Needs to be so that
+	it actually summons a monster (moves an existing monster to a new position)
+	instead of creating a new one, which is bad for networking.
+

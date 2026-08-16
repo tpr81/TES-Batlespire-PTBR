@@ -1,0 +1,42 @@
+		Frost Daedra					file Ft1T.xls			Frost Daedra1		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	FT1A11	Invasor! Este reino nao e para a tua especie fragil!	FT1A1A	TRUE			A quem chamas fragil, rapaz do gelo?	END				
+			FT1A11B	TRUE			Entao, para quem e este reino?	FT1A21				
+			FT1A1C	TRUE			Vou partir-te como um pedaco de gelo!	END				
+			FT1A1D	&XivilaiName			- E verdade! Este reino e so para o grande Xivilai Moath!	FT1A71				
+			FT1A1E	&FaydraName			- E verdade! Este reino e so para o grande Faydra Shardai!	END	MonsterAttack	&FrostMad		
+	FT1A21	Para nos! Com apenas uma medida infinitesimal do nosso vasto poder, os Daedra de Gelo subjugaram esta terra!	FT1A2A	TRUE			A quem servem?	FT1A31		&FrBrag		
+			FT1A2B	TRUE			Com uma medida infinitesimal do meu vasto poder, subjugo-vos!	END	MonsterAttack	&FrostMad		
+	FT1A31	Nao es capaz de pronunciar o nome do mestre da Daedra de Gelo, mortal!	FT1A3A	TRUE			Porque queres esta terra?	FT1A41				
+			FT1A3B	TRUE			Mas estou apto a espetar os teus friacos.	END	MonsterAttack	&FrostMad		
+	FT1A41	Esta terra guarda misterios ricos e grandes recompensas. Mas nao para mortais. Agora vou acabar com a tua violacao profana.	FT1A4A	TRUE			Fala duro comigo, bonito.	END	MonsterAttack	&FrostMad		
+			FT1A4B	&FDBrag			Os Daedra de Fogo dizem que este reino pertence a eles.	FT1A51				
+	FT1A51	- Elas tem? Nao podemos confiar neles. Foi o nosso senhor que desafiou as forcas do Tenente Noturno! Muitos Daedra de gelo derreteram na conflagracao antes da batalha ser vencida. Ninguem pode tirar-nos esse triunfo!	FT1A5A	TRUE			Bem, eu nao sei em quem acreditar. Desculpe-me enquanto penso bem nisto.	END				
+			FT1A5B	TRUE			Se fosse a ti, explodiria todos antes que possam reclamar todo o credito pelos teus gloriosos triunfos.	FT1A61				
+	FT1A61	Nao precisamos de ser educados por um insignificante homem. Apesar de toda a sua recusa em cumprir os rigores da conduta legal, os Daedra de Fogo pertencem aqui. Nao tens. Vamos extermina-lo.	FT1A6A	TRUE			- Nao. Eu encolhi-me abjetivamente em pura antecipacao da sua furia titanica. - Que merda. Que arrogante.	END	MonsterAttack	&FrostMad		
+	FT1A71	Todos saudades XIVILAI MOATH!	FT1A7A	TRUE			- Sim, sim! Todos saudades XIVILAI MOATH!	FT1A81		&XivilaiName		
+			FT1A7B	TRUE			Agora estao sob o meu comando!	END	MonsterAttack	&FrostMad		
+	FT1A81	O grande Xivilai Moath vai trazer ordem e controlo a esta terra escura! So o Xivilai merece governar aqui!	FT1A8A	TRUE			- Sim, sim. Talvez o Xivilai nao seja o unico a planear colher o poder e a gloria para este triunfo.	FT1A91				
+			FT1A8B	&FaydraName 			A Faydra vai fritar-vos.	FT1A91				
+	FT1A91	- Nao. So o Xivilai possuira esta terra rica e escura! Ele e o verdadeiro herdeiro do grande Mehrunes Dagon! Faydra Shardai esta demasiado consumida com as futilidades e as tolices para fazer o trabalho duro da conquista. Os seus Daedra de Fogo sao demasiado frivolos para colher as riquezas do mana deste reino, tal como foram demasiado frivolos para ajudar a prender o Tenente Nocturno.	FT1A9A	TRUE			Entao, o que vamos fazer com aqueles incomodos Daedra de Fogo?	FT1A01		&FaydraName 		
+	FT1A01	O nosso pacto amaldicoado proibe-nos de lutarmos contra eles diretamente. Mas nos merecemos o mana, e eles merecem o Oblivion.	FT1A0A	TRUE			- Nao. Nao tens sorte! Tu fizeste todo o trabalho e eles ficam com todo o mana!	FT1B11				
+			FT1A0B	TRUE			- Vou fazer-te uma coisa. Se me ajudar a mata-los, eu faco o trabalho sujo por si.	FT1B21				
+	FT1B11	Es insolente, Manling. Tens de aprender uma licao.	FT1B1A	TRUE			- Optimo, optimo. Mostra-me algo chique, com dedos brilhantes.	END 	MonsterAttack	&FrostMad		
+	FT1B21	- Sim, sim! Que arranjo tao ordenado! Concordamos, e para selar o pacto, dar-vos-emos os Cristais de Gelo. O seu poderoso encanto protegera os teus ossos do calor escaldante da Daedra de Fogo.	FT1B2A	TRUE			Nao confio em ti o suficiente para levar as tuas bugigangas! Adeus, homem do gelo.	END 	MonsterAttack	&FrostMad		
+			FT1B2B	TRUE			- Obrigado, meu. Agora somos grandes amigos para sempre. - Nao e?	FT1B31	Put 27_4010			
+	FT1B31	Entenda que os servos do grande Moath Xivilai devem continuar a ataca-lo enquanto estiver dentro da Sombra Perigosa. Fugam vigorosamente de nos e ataquem a Daedra de Fogo! Vamos subjugar os nossos inimigos!	FT1B3A	TRUE			- Tu sabes disso. Agora desculpe-me enquanto acalmo algumas fogueiras.	END		&FrostPal		
+			FT1B3B	TRUE			O que sabes sobre o Dremora?	FT1B41				
+	FT1B41	Servem o nosso Senhor Mehrunes Dagon atraves da corte do Grao-Vizir, Imago Storm.	FT1B4A	TRUE			O que e que esta tempestade Imago esta a tramar?	FT1B51		&StormName		
+	FT1B51	Ele controla os detalhes da invasao, para que o nosso Senhor Mehrunes Dagon possa ser livre para pensar em pensamentos maiores.	FT1B5A	TRUE			O Imago e leal a Dagon?	FT1B61				
+	FT1B61	Que pensamentos estranhos voces mortais podem ter. Todos sao leais ao nosso Senhor Mehrunes Dagon. Agora vai e destroi o intruso Daedra de Fogo!	FT1B6A	TRUE			Obrigado pela sua sabedoria e generosidade. - Adeus. - Adeus.	END		&FrostPal		
+	FT1B71	O gigante de gelo ignora a sua tentativa de falar com ele.	FT1B7A	TRUE				END				
+	FT1B81	[Nao se pode falar.]	FT1B8A	TRUE				END				
+												
+												
+												
+												
+												
+												
+												
+												
+												

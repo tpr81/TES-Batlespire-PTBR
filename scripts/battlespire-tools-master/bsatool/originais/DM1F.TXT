@@ -1,0 +1,23 @@
+	Random Talk Tables			DM1f.xls
+	Female PC			
+	talkcheck			
+Dremora	&MethatsNice	DM1A71		
+Methats				
+				
+				
+				
+	talktable			
+	First	DM1A91		
+	Second	DM1A01		
+	Third	DM1A21		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	DM1A91		
+	34-66	DM1A01		
+	67-00	DM1A21		
+				
+				
+				
+				

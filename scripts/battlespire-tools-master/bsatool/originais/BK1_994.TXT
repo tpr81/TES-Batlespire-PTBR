@@ -1,0 +1,5 @@
+%PCF $
+Encontrei outra daquelas coisas malditas como as que estao bloqueando o Portao de Weir - e um pequeno Daedra passou direto por ela! Acho que ele tem algum tipo de amuleto especial ou algo que o deixa passar. Com certeza eu nao consigo passar. $
+Ah, e aqui esta outra dica para voce - ha uma grande gema bem perto daqui - cura voce completamente! Cara, como fiquei feliz em encontra-la! $
+
+%APF $

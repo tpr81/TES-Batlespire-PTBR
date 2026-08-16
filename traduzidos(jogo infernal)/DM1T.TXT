@@ -1,0 +1,29 @@
+		Dremora Methats					file dm1T.xls	Methats TALK	standard Dremora			
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DM1A11	O que fazes aqui, mortal? Explica-te! E o Vatasha Trenelle?	DM1A1A	TRUE			- Nao. - Sim, claro. - Nao. Tens uma mensagem para mim?	DM1A21				
+			DM1A1B	TRUE			Nao, nao estou. Sabe se ela esta por perto?	DM1A31				
+			DM1A1C	TRUE			Estou aqui para ajudar, meu senhor. Tem alguma ordem para mim?	DM1A31				
+			DM1A1D	&RathineName			O Lorde Rathine enviou-me para vos servir.	DM1A41				
+	DM1A21	Estive a sua espera e tenho uma proposta que pode poupar-lhe a vida. Por favor, coloquem as armas no chao a vossa frente, e podemos falar.	DM1A2A	TRUE			Muito bem... - Eu vou. Desde que nao seja um truque.	DM1A51	DROPREADYWEAPON			
+			DM1A2B	TRUE			Nem pensar, amigo.	DM1A51				
+												
+	DM1A31	Entao, o que e que e? Nao vejo o seu distintivo de servico. E um dos Magos da Batalha?	DM1A3A	TRUE			- Sim, e verdade. Sim, estou. E para ser justo, devo dizer-lhe que tambem sou muito poderoso.	DM1A51				
+			DM1A3B	TRUE			Na verdade, nao. Sou estudante e vim para um teste, mas parece que nao vai acontecer agora, por isso se me mostrar como sair daqui, vou-me embora. - Obrigado, meu.	DM1A61				
+			DM1A3D	TRUE			Devo te-lo deixado cair algures. Pode dar-me um novo?	DM1A51				
+			DM1A3D	&DohtAmulet			Tenho aqui um amuleto, se e a isso que se refere.	DM1A41				
+	DM1A41	- Esta bem. Preciso de ti. Os idiotas dos Scamps tem andado a tentar desactivar as ancoras. Nao viemos ate aqui para sermos roubados pelo jogo dos Scamps. Verifica as ancoras, liga-as quando necessario e certifica-te que os vigaristas nao se aproximem delas. - Descansa.	DM1A4A	TRUE			Imediatamente, meu senhor. Vou ja.	END		&MethatsNice		
+	DM1A51	Entao es um tolo e vais morrer como um.	DM1A5A	TRUE			Nao quer apostar nisso, pois nao?	END	MONSTERATTACK			
+	DM1A61	Que divertido. A saida? Sim, claro que sim.	DM1A6A	TRUE			- Obrigado, senhor.	END	MONSTERATTACK			
+												
+	DM1A71	O que e que estas a fazer aqui? Volte e proteja as ancoras imediatamente!	DM1A7A	TRUE			Como desejar, meu senhor.	END				
+			DM1A7B	&PCFemale			Queria saber se me podias contar sobre o Kaid.	DM1A81				
+			DM1A7C	&PCMale			Podia falar-me sobre o Trenelle?	DM1A81				
+	DM1A81	Ainda curioso sobre o teu amigo Mortal? Receio que seja um servo defeituoso.	DM1A8A	TRUE			Nao, nao, nao, nao quis dizer nada com isso.	END	MONSTERATTACK			
+												
+	DM1A91	O que fazes aqui, mortal? Explica-te! E o Josian Kaid?	DM1A9A	TRUE			- Nao. - Sim, claro. - Nao. Tens uma mensagem para mim?	DM1A21				
+			DM1A9B	TRUE			Nao, nao estou. Sabe se ele esta por perto?	DM1A31				
+	DM1A01	E nao se preocupe com nada do que disseres.	DM1A0A	TRUE			NOTA: Este e um dialogo padrao do NoTalk.	END				
+			dm1a1d	&RathineName			O Lorde Rathine enviou-me para vos servir.	dm1a41				
+			DM1A9C	TRUE			Estou aqui para ajudar, meu senhor. Tem alguma ordem para mim?	DM1A31				
+			DM1A9D	&RathineName			O Lorde Rathine enviou-me para vos servir.	DM1A41				
+	DM1A01	Parece pouco interessado em qualquer coisa que voce tenha a dizer.	DM1A0A	TRUE				END				

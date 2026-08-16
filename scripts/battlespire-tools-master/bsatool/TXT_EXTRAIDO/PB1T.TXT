@@ -1,0 +1,34 @@
+		Wraith of Paxti Bittor					file PB1T.xls			Wraith of Paxti Bittor		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	PB1A11	And THIS is the thanks I get. Betrayed, tortured, sucked dry, murdered. THEN, for good measure, they rip out my soul and set it adrift in THIS gods-forsaken hole.	PB1A1A	TRUE			Sounds rough. So who's the rat who betrayed you?	PB1A21				
+			PB1A1B	TRUE			Excuse me, but I don't think I want to waste my time listening to a whining wraith. Goodbye.	END				
+	PB1A21	Those dog-sired Daedra, that's who. And that damned Seducer. AND that Sirran Angada. If I get my soul-suckers into that motherless backstabber, I'll make him a hot, empty husk.	PB1A2A	TRUE			Sorry. It's none of my affair. You either help me, or stay out of my way, or I'll make it plenty hot for you.	PB1A31				
+			PB1A2B	TRUE			So. The Daedra betrayed you. I see. That's really terrible. I HATE it when that happens. Go ahead. Tell me all the details.	PB1A41				
+	PB1A31	You young puppie-snot! I'll pin your ear back for you! Being a wraith isn't paradise, but I sure don't have to take lip from skinny little brats like you.	PB1A3A	TRUE			Come and get some, whiner.	END				
+	PB1A41	Well, I realize that it's risky dealing with Daedra, but that Seducer... Well, let's just say it may not be Eight Heavens, but it's all right. And Angada promised he'd set me up like a wounded survivor, a hero...	PB1A4A	TRUE			Excuse me. Angada? Should I know that name?	PB1A51				
+	PB1A51	Sirran Angada? No, perhaps not. A leechcrafter retainer of Jagar Tharn, the Emperor's Battlemage. He set it all up. I open the gate to the Prince, he comes in, cleans out the Battlespire, and I just barely manage to escape with my life, bringing the tragic news to the Emperor and Tharn. I'm a big hero, a personal retainer of Jagar Tharn, close to the Emperor and his family. In time, I get my own province. A great deal. And I delivered! But the scum cheated me!	PB1A5A	TRUE			It really sounds like a sweet deal. I don't blame you. I'd probably have done the same thing... IF I WERE A SNEAKING, LYING, CRAVEN TRAITOR! I'm going to rip you ethereal limb from ethereal limb!	END				
+			PB1A5B	TRUE			That really steams me. I hate it when a guy welshes on a deal. Look. What does this Angada guy look like? If you want, I'll look him up and give him a good thrashing for you.	PB1A61				
+			PB1A5C	&RestBook			YOU SNEAKING, LYING, CRAVEN TRAITOR! This incantation will blast your stinking spirit to dust motes, which isn't HALF the torment you deserve, traitor!   From fifty Fathers   Frozen in slavepast!   Rip from the wraithloom!   Sunder the lifeweave!   Lock tight in earthgrip!   Hold firm in gravefast!	END	Kill AND WraithMeltSFX			
+	PB1A61	That's generous of you, but this Angada has a special Transmorph spell, so he could look like anyone. Angada was posing as Lomegan Mariel, the Emperor's Personal Liaison to the Battlespire, when the Daedra took the place, but he -- or she -- could look like anyone by now. I appreciate your help, but you might want to run away now, because I feel the hungry madness coming on again, and I'm not much fun to be around.	PB1A6A	TRUE			Thanks for the warning. Good luck. Maybe I'll see you around. Goodbye.	END				
+			PB1A6B	&RestBook			I appreciate the warning. Goodbye. Oh. But there's just one more thing. How are you with verse incantations?	PB1A71				
+	PB1A71	I'm a master. Or... I used to be, anyway. Why do you ask?	PB1A7A	TRUE			I've got a verse incantation you might find interesting... YOU SNEAKING, LYING, CRAVEN TRAITOR!   From fifty Fathers   Frozen in slavepast!   Rip from the wraithloom!   Sunder the lifeweave!   Lock tight in earthgrip!   Hold firm in gravefast!	END	Kill AND WraithMeltSFX			
+			PB1A7B				No reason. Just curious, See you around.	END				
+	PB1A81	I smell BLOOD! LIFE! Give me your BLOOD! I must have it. Now! It's there inside you, and I want it out! GIVE IT TO ME NOW!	PB1A8A	TRUE			 You look upon your doom, fiend! Back! Back into the darkness from whence you came! 	END				
+			PB1A8B	TRUE			 Perhaps I've caught you at a bad time. Maybe I'll try again later. 	END				
+			PB1A8C	&RestBook			YOU SNEAKING, LYING, CRAVEN TRAITOR! This incantation will blast your stinking spirit to dust motes, which isn't HALF the torment you deserve, traitor!   From fifty Fathers   Frozen in slavepast!   Rip from the wraithloom!   Sunder the lifeweave!   Lock tight in earthgrip!   Hold firm in gravefast!	END	Kill AND WraithMeltSFX			
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+															
+															

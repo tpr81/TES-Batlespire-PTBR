@@ -1,0 +1,22 @@
+		Dremora Tanchelm					file DT3T.xls			Tanchelm L2.2 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DT3A11	Master Kaid. This won't take long. I have something for you, and a few words.	DT3A1A	TRUE			I'm not interested.	END		&TanchelmMad		
+			DT3A1B	TRUE			I'm not Kaid. I don't know where Kaid is.	DT3A51				
+			DT3A1C	TRUE			Go ahead.	DT3A61				
+	DT3A21	Master Trenelle. This won't take long. I have something for you, and a few words.	DT3A2A	TRUE			I'm not interested.	END		&TanchelmMad		
+			DT3A2B	TRUE			I'm not Trenelle. I don't know where Trenelle is.	DT3A51				
+			DT3A2C	TRUE			Go ahead.	DT3A61				
+	DT3A31	[[Lost in concentration… or the appearance of concentration… it does not seem to hear you.]]										
+	DT3A32	[[It pays no attention to you.]]										
+	DT3A33	[[It does not appear to be interested in speaking with you.]]										
+	DT3A41	You are being tiresome. We have misjudged you. I believe no purpose to be served by prolonging this interview.	DT3A4A	TRUE			Fine.	END		&TanchelmMad		
+												
+	DT3A51	Very well. Your name does not interest me. Can I continue?	DT3A5A	TRUE			No. I don’t care what you have to say, and don't want anything you have to give.	END		&TanchelmMad		
+			DT3A5B	TRUE			Go on.	DT3A61				
+	DT3A61	You amuse us. It may suit us to preserve you from time to time. Do not presume upon this favor. The moment you are foolish enough to rely on our aid, we shall withhold it, and seek our amusement elsewhere. Understood?	DT3A6A	TRUE			I think I understand. Go on.	DT3A71				
+	DT3A71	From time to time you may do us a favor. We put little stock by such, but small things may please us where large things would offend.	DT3A7A	TRUE			I make no promises.	DT3A81				
+			DT3A7B	TRUE			I understand, and I agree.	DT3A81				
+	DT3A81	Your agreement is of little account in this. We do as we will. Finally, I have prepared a few notes for your review that may make things a bit clearer. Will you take them from my own hand?	DT3A8A	TRUE			No way. They could be poisoned, or trapped, or cursed, or anything.	DT3A91				
+			DT3A8B	TRUE			Yes. Thank you.	DT3A01	PUT 32_002 			
+	DT3A91	I understand. And take no offense. Then, if you'll excuse me, other affairs demand my attention.	DT3A9A	TRUE			Fine. I've a lot to do myself.	END	Teleport_0	&TanchelmDone		
+	DT3A01	I doubt we shall meet again, and even if we do, I shall not recognize you. Goodbye.	DT3A0A	TRUE			Goodbye. And thank you.	END	Teleport_0	&TanchelmDone		

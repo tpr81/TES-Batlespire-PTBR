@@ -1,0 +1,23 @@
+	Random Talk Tables			file FS1b.xls
+				
+	talkcheck			
+Faydra L6	&FayMad	FS1A01		
+	&FayDupe	FS1B11		
+				
+				
+				
+	talktable			
+	First	FS1A11		
+	Second	FS1A11		
+	Third	FS1A11		
+	Fourth +	FS1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				

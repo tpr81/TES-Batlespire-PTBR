@@ -1,0 +1,20 @@
+COMPÊNDIO DE STARKHORN DE SUAS ARTES E OFÍCIOS NOS REINOS DOS ENCANTAMENTOS MENORES
+CUIDADO. As excelências das minhas obras nem sempre podem estar visíveis aos olhos, e podem jazer no fundo da trama e do urdume do tecido espiritual.
+O Machado de Batalha da Lâmina Rápida de Starkhorn possui encantamentos que aprimoram as habilidades de LÂMINA CURTA, e concede alguma Resistência a Choque quando equipado pelo proprietário.
+As Botas da Ligeireza de Starkhorn proporcionam algumas habilidades nas artes de CORRER e, quando em uso pelo proprietário, fornecem uma modesta Resistência a Veneno.
+A Espada Larga da Sabedoria Oculta de Starkhorn concede benefícios nas disciplinas de TAUMATURGIA e, quando equipada, confere uma medida de Resistência a Magia para seu proprietário.
+A Clemora da Sabedoria Desconhecida de Starkhorn proporciona algumas habilidades nas artes do MISTICISMO e, quando em uso pelo proprietário, fornece uma modesta Resistência a Veneno.
+A Besta do Voo Certeiro de Starkhorn proporciona algumas habilidades nas artes de PROJÉTEIS e, quando em uso pelo proprietário, fornece uma modesta Resistência a Veneno.
+A Curaça do Nadador de Starkhorn proporciona algumas habilidades nas artes de NATAÇÃO e, quando em uso pelo proprietário, fornece uma modesta Resistência ao Fogo.
+A Adaga da Sabedoria Verde de Starkhorn concede benefícios nas disciplinas de RESTAURAÇÃO e, quando equipada, confere uma medida de Resistência a Todos os Elementos para seu proprietário.
+As Manoplas da Sabedoria Vermelha de Starkhorn possuem encantamentos que aprimoram as habilidades de DESTRUIÇÃO, e concedem alguma Resistência a Choque quando equipadas pelo proprietário.
+As Grevas do Salto de Starkhorn concedem benefícios nas disciplinas de SALTAR e, quando equipadas, conferem uma medida de Resistência a Magia para seu proprietário.
+O Elmo do Espreitar de Starkhorn concede benefícios nas disciplinas de FURTIVIDADE e, quando equipado, confere uma medida de Resistência a Todos os Elementos para seu proprietário.
+O Dardo do Golfinho de Starkhorn possui encantamentos que aprimoram as habilidades de NATAÇÃO, e concede alguma Resistência a Todos os Elementos quando equipado pelo proprietário.
+O Arco Longo do Golpe de Starkhorn concede benefícios nas disciplinas de ARMASCONTUNDENTES e, quando equipado, confere uma medida de Resistência a Magia para seu proprietário.
+A Espada Longa da Sabedoria Dourada de Starkhorn possui encantamentos que aprimoram as habilidades de ALTERAÇÃO, e concede alguma Resistência ao Gelo quando equipada pelo proprietário.
+A Maça do Punho Chifrudo de Starkhorn proporciona algumas habilidades nas artes de COMBATECORPOACORPO e, quando em uso pelo proprietário, fornece uma modesta Resistência ao Fogo.
+As Hombreiras da Surpresa de Starkhorn possuem encantamentos que aprimoram as habilidades de ATAQUE POR TRÁS, e concedem alguma Resistência ao Gelo quando equipadas pelo proprietário.
+A Espada Curta da Sabedoria Prateada de Starkhorn proporciona algumas habilidades nas artes da ILUSÃO e, quando em uso pelo proprietário, fornece uma modesta Resistência ao Fogo.
+O Arco Curto da Mordida Profunda de Starkhorn possui encantamentos que aprimoram as habilidades de MACHADO, e concede alguma Resistência ao Gelo quando equipado pelo proprietário.
+O Machado de Guerra do Golpear de Starkhorn concede benefícios nas disciplinas de LÂMINA LONGA e, quando equipado, confere uma medida de Resistência a Todos os Elementos para seu proprietário.

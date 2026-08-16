@@ -1,0 +1,16 @@
+		Lesser Lord					file ML1T.xls			Minor Lord L6 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	ML1A11	I have assured My Lord Imago that you will not be interested in speaking with him. It should not be difficult to persuade you. It is always possible that I am wrong. Do you think that possible? That I could be wrong?	ML1A1A	TRUE			Oh, no, your Lordship. Never. I'll just be leaving then.	END				
+			ML1A1B	TRUE			Not knowing the future, your Lordship, my guess is of scant interest. But ask me again sometime, if you still can.	END				
+			ML1A1C	TRUE			Whether I am interested in speaking with Lord Imago is of little account. What matters is whether Lord Imago wishes to speak with me, and in that, I am his willing servant.	ML1A21				
+	ML1A21	If I cannot persuade you that you are not interested in speaking with him, then, indeed, Lord Imago wishes to speak with you. I carry an amulet. When you have that amulet, then you may know that My Lord will speak with you.	ML1A2A	TRUE			I see. And you will not just give me the amulet.	ML1A31				
+			ML1A2B				I have an amulet, and do not desire another.	ML1A41				
+			ML1A2C				I'm sorry, but I'm in a hurry and don't have time for courtly chatter. Excuse me while I beat the living daylights out of you.	END		&LordMad		
+	ML1A31	No. Of course not. Do you jest?	ML1A3A	TRUE			No. I do not jest. I earnestly desire the amulet, and if it were available for the asking, it would be arrogant to neglect to ask. Therefore, I honor you, and your offices. Let us proceed with the weighty matters of persuasion.	END		&LordMad		
+	ML1A41	That is very interesting, and possibly true. Yet I still require that you satisfy me with proof upon my body that you are fit to speak with My Lord.	ML1A4A	TRUE			Okay. Then proof on the body it is. Batter up?	END		&LordMad		
+	ML1A51	I can't see or hear you, manling. You don't exist. Don't be here, and offend neither my senses nor my wit.	ML1A5A	TRUE			[Leave without a word.]	END				
+			ML1A5B	&Iya			Sorry about banishing your compatriot to Oblivion. He should have just given me the amulet, and been done with it.	END	MonsterAtttack			
+			ML1A5C	TRUE			Hah-hah-hah! You're not so tough. I could take you with my bare hands. Come on. Wanta fight? 	END	DropReadyWeapon	&LordMad		
+	ML1A61	[[He gazes at you, hefting his weapon, but says not a word.]]	ML1A6A	TRUE				END				
+	ML1A71	[[He says nothing, but his eyes betray his anger.]]	ML1A7A	TRUE				END				
+	ML1A81	[[He watches you coolly, but says nothing.]]	ML1A8A	TRUE				END				

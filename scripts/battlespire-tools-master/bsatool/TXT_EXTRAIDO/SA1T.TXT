@@ -1,0 +1,41 @@
+		Sirran Angada					file SA1T.xls			Sirran Angada L6 TALK		
+	Saycode	NPC SAY		CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SA1A11	Why have I been kept waiting? Lord Dagon will wish to see me immediately. The portents are most propitious, but a crisis is coming, and he will wish to take the tides at their flood.	SA1A1A	TRUE			It is all a mystery to me, sir. In fact, I have no idea who you are or why you are here. I pass this way looking for a pair of Boots of Grotesque Liveliness that seem to have gone missing. You haven't seen them anywhere have you?	SA1A21				
+	SA1A21	This is unacceptable! This is but the calm before the storm. The tides of magic are at the remotest ebb. His Lordship MUST be prepared to ride them at their flood, or all may be lost!	SA1A2A	TRUE			Sorry. Don't know WHAT you're talking about. But if you'll give me your name, your purpose, and a brief message, I'll see that it gets to Lord Dagon, or one of his chief lieutenants, right away.	SA1A31				
+	SA1A31	See here. My name is Sirran Angada. I'm a mortal sorcerer.	SA1A3A	TRUE			Well, anyone can see that.	SA1A41				
+	SA1A41	Listen, knave, and cease your prattle. My Lord, Jagar Tharn, the mortal Emperor of Tamriel, and your Lord Dagon are ordering affairs high above your counsel. Tell someone in authority that I MUST speak with his Lordship. 	SA1A4A	TRUE			What? I'm not up on current affairs, but isn't the manling Emperor called Septic or Septem or September or something.	SA1A51				
+	SA1A51	Gooood. Gooood. You CAN think, after a fashion. Yes, Tamriel BELIEVES that Uriel Septem still rules, but in fact, my master Jagar Tharn, has taken the form of the Emperor and rules in his stead. 	SA1A5A	TRUE			That is VERY interesting. But what has that got to do with you and Lord Dagon?	SA1A61				
+	SA1A61	Lord Dagon was instrumental in assisting my master in this imposture, and as partial recompense, my master has temporarily placed my not-inconsiderable skills in reading the vagaries of the magica tides at your master's disposal. And it is this very counsel that your master so earnestly desires THAT YOU ARE KEEPING FROM HIM BY YOUR SILLY QUESTIONS.	SA1A6A	TRUE			Lord Dagon is always VERY busy, and not likely to take interest in the incomprehensible babble of a manling booby.	SA1A71				
+	SA1A71	Listen. The fate of the Realms and all that is in them is affected by the ebb and flow of magica. Out there, in the Void, the Waters of Oblivion have receded far from the shores of the mortal and immortal realms.	SA1A7A	TRUE			Oh. Say. Is that what all this claptrap lying around is about? Are these those – whatchamachit – magiscopes? Can you really see the Beginning and the Ends of the Worlds in those things? Hey. How about my fortune? Tell me my fortune?	SA1A91				
+	SA1A81	[Through clenched teeth] These devices are far too sensitive to scry upon the coarse and unsubtle fates of toads like you. These devices track the Tides of Fate. But I can tell your fortune, if you like.	SA1A8A	TRUE			Oh, yes, please!	SA1A91				
+	SA1A91	If, by your feckless inanity and indolence, you fail to carry this message to Lord Dagon, and thereby squander the precious wisdom that might be used to shape the destinies of all the mortal and immortal realms, I believe Lord Dagon may use your mouth, and, indeed, your entire alimentary canal, as a fit and handy receptacle for his Terrible and Swift Sword of Destruction!	SA1A9A	TRUE			Oh. That sounds pretty unpleasant. So. I'll just go and deliver your message, then. Right?	SA1A01				
+			SA1A9B	TRUE			Ahem. Look. I'm not a Daedra. I am, in fact, an Imperial Battlemage. Or, at least, I WILL be one. Very soon. And you are apparently the traitor responsible for opening the gates of Battlespire to the servants of Dagon.	SA1B11				
+	SA1A01	What a SPLENDID idea. How did it EVER occur to you? 	SA1A0A	TRUE			Right, then. I'm away. I'll tell his Lordship, or a lieutenant, or maybe some other nice Daedra Lord, who isn't too terrible busy, all about the magiscopes and tides and everything. Bye.	END		&AngadaMad		
+	SA1B11	What? What? Oh. Dear.	SA1B1A	TRUE			The price of treason is death. I would prefer to bring you before the Emperor himself – wherever he is – if he still lives – for His Justice, but I'm afraid I'm in a bit of a hurry. So. I pronounce upon you the Summary Justice of Emperor Uriel Septem, in his name, and by his Law.	SA1B21				
+	SA1B21	But you can't just kill me in cold blood. What about due process? My rights as a noble?	SA1B2A	TRUE			I condemn you to die by the sword for your abominable deeds. Prepare to meet your ancestors.	END	Kill			
+			SA1B2B	TRUE			Okay. You have a point. So it's Trial by Combat. Defend yourself, dog, and prove your innocence upon my body.	END	Kill			
+			SA1B2C	TRUE			Try begging me for mercy.	SA1B31				
+	SA1B31	Hah. I'd rather die than beg mercy from you, stripling.	SA1B3A	TRUE			Okay. Suit yourself. Then prepare to die, traitor!	END	Kill			
+			SA1B3B	TRUE			You deserve to die, traitor. But I'll not soil my hands with the deed. I have more important things to do. So come or go as you like, Angada. Perhaps you have some further part to play in this drama, for good or for evil, and I will not interfere. Goodbye.	END		&AngadaSad		
+	SA1B41	You again? Have you delivered the message?	SA1B4A	TRUE			Yes. Well. Sort of. In a way.	SA1B51				
+				TRUE			No. Couldn't find no one to tell, your Honor. Quite a muddle out there.	SA1B51				
+	SA1B51	THEN GO! TELL SOMEONE! ANYONE! ANYTHING SLIGHTLY WISER THAN YOURSELF. A PLANT! A BENCH! A DUST BALL! GO! GO! GO!	SA1B5A	TRUE			Right, away, your Honor.	END		&AngadaMad		
+	SA1B61	No, no, no! Please! Spare me!	SA1B6A	TRUE			I'm sorry. Can't do that. Can't make a special exception for a vile traitor. But very nice job begging. Most touching. Goodbye, then.	END	Kill			
+			SA1B6B	TRUE			You deserve to die, traitor. But I'll not soil my hands with the deed. I have more important things to do. So come or go as you like, Angada. Perhaps you have some further part to play in this drama, for good or for evil, and I will not interfere. Goodbye.	END		&AngadaSad		
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+
+
+
+
+
+												

@@ -1,0 +1,5 @@
+		Dremora Oathkin					file DR1T.xls			Dremora L1 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DR1A11	[[It politely but firmly refuses to speak with you.]]										
+	DR1A21	[[With a dismissive gesture it declines your offer to parlay.]]										
+	DR1A31	[[It does not appear willing to enter into conversation with you.]]										

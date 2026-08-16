@@ -1,0 +1,21 @@
+		Clannfear Oathkin					file CF3T.xls			Clannfear Truculent Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CF3A11	How dare you, mortal? Fool, or assassin? Spy, or thief? Then here is your reward, sneak-thing – DEATH!	CF3A1A	TRUE			Look. No offense. But I've been shucking skins off your lizard guys like my Mom used to shuck peas. Think a bit. Shouldn't you wait for help?	01-50: CF3A21 51-00: CF3A51				
+	CF3A12	Pinkskin! Intruder! Alarms! 	CF3A1B	&Tayem			Amulet. See the amulet. Pals? Allies? Monsters-in-arms? Big buddies with all toothy horrors. 	01-50: CF3A31 51-00: CF3A41				
+			CF3A1C	&Tayem			Shh! Secret! I bear Xivilai's amulet, and come with important, hush-hush message! SSSSHHHH!	01-50: CF3A31 51-00: CF3A41				
+	CF3A21	Clannfear not scared of sneaky pinkskin. Clannfear SMART. Clannfear talks and talks and talks with pinkskin. Soon -- plenty of Clannfear, Yes? You waits here? Yes?	CF3A2A	TRUE			Yeah? Well, I'll take you on, and all your little friends, too.	END	Summon CF_2			
+	CF3A31	Foolish manling. Such foolish lies. Such insults! To think we would swallow such toad-droppings? You do us a great wrong.	CF3A3A	TRUE			I apologize most sincerely for impugning your modest wit. Forgive me. I didn't even know you had ANY wit! Hah-hah-hah. I slay me.	END	MonsterAttack	&FearMad		
+	CF3A41	Silly manling! Amulet means NOTHING! You TRESPASS upon the Lord's land, and show no token of his pleasure. Perhaps he will be pleased with your SKIN!	CF3A4A	TRUE			Say. You wouldn't have a drink of water handy? 'Cause this skinning Clannfear is thirsty work.	END	MonsterAttack	&FearMad		
+	CF3A51	Get out! Now. Keep OUT! Plenty loot elsewhere -- take Herne's share, yes! Not Clannfear! Go. Now. And we spares you! 	CF3A5A	TRUE			Okay. Fine. Good idea. Plenty of goodies elsewhere. Okay. I'll cut you a break this time. Later, maybe.	END	MonsterWait_60	&FearMad		
+	CF3A61	What? Why talk? What talk? Hates talk!	CF3A6A	TRUE			Hey? Your Lord Xivilai grants me his protection. Why are you beating on me?	CF3A71				
+	CF3A71	Clannfear not stained as traitors, no! Lord says, "Flesh not slain – but  chasten flesh as nasty Oathkin, trespass on customs." Flesh provokes us? Feel teeth and claws. But goes quiet, leaves us? Smart flesh, yes.	CF3A7A	TRUE			I was just leaving. Heh-heh-heh.	END	MonsterAttack	&FearMad		
+			CF3A7B	TRUE			Taste my steel. And boot. And fireball. And this old piece of cloth. And this lump of wax. And some lint.	END	MonsterAttack	&FearMad		
+	CF3A91	Vengeance! Our Lord is wounded! Someone has wounded our Lord!	CF3A9A	TRUE			Hi. It was me. I just kicked your Lord's butt into Oblivion. Come over here, and I'll kick your scaly little butt, too.	END	MonsterAttack	&FearMad		
+			CF3A9B	TRUE			Oh. Oh. Betrayal! Treason! Faydra and her Hernes have treacherously cast Xivilai into Oblivion! Fall upon the traitors, and avenge the Exile of our noble Lord.	01-50: CF3A01 51-00: CF3B11				
+	CF3A01	And you? You took no part, flesh? You LIE! And you DIE!	CF3A0A	TRUE			You're green. You know that? Only animals and plants are green. Therefore, you are a stupid animal or a stupid plant. That's logic. Or maybe you're a bug.	END	MonsterAttack	&FearMad		
+	CF3B11	Betrayal! Treason! War upon Faydra, and all her faction!	CF3B1A	TRUE			Yeah! Get 'em! Hang him high! Bake the traitors! Make war on Faydra! Woo, woo!	END	PCTeam			
+												
+												
+	CF3B21	[[It hisses and spits, but speaks no words.]]	CF3B2A	TRUE				END				
+	CF3B31	[[It sniffs and eyes you hungrily.]]	CF3B3A	TRUE				END				
+	CF3B41	[[It peers at you, then its claws, then yawns wide, displaying its teeth.]]	CF3B41	TRUE				END				

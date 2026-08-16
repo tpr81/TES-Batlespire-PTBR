@@ -1,0 +1,51 @@
+Codex Arcana, Volume II
+
+ESTUDANTES E ESTUDIOSO: Atentem para nossas Abjuracoes!$DEMONSTRANDO A DEVIDA PROPRIEDADE NA CUSTODIA DOS LIVROS$
+
+Nao apenas prestamos servicos ao Imperador ao preparar volumes de novos livros, mas tambem exercemos um oficio de sagrada piedade quando tratamos os livros com cuidado, e novamente quando os restauramos aos seus devidos lugares e os encarregamos a uma custodia inviolavel; para que eles possam se regozijar na pureza enquanto os temos em nossas maos, e descansar em seguranca quando forem restaurados aos seus repositorios. E certamente, depois das vestes e maquinas dedicadas a gloria do Imperador, os livros arcanos merecem ser devidamente tratados pelo mago de batalha, aos quais grandes danos sao causados todas as vezes que sao tocados por maos impuras. Por isso, julgamos conveniente alertar nossos estudantes contra varias negligencias, tais como as que poderiam ser facilmente avoided e que causam danos incriveis aos livros.$
+
+Sendo a continuacao de um indice parcial de artefatos arcanos conhecidos pelos estudiosos e alquimistas de Battlespire, para que esses artefatos possam ser mais facilmente conhecidos por todos os estudantes, e nem abusados, nem negligenciados, nem desperdicados em seu uso.$
+$
+"Faremyle de Golpes Ardentes"$
+Concede o poder de Dano Medio por Fogo$
+$
+"Pai da Praga"$
+Produz a conjuracao de Dano Contínuo Medio a vitima$
+$
+"Espinha de Rancor"$
+Produz a conjuracao de Dano Contínuo Menor a vitima$
+$
+"Flocos de Neve"$
+Produz a conjuracao de Dano Menor por Frio$
+$
+"Chama da Vigilia Maior"$
+Conjura a magia de Escudo Medio$
+$
+"Garfos de Geada nos Ossos"$
+Conjura a magia de Dano Maior por Frio a Distancia$
+$
+"Esmalte de Misterios"$
+Produz a conjuracao de Dano Medio Retardado$
+$
+"Brilho da Protecao contra Choque"$Produz a conjuracao de Resistencia a Choque$
+$
+"Arauto da Agonia"$
+Concede o poder de Dano Contínuo Maior a vitima$
+$
+"Escarificador da Marca do Mago"$
+Conjura a magia de Dano Maior por Magia$
+$
+"Coracao da Forca Subtil"$
+Produz a conjuracao de Dano Menor por Choque$
+$
+"Chifre da Dor do Mago"$
+Concede o poder de Dano Medio por Magia a Distancia$
+$
+"Matiz do Aprendiz"$
+Conjura a magia de Dano Medio por Veneno$
+$
+"Casca da Protecao Flamejante"$
+Conjura a magia de Resistencia ao Fogo$
+$
+"Incidencia do Mordedor Mordido"$
+Produz a conjuracao de Escudo de Fogo$

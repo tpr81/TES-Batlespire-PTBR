@@ -1,0 +1,27 @@
+	Random Talk Tables			file FT2B.xls
+Frost L5				
+	talkcheck			
+	&FrostMad	FT2C41		
+				
+				
+				
+				
+	talktable			
+	First	FT2A11		
+	Second	FT2A91		
+	Third	FT2C31		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-20	FT2A11		
+	21-40	FT2A91		
+	41-60	FT2C21		
+	61-80	FT2C31		
+	81-00	FT2C41		
+				
+				
+
+
+				
+				

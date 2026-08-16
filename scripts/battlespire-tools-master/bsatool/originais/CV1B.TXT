@@ -1,0 +1,27 @@
+	Random Talk Tables			CV1b.xls
+				
+	talkcheck			
+Clanetavious	&ClarenDone	CV1B71		
+	&Dismissed2	CV1B61		
+	&Dismissed	CV1A91		
+				
+				
+	talktable			
+	First	CV1A11		
+	Second	CV1A11		
+	Third	CV1A11		
+	Fourth +	CV1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

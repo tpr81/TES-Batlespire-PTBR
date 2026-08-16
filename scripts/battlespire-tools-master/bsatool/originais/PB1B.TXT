@@ -1,0 +1,18 @@
+	Random Talk Tables			file PB1B.xls
+	Paxti Bittor			
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	PB1A11		
+	Second	PB1A81		
+	Third	PB1A11		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-50	PB1A11		
+	51-00	PB1A81		

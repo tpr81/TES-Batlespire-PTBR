@@ -1,0 +1,35 @@
+		Perthan Oathkin								Spider Daedra L2.2 TALK			
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SD1A11	- Sim, sim! Adoro falar enquanto luto. De que vamos falar? Feridas? Amor de macaco quente e sujo? As aspargimas? Queimaduras?	SD1A1A	TRUE			Estava a pensar. Tudo o que ouvi sobre a vida sexual das aranhas e bastante terrivel. - Entao? - Estas a...? - Nao. E como...?	SD1A51					
+	SD1A12	Isto vai ser divertido, espero. Nao vais ser chato, pois nao? Odeio aborrecer.	SD1A1B	TRUE			Pareces um tipo divertido. Que tal irmos dar uns bocados a esses cupins de orelhas longas e aos palhacos de bracos longos e cabeca pontilhada?	SD1A61					
+	SD1A13	O que e que queres? Odeio falar.	SD1A1C	TRUE			- Ola, meu. - O que se passa? - Nao sei. O que e que se passa aqui? Quem e quem e o que e o que?	SD1A71					
+			SD1A1D	&GatanasName AND NOT &WearAmuletM			So estava curioso. O que acham voces, os aranhas, de Gatanas e dos amigos do Cla Dremora?	SD1A81					
+			SD1A1E	&RishaalName AND NOT &WearAmuletR			So estava curioso. O que acham voces, os aranhas, da Rishaal e dos amigos do Cla dos Escandalos?	SD1A91					
+			SD1A1F	&ZenaideName AND NOT &WearAmuletZ			So estava curioso. O que acham voces, os aranhas, da Zenaide e dos amigos do Cla Vermai?	SD1A01					
+			SD1A1G	&WonshalaName AND NOT &WearAmuletW			Estava a pensar. A Wonshala nao e a responsavel, pois nao? Quem e o chefe, e porque nao o destrocam e tiram as coisas dele?	SD1B11					
+			SD1A1H	&MethatsName AND &WearAmuletM			So estava curioso. O que acham voces, os aranhas, de Gatanas e dos amigos do Cla Dremora?	SD1B21					
+			SD1A1I	&RishaalName AND &WearAmuletR			So estava curioso. O que acham voces, os aranhas, da Rishaal e dos amigos do Cla dos Escandalos?	SD1B31					
+			SD1A1J	&ZenaideName AND &WearAmuletZ			So estava curioso. O que acham voces, os aranhas, da Zenaide e dos amigos do Cla Vermai?	SD1B41					
+			SD1A1K	&WonshalaName AND &WearAmuletW			Estava a pensar. A Wonshala nao e a responsavel, pois nao? Quem e o chefe, e porque nao o destrocam e tiram as coisas dele?	SD1B51					
+	SD1A21	Nao e altura para conversa fiada. Podemos falar mais tarde, quando nao puderes fazer nada, a nao ser ficar ali deitada a cuspir os dentes.	SD1A2A	TRUE			Porque e que es tao severo? Deves ter comido um buche de ameixas.	END	MONSTERATTACK 	&SpiderMad			
+	SD1A31	- Ola, meu. Tenho de te dizer. O meu veneno? Vai fazer-te cair como um pudel. E quando estas a falhar? - Nao! Depois vem a minha danca especial de garras afiadas. - Nao, nao.	SD1A3A	TRUE			- Oh, sim. Ainda bem que resolvemos isso.	END	MONSTERATTACK 	&SpiderMad			
+	SD1A41	E ele danca impaciente, sorrindo.		TRUE					MonsterAttack				
+	SD1A42	E ele te olha, inclinado,		TRUE					MonsterAttack				
+	SD1A43	Olha para ti, mas nao diz nada.		TRUE					MonsterAttack				
+													
+													
+	SD1A51	- Sexo? Queres dizer ovos e reproducao? Isso e uma coisa aborrecida para mortais. Nos nos divertimos em magoar coisas. Como tu.	SD1A5A	TRUE			Obrigado por esclareceres isso para mim.	END	MONSTERATTACK 				
+	SD1A61	Nao, nao. Tenho de deixar os camaroes e batatas em paz. So ha uma coisa no menu esta noite, e e o homem.	SD1A6A	TRUE			Bom apetite.	END	MONSTERATTACK 				
+	SD1A71	Aqui estao as noticias. Nos ganhamos! O Battlespire e nosso. Os Magos perdem. A pregada esta morta. Estou a resolver uns assuntos. E tu es a ultima ponta solta.	SD1A7A	TRUE			- Parabens, meu. E boa sorte a resolver esta questao, amigo.	END	MONSTERATTACK 				
+			SD1A7B	TRUE			Ja esta tudo feito, nao e? E quanto aquele voidguide desaparecido de que ouvi falar?	SD1B61					
+	SD1A81	- Freaks de livros. Sao mesmo chupadores. Meio como cobras, mas demasiado maricas para lutar. Os trapaceiros usam essa treta de feiticeiro. - Esgueira-se. Vender-te, e depois incriminar-te. Mas tem os seus pontos positivos. A pele solta-se muito facilmente.	SD1A8A	TRUE			- Sim, e. Disseste uma mordida, amigo.	END	MONSTERATTACK 				
+	SD1A91	So ha problemas. E muitas delas. Mas precisas deles para o trabalho sujo e molhado. A Rishaal recebe ordens, e os chefes gostam disso, mas as tropas dela estao simplesmente arrependidas.	SD1A9A	TRUE			Eu ouco-te.	END	MONSTERATTACK 				
+	SD1A01	Os Vermai sao fortes e estupidos. Nao sei como e que o Zenaide os mantem em linha. Confiavel, se gostas desse tipo de coisas.	SD1A0A	TRUE			- Sim, e. Confiavel. - Quem se importa?	END	MONSTERATTACK 				
+	SD1B11	Wonshala? Trair Sua Alteza? Nao, nunca. Adoramos o Alto Senhor Sumeer. E com esta conquista do Battlespire, o prestigio dele entre os Clas esta muito alto.	SD1B1A	TRUE			- O que? - O que? Ela esta a ouvir ou que?	END	MONSTERATTACK 				
+	SD1B21	Abencoado seja o Dremora. E abencoado seja Gatanas. Sempre a pensar. Grandes feiticeiros. E confiavel. Mais ou menos.	SD1B2A	TRUE			- Sim, e. Eu tambem os adoro.	END	MONSTERATTACK 				
+	SD1B31	Deus abencoe Rishaal. Ela tem as maos ocupadas com aqueles adoraveis bandidos. - Que fofinhos, nao e? Talvez nao seja esperto, mas fiel, duravel e apenas um pouco covarde.	SD1B3A	TRUE			- Claro que sao fofinhos.	END	MONSTERATTACK on END.				
+	SD1B41	O Zenaide e esperto. Esta tudo bem. E o Vermai... Bem... eles sao certamente perversos, nao sao?	SD1B4A	TRUE			Absolutamente o mais cruel.	END	MONSTERATTACK 				
+	SD1B51	Acho que o Wonshala nao consegue levar o Sumeer. Duvido que ela tentasse. Mas quem quer ser chefe?	SD1B5A	TRUE			- Sim, sim. Nos, soldados, temos toda a diversao, os chefes tem todas as preocupacoes.	END	MONSTERATTACK 				
+													
+	SD1B61	Ouvi dizer que os Scamps partiram o guia e esconderam as pecas, e agora nao podemos voltar ate que seja restaurado. Alguns escravos vao sair, com certeza, e chefes assados tambem.	SD1B6A	TRUE			- Nao, nao. Aqueles canalhas! Tens de adorar.	END	MONSTERATTACK 				
+													

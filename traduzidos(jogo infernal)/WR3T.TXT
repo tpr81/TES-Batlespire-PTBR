@@ -1,0 +1,18 @@
+		Wraith					file WR3T.xls			Waith L8 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	WR3A11	Tens a armadura do esconderijo do Salvador?	WR3A1A	&Armor			Quem quer saber?	WR3A21				
+			WR3A1B	&NotArmor			Quem quer saber?	WR3A41	PUT 24_5010 AND PUT 25_5011 AND PUT 26_5012 AND PUT 27_5013 AND PUT 28_5014 AND PUT 29_5015			
+			WR3A1C	&Armor			- Espera, espera. Nao pareces bem. Es mesmo um Wraith?	WR3A31				
+			WR3A1D	&NotArmor			- Espera, espera. Nao pareces bem. Es mesmo um Wraith?	WR3A51	PUT 24_5010 AND PUT 25_5011 AND PUT 26_5012 AND PUT 27_5013 AND PUT 28_5014 AND PUT 29_5015			
+			WR3A1E	&NotArmor			- O que? - O que? Que armadura? - Nao. A armadura que o velho Chimere me disse que me protege contra um quebra-de-juramento? Nao, nao. Nao tenho dinheiro. Na verdade, nao me lembro do que fiz com ele.	WR3A61	PUT 24_5010 AND PUT 25_5011 AND PUT 26_5012 AND PUT 27_5013 AND PUT 28_5014 AND PUT 29_5015			
+	WR3A21	Alguem que deseja ver-te ter sucesso na tua missao. E que esta contente por teres vindo preparado para enfrentar Dagon. - Adeus. - Adeus.	WR3A2A	TRUE			- Espera, espera. Quem e voce? - O que? - O que se passa? - Nao sei.	END				
+	WR3A31	Nao, nao. Assumi esta forma para passar despercebida no dominio do Senhor Dagon. Mas nao posso ficar aqui, agora que a minha tarefa foi cumprida. - Adeus. - Adeus.	WR3A3A	TRUE			- Espera, espera. Quem e voce? - O que? - O que se passa? - Nao sei.	END				
+	WR3A41	Alguem que deseja ver-te ter sucesso na tua missao. E como vais precisar da armadura do esconderijo do Salvador, vim para me certificar que a tens. - Adeus. - Adeus.	WR3A4A	TRUE			- Nao. - Obrigado, meu. Seja o que for. Acho que sim.	END	Kill			
+	WR3A51	Nao, nao. Assumi esta forma para passar despercebida no dominio do Senhor Dagon. E trouxe-te algo de que te alegraras quando estiveres diante do Senhor Dagon. Adeus, e boa sorte.	WR3A5A	TRUE			- Nao. - Obrigado, meu. Seja o que for. Acho que sim.	END	Kill			
+	WR3A61	Como eu temia. Mas nao importa, porque eu trouxe o que voce precisa. Adeus, e boa sorte.	WR3A6A	TRUE			- Nao. - Obrigado, meu. Seja o que for. Acho que sim.	END	Kill			
+							
+												
+												
+												
+							
+							

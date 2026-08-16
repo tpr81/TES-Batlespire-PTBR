@@ -1,0 +1,27 @@
+	Random Talk Tables			file ZZ1B.xls
+Dagon				
+	talkcheck			
+	&DagonNoTalk	ZZ1A91		
+				
+				
+				
+				
+	talktable			
+	First	ZZ1A11		
+	Second	ZZ1A11		
+	Third	ZZ1A11		
+	Fourth +	ZZ1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

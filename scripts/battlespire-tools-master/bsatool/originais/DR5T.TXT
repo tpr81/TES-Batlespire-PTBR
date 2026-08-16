@@ -1,0 +1,6 @@
+		Dremora Oathkin					file Dr5T.xls			Dremora Informant Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DR5A11	Achamos que vai achar util este Amuleto Quam da Passagem. Agora, se nao tiver mais perguntas, vou-me embora.	DR5A1A	TRUE			Bem, tenho muitas perguntas para si, Sr. - E misterioso. Por um lado, o que fazes por ai neste tunel sem saida?	DR5A21	PUT 31_9017			
+			DR5A1B	TRUE			Obrigado pelo amuleto, mas importas-te de me dizer porque estas a ser tao util?	DR5A31	PUT 31_9017			
+	DR5A21	- Estou a tua espera. Es muito previsivel. Seria melhor nao nos verem juntos, entao adeus.	DR5A2A	TRUE			- Nao. Entao, sou previsivel, nao sou? - Vamos ver.	END	Teleport_0			
+	DR5A31	E mais um dos pequenos misterios da vida, manling. Mas nao tens de que. Boa sorte e adeus.	DR5A3A	TRUE			E sempre um prazer.	END	Teleport_0			

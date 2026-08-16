@@ -1,0 +1,23 @@
+	Random Talk Tables			file dr2b.xls
+				
+	talkcheck			
+Dremora L2	&DremoraNice	DR2A32		
+	&DremoraFoe	DR2A21		
+	&DremoraMad	DR2A41		
+				
+				
+	talktable			
+	First	DR2A13		
+	Second	DR2A31		
+	Third	DR2A11		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-10	DR2A11	Who are you?	
+	11-20	DR2A12	Who are you?	
+	21-30	DR2A13	Who are you?	
+	31-40	DR2A41	Angry	
+	41-60	DR2A31	NoTalk default	
+	61-80	DR2A32	NoTalk default	
+	81-00	DR2A33	NoTalk default	

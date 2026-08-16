@@ -1,0 +1,27 @@
+	Random Talk Tables			file Vt1B.xls
+Vatasha L8				
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	VT1A11		
+	Second	VT1A11		
+	Third	VT1A11		
+	Fourth +	VT1A11		
+				
+	Random			
+		TalkGroup	Notes	
+	01-25			
+	26-50			
+	51-75			
+	76-00			
+				
+				
+				
+
+
+				
+				

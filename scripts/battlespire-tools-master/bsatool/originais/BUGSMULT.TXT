@@ -1,0 +1,20 @@
+					BugsMult
+
+
+
+Multiplay BUGS TO BE CHECKED:
+
+DATE		NAME		DESCRIP
+
+8/18		Ken		Add magic item structures to objects in maps [ie, Longsword	"of the Monkey's Apprehension"	2	6203]
+
+
+
+
+BUGS TO BE FIXED:
+
+DATE		NAME		DESCRIP
+
+8/19		Ken		SUGGESTION: Handicap mode: when a player is killed and respawned, he comes back with a few more hit points each time. This gives beginning players a chance to have more and more success as the game progresses, and the experienced player increasing challenges as the game progresses. [Of course, this is but one of many optional modes. It fits the roleplaying style of gameplay better than action-shooter [a la Quake], since the model for paper-and pencil RPGs is cooperative play, not competitive, and making sure EVERYONE has fun in social play is more instinctively acceptable to RPGers.
+8/20		gary		when a character dies, his figure can still be seen standing in the world.
+8/20		gary		when a monster overlaps your character, hard crash occurs.

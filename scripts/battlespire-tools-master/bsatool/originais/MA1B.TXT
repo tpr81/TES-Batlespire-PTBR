@@ -1,0 +1,27 @@
+	Random Talk Tables			file MA1B.xls
+Herne				
+	talkcheck			
+	&HerneMad	MA1B11		
+				
+				
+				
+				
+	talktable			
+	First	MA1A11		
+	Second	MA1B11		
+	Third	MA1B21		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	MA1A11		
+	34-66	MA1B11		
+	67-00	MA1B21		
+				
+				
+				
+				
+
+
+				
+				

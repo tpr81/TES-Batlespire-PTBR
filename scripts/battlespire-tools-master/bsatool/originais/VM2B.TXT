@@ -1,0 +1,27 @@
+	Random Talk Tables			file vm2b.xls
+				
+	talkcheck			
+Vermai	&VermaiNice	VM2A33		
+	&VermaiMad	VM2A21		
+				
+				
+				
+	talktable			
+	First	VM2A12		
+	Second	VM2A32		
+	Third	VM2A21		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-10	VM2A11	Uncertain	
+	11-20	VM2A12	Uncertain	
+	21-30	VM2A13	Uncertain	
+	31-40	VM2A21	Angry	
+	41-60	VM2A31	NoTalk default	
+	61-80	VM2A32	NoTalk default	
+	81-00	VM2A33	NoTalk default	
+
+
+				
+				

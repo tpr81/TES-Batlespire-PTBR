@@ -1,0 +1,21 @@
+		Clannfear Oathkin					file CF2T.xls			Clannfear Truculent Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CF2A11	Hhhsssss! We smells the flesh! What does the flesh here? Hhhsssss! Is it fresh? Or foolish?	CF2A1A	TRUE			We're extra fresh, lizard-lips. And we want no trouble from you. So leave us alone, and we leave you alone, and everyone is happy.	01-50: CF2A21 51-00: CF2A51				
+	CF2A12	Is that -- manflesh I smell? YES! And now I have you, manling!	CF2A1B	&Tayem			Amulet. See the amulet. Pals? Allies? Monsters-in-arms? So what are you doing out her on Faydra's turf? Looking for trouble? Want to start some?	01-50: CF2A21 51-00: CF2A31				
+			CF2A1C	&Tayem			Shh! Secret! I bear Xivilai's amulet, and spy here at his request.	01-50: CF2A21 51-00: CF2A41				
+	CF2A21	Come. Help us. They take what is ours, and claim the better part. We must find what they stole from us, and restore it to Lord Xivilai and the clan.	CF2A2A	TRUE			Sounds like a plan. Lead the way.	END	PCTeam			
+	CF2A31	Foolish manling. Such foolish lies. Such insults! To think we would swallow such toad-droppings? You do us a great wrong.	CF2A3A	TRUE			Smart lizard. Nice lizard. Come get me.	END	MonsterAttack	&FearMad		
+	CF2A41	Hhhsssss! Sneaks and lies to us, does it? Hhhsssss! 	CF2A4A	TRUE			Oh, well. Come over here and get your cute little teeth kicked in, you nasty little thing.	END	MonsterAttack	&FearMad		
+	CF2A51	Come? Intruders must be taken, yes? Are we not intruders? Yes? So. 	CF2A5A	TRUE			Oh, okay. You're right. I'm an intruder. So do your duty. I'm just gonna skin you anyway.	END	MonsterAttack	&FearMad		
+	CF2A61	What? Why talk? What talk? Hates talk!	CF2A6A	TRUE			Hey? Your Lord Xivilai grants me his protection. Why are you beating on me?	CF2A71				
+	CF2A71	Clannfear not stained as traitors, no! Lord says, "Flesh not slain – but  chasten flesh as nasty Oathkin, trespass on customs." Flesh provokes us? Feel teeth and claws. But goes quiet, leaves us? Smart flesh, yes.	CF2A7A	TRUE			Fine. Bite me.	END	MonsterAttack	&FearMad		
+			CF2A7B	TRUE			Taste my steel. And boot. And fireball. And this old piece of cloth. And this lump of wax. And some lint.	END	MonsterAttack	&FearMad		
+	CF2A91	Vengeance! Our Lord is wounded! Someone has wounded our Lord!	CF2A9A	TRUE			Hi. It was me. I just kicked your Lord's butt into Oblivion. Come over here, and I'll kick your scaly little butt, too.	END	MonsterAttack	&FearMad		
+			CF2A9B	TRUE			Oh. Oh. Betrayal! Treason! Faydra and her Hernes have treacherously cast Xivilai into Oblivion! Fall upon the traitors, and avenge the Exile of our noble Lord.	01-50: CF2A01 51-00: CF2B11				
+	CF2A01	And you? You took no part, flesh? You LIE! And you DIE!	CF2A0A	TRUE			You're green. You know that? Only animals and plants are green. Therefore, you are a stupid animal or a stupid plant. That's logic. Or maybe you're a bug.	END	MonsterAttack	&FearMad		
+	CF2B11	Betrayal! Treason! War upon Faydra, and all her faction!	CF2B1A	TRUE			Yeah! Get 'em! Hang him high! Bake the traitors! Make war on Faydra! Woo, woo!	END	PCTeam			
+												
+												
+	CF2B21	[[It hisses and spits, but speaks no words.]]	CF2B2A	TRUE				END				
+	CF2B31	[[It sniffs and eyes you hungrily.]]	CF2B3A	TRUE				END				
+	CF2B41	[[It peers at you, then its claws, then yawns wide, displaying its teeth.]]	CF2B41	TRUE				END				

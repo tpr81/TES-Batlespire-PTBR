@@ -1,0 +1,25 @@
+		Dremora Rathine					file DN1T.xls		Rathine TALK	standard Dremora		
+	Saycode	NPC SAY	ReplyCode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DN1A11	Deuses e ligas! Outro mortal, aqui, a vaguear sem supervisao no meu relogio? E porque achas que os meus ageis e inteligentes asseclas negligenciaram bater, humilhar e conter-te?	DN1A1A	TRUE			Se os palhacos com verrugas que vi ate agora sao alguma indicacao, duvido que os vossos lacaios sejam capazes de lidar com um heroi tao grande como eu.	DN1A21				
+			DN1A1B	TRUE			Nao faco ideia, meu senhor. Talvez hesitem em interferir com alguem da minha evidente destreza e boa educacao.	DN1A21				
+			DN1A1C	&MethatsName			Servo o Lorde Methats. Aparentemente, os seus asseclas apreciam isso e tudo o que isso implica.	DN1A31				
+	DN1A21	- Sim, sim, sim. Mesmo como um mero animal, tu estas acima deles em intelecto. Na mesma medida em que superamos a vossa inteligencia, espero. Sou a Dremora Rathine. - Nao. Nesta fase, e costume um humilde enrolar-se, acompanhado de um belo presente. Ou, alternativamente, uma morte prolongada pode ser o seu objetivo?	DN1A2A	TRUE			Que coincidencia. Por acaso tenho um presente para ti. Que tal um pouco de punho, chama, aco e fogo de estrelas?	END	MonsterAttack	&RathineMad		
+			DN1A2B	&PCFemale			Mil desculpas, Lorde Rathine, mas sou estranho aos vossos costumes. Que tipo de presente e costume?	DN1A41				
+			DN1A2C	&PCMale			Mil desculpas, Lorde Rathine, mas sou estranho aos vossos costumes. Que tipo de presente e costume?	DN1A51				
+			DN1A2D	TRUE			Nao me curvo a nenhuma criatura, nem de carne nem de espirito.	DN1A61				
+	DN1A31	- A serio? Es o menino de recados do Methat? - Nao, nao. Afinal, a vontade dele tem de ser obedecida.	DN1A3A	TRUE			Sua Senhoria diz que pode ir e tratar dos seus assuntos, obrigado. Deixara-me o que recolheu para entregar a Sua Senhoria.	DN1A71				
+			DN1A3B	TRUE			Na verdade, ele nao tinha nada especifico para transmitir, alem de perguntar se precisavas de alguma ajuda. Ou qualquer coisa.	DN1A71				
+			DN1A3C	&PCFemale			Ele quer saber se ja capturou o Kaid.	DN1A81				
+			DN1A3D	&PCMale			Ele quer saber se ja capturou o Trenelle.	DN1A81				
+	DN1A41	Duvido que me possas dar o que eu realmente quero, Carneiro. No entanto... Eu contento-me com a cabeca de um Josian Kaid. Traga-o e talvez encontremos um lugar para ti aqui. Vou falar contigo com os Methats. Agora, deixa-me. Como podem ver... Estou muito ocupado.	DN1A4A	TRUE			Claro, meu senhor. - Adeus. - Adeus.	END		&RathineNice		
+			DN1A4B	TRUE			Vou considerar as suas palavras, e tomar conselho com Methats sobre a sua proposta. - Adeus. - Adeus.	END		&RathineNice		
+	DN1A51	Duvido que me possas dar o que eu realmente quero, Carneiro. No entanto... Eu vou contentar-me com a cabeca de um tal de Vatasha Trenelle. Traga-o e talvez encontremos um lugar para ti aqui. Ha muitas novas vagas aqui em Battlespire como resultado dos recentes desagradaveis, e vou colocar uma palavra para voce com o seu Senhor. Agora vai. Como podem ver... Estou muito ocupado.	DN1A5A	TRUE			Claro, meu senhor. - Adeus. - Adeus.	END		&RathineNice		
+			DN1A5B	TRUE			Vou considerar as suas palavras, e tomar conselho com Methats sobre a sua proposta. - Adeus. - Adeus.	END		&RathineNice
+	DN1A61	Palavras arrogantes para uma coisa esculpida de barro. Sera um prazer ensinar-vos a arte da prostracao.	DN1A6A	TRUE			Vem ca e diz isso, bonito.	END	MonsterAttack	&RathineMad
+	DN1A71	Oh, meu Deus. E comecaste bem. Os Methats nunca seriam tao generosos ou atenciosos. Estou bastante angustiado por me teres mentido.	DN1A7A	TRUE			Estou bastante alarmado por ter sido apanhado a mentir, Vossa Senhoria. Entao adeus, e ate logo.	END	MonsterAttack	&RathineMad
+	DN1A81	- Eu entendo. - Sim, sim, sim. - Nao, nao. - Nao. Informe-o... que acreditamos ter o mortal problematico preso. E... - Nao. Se o encontrarem primeiro, tragam-no imediatamente para mim. - Sim, sim. - Esta bem. Agora vai. Como podem ver... Estou muito ocupado.	DN1A8A	TRUE			Claro, meu senhor. - Adeus. - Adeus.	END		&RathineNice
+	DN1A91	- Tu outra vez. Que chato. Presumo que me traga noticias do Kaid?	DN1A9A	TRUE			Ainda nao, meu senhor. Vou continuar a procurar.	END		
+			DN1A9B	TRUE			Pelos Poderes, senhor! Acho que o vejo ali! Meu Deus! Posso estar em perigo! Desculpe-me, por favor.	END	MONSTERWANDER_120	
+	DN1A01	- Tu outra vez. Que chato. Presumo que me traga noticias do Trenelle?	DN1A0A	TRUE			Ainda nao, meu senhor. Vou continuar a procurar.	END		
+			DN1A0B	TRUE			Pelos Poderes, senhor! Acho que o vejo ali! Meu Deus! Posso estar em perigo! Desculpe-me, por favor.	END	MONSTERWANDER_120	
+	DN1B11	E nao se pode falar com ele.		TRUE				END		

@@ -1,0 +1,25 @@
+	Random Talk Tables			file Wr1B.xls
+	Wraiths			
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	WR1A32		
+	Second	WR1A12		
+	Third	WR1A22		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-10	WR1A11		
+	11-20	WR1A12		
+	21-30	WR1A13		
+	31-40	WR1A21		
+	41-50	WR1A22		
+	51-60	WR1A23		
+	61-70	WR1A31		
+	71-80	WR1A32		
+	81-00	WR1A41		

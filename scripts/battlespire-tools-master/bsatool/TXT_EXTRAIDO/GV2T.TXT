@@ -1,0 +1,42 @@
+		Ideal Master					file Gv2T.xls			Friendly Gem Vampire		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	GV2A11	Who disturbs our rest?	GV2A1A	TRUE			No one. No one at all. Beg pardon. Just leaving. Sorry.	END				
+			GV2A1B	TRUE			A humble mortal who begs your aid.	GV2A31				
+			GV2A1C	TRUE			A celebrated master of arts martial and arcane, intent on a quest, and worthy of your aid.	GV2A31				
+			GV2A1D	TRUE			Look. I don't know what's going on here, but it smacks of necromancy, and I won't stand for it.	GV2A91				
+	GV2A21	[[You address the gem, but there is no response.]]								&GemReady		
+	GV2A91	Clearly you have little or no comprehension of necromancy, and are therefore in no position to judge. You are clearly mortal, ignorant, and pitiable, so I will overlook your impertinence. Now. Introduce yourself, or leave.	GV2A9A	TRUE			As you have guessed, I'm a mortal. I  arrived here through no will of my own, and ask for your help.	GV2A41				
+			GV2A9B	TRUE			I scorn your pity, and resent your manner. Goodbye.	END		&GemMad		
+												
+	GV2A31	You are not invited here. WHY DO YOU DISTURB OUR REST?!	GV2A3A	TRUE			Well, I'm not sure, really. Actually, I seem to be stuck here, wherever here is, and I'm looking around for something or someone who can help me out.	GV2A41				
+			GV2A3B	TRUE			I, a poor, desperate creature of flesh, have chosen to contest with the Princes of Oblivion and their minions, and I humbly seek your aid.	GV2A41				
+			GV2A3C	TRUE			I can take a hint. You want me to go away and leave you alone. Fine. Just don't expect me to do YOU any favors.	END		&GemMad		
+			GV2A3D	TRUE			A traveler through the outer realms, I have come upon your world, and found it wondrous strange. I seek to learn more of its mysteries. What is this place, and what is its purpose?	GV2A81				
+												
+	GV2A41	Would you enter our service, mortal?	GV2A4A	TRUE			No. I do not offer service. Goodbye.	END				
+			GV2A4B	TRUE			I am surprised and honored by the prospect, but am curious. How might I enter your service?	GV2A51				
+												
+	GV2A51	You must die and be born again. The form your spirit may take afterwards varies. You will have seen the servants of our realm.	GV2A5A	TRUE			I'm amazed. This is a thing of great wonder. Excuse me while I withdraw to contemplate this miracle.	END				
+			GV2A5B	TRUE			You mean I die and become a walking skeleton or a howling ghost? If that's how it works, then I'm not joining your service.	GV2A61				
+												
+	GV2A61	Perhaps you can explain why we would wish to lavish our favors on one so churlish as to refuse us service?	GV2A6A	TRUE			Daedra have invaded the Battlespire, the War College and Celestial Citadel of my Emperor. They have slain its guards and mages, looted its libraries and armories, and despoiled its arts and treasures.	GV2A71				
+			GV2A6B	TRUE			You will lavish your favors on this churlish one or I'll batter your servants to dust, take everything I can pry loose, and wreck anything I can't.	GV2A01				
+												
+	GV2A71	And how would this possibly interest me?	GV2A7A	TRUE			The daedra who invaded the Battlespire are here, destroying your servants and plundering YOUR treasures. They clearly plan to hold this place as a waystation between their own realms and their newly conquered domains. I doubt you would welcome the traffic, or the quality of guests that might travel this way.	GV2B11				
+												
+	GV2A81	You stand within the precincts of the Soul Cairn, an otherworldly refuge dedicated to peace, love, eternal rest and harmony. You stand before one of its Makers, whose name is so exalted you may not even speak it. You walk among its servants, who have pledged themselves in service to us, and who in reward have been gifted with life eternal and the peace that passes all mortal understanding.	GV2A8A	TRUE			I am humbled before the splendor of your creation, and the glory of its faithful servants.	GV2A41				
+			GV2A8B	TRUE			All this religious mumbo jumbo is making me nervous. Are you going to help me, nor not?	GV2A41				
+												
+	GV2A01	Well, then. If you can make good on such threats, then surely you have no need of our aid. You must have a lot to do, so I won't keep you. Goodbye.	GV2A0A	TRUE			Goodbye.	END				
+												
+	GV2B11	Yes. I take your point. I would not wish to stand between you and your vengeance upon these daedric marauders. Very well. Listen carefully.	GV2B1A	TRUE			I hear, and mark your words.	GV2B21				
+												
+	GV2B21	Look carefully at the pillars which support our halls. Around some of these pillars are four bars. If you look closely, you will see that most are square in cross-section. Three of these are exceptional, round in cross-section. One is found in a Coffin Chapel. Another is found in the room with whirling disks. Yet another is found in the antechamber to the Chapel of Love. These three rods are the control rods for the Mana Font in the Chapel of Love.	GV2B2A	TRUE			Let me make sure I have this straight. Most of the bars around pillars are square in cross-section. Three are different, and round in cross-section. These are control rods for a Mana Font in the Chapel of Love. Is that correct?? Is this Chapel of Love nearby? How will I recognize the Mana Font?	GV2B31				
+												
+	GV2B31	The Chapel of Love is close by to the southwest. Seek the twin Fingers of Life which you must first kindle. 	GV2B3A	TRUE			Right. Step One. Kindle the Fingers of Life in the Chapel of Love. Then?	GV2B41				
+	GV2B41	Step into the pool before the Emerald Gates, and you will be transported to the top of the vault.	GV2B4A	TRUE			Okay. Step Two. Jump in the pool and teleport to the top of the vault.	GV2B51				
+	GV2B51	Then take the three rods --  the Rod of the Pilot, the Rod of the Pillar, and the Rod of the Passage -- and place each, one by one, into the socket in the pedestal. 	GV2B5A	TRUE			Yes. Step Three. Three rods go into the socket in the pedestal.	GV2B61				
+	GV2B61	Then the Mana Font will send you to any of the known outer realms, provided only that you know the name of that realm, and that you speak that name at the Emerald Gates of the vault that encloses the portal. 	GV2B6A	TRUE			And. Finally. Step Four. Speak the name of the destination at the Emerald Gates	GV2B71				
+	GV2B71	You DO know the name of the realm you seek, don't you?	GV2B7A	TRUE			Yes, I know where I'm going. Thank you for your help. I am in your debt. Farewell.	END		&GemDone		
+			GV2B7B	TRUE			No. But I will discover the name, somehow. Thank you, and goodbye.	END		&GemDone		
+	GV2B81	Who disturbs our rest?	GV2B8A	TRUE			Sorry. It's just me. Look. Could you repeat the business about the rods, the Fingers of Life, the pool, and the Emerald Gates? I am SO sorry, but with all the dead things shambling around pounding on me and running around in the dark studying pillars, well --	GV2B21				

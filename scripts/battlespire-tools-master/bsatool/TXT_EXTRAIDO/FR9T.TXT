@@ -1,0 +1,24 @@
+		Fire Daedra L5 Talk					file FR2T.xls					
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	FR2A11	"We are the Greater Hounds. We chase the Hare, in accordance with the Laws of the Wild Hunt. And, manling, for what you did to us in Shade Perilous, we will repay you ten times over."	FR2A1A	TRUE			"The weaker the warrior, the tougher the chatter. Go ahead, big boy. Make me quiver."	END	MonsterAttack	&FireMad		
+			FR2A1B	TRUE			I know all about it. You only got that honor because the Frost Daedra got the blame for the Shade Perilous debacle.	FR2A51				
+			FR2A1C	TRUE			"Look, Smoky. I know you are just doing your job, but you know the Law. It won't matter WHO breaks the Laws of the Wild Hunt. ALL of you bear the stain of dishonor."	FR2A21				
+	FR2A21	What? We know the Law. No one has broken the Law.	FR2A2A	TRUE			"Oh, dear. I see. You didn't know. But Egahirn holds the sixth key, which is, of course, against the Law."	FR2A31				
+	FR2A31	"What? Wait! How is it that you, mortal, know the Law?"	FR2A3A	TRUE			"Oh, come now. Did you think that if I didn't know the Law, that it had not been broken? Did they TELL you that? How can you be so naive?"	FR2A41				
+	FR2A41	"Manling. We care little for the Law. We care for our own glory! We wish to avenge our shame in Shade Perilous. We want YOU dead. We have been TOLD to spare you for Egahirn's Spear, but we care nothing for Egahirn, or for his glory. If Egahirn is forsworn of his oath, then he gains neither power nor glory for his kill – but we don't care. All we care about is the kill. We will see you dead. That is reward enough for us."	FR2A4A	TRUE			"Hmm. In short, it's you, or me. No mercy. So be it. Goodbye."	END	MonsterAttack	&FireMad		
+	FR2A51	How do you know this? What do you know of the counsels of Lord Dagon?	FR2A5A	TRUE			"I have my sources. Not all of your clan enjoys the confidence of Lord Dagon. And there are always ambitious, clever Daedra eager to trade words and favors."	FR2A61				
+			FR2A5B	TRUE			I know that Faydra Shardai started the war against the Shade Perilous. NOT Xivilai Moath.	FR2A71				
+	FR2A61	Foolish mortal! I am not interested in your little tales and tattles.	FR2A6A	TRUE			"Perhaps the winged woman, the Dark Seducer, might be a more gracious audience for my account of your faction's embarrassing lapses in judgement and execution at Shade Perilous."	FR2A71				
+			FR2A6B	TRUE			"Well, then, no point in idle chatter. Let's just get on with the war. Ready?"	END	MonsterAttack	&FireMad		
+	FR2A71	Hmm. It would not perhaps be in your best interests to speak to the Dark Seducer about this.	FR2A7A	TRUE			Pity. I wish I had known how you felt before I spoke with her.	FR2A81				
+			FR2A7B	TRUE			Speak to me more about my best interests.	FR2A91				
+	FR2A81	You have already told her?! Curse you and your meddling!	FR2A8A	TRUE			"Temper, temper. Mustn't add to your already extensive list of fumbled responsibilities."	END	MonsterAttack	&FireMad		
+	FR2A91	"Your price, mortal. What do you want?"	FR2A9A	TRUE			An end to the Hunt?	FR2A01				
+	FR2A01	"We cannot end the Hunt, and would not if we could."	FR2A0A	TRUE			A way to kill the Huntsmen?	FR2B11				
+	FR2B11	"The Huntsmen cannot be killed, fool. They are protected by the ritual from all mortal weapons. We can and will tell you that only the Huntsman Egahirn will take your life today on these grounds. His kinsmen have chosen to stay their blows, thus assuring that Egahirn shall strike the killing blow. Though all Huntsmen are protected by the ritual, only one, Egahirn, hunts in earnest."	FR2B1A	TRUE			Your information is useful. A fair trade. A favor for a favor. I will not reveal your ineptitudes and miscalculations to the Dark Seducer. Goodbye.	END				
+			FR2B1B	TRUE			But such a tidbit is hardly worth my silence. Have you anything else to offer? Tell me how to get into the Chapel of the Innocent Quarry?	FR2B21				
+	FR2B21	"Perhaps. If you will tell the Dark Seducer that the Xivilai Moath and the Frost Daedra were at fault at the Shade Perilous, and not us?"	FR2B2A	TRUE			That is another matter. And hardly the truth. But. I agree.	FR2B31				
+	FR2B31	"Very well. Only we, the Great Hounds, the Fire Daedra, carry the amulet that grant passage beyond the warding sigil. And none of us would give you an amulet, or permit you to take one. So resign yourself, mortal."	FR2B3A	TRUE			So. You have the necessary amulet. What a pity. Goodbye.	END				
+												
+	FR2B41	[[The firey titan scowls furiously and refuses to speak with you.]]	FR2B4A	TRUE			NOTE: This is a NoTalk default dialog.	END				
+	FR2B51	[[He has nothing to say to you.]]	FR2B5A	TRUE			NOTE: This is a NoTalk default dialog.	END				

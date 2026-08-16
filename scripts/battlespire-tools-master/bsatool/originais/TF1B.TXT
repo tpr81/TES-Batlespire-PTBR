@@ -1,0 +1,25 @@
+	Random Talk Tables			fileTF1b.xls
+	Test Flags			
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	TF1A11		
+	Second	TF1A12		
+	Third	TF1A13		
+	Fourth +	Random		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+				
+				

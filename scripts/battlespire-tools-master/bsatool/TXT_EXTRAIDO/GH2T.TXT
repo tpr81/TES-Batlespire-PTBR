@@ -1,0 +1,6 @@
+Ghosts						file Gh2T.xls					
+Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+GH1A11	Death is the Mother of Beauty.	GH1A1A	TRUE			"That's very nice. Very poetic. Thank you for sharing that. I would prefer, however, that you stop trying to kill me. Please?"	GH1A31				
+		GH1A1B	TRUE			Would you please tell me how to get out of here?	GH1A31				
+		GH1A1C	TRUE			"You're wasting your breath. So to speak. I'm alive, I like it, and I'm staying that way. Goodbye."	END				
+GH1A31	"[[The ghost glimmers and keens, but does not reply.]]"		TRUE			NOTE: This is a NoTalk default dialog.	END		&GhostNoTalk		

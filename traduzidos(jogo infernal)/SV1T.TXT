@@ -1,0 +1,23 @@
+		Perthan Vorn								Spider Vorn TALK			
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SV1A11	Porque e que temos de lutar? Talvez haja algo que queiras... algo que eu ficaria feliz em dar-te...	SV1A1A	TRUE			Nada que uma criatura repulsiva como tu possa dizer me possa interessar .	END	MONSTERATTACK	&VornMad			
+	SV1A12	Gosto de desafios e de um bom treino, mas mais esforco estimulante pode satisfazer-nos a ambos.	SV1A1B	TRUE			Isso parece-me bom. Deixa-me sentir-me confortavel...	SV1A51	DROPREADYWEAPON AND UNEQUIPARMOR				
+	SV1A13	A tua forma e agradavel, mortal. E uma pena estragar tal graca com armas... preferia lutar.	SV1A1C	TRUE			Admito que gosto do que vejo e a sua proposta e atraente, mas que garantia pode dar da minha seguranca se me tornar mais acessivel a si?	END	MONSTERATTACK				
+	SV1A21	Nao posso morrer, mortal. Tens a certeza que queres arriscar a tua pele fragil?	SV1A2A	&Voidguide			- Boa ideia. Mas nao posso ir embora. Da-me o guia de vaidade e eu retiro-me imediatamente.	SV1A61					
+	SV1A22	Derrota-me e vou saborear o amargo Oblivion... mas eu voltarei. Para ti, nao ha retorno da morte. Este caso vale tanto o risco?	SV1A2B	&PCFemale			E uma pergunta dificil. Mas nao posso abandonar um amigo. Por favor, diga-me onde esta o Josian Kaid e juro que nao lhe vou causar mais problemas.	SV1A71					
+	SV1A23	Que recompensa pode compensar a possibilidade de um sono do qual nunca mais acordar?	SV1A2C	&PCMale			E uma pergunta dificil. Mas nao posso abandonar um amigo. Por favor... diga-me onde esta Vatasha Trenelle, e juro que nao tera mais problemas comigo.	SV1A81					
+			SV1A2D	TRUE			Sou um grande tolo, admito, e com medo da morte. Mas, pelo menos, sirvo quem escolho e nao sou escravo de nenhuma criatura.	END		&VornMad			
+			SV1A2E	&MethatsName			Sei o meu risco, mas agradeco a sua preocupacao. Mas estou curioso. O que voce teme? Porque serve Methats? Nao tens orgulho?	SV1A91					
+	SV1A31	Nao percas tempo, filho de carne... vais sentir falta quando desaparecer.	SV1A3A	TRUE			Um bom conselho. Faz o teu pior, filho do inferno.	END	MONSTERATTACK 				
+	SV1A41	(Ela) lambe os labios, sorrindo.		TRUE					MonsterAttack				
+	SV1A42	[Olha-te com curiosidade como se estivesse a estudar um animal curioso.]]		TRUE					MonsterAttack				
+	SV1A43	[Mostra pouco interesse em falar contigo.]		TRUE					MonsterAttack				
+													
+													
+	SV1A51	Ahhh... Es tudo o que sonhei. Agora, deixa-me dar-te uma coisa que sei que te agradara...	SV1R1YBA	TRUE			Mal posso esperar...	END	Health_2 AND FeebleDelay_120 AND PleasureSFX				
+			SV1R1YBB	TRUE			Bem... talvez...	END	MONSTERATTACK 				
+	SV1A61	Nao sei onde esta o guia de vazio, mas sei onde pus uma parte dele. E tambem sei que nao vais por as maos nela.	SV1R2YAA	TRUE			Acho que vou ter de me contentar com um pedaco do guia do vazio e talvez um pedaco de ti, ja que estou a falar.	END	MonsterAttack				
+	SV1A71	Josian Kaid... ambos queremos Josian Kaid. Desculpe, mas... os detentores do que encontraram...	SV1R2YBA	TRUE			- Vamos ver.	END	MonsterAttack	SVNoTalk			
+	SV1A81	Vatasha Trenelle... nos dois queremos Vatasha Trenelle. Desculpe, mas... os detentores do que encontraram...	SV1R2YCA	TRUE			- Vamos ver.	END	MonsterAttack	&SVNoTalk			
+	SV1A91	Metatos? E um sapo. Servo Wonshala, e nao por medo, mas no calor, fome e prazer.	SV1S2YEA	TRUE			- Nao. Bem, vou avisar o Wonshala se nos encontrarmos.	END	MonsterAttack				
+													

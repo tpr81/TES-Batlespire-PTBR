@@ -1,0 +1,25 @@
+	Random Talk Tables			fileTA1b.xls
+	Test Actions and Flags			
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	TA1A11		
+	Second	TA1A12		
+	Third	TA1A13		
+	Fourth +	Random		
+				
+	Random			
+		TalkGroup	Notes	
+	01-20	TA1A14		
+	21-40	TA1A15		
+	41-60	TA1A16		
+	61-80	TA1A17		
+	81-00	TA1A18		
+				
+				
+				
+				

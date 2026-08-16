@@ -1,0 +1,22 @@
+		Dremora Tanchelm					file DT3T.xls			Tanchelm L2.2 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DT3A11	Mestre Kaid. Nao demorara muito. Tenho uma coisa para ti e algumas palavras.	DT3A1A	TRUE			Nao estou interessado.	END		&TanchelmMad		
+			DT3A1B	TRUE			Nao sou o Kaid. Nao sei onde esta o Kaid.	DT3A51				
+			DT3A1C	TRUE			- Nao, nao.	DT3A61				
+	DT3A21	Mestre Trenelle. Nao demorara muito. Tenho uma coisa para ti e algumas palavras.	DT3A2A	TRUE			Nao estou interessado.	END		&TanchelmMad		
+			DT3A2B	TRUE			Nao sou Trenelle. Nao sei onde esta o Trenelle.	DT3A51				
+			DT3A2C	TRUE			- Nao, nao.	DT3A61				
+	DT3A31	Perda de concentracao... ou aparencia de concentracao... parece nao te ouvir.										
+	DT3A32	Nao te atende.										
+	DT3A33	Nao parece interessado em falar contigo.										
+	DT3A41	Estas a ser cansativo. Nos julgamos-te mal. Nao creio que haja nenhum proposito em prolongar esta entrevista.	DT3A4A	TRUE			- Esta bem. - Esta bem.	END		&TanchelmMad		
+												
+	DT3A51	- Muito bem. - Esta bem. O teu nome nao me interessa. Posso continuar?	DT3A5A	TRUE			Nao, nao. Nao me interessa o que tens a dizer e nao quero nada que tenhas a dar.	END		&TanchelmMad		
+			DT3A5B	TRUE			- Nao, nao.	DT3A61				
+	DT3A61	Diverte-nos. Pode ser conveniente preservar-te de vez em quando. Nao presuma deste favor. No momento em que for tolo o suficiente para contar com a nossa ajuda, nos a reteremos e procuraremos o nosso divertimento noutro lugar. - Entendido? - Sim.	DT3A6A	TRUE			Acho que entendi. - Nao, nao.	DT3A71				
+	DT3A71	De vez em quando, pode fazer-nos um favor. Nao damos muita importancia a tais coisas, mas as pequenas coisas podem nos agradar, quando as grandes ofender-nos-iam.	DT3A7A	TRUE			Nao faco promessas.	DT3A81				
+			DT3A7B	TRUE			Eu entendo, e concordo.	DT3A81				
+	DT3A81	O seu acordo e de pouca importancia nisto. Fazemos o que quisermos. Finalmente, preparei algumas notas para a sua revisao que podem tornar as coisas um pouco mais claras. Vais tira-los da minha mao?	DT3A8A	TRUE			- Nao, nao. Podem ser envenenados, ou presos, ou amaldicoados, ou qualquer coisa.	DT3A91				
+			DT3A8B	TRUE			- Sim, e verdade. - Obrigado, meu.	DT3A01	PUT 32_002 			
+	DT3A91	- Eu entendo. E sem ofensa. Entao, se me das licenca, outros assuntos exigem a minha atencao.	DT3A9A	TRUE			- Esta bem. - Esta bem. Tenho muito que fazer.	END	Teleport_0	&TanchelmDone		
+	DT3A01	Duvido que nos voltemos a ver, e mesmo que o facamos, nao o reconhecerei. - Adeus. - Adeus.	DT3A0A	TRUE			- Adeus. - Adeus. E obrigado.	END	Teleport_0	&TanchelmDone		

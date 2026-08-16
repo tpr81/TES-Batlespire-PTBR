@@ -1,0 +1,5 @@
+		Dremora Oathkin					file DR1T.xls			Dremora L1 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DR1A11	E nao te fala, porem, com cortesia.										
+	DR1A21	[Com um gesto de desdenho, ele recusa sua oferta de conversar.]										
+	DR1A31	Nao parece querer conversar contigo.										

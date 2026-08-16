@@ -1,0 +1,23 @@
+		Clannfear Oathkin					file CF1T.xls			Clannfear Cheaters Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CF1A11	Cheira a carne! A carne e errada! Fuga, nao e? Ou rouba os nossos tesouros? Agora, tiramos-lhe as roupas, sim, e procuramos as surpresas.	CF1A1A	TRUE			Tem de ficar sobrio e parar de cuspir em mim. Onde esta o teu mestre? - Raios partam! - Estou com pressa. Para de olhar e comeca a falar.	01-50: CF1A21 51-00: CF1A31				
+	CF1A12	Cheira isso! - Quente. Suave. Molhado nos dentes. Carne! Foge, meu, para que morda das melhores partes!	CF1A1B	TRUE			Como e que consegues tolerar estes Hernes? Eles zombam da Lei. Eles traem na caca, e trazem desonra sobre todos voces. E, a proposito, caso nao saibas com quem tens de lidar, acabei de matar um Cacador. - Sim, e verdade. Egahirn. Um Cacador protegido pelo Ritual Sagrado. - Entao? Porque nao vais fazer algo com aqueles Hernes nojentos?	01-50: CF1A41 51-00: CF1A61				
+			CF1A1C	&Tayem			Esta carne nao e para ti, idiota. Esta carne pertence ao Xivilai, e ele nao te vai agradecer por lhe teres feito buracos. Ves este amuleto? Isso significa "Cala-te e sai do meu caminho".	01-50: CF1A21 51-00: CF1A31				
+			CF1A1D	TRUE			- Desculpe. - Nao. Para onde vai o Lorde Imago? Uma mensagem muito importante para o Lorde Imago.	CF1A21				
+	CF1A21	O Senhor Xivilai esta na Sala do Trono, doces. Gostaria de ir la agora? Aqui, vem perto e eu dou-te uma boleia.	CF1A2A	TRUE			Obrigado pela dica. Agora para de respirar em mim.	END	MonsterAttack	&FearMad		
+	CF1A31	- Nao, nao. Ameaca-nos, nao e? - Nao, nao.	CF1A3A	TRUE			Sim, sim. Ameaca o pequeno lagarto maricas. Depois, abre a sua pequena barriga.	END	MonsterAttack	&FearMad		
+	CF1A41	Mentes, pessoa. Nao podes matar um Daedra. Imortal e a tua palavra, sim?	CF1A4A	TRUE			Claro, se tiveres de ser muito tecnico. Mas eu bati-lhe com a Lanca do Cacador com o poder do proprio Dagon. Isso deve deixa-lo fora por muito tempo.	CF1A51				
+	CF1A51	A vergonha! O Cacador morto por um mortal. Os Hernes nao trazem nada alem de vergonha e vergonha. Os Hernes tem de aprender a honrar a lei. E a Faydra tem de ensinar... Honra a Casa. Eles zombam e nos testam. Roubam a nossa gloria e assaltam os nossos tesouros. E agora, isto tem de parar. A honra esta em jogo. Orgulho exige! Chastise-os com as Velas da Lei. E encaminhai-os a senda reta!	CF1A5A	TRUE			Tu e eu, garoto lagarto! Vamos fazer mal ao Hernes! - Que bom!	END	PCTeam			
+	CF1A61	- Sim, e verdade. Os Hernes sao uma vergonha. Mas tu, carne, tambem fazes vergonha. Achas-nos tolos? Nos espetamos os teus olhos e brinca contigo, sim.	CF1A6A	TRUE			Vem ca e diz isso.	END	MonsterAttack	&FearMad		
+	CF1A71	- O que? - O que? Porque falar? Que conversa? Odeia falar!	CF1A7A	TRUE			- Ola, meu. O vosso senhor Xivilai concede-me a sua proteccao. Porque me bates?	CF1A81				
+	CF1A81	Clanfear nao manchado como traidores, nao! O Senhor diz: "A carne nao e morta, mas castigada como carne desagradavel, Oathkin, transgressao dos costumes". Sente os dentes e as garras. Mas vai silencioso, deixa-nos? Carne inteligente, sim.	CF1A8A	TRUE			- Esta bem. - Esta bem. - Morde-me.	END	MonsterAttack	&FearMad		
+			CF1A8B	TRUE			Prove o meu aco. E uma bota. E bola de fogo. E este velho pedaco de pano. E este pedaco de cera. E um pouco de pelos.	END	MonsterAttack	&FearMad		
+	CF1A91	Vinganca! O nosso Senhor esta ferido! Alguem feriu o nosso Senhor!	CF1A9A	TRUE			- Ola, meu. - Fui eu. - Nao. Acabei de dar um pontape no cu do teu Senhor no Oblivion. Vem ca e eu tambem te dou um pontape no rabo escamoso.	END	MonsterAttack	&FearMad		
+			CF1A9B	TRUE			- Nao. - Nao. - Traicao! - Traicao! Faydra e os seus Hernes lancaram traicoeiramente Xivilai para o Oblivion! Ataquem os traidores e vingem o exilio do nosso nobre senhor.	01-50: CF1A01 51-00: CF1B11				
+	CF1A01	- E voce? - Sim. Nao tomaste parte, carne? - MENTIS! E tu morres!	CF1A0A	TRUE			Estas verde. - Sabes disso? - Sim. So animais e plantas sao verdes. Portanto, voce e um animal estupido ou uma planta estupida. E logica. Ou talvez sejas um insecto.	END	MonsterAttack	&FearMad		
+	CF1B11	- Traicao! - Traicao! Guerra a Faydra e a toda a sua faccao!	CF1B1A	TRUE			- Sim, sim! Apanhem-nos! Poe-no no alto! Queimem os traidores! Faca guerra a Faydra! - Nao, nao.	END	PCTeam			
+												
+												
+	CF1B21	[Ela sussurra e cuspe, mas nao fala.]	CF1B2A	TRUE				END				
+	CF1B31	Que cheira e olha.	CF1B3A	TRUE				END				
+	CF1B41	E ele vos olha, e depois, com as garras, boceja.	CF1B41	TRUE				END				

@@ -1,0 +1,29 @@
+9/12		ken		L5: Boat disappears from game. PC stands in boat in saved game. On restore saved game, no boat.
+9/16		ken		User gets stuck on monsters when the monster gets too close to the user.
+9/16		ken		BALANCE BUG: Pushback [special key and mouse forward] kills EVERYTHING wihtout fail and without risk.
+9/18		ken		L5: Near Temple of Dust, Fire & Frost Daedra march out from land across the water about 30 feet in the air for a distance of about 100 feet. They then stand there a long time.
+9/18		ken		Cause Damage Spell disappeared from spell list after use. Second occurrence of this bug. Possibly associated with zero or close-to-zero spell points condition.
+9/18		ken		BALANCE BUG: Melee and Spell attacks permitted and effective while Etherial. This contradicts the manual ["cannot affect [monsters] in any way], and makes Etherialness a Gross Spell.
+9/22		ken		BALANCE BUG: Spell Absorption: Regain your own spell points by casting ground zero magic. [Isn't this a Daggerfall bug, too?]
+9/22		ken		REmove color-coding for racial skill bonuses and replace with text references in race-selection during character creation.
+9/22		ken		L5: Trap doors on roof of Barracks in Granvellusa. Both work from inside barracks to roof, but one crashes game when traveling from roof back inside barracks. [Don't recall which is the bad trapdoor; Structures checked in BSEdit.]
+9/22		ken		L1: Automaps not reliable on restore saved games.
+9/22		ken		L1 & L2: Double Scamp and Vermai hit points. Scamps are not going to do significant harm even with twice as many attacks, and Vermai, though they can harm the player, cannot kill them in less than a couple of whacks, giving the player a chance to flee and heal. At present, Scamps and Vermai are more buttons than monsters, and level has no dramatic tension at all.
+9/29		ken		"Modify Miscellaneous Skills" helptext appears where old scroll for Miscellaneous skills used to be.
+9/29		ken		Select the "No Regenerate Spell Points" Disadvantage and it COSTS 1000 points rather than provides a BONUS 1000 points. [Because of this bug, none of the current Existing Characters were created using this feature.]
+9/29		ken		I cannot be sure that any of the Existing Characters will start with pants and top. Garments are apprently randomized each time you create a character. This is either stupid or offensive, depending on your sense of humor -- and unintentional humor blows. Please LOCK the specific clothing items in the Existing Characters.
+9/29		ken		Four out of approximately 25 entries into level 1 from character creation produced death animations. Character point of view moves out towards bridge; character either begins too close to bridge, or crashes [though there is no movement of the POV into the pit preceding the death animation]. Plenty of room on the walkway; can we move the startup marker?
+9/29		ken		Repeated crashes to "Invalid Object Data" or Causeway error when using "Endgame" and creating a new character. Crashes typically on selecting an Existing Class or Advantages/Disadvantages.
+9/29		ken		L5: No Boots of the Savior's Hide in the chest in inspire. Broken Level. [[KEN: Checked inspire in BSEdit; structure is intact and fine.]] Kate also reports empty sacks appearing after kill monsters.
+9/29		ken		Booty Hall has SERIOUS issues.  Corners don't connect (ie, you can see 
+	into a room from outside of it by peeking through the cracks.
+	Also, if you kill a creature, and then click on its stuff, you
+	fall into the water. [[KEN: Checked in BSedit. Nothing obvious wrong. Need a save game.]]
+	HOWEVER, if you use the mouse to click on the stuff, it's fine.
+	This is true for all monsters in this section of the game. [[also reported in artBugs]]
+9/29		ken		Sound still doesn't load from a load game (while playing a game,
+	haven't checked all other options) [[KATE: UNCLEAR! If you mean Sound Level [as set in Options Bar] is not restored properly when you load a restored saved game, I also frequently encounter this bug.]]
+9/29		ken		The Automap in level three has stripes in it, but always shows entire 
+	map, even if you've just started the level.
+9/29		ken		L1: Received a Yoodt Amulet of Entry as random treasure. Amulet Table lists ONLY the Doht amulet, therefore YOU, Julian, are letting the game do wonky things. Stop it immediately.
+9/29		ken		L1: Crashed to Causeway error while approaching lower vestibule of healing gem area [where two Vermai are locked on Commad 13 and often initiate dialog]. Could not reproduce crash, but suspect dialog initiation.

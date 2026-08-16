@@ -1,0 +1,27 @@
+	Random Talk Tables			file DR6B.xls
+Dremora Informant				
+	talkcheck			
+	&JacielName	DR6A31		
+				
+				
+				
+				
+	talktable			
+	First	DR6A11		
+	Second	DR6A11		
+	Third	DR6A11		
+	Fourth +	DR6A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

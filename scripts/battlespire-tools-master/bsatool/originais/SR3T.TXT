@@ -1,0 +1,20 @@
+		Seducer Oathkin					file SR3T.xls			Good Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR3A11	Eu cuspo nos caes traicoeiros de Dagon! Nao vais ter piedade de mim, comedor de vermes! - Vamos. Aproxima-te para ouvires a minha maldicao sobre ti e sobre todo o teu coelho que lambe cuspo!	SR3A1A	TRUE			Sentimentos proximos do meu coracao, e falados como um guerreiro. Mas voce me confunde com um cao, quando na verdade sou um homem inocente, jogado como uma folha na inundacao. Vamos unir forcas e dar pontapes aos caes que precisam de pontapes.	SR3A21				
+			SR3A1B	TRUE			Mae dos Monstros! Estou ofendido! Pareco um dos caes de Dagon?	SR3A21				
+			SR3A1C	&JacielName			- Olha. Estou do lado do Jaciel e da Deyanira, e nao me interessa quem sabe! Entao, se somos inimigos, vamos la. Mas se somos aliados, vamos parar de nos queimar!	SR3A31				
+			SR3A1D	&JacielFree			- Espera! O Jaciel esta livre! Eu libertei-a! Sou um homem! Estou do teu lado!	SR3A41				
+	SR3A21	Caes mentirosos, covardes e chupadores de cuspo! Nao me facas truques de mentiras! Aproxima-te e deixa-me beijar-te, seu cobarde, idiota!	SR3A2A	TRUE			- Espera, espera.	END	MonsterAttack	&Dog		
+	SR3A31	- Nao. - Sim, e verdade. Ja ouvimos falar de si e que favorece a nossa causa. - Ouve. Pode interessar-te. Ouvimos que os Flamers atacaram um barco que transportava Frosties e um carregamento de tesouros enquanto atravessava as piscinas. Os itens podem estar espalhados por todo o lado, e a agua e profunda e escura, por isso tenha cuidado.	SR3A3A	TRUE			Obrigado pela dica. Eu vou ficar de olho.	END	PCTeam	&Buddy		
+	SR3A41	- Nao. Foste tu que libertaste a Nossa Senhora. Nos que permanecemos leais te saudamos e louvamos o teu nome. Nossa Senhora ordenou-nos que a salvaguardassemos e a tratassemos como uma irma juramentada. Estamos entre vos e os vossos inimigos. Ouviste falar do derramamento do tesouro nas piscinas? - Encontraste alguma coisa?	SR3A4A	TRUE			- Raios partam. Nao foi nada. Mas obrigado por pegar nas armas contra os meus inimigos. Tenho bastante para todos. E nao, nao ouvi falar de um derramamento de tesouros. - Porque? - Nao.	SR3A51				
+			SR3A4B	TRUE			Ouvi falar do tesouro, mas nao encontrei nenhum. - Desculpa. - Desculpa.	SR3A51				
+			SR3A4C	TRUE			Sim, ouvi falar do tesouro e encontrei algum. Querias-a de volta?	SR3A61				
+	SR3A51	- Que pena. Mas nao temos tempo para procurar agora. Deyanira diz que podes levar o que precisares.	SR3A5A	TRUE			E muito generoso. - Obrigado, meu. E agora, por favor, desculpem-me. Tenho de procurar o meu amigo e encontrar o caminho para sair daqui.	END	PCTeam	&Hero		
+	SR3A61	Nao, por favor. A Senhora diz que deve guardar o que encontrar e usa-lo contra os nossos inimigos comuns. Agora desculpem-nos. Ha muito a fazer.	SR3A6A	TRUE			E muito generoso. - Obrigado, meu. E va em frente, por favor. Tambem tenho muito que fazer. - Adeus. - Adeus.	END	PCTeam	&Hero		
+	SR3A71	Pareces-me familiar, mas tenho de ter a certeza.	SR3A7A	TRUE			Sou o homem, lembras-te? Amigo da Deyanira e do Jaciel?	SR3A21				
+			SR3A7B	&Buddy			Sou o homem, lembras-te? Amigo da Deyanira e do Jaciel?	SR3A81	PCTeam			
+			SR3A7C	&Hero			Sou o homem, lembras-te? Ajudei a libertar o Jaciel?	SR3A91	PCTeam			
+			SR3A7D	&JacielName			Estou a trabalhar com o Jaciel e a Deyanira. Lembras-te de mim?	SR3A31	PCTeam			
+			SR3A7E	&JacielFree			Lembras-te de mim? Sou o tipo que libertou o Jaciel.	SR3A41	PCTeam			
+	SR3A81	- Sim, e verdade. Nos observamos e esperamos.	SR3A8A	TRUE			- Bom trabalho. - Sim. E adeus.	END				
+	SR3A91	- Sim, e verdade. Damos as boas vindas ao nosso aliado na cruzada para reconquistar a Sombra Perigosa.	SR3A9A	TRUE			E as coisas estao a correr maravilhosamente bem. Continua com o bom trabalho.	END				

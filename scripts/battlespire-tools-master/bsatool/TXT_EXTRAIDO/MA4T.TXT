@@ -1,0 +1,24 @@
+		Herne Oathkin					file MA4T.xls			Mastema Boxers Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MA4A11	You! You Took our Playbrother Egahirn! And now he is GONE, the poor sweet thing! We WEEP! We cry! We rip our skins! We HATE our pain. And YOU, mortal, shall share our pain, and drape the WALLS with your gaudy GUTS! For JOY of pain! For WASTE of loss! We MISS our Playbrother! And BURST his Taker!	MA4A1A	TRUE			Look. I said I was sorry. But -- I admit -- not very sorry. Hah-hah-ha! He got what he deserved, the dirty little cheater.	MA4A21				
+	MA4A12	So. You are the manling who has Taken our Playbrother from us. You do not look like much. We must not give way to weeping -- not until we spread upon the ground your separate parts in all their glory.	MA4A1B	&Payem OR &Cess			All that is in the past. Most unfortunate. Now I wear her Ladyship's amulet, and serve her as you do. May we not work together? Or, if you should desire satisfaction, I'll not deny you -- but first let us take care of the Clannfear rabble.	01-50: MA4A31 51-00: MA4A41				
+			MA4A1C	&Payem OR &Cess			This amulet says keep your hands off. Is that clear? And stay out of my way, or what happened to Egahirn could happen to you.	MA4A21				
+	MA4A21	Die. Die a thousand times, and beg for a thousand more.	MA4A2A	TRUE			One death is quite enough for me, and I'll save it for my old age, thank you.	END	MonsteraAttack	&HerneMad		
+	MA4A31	This is a personal matter, concerning close Oathkin, manling. You couldn't understand. And will not live long enough to worry about it.	MA4A3A	TRUE			I understand plenty, jerk, and considering all the scores I've got to settle, I might as well start with you. Come on.	END	MonsteraAttack	&HerneMad		
+	MA4A41	For the moment, manling, you may hide behind the amulet. But later, I promise you, there will be an accounting for your actions.	MA4A4A	TRUE			That suits me fine, goat-breath.	MA4A51				
+	MA4A51	What did you call me, little manling?	MA4A5A	TRUE			Oh. Nothing. Just clearing my throat.	MA4A71				
+			MA4A5B	TRUE			Oh. Beg pardon. MISTER Goat-Breath.	END	MonsteraAttack	&HerneMad		
+	MA4A61	Goodness. What have we here? An ape? A battlemage in donkeyform? An animated manikin for our sport? Now, if it were a manling, then we would have to leave it be, for such are my Lady's orders. But surely, it cannot be the manling, so we may use it for our jests.	MA4A6A	TRUE			Seriously? You don't recognize me? Oh. I see. If that's the way you want to play, it suits me fine.	END	MonsterAttack	&HerneMad		
+	MA4A71	You should be more careful, manling. We are sensitive creatures, and quick to take offense.	MA4A7A	TRUE			I'm really, really sorry. I'm ashamed of myself. Please forgive me.	MA4A81				
+			MA4A7B	TRUE			You're right. I'm really sorry. Mister Goat-Breath.	END	MonsteraAttack	&HerneMad		
+	MA4A81	In the spirit of universal brotherhood among mortals and immortals, I graciously forgive you.	MA4A8A	TRUE			Handsomely done. Spoken like a gentleman. So let's go whack lizards, shall we?	END	PCTeam			
+			MA4A8B	TRUE			And in turn, I graciously forgive you for dressing like a goat.	END	MonsteraAttack	&HerneMad		
+	MA4A91	Lady Faydra is gone. I no longer feel the thrill of her in my heart. No, it couldn't be that YOU had anything to do with that, could it, manling?	MA4A9A	TRUE			Hoh. Sure. It was me. I just tossed her Ladyship where the stars don't shine. And good riddance. Mean old witch.	END	MonsterAttack	&HerneMad		
+			MA4A9B	TRUE			Sorry to disappoint you, but I don't carry that sort of muscle. And losing her Ladyship kicked some ants into my dinner, too, big boy. We had some plans cooking. So. I was thinking of waltzing over and putting a hurt on Xivilai and his bunch. You up for that?	01-50: MA4A01 51-00: MA4B11				
+	MA4A01	Maybe you did Faydra, and maybe you didn't. Doesn't matter to me, now. It's just us, and our personal matters. And time to settle up for what you did to my Oathkin, Egahirn. 	MA4A0A	TRUE			That's old history. But I can see it bothers you. Okay. Let's take care of unfinished business.	END	MonsterAttack	&HerneMad		
+	MA4B11	Things are a little confused right now, manling. I think I'll sit this one out, see which way the wind blows. So perhaps a temporary truce is in order. You play nice, and I'll play nice. And later, when things settle down, come see me, and we'll have a nice little chat.	MA4B1A	TRUE			Can't promise anything. But I am feeling a little tuckered out from bursting torsos and ripping off arms. So let's both take a little breather.	END	PCTeam			
+												
+												
+	MA4B21	[[His eyes glow with fury, but he says not a word.]]	MA4B2A	TRUE				END				
+	MA4B31	[[He sizes you up as he ignores your offer to parlay.]]	MA4B3A	TRUE				END				
+	MA4B41	[[He gazes at you indifferently, and keeps his own counsel.]]	MA4B4A	TRUE				END				

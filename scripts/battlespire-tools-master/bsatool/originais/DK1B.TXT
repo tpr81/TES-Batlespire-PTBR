@@ -1,0 +1,27 @@
+	Random Talk Tables			file Dk1B.xls
+Katrece				
+	talkcheck			
+	&PCReturn	DK1B81		
+	&QuestStart	DK1A01		
+				
+				
+				
+	talktable			
+	First	DK1A11		
+	Second	DK1A11		
+	Third	DK1A11		
+	Fourth +	DK1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

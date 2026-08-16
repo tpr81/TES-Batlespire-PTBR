@@ -1,0 +1,27 @@
+	Random Talk Tables			file SR5B.xls
+Bad Seducer				
+	talkcheck			
+	&SeduceNoTalk	SR5A51		
+				
+				
+				
+				
+	talktable			
+	First	SR5A11		
+	Second	SR5A51		
+	Third	SR5A41		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	SR5A11		
+	34-66	SR5A51		
+	67-00	SR5A41		
+				
+				
+				
+				
+
+
+				
+				

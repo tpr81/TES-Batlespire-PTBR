@@ -1,0 +1,23 @@
+		Clannfear Oathkin					file CF1T.xls			Clannfear Cheaters Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CF1A11	We smells FLESH! Flesh is wrong! Escapes, has it? Or steals our treasures? Now we takes and strips it, yes, and seeks for its surprises.	CF1A1A	TRUE			Sober up, and stop spitting on me. Where's your master? Dammit! I'm in a hurry. Stop gawking, and start talking.	01-50: CF1A21 51-00: CF1A31				
+	CF1A12	Smell THAT! Warm. Soft. Wet in our teeth. FLESH! Flee, manling, so we bites the BEST parts!	CF1A1B	TRUE			How can you tolerate these Hernes? They mock the Law. They cheat in the Hunt, and brings dishonor on you all. And, by the way, in case you don't know who you're dealing with, I just killed a Huntsman. Yes. Egahirn.  A Huntsman protected by the Sacred Ritual. So. Why don't you go do something about those disgusting Hernes?	01-50: CF1A41 51-00: CF1A61				
+			CF1A1C	&Tayem			This flesh is not for you, fool. This flesh belongs to Xivilai, and he won't thank you for putting holes in it. See this amulet? That means "Shut up and get out of my way."	01-50: CF1A21 51-00: CF1A31				
+			CF1A1D	TRUE			Excuse me. Which way to Lord Imago? Very important message for Lord Imago.	CF1A21				
+	CF1A21	Lord Xivilai is in his Throne Room, sweetmeats. Would you like to go there now? Here, come close and I'll give you a little ride.	CF1A2A	TRUE			Thanks for the tip. Now stop breathing on me.	END	MonsterAttack	&FearMad		
+	CF1A31	Hhhsssss! Threatens us, does it? Hhhsssss! 	CF1A3A	TRUE			Yessss. Threatens the sissy little lizard. Then splits its sissy little gizzard.	END	MonsterAttack	&FearMad		
+	CF1A41	You LIES, person. You can't kill a Daedra. Immortal is your word, yes?	CF1A4A	TRUE			Oh, sure, if you have to be technical about it. But I smacked him with the Huntsman Spear – with Dagon's own power. That should put him out for a LONG time.	CF1A51				
+	CF1A51	The SHAME! The Huntsman slain by a mortal. The Hernes bring nothing but shame and shame. The Hernes must learn -- Honor the Law. And Faydra must teach -- Honor on the House. They taunts and tests us. They steals our glory, and raids our treasures. And now, this must stop. Honor  at stake. Pride demands! Chasten them with  Rods of Law. Hammer them to the Straight Path!	CF1A5A	TRUE			You and me, lizardboy! Let's go put hurt on Hernes! Hooray!	END	PCTeam			
+	CF1A61	Yes. The Hernes make shame. But you, flesh, you make shame, too. You think us fools? We poke your eyes and plays with you, yes.	CF1A6A	TRUE			Come over here and say that.	END	MonsterAttack	&FearMad		
+	CF1A71	What? Why talk? What talk? Hates talk!	CF1A7A	TRUE			Hey? Your Lord Xivilai grants me his protection. Why are you beating on me?	CF1A81				
+	CF1A81	Clannfear not stained as traitors, no! Lord says, "Flesh not slain – but  chasten flesh as nasty Oathkin, trespass on customs." Flesh provokes us? Feel teeth and claws. But goes quiet, leaves us? Smart flesh, yes.	CF1A8A	TRUE			Fine. Bite me.	END	MonsterAttack	&FearMad		
+			CF1A8B	TRUE			Taste my steel. And boot. And fireball. And this old piece of cloth. And this lump of wax. And some lint.	END	MonsterAttack	&FearMad		
+	CF1A91	Vengeance! Our Lord is wounded! Someone has wounded our Lord!	CF1A9A	TRUE			Hi. It was me. I just kicked your Lord's butt into Oblivion. Come over here, and I'll kick your scaly little butt, too.	END	MonsterAttack	&FearMad		
+			CF1A9B	TRUE			Oh. Oh. Betrayal! Treason! Faydra and her Hernes have treacherously cast Xivilai into Oblivion! Fall upon the traitors, and avenge the Exile of our noble Lord.	01-50: CF1A01 51-00: CF1B11				
+	CF1A01	And you? You took no part, flesh? You LIE! And you DIE!	CF1A0A	TRUE			You're green. You know that? Only animals and plants are green. Therefore, you are a stupid animal or a stupid plant. That's logic. Or maybe you're a bug.	END	MonsterAttack	&FearMad		
+	CF1B11	Betrayal! Treason! War upon Faydra, and all her faction!	CF1B1A	TRUE			Yeah! Get 'em! Hang him high! Bake the traitors! Make war on Faydra! Woo, woo!	END	PCTeam			
+												
+												
+	CF1B21	[[It hisses and spits, but speaks no words.]]	CF1B2A	TRUE				END				
+	CF1B31	[[It sniffs and eyes you hungrily.]]	CF1B3A	TRUE				END				
+	CF1B41	[[It peers at you, then its claws, then yawns wide, displaying its teeth.]]	CF1B41	TRUE				END				

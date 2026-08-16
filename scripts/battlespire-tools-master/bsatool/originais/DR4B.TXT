@@ -1,0 +1,27 @@
+	Random Talk Tables			file Dr4B.xls
+Dremora L4				
+	talkcheck			
+	&DremoraDone	DR4B71		
+	&DremoraSpeak	DR4B81		
+	&DremoraMad	DR4B61		
+				
+				
+	talktable			
+	First	DR4A11		
+	Second	DR4B71		
+	Third	DR4B81		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-25	DR4A11		
+	26-50	DR4B61		
+	51-75	DR4B71		
+	76-00	DR4B81		
+				
+				
+				
+
+
+				
+				

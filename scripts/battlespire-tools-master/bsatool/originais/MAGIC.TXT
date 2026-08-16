@@ -1,0 +1,42 @@
+NAME	"of Nonsense"
+ITEM	1
+SPELL	4, -1, 10
+APP	14, 20, 15, 20, 17, 20, 100
+CLASS	class000.scl
+LEVEL	3
+
+NAME	"of Stuff"
+ITEM	0
+SPELL	4, 18, -1
+APP	14, 20, 15, 20, 17, 20, 100
+CLASS	class000.scl
+LEVEL	3
+
+NAME	"of Something"
+ITEM	2
+SPELL	-1, -1, 10
+APP	14, 20, 15, 20, 17, 20, 100
+CLASS	class000.scl
+LEVEL	3
+
+NAME	"of Orother"
+ITEM	1
+SPELL	-1, -1, 10
+APP	14, 20, 15, 20, 17, 20, 100
+CLASS	class000.scl
+LEVEL	3
+
+NAME	"of glib speech"
+ITEM	0
+SPELL	4, 18, 10
+APP	14, 20, 15, 20, 17, 20, 100
+CLASS	class000.scl
+LEVEL	3
+
+NAME	"of Funk"
+ITEM	2
+SPELL	4, 18, 10
+APP	14, 20, 15, 20, 17, 20, 100
+CLASS	class000.scl
+LEVEL	3
+

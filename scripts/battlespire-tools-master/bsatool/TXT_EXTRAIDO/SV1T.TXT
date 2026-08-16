@@ -1,0 +1,23 @@
+		Perthan Vorn								Spider Vorn TALK			
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SV1A11	Why should we fight? Perhaps there is something you want… something I'd be happy to give you…	SV1A1A	TRUE			Nothing a repulsive creature like you could say could be of any possible interest to me	END	MONSTERATTACK	&VornMad			
+	SV1A12	I enjoy a challenge, and a good workout… but more stimulating  exertions  might satisfy us both.	SV1A1B	TRUE			That sounds good to me. Let me get comfortable…	SV1A51	DROPREADYWEAPON AND UNEQUIPARMOR				
+	SV1A13	Your form is pleasing, mortal. To mar such grace with weapons is a pity… I'd far prefer to wrestle.	SV1A1C	TRUE			I admit… I like what I see, and your proposal is appealing… but what assurance can you give of my safety if I make myself more… accessible to you?	END	MONSTERATTACK				
+	SV1A21	I can't die, mortal. Are you sure you want to risk YOUR all too fragile skin?	SV1A2A	&Voidguide			Good point. But I can't leave. Just give me the voidguide, and I'll withdraw immediately.	SV1A61					
+	SV1A22	Defeat me, and I taste bitter Oblivion… but I WILL return. For you, there is no return from death. Is this affair worth such risks?	SV1A2B	&PCFemale			That's a difficult question. But I can't abandon a friend. Please… tell me where Josian Kaid is, and I swear you'll have no further trouble from me.	SV1A71					
+	SV1A23	What reward can balance the chance of a sleep from which you will never wake?	SV1A2C	&PCMale			That's a difficult question. But I can't abandon a friend. Please… tell me where Vatasha Trenelle is, and I swear you'll have no further trouble from me.	SV1A81					
+			SV1A2D	TRUE			I am a great fool, I concede, and terrified of death. Buth, then again, at least I serve whom I choose, and am no creature's slave.	END		&VornMad			
+			SV1A2E	&MethatsName			I know my risk, though I thank you for your concern. I am curious, though. What do YOU fear? Why do you serve Methats? Have you no pride?	SV1A91					
+	SV1A31	Don't waste your breath, fleshchild… you'll miss it when it's gone.	SV1A3A	TRUE			Sound advice. Do your worst, helspawn.	END	MONSTERATTACK 				
+	SV1A41	[[Licking its lips, it grins at you mockingly.]]		TRUE					MonsterAttack				
+	SV1A42	[It peers at you curiously as if it were studying a curious animal.]]		TRUE					MonsterAttack				
+	SV1A43	[[It shows little interest in speaking with you.]]		TRUE					MonsterAttack				
+													
+													
+	SV1A51	Ahhh…. You are everything I dreamed of. Now, let ME give you something I KNOW will please you…	SV1R1YBA	TRUE			I can't wait….	END	Health_2 AND FeebleDelay_120 AND PleasureSFX				
+			SV1R1YBB	TRUE			Uh… well… maybe… 	END	MONSTERATTACK 				
+	SV1A61	I have no idea where the voidguide is… but I do know where I put one piece of it. And I also know you won't be getting your hands on it.	SV1R2YAA	TRUE			I guess I'll just have to settle for a piece of the voidguide… and maybe a piece of you, while I'm at it.	END	MonsterAttack				
+	SV1A71	Josian Kaid… we both want Josian Kaid. Excuse me, but… finder's keepers….	SV1R2YBA	TRUE			We'll see about that.	END	MonsterAttack	SVNoTalk			
+	SV1A81	Vatasha Trenelle…  we both want Vatasha Trenelle. Excuse me, but… finder's keepers….	SV1R2YCA	TRUE			We'll see about that.	END	MonsterAttack	&SVNoTalk			
+	SV1A91	Methats? He's a toad. I serve Wonshala, and not out of fear, but in heat, hunger, and delight.	SV1S2YEA	TRUE			Oh. Well, I'll be sure to let Wonshala know if we should meet.	END	MonsterAttack				
+													

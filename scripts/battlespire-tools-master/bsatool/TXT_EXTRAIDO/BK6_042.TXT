@@ -1,0 +1,37 @@
+Codex Arcana, Volume VI
+
+STUDENTS AND SCHOLAR: Attend our Abjurations!$
+SHOWING DUE PROPRIETY IN THE CUSTODY OF BOOKS$
+
+We not only render service to the Emperor in preparing volumes of new books, but also exercise an office of sacred piety when we treat books carefully, and again when we restore them to their proper places and commend them to inviolable custody; that they may rejoice in purity while we have them in our hands, and rest securely when they are restored to their repositories.  And surely next to the vestments and engines dedicated to the Emperor's glory, arcane books deserve to be rightly treated by the battlemage, to which great injury is done so often as they are touched by unclean hands.  Wherefore we deem it expedient to warn our students against various negligences, such as might be easily avoided and which do wonderful harm to books.$
+
+Being a continuance of a partial index of arcane contrivances known to the scholars and alchemists of Battlespire, that these contrivances might more readily be known to all students, and neither abused, nor neglected, nor wasted in their employment.$
+
+CrossBow of Sulphurous Death: wreaks Major Poison Damage, and is schooled with crafts of RESTORATION
+
+CrossBow of Grotesque Liveliness: engenders Rapid, Medium Continuous Damage to Target, and is informed by the arts of THAUMATURGY
+
+Cuirass of the Dusk and the Dawn: casts the spell of Shadow, and is schooled with crafts of RESTORATION
+
+Cuirass of the Outermost Wastes: wreaks Major Delayed Damage, and partakes of the excellence of THAUMATURGY
+
+Cuirass of the Scaly Pelt: enchanted with the spell of Minor Shield, and is informed by the arts of BLUNTWEAPON
+
+Cuirass of Final Virtue: wreaks Major Fire Damage, and gifts its owner with special insight into the disciplines of RESTORATION
+
+Dagger of the Capering Dog: conceives the spell of Summon Smart Guard, and partakes of the excellence of DESTRUCTION
+Dagger of the Shrew: engenders Medium Magic Damage, and is informed by the arts of MYSTICISM
+
+Dagger of the Tongue of the Wyrm: engenders Medium Fire Damage, and gifts its owner with special insight into the disciplines of ALTERATION
+
+Dagger of the Winter's Night: casts the spell of Resistance to Frost, and is schooled with crafts of HANDTOHAND
+
+Gauntlets of Scathing: causes Minor Magic Damage, and gifts its owner with special insight into the disciplines of MYSTICISM
+
+Gauntlets of the Rain of Fire: causes Minor Fire Damage, and partakes of the excellence of ILLUSION
+
+Gauntlets of the Summer's Day: enchanted with the spell of Resistance to Fire, and is informed by the arts of LONGBLADE
+
+Gauntlets of Expectant Wonder: casts the spell of Summon Smart Monster, and is schooled with crafts of MYSTICISM
+
+Greaves of the Biting Pains: engenders Medium Frost Damage, and is schooled with crafts of ALTERATION

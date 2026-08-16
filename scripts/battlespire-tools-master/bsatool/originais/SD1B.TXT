@@ -1,0 +1,26 @@
+	Random Talk Tables			SD1b.xls
+				
+	Both Spider Deadra Talk Table			
+	talkcheck			
+Spider	&SpiderMad	SD1A21	local	
+Daedra L2.2				
+				
+				
+				
+	talktable			
+	First	SD1A11	global	
+	Second	SD1A41		
+	Third	SD1A31		
+	Fourth +	GotoRandom		
+				
+	Random	Both PC		
+		TalkGroup	Notes
+	01-10	SD1A11	Why talk?
+	11-20	SD1A12	Why talk?
+	21-30	SD1A13	Why talk?
+	31-40	SD1A21	Nasty
+	41-50	SD1A31	Loonie
+	51-70	SD1A41	NoTalk default
+	71-85	SD1A42	NoTalk default
+	86-00	SD1A43	NoTalk default
+			

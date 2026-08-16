@@ -1,0 +1,32 @@
+		Scamp Oathkin					file sk3t.xls			SCAMPTALK			
+	Saycode	NPC SAY	Replycode	response CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SK3A11	Ajuda! Ajuda! Ajuda! Ajuda! O Homem! - Mata-mata!	SK3A1A	TRUE			- Nao, nao. Quero que as pernas se desprendam! E descasque os escalpes com restos de metal enferrujado! - Nao, nao.	SK3A61					
+	SK3A12	Ajuda! Ajuda! Ajuda!	SK3A1B	TRUE			Nao ha necessidade de entrar em panico, amigos. Va livre! Va livre! Libero-vos da vossa cruel servidao! Vai daqui em diante, e ama a Luz e a Misericordia.	SK3A71					
+	SK3A13	MORTE! MORTE! MORTE! MORTE! MORTE! MORTE! MORTE! MORTE!	SK3A1C	TRUE			Cuidado! Atras de ti! - Nao! - Nao!	SK3A81					
+			SK3A1D	TRUE			Entao! Rouba o guia de vacuo, sim? Achas que podes enganar o Sumeer? Tornarem-se tolos com o Vermai e a Dremora? Nao! Reuni-te comigo, boa Daedra, e mata os traidores.	01-25: SK3A91
+26-50: SK3A01							
+51-75: SK3B11							
+76-00: SK3B21							
+	SK3A21	O Homem! Matem amigos! Rasga a carne! Morde-me!	SK3A2A	TRUE			- Eu? - Nao. - Deves estar a brincar. Nao faria mal a uma mosca.	END		&ScampMad			
+	SK3A22	Olhem! Olhem! O Homem-Coisa Desagradavel! - Vamos! - Vamos! Mata-o depressa!	SK3A2B	TRUE			Vou levar-te a ti e aos teus amigos.	END	MonsterRally	&ScampMad			
+	SK3A23	Esquecido, mentiroso, homem. Esgueira-se e engana-nos, magoa-nos. Agora, pegamos-lhe, puxamos os bracos...	SK3A23	TRUE			- Meu Deus. Suponho que agora devo esmagar-te um pouco.	END		&ScampMad			
+	SK3A31	O canalha esta muito triste. Rishaal diz ao Scamp "Morte a coisa do homem". Mas a coisa do homem bate no Scamp como a uva.	SK3A3A	TRUE			Es bastante esperto para um patife. Vou contar ate cinco para comecar. Um... dois... tres...	END	MONSTERFLEE_120				
+	SK3A41	[Acabou de se agachar, mas nao disse nada.]		TRUE				END					
+	SK3A42	[Mudanca de posicao, mas nao fala.]		TRUE				END					
+	SK3A43	E lambe os labios.		TRUE				END					
+	SK3A51	O homem mau! RIP, cara fedorenta! Mastiga e arranha e mastiga as PONTAS e BITS!	SK3A5A	TRUE			Sabes, as vezes eu realmente gosto deste trabalho.	END		&ScampMad			
+													
+													
+	SK3A61	- Nao! Medo!	SK3A6A	TRUE			- Nao, nao, nao. Sangue! Sangue! - Tem coragem! Grandes pedacos de carne de camarao!	END	MONSTERFLEE_120	&ScampMad			
+	SK3A71	O que? Tu...seras... simpatico?	SK3A7A	TRUE			Amo todas as coisas e so quero que todas as criaturas vivas sejam felizes e livres.	END	MONSTERFLEE_120				
+	SK3A81	- Nao. - Onde? - A casa.	SK3A8A	TRUE			Atras de ti, idiota!	END	MONSTERFLEE_120				
+	SK3A91	Nao! - Cala a boca! Para de mentir! Bons escravos!	SK3A9A	TRUE			Sao cortinas para ti, traidor.	END	MONSTERFLEE_120	&ScampMad			
+	SK3A01	O QUE?! Homem-coisa grande mentiroso! - Mata-mata!	SK3A0A	TRUE			Chamo todos os daedra! Morte aos traidores!	END	MONSTERATTACK	&ScampMad			
+	SK3B11	- Nao. - Mal, mal. Pega nas coisas boas e corre!	SK3B1A	TRUE			Voltem e lutem, seus covardes.	END	MONSTERFLEE_120	&ScampMad			
+	SK3B21	Um homem complicado! Achas que o canalha e estupido? Seu furtivo furtivo! - Nao, nao. - Que mau! GRAVAS mordidas e arranhoes.	SK3B2A	TRUE			Se es tao esperto, porque nao andas a correr, pequenote? E porque nao usam calcas como criaturas civilizadas?	END	MONSTERATTACK	&ScampMad			
+													
+													
+													
+													
+													
+													

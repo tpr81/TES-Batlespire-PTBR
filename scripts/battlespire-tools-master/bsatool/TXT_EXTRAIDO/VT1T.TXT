@@ -1,0 +1,3 @@
+		Vatasha Trenelle					file Jk1T.xls			Vatasha Trenelle Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	VT1A11	[[She does not respond. She seems to be unconscious, or in a deep sleep.]]	VT1A1A	TRUE				END				

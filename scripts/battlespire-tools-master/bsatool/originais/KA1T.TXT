@@ -1,0 +1,39 @@
+		Wraith of Kirel Aman					file Ka1T.xls			Kirel Aman		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	KA1A11	Eu falhei. Trai o meu juramento sagrado e a minha confianca. Jurei defender o Espirito de Batalha pelo meu Imperador. E agora estou morto, e todos os meus subordinados tambem, e o Espirito de Batalha em ruinas, saqueado pela Daedra, e governado pelo Principe da Destruicao.	KA1A1A	TRUE			Seu CAO! Justica e vinganca! Sera um prazer destruir-te, traidor! Preparem-se para morrer outra vez!	END				
+			KA1A1B	TRUE			- O que? - O que? Quem e voce? - O que? E o que fazes aqui? E porque me atacas?	KA1A21				
+	KA1A21	Sou Kirel Aman, Praeceptor Superior do Battlespire. Fui sugado do meu poder pela Daedra, paralisado, dominado e levado para este lugar, onde disse aos meus captores tudo o que queriam saber. Nao pude evitar, tao profundamente tinham cacado a minha vontade. Mesmo atraves da morte nao podia escapar deles. E agora estou condenado a assombrar estes corredores para sempre. A loucura vem sobre mim, e eu me torno um fantasma, um demonio, um monstro que se alimenta das almas dos outros.	KA1A2A	TRUE			Nao se deixe levar. Procuro vingar-te a ti e a todos os que morreram em Battlespire. Se puder, vou recuperar o Espirito de Batalha, para ti e para o meu Imperador.	KA1A31				
+			KA1A2B	TRUE			Tenho pena de ti. Ha alguma maneira de libertar a tua alma?	KA1A41				
+			KA1A2C	&PCMale			Estou a procura de um companheiro que veio ao Battlespire para testes e conseguiu escapar da Daedra. O nome dela e Vatasha Trenelle. Ela esta aqui?	KA1A91				
+			KA1A2D	&PCFemale			Estou a procura de um companheiro que veio a Battlespire para testes e conseguiu escapar da Daedra. O nome dele e Josiah Kaid. - Ele esta aqui? - Sim.	KA1A01				
+	KA1A31	Eu abencoo-te. Ouve e considera bem, porque a loucura me vem sobre mim, e nao posso dominar o meu proprio espirito. O Senhor Dagon, Mehrunes Dagon e todos os seus exercitos cairam sobre nos sem aviso. Como entraram na cidadela, nao sei, porque deve ser impossivel. Deve ter havido um traidor. Tens de voltar a Tamriel e avisar o Imperador.	KA1A3A	TRUE			Tens a minha palavra. Vou avisar o Imperador assim que puder, e vou vingar a tua morte, e a de todos os Magos e guardas que morreram a defender o Battlespire. Mas nao te deixaria aqui a sofrer. Posso libertar o teu espirito do seu feitico?	KA1A41				
+	KA1A41	Um fantasma so pode ser destruido pelo poder que o criou. Mas sei de outra maneira. Podes ligar o meu espirito a uma joia encantada da alma e prometer a essa joia da alma a vinganca eterna. Conheco o ritual, mas nao posso realizar os ritos sem uma forma material.	KA1A4A	TRUE			Podes ensinar-me o ritual? Posso usar este ritual em alguem?	KA1A51				
+	KA1A51	O rito so pode ser realizado num espirito voluntario. A praxis e necromantica e ma, e condena a minha alma a um tormento eterno, mas eu suportarei com prazer para me vingar, aos meus amigos e ao meu Imperador. Aprendera este rito e jurara um juramento solene para usar o dispositivo do espirito condenado na guerra contra os nossos inimigos?	KA1A5A	TRUE			Desculpa, mas a necromancia e ma e nao vou participar num ato desse tipo. Lamento, mas tenho de recusar. - Adeus. - Adeus.	END				
+			KA1A5B	TRUE			Se escolheres este destino por tua propria vontade, estou disposto.	KA1A61				
+	KA1A61	Agora, compoe o teu espirito e diz as palavras. Eu mesmo providenciarei a praxis e o poder para o rito. A minha forma fantasmal desaparecera e tu vais encontrar uma joia magica. Pegue nesta joia, use-a bem, e quando atacar os nossos inimigos, pense em mim.	KA1A6A	TRUE			Eu entendo, e estou pronto.	KA1A71				
+	KA1A71	Repita comigo:					
+Thy power spend, thy form in flames,							
+Curse my foes, and curse their names.							
+Vest thy power and consecrate							
+This weapon's art to damn their fate. 	KA1A7A	- E verdade.			 Thy power spend, thy form in flames,   Curse my foes, and curse their names.   Vest thy power and consecrate   		
+This weapon's art to damn their fate. 	END	Matar E Largar 20_9260					
+			KA1A7B	TRUE			Desculpa, mas nao tenho a certeza sobre isto. De-me algum tempo para pensar. - Adeus. - Adeus.	END		&ReadyRite		
+	KA1A81	- Por favor, nao. Estao prontos para realizar o rito? - Por favor, nao. Nao me negues esta oportunidade de redimir os meus fracassos.	KA1A8A	TRUE			- Sim, e verdade. Vejo que e seu direito escolher. Se e o seu desejo, farei o rito.	KA1A61				
+			KA1A8B	TRUE			Nao, ainda nao tenho a certeza. - Adeus. - Adeus.	END				
+	KA1A91	Nao encontrei aqui nenhum mortal, mas o seu companheiro pode ter passado por aqui sem o meu conhecimento. Nao posso passar das salas do sigilo daedrico.	KA1A9A	TRUE			Se a vires, agradece-lhe pelos presentes, e estou ansioso por a ver. Muito em breve. Os Daedra sao descuidados, desorganizados, divididos em conselhos, e nao parecem saber que os ameacamos. Com sorte, vingaremos-te a ti e a todos os que morreram em Battlespire.	KA1A31				
+	KA1A01	Nao encontrei aqui nenhum mortal, mas o seu companheiro pode ter passado por aqui sem o meu conhecimento. Nao posso passar das salas do sigilo daedrico.	KA1A0A	TRUE			Se o vir, agradeca pelos presentes, e estou ansiosa por ve-lo. Muito em breve. Os Daedra sao descuidados, desorganizados, divididos em conselhos, e nao parecem saber que os ameacamos. Com sorte, vingaremos-te a ti e a todos os que morreram em Battlespire.	KA1A31				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+															
+															

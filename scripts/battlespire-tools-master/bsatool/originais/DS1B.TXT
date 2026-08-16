@@ -1,0 +1,27 @@
+	Random Talk Tables			file DS1B.xls
+Dark Seducer				
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	DS1A11		
+	Second	DS1A51		
+	Third	DS1A81		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-25	DS1A51		
+	26-50	DS1A81		
+	51-75	DS1A91		
+	76-00	DS1A01		
+				
+				
+				
+
+
+				
+				

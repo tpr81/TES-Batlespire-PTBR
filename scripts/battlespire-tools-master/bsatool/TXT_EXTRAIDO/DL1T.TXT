@@ -1,0 +1,18 @@
+		Daedra Count					file DL1T.xls			Daedra Lord L8 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DL1A11	"You are good. Yet you are tired, reserves exhausted. And we are fresh. And very good. Those you have defeated? We are their masters, and greater by far than you have seen.	DL1A1A	TRUE			I am not diminished. I will prevail.	DL1A21				
+			DL1A1B	TRUE			All this may be true. What is your point?	DL1A21				
+			DL1A1C	TRUE			This is all of no account. We are enemies. The only speech I will hear from you is your surrender. I would even spare you if you were to clear from my path, though I know duty to your Lord forbids you that path. Now, lay on, and cursed be he who first cries, Hold!	END		&CountMad		
+	DL1A21	You are flesh, and mortal. Do not, in your pride, perish, and pass away forever. While there is still a chance of your success, no matter how slim, we know you must struggle. But when all hope is gone, and death is upon you, yield to us. We will guard you well, for you are a prize of great value. 	DL1A2A	TRUE			Thank you, but pride and honor forbids that I might yield. Come. Let us try our arms.	END		&CountYield		
+			DL1A2B	TRUE			I mark your words, but I know not your honor, nor the honor of your Lord, and would not test it by yielding up my life and arms.	DL1A31				
+	DL1A31	Yes. We know of the treachery of Egahirn, and are shamed by his false actions. Yet consider. Though we will be praised as your conqueror, be you quick or dead, still our fame increases if you honor us by becoming our ransom. Even if our honor is stained, reason proves our interest in preserving you whole to our glory.	DL1A3A	TRUE			I will consider your words. But now we must return to our contest of arms, upon which rests both our fortunes.	END		&CountYield		
+	DL1A41	Have you considered our offer? Would you yield to us?	DL1A4A	TRUE			No. I would not yield. Will you give way?	DL1A51				
+			DL1A4B	TRUE			Yes. I will yield, on the condition that my life, and the life of my companion, are spared.	DL1A61				
+	DL1A51	We will not give way.	DL1A5A	TRUE			Then only by our weapons may we resolve our dispute.	END		&CountMad		
+	DL1A61	I can speak for your life, upon my own honor, but not for the life of your companion, which is in my Lord's hands.	DL1A6A	TRUE			Then I cannot yield. Our fight is to the death.	END		&CountMad		
+			DL1A6B	TRUE			Then I must be satisfied with my own life. I lay down my arms and armor, and yield to you.	01-50: DL1A71 51-00: DL1A81	DropReadyWeapon AND UNEQUIPARMOR			
+	DL1A71	I accept your surrender. And your part in this affair is now done. You have not prevailed, yet you stand outnumbered and overpowered, and are not shamed. We honor you, and accept your arms with pride.	DL1A7A	TRUE			I wish it were otherwise. But here is an end.	END	ENDFRAME_1057			
+	DL1A81	I accept your surrender. And now will execute upon you Middle Justice, as is the right of our station. We condemn you to die for making war upon our sovereign Lord. Heh-heh-heh.	DL1A8A	TRUE			I suspected your treachery, perfidious dog. Now you face a desperate foe, and greatly will I savor your destruction and humiliation.	END				
+	DL1A91	[[He watches you solemnly, but says nothing.]]	DL1A9A	TRUE				END				
+	DL1A01	[[Without a word, he glares at you and brandishes his weapon.]]	DL1A0A	TRUE				END				
+	DL1B11	[[He regards you with respect, but says nothing.]]	DL1B1A	TRUE				END				

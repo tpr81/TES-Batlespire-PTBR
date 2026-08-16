@@ -1,0 +1,4 @@
+		Jaciel Morgen					file JM2T.xls			Jaciel Morgen Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	JM2A11	[[She smiles grimly and winks, but her face is strained with concentration, and she doesn't not speak.]]	JM2A1A	TRUE				END				
+	JM2A21	VOICEOVER: [sexy, purring, confident voice] I am here, faint candle! Strike hard! Now! For me!	JM2A2A	TRUE				END				

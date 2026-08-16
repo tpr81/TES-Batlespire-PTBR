@@ -1,0 +1,27 @@
+	Random Talk Tables			file MA5B.xls
+Mastema Homeguard				
+	talkcheck			
+	&FayDupe	MA5A61		
+	FayvEnemy	MA5A91		
+	&HerneMad	MA5B21		
+				
+				
+	talktable			
+	First	MA5A11		
+	Second	MA5B41		
+	Third	MA5A12		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-20	MA5A11		
+	21-40	MA5A12		
+	41-60	MA5B21		
+	61-80	MA5B31		
+	81-00	MA5B41		
+				
+				
+
+
+				
+				

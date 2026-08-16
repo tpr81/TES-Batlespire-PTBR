@@ -1,0 +1,6 @@
+Ghosts						file Gh2T.xls					
+Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+GH1A11	A morte e a mae da beleza.	GH1A1A	TRUE			"Isso e muito simpatico. Muito poetico. Obrigado por partilhares isso. Preferia, no entanto, que parasse de tentar matar-me. Por favor?"	GH1A31				
+		GH1A1B	TRUE			Pode dizer-me como sair daqui?	GH1A31				
+		GH1A1C	TRUE			"Estas a desperdicar o teu folego. - Por assim dizer. Estou vivo, gosto e vou ficar assim. Adeus".	END				
+GH1A31	"[[O fantasma brilha e grita, mas nao responde.]]"		TRUE			NOTA: Este e um dialogo padrao do NoTalk.	END		&GhostNoTalk		

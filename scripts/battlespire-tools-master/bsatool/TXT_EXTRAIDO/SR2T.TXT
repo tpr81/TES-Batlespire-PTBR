@@ -1,0 +1,7 @@
+		Seducer Oathkin					file SR2T.xls			Good Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR2A11	What DO you think you're doing, you -- wait -- are  you -- 	SR2A1A	TRUE			Yes! You see your doom before you. Flee while you still can.	END	MONSTERFLEE_120	&SeduceNoTalk		
+	SR2A12	Things are pretty much under control here, though a few of the more stubborn Sisters are still hiding -- but -- you aren't --	SR2A1B	TRUE			What? Afraid a little manling will hurt you? Come on. We're on the same side. Relax. Can you tell me how to get out of here?	SR2A21				
+	SR2A13	You're not Frost. Or Fire. Or Dremora. So what -- oh -- not --	SR2A1C	TRUE			Don't judge by appearances. I take this form to confuse my prey. Quickly. A manling is loose. He seeks the exit portal, and we may trap him there. Go, show me the way, and I will follow as best I can in this form.	SR2A21				
+	SR2A21	CURSE the GODS, it IS the manling!	SR2A2A	TRUE			Yes! Behold the BOLD MANLING, and TASTE FEAR! I -- hey. Where are you going?	END	MONSTERFLEE_120	&SeduceNoTalk		
+	SR2A31	[[The creature says nothing.]]										

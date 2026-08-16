@@ -1,0 +1,27 @@
+	Random Talk Tables			file JM1B.xls
+Jaciel Morgen				
+	talkcheck			
+	&JacielMad	JM1B51		
+	&JacielScram	JM1B51		
+				
+				
+				
+	talktable			
+	First	JM1A11		
+	Second	JM1A11		
+	Third	JM1A11		
+	Fourth +	JM1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

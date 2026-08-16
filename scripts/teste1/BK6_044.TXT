@@ -1,0 +1,18 @@
+Codex Arcana, Volume VIII
+ESTUDANTES E ERUDITOS: Atentem para nossas Abjurações!$
+DEMONSTRANDO O DEVIDO ZELO NA CUSTÓDIA DOS LIVROS$
+Nós não apenas prestamos serviços ao Imperador ao preparar volumes de novos livros, mas também exercemos um ofício de sagrada piedade quando tratamos os livros com cuidado, e novamente quando os restauramos aos seus devidos lugares e os confiamos à custódia inviolável; para que possam se regozijar na pureza enquanto os temos em nossas mãos e descansar em segurança quando forem devolvidos aos seus repositórios. E certamente, logo atrás dos vestuários e engenhos dedicados à glória do Imperador, os livros arcanos merecem ser devidamente tratados pelo mago de batalha, aos quais grande dano é feito sempre que são tocados por mãos impuras. Por isso consideramos conveniente alertar nossos estudantes contra várias negligências, tais como as que poderiam ser facilmente evitadas e que causam um dano formidável aos livros.$
+Sendo a continuação de um índice parcial de inventos arcanos conhecidos pelos eruditos e alquimistas do Battlespire, para que estes inventos possam ser mais facilmente conhecidos por todos os estudantes, e nem abusados, nem negligenciados, nem desperdiçados em seu uso.$
+Espada Longa da Carne Nobre: concede conjurações da magia Resistência a Veneno, e presenteia seu proprietário com percepção especial nas disciplinas de ARMASCONTUNDENTES
+Espada Longa dos Ventos do Inverno: causa Dano de Gelo Menor, e é instruída com o ofício do MISTICISMO
+Maça da Desordem Odiosa: gera Dano Contínuo Médio e Lento ao Alvo, e é instruída com o ofício da RESTAURAÇÃO
+Maça do Destino Dançante: causa Dano Elétrico Maior, e presenteia seu proprietário com percepção especial nas disciplinas de RESTAURAÇÃO
+Maça da Vingança: causa Dano Mágico Maior, e compartilha da excelência da TAUMATURGIA
+Hombreiras da Honra Sagrada: conjuram a magia de Escudo Médio, e são instruídas com o ofício de PROJÉTEIS
+Hombreiras da Mão Traquina: conjuram a magia de Reflexão de Magia, e presenteiam seu proprietário com percepção especial nas disciplinas de MISTICISMO
+Hombreiras da Apreensão do Macaco: concebem a magia de Detectar Inimigo, e compartilham da excelência da ILUSÃO
+Hombreiras dos Ventos do Inverno: causam Dano de Gelo Menor, e são fundamentadas nas artes da ILUSÃO
+Espada Curta da Virtude Final: causa Dano de Fogo Maior, e é fundamentada nas artes da TAUMATURGIA
+Espada Curta do Despertar dos Deuses Submersos: concede conjurações da magia Sumonar Horror, e presenteia seu proprietário com percepção especial nas disciplinas de RESTAURAÇÃO
+Espada Curta do Olho Interior: concebe a magia de Resistência a Magia, e compartilha da excelência de MACHADO
+Espada Curta da Vingança: causa Dano Mágico Maior, e é instruída com o ofício de FURTIVIDADE

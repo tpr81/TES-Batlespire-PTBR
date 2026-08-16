@@ -1,0 +1,84 @@
+				Other Bugs
+
+DATE		ALIAS		DOES IT WORK???
+
+DATE		ALIAS		NEEDS REPAIRS
+8/1		Gary		Earthquakes on L1 till all gates are closed.
+8/7             Marvin          World jitters badly in certain places ( see me for demo )
+8/7             Marvin          Moving forwards/backwards slides char to left ( -n >> m is never zero! )
+8/7		Lan		Dialog history doesn't work yet
+8/7		ken		SUGGESTION: Give sound and/or visual feedback when reach top or bottom of scrolled items in inventory.
+8/11		ken		treasure bags sit in mid air on maze elevator when elevator goes down
+8/11            Lan             Need sounds for sword/axe/mace swing and nock/shoot for longbow & crossbow
+8/11		Gary		Sound effects need looping.
+8/11		ken		wraparound graphics in inventory
+8/11		Lan		Saved game names can be longer than the text box below the thumbnail
+8/11		Gary		Female head is not centered in the menu bar window.
+8/12		ken		When scrolling through lists, sometimes scroll smoothly on keydown; sometiems require new keystroke for each advance. In particular, when choosing spells in charmaker, initially is scroll-one-item-per-keystroke; after first spell is chosen, arrows scroll down list when arrow keys are held down.
+8/12		ken		In general, click, and double-click are not as responsive as they should be. Often click, then click again in inventory, save and load, and all other interface areas.
+8/12		ken		Can't just press return or double-click to select items in lists [ie, scrolling lists of spells to choose in charmaker].
+8/12		ken		No spell decriptions yet in spell selection in charmaker.
+8/13		ken		Disappearing Scamp [see sequential saves LEVROOM and LEVROOM2 IN XFER]: Push button to open door, then backpedal to let Scamp emerge; Scamp runs out, cuts left, then DISAPPEARS always at same spot. Move over that spot, and get caught on top of Scamp. Swing weapon a lot, and kill. [LEVROOM2 save shows treasure bag when Scamp was killed.] Restoring games Saved while Scamp has disappeared, but not yet killed, causes crashes.
+8/13		ken		Item Title in Inventory Truncated: What IS the limit to number of cahracters to be displayed? Must check items for too-long names.
+8/13		ken		no noticable effect when Run key held down
+8/15            Lan             Baddies should be further away from the player to avoid weapons clipping them...just a tad.  Also gives a better view of the cool sprites.  Sword tips should just reach them.
+8/21		Judy		There needs to be a way to disable the mouse as a form of looking as it will give some people motion sickness.  The default look method, i.e. using the mouse to "look around", is just abominable, and for me makes the game almost totally unplayable.  ... It would be nice, as in Daggerfall, if you could choose between the classic Arena style of moving and the one that is being used now.
+8/21		Judy		There is no armor class,  There is no way to determine if a piece of armor is better than the one you have on.
+8/21		Judy		Overall mouse-sensitivity is not working correctly - even at the lowest possible setting, the mouse is overly sensitive, at times causing the game to be unplayable.
+8/21		Judy		Spellsword is missing from stock character list
+8/21		JJS		When you choose create new class, you can't back out of it.  Hitting ESC or the Exit icon has no effect.  Had to reboot the game to get out of the screen.
+8/21		TOSH		Neither the PageUp/PageDown keys (control panel) nor the Ins/Del keys (manual) work at all to allow you to look up/down.
+8/21		TOSH		The L-shift and R-shift keys to turn in place (manual) don't work; in fact, INS is turn left and HOME is turn right (matching the control settings)
+8/21		TOSH		I eventually found out that one must hit Enter to toggle between "cursor mode" and "view mode"; I do not recall seeing this mentioned anywhere. It caused my first characters to be immediately killed in the dungeon because they couldn't move or fight back.
+8/21		OKU		When trying to jump over or onto a stool, high step, etc, if I catch the edge of it on the way up, I get stuck.  Movement control is apparently temporarily disabled while jumping, and never returned if the jump doesn't successfully complete.
+8/21		TOSH		No info in the manual or in the intro video as to what this game is about.  Excepting some gamer mag articles and adverts, I've seen zero info as to what the plot is, where I am, how I got there, and what I'm supposed to do about it.
+8/21		TOSH		The "rate of turn" using a key is much too slow, but the lowest setting for using the mouse is still much too fast.
+8/21		TOSH		Tab key toggles between full screen and menu mode, but I don't think that is mentioned anywhere.
+8/21		JJS		In the boat, I constantly get stuck in a wall if I even get near one.  I always have to restore to a save game.
+8/21		Charity		When I try to use a custom class I created previously for a new character, it adds the custom class name to the class list again.
+8/21		Judy		While picking spells, you cannot use the arrow icons to scroll.  You must use the arrow keys on the keyboard.
+8/21		Judy		Miscellaneous skills don't show up.
+8/21		Judy		Gamma correction needed.  All games have it these days.
+8/21		Judy		If you select a Cure Health potion during Char Gen, it becomes a Cure Poison potion in your inventory.
+8/21		JJS		When picking a race, the description of the races do not appear in the scroll at the bottom of the screen.
+8/21		Charity		Armor in char gen states the metal type, armor in inventory within the game does not.
+8/21		Judy		Inventory armor and potions do not look like items.
+8/21		All		The automap is not being retained between gaming sessions (When restarting game)
+8/21		KO		No monsters on L6
+8/21		Judy		Character advantage of Auto Regen Health Points and Spell Points were chosen.  Neither is working.
+8/21		TOSH		I keep shutting the music off, using the control screen slider. Often when I restart the game, it's on, though the slider still shows off.  This is not perfectly repeatable.  A workaround is to run the slider up and then back down again.
+8/21		TOSH		Loading a game, there is no highlighting of a selected Save, to allow use of the Okay button.  Dbl-clicking works though.
+8/21		TOSH		onversations are supposed to be recorded in the scroll on the "talk" screen, but nothing ever appears there.
+8/21		JJS		When trying to customize controls, it seriously needs a pop-up box telling you to hit a key that you would like that action to be linked to.  When I clicked on an action to change the keyboard associated with it, I thought it was locked up.  Only later I found out you need to hit the key.
+8/21		MB		Falling inflicts no damage.
+8/21		MB		The Save dialog box could use some up and down scroll bars.
+8/21		OKU		Too many steps need to be jumped over.  The player should be able to walk up a flight of steps without having to use the jump ability.
+8/22		gary		monsters in dragon room and in the fork room on L1 are unresponsive to player. is a code 13 a good suggestion?
+8/22		OKU		L6 - In several narrow corridors, I have gotten totally stuck and have had to reload the game.
+8/22		Mara		L1 - In corridor leading to gizmo that needs the cogs my sys twice froze up as a monster approached.
+8/22		MB		Restarting in DOS mode, moust doesn't work.  Cursor stays in upper left corner.  Mouse driver is already loaded.  If you type "mouse" it says it's already loaded, but when you then start the game, the mouse works fine.  This is repeatable.
+8/22		AMA		In Char gen, no description of spells, spells are listed below the scroll box, there is not description of the different class types.  No Misc skills are available.
+8/22		AMA		When scrolling spells in char gen, you must use the arrow keys.  The arrow icons won't work for scrolling the list.  Additionally, if you hold down the key to continue scrolling, the next time you press the down arrow key just once, you scroll anywhere from 1 to 5 or 6 spells down (or up).  Occasionally, I've also lost the ability to click on a selectied item in char gen after scrolling and must highlight it and press enter.
+8/22		Judy		Not all spells seem to work.  I have cast both Shield and Vampiric Drain - nothing happens.  The user needs some indication if the spell works or not.
+8/22		OKU		Items picked up over the course of playing return to their original locations after the game is reloaded.
+8/22		OKU		The music is playing back so low that I have to turn my speakers all the way up to even hear it.  This is with the music bar all the way to the right.  The sound effects work fine at normal speaker levels. I have tested this on my AudioPCI with both the Ensoniq and SBPro drivers selected in setsound.  (Ensoniq Audio PCI sound card)
+8/22		Tins		Selection of my sound chipset driver is not available in sound setup (ESS1688).  The one available ESS688, which worked for Daggerfall, gives an error sound card not found.  I am using SB16 Pro in the meantime.
+8/22		Mara, Judy	It is really difficult to scroll the inventory.  The arrows do not work very well.
+8/22		RS		You can buy multiple copies of the same spell.
+8/22		RS		Bonus point reallocation broken: made male dark elf knight.  Bought some of the spells including at least 3 copies of Resistance.  Deleted one of them and ended up with more than 13.1 million bonus points.
+8/22		RS		Selecting OKAY more than once in char gen/equipment gives free additional items.
+8/22		RS		No way of telling where clothing goes.  All clothing looks the same in inventory.
+8/22		RS		Need possibiliity to look at items to determine properties such as damage potential or AC or enchantment.
+8/22		RKD		No way to tell whether a given list requires up/down key or mouse to scroll.  Sometimes one, sometimes the other.
+8/22		Mara		Char Gen: Nightblade and Spellsword missing from class list.
+8/22		Mara		Char Gen: Burglar misspelled "burgular" in class list.
+8/22		Mara		L1 - After getting the boustro-whatever password scroll from the mage with my first PC, I genned a new PC and picked up two scrolls with that password from the first two monsters I killed when starting the game.
+8/22		OKU		L6 - All of the scrolls seem to be lists of descriptions of what the various magic weapons do.  Nothing here seems to be terribly plot related.
+8/22		OKU		The automap only sometimes retains info from the previous gaming session.  This happens incrementally, you never lose everything, but sometimes the new areas I explore in the previous session aren't there when I reload the game.  Also, the little + sign which marks your place is often sort of inaccurate.  I'll be standing in a corridor, and the + will be about 10 picels from where I obviously am.
+8/22		Sage		After selecting your race, the program goes to choosing your face, which is not the order in the manual.
+8/22		Sage		Not all screens act the same. Some screens have a done button, or your can double-click.  Others have no done button and you *must* double-click.
+8/22		MB		L4 - At start, an NPC somes toward you and starts fighting.  Going into convesation, and picking the right responses creates a "friendly" conversation.  You leave conversation on good terms, but after leaving, he continues to fight you.
+8/22		MB		L4 - Within the first few rooms, you will encounter 2 NPCs.  They will approach you, and when they get close you will look around and they have vanished.  Doesn't always happen, but repeatable if patient.
+8/22		MB		L4 - Room where the vertical sides of the ramp you're facing have no textures.  Also, if you move left and down stairs, all vertical areas within the area after stairs are black and without wall textures.
+8/22		PG		L1 - Wandering around in level, got into a fight with a monster I coudn't see.  He was completely invisible.  It was a low level monster and I was able to kill him by randomly swinging my sword.  I couldn't move or run away in any direction at this time.  Only killing him freed me.  I did see the treasure bag after the fight.
+8/22		Sage		In the skill screen, both end. and per. should have beginning capital letters.

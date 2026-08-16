@@ -1,0 +1,14 @@
+		Dark Seducer					file DS1T.xls			Dark Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DS1A11	Listen mortal, and listen well. Here are your masters and here is your hell.$ The Wild Hunt begins this day. We are the hunters and you are the prey.$ But we shall grant a sporting chance to 'scape your death by Huntsman's lance.$ 	DS1A1A	TRUE			That's big of you.	DS1A21				
+	DS1A21	Six keys we've hid upon this isle. Find them all, and flee this isle. $ But find them not or halt with doubt, and Dogs will Drag to flush you out.$ Hounds will Chase to feed their fill, then Huntsman calls me to View his kill.$  From the Drag to the Chase to the Call to the View, the Victor I see becomes Huntsman anew.	DS1A2A	TRUE			So it's a game we play? And what, pray are the rules?	DS1A31				
+	DS1A31	Hark, mortal, the Innocent Hare. The Hunt is up, and the Game is afoot. Flee for your life, you miserable wretch.	DS1A3A	TRUE			I will flee forthwith, but I demand as my right a reading of the rules.	DS1A41				
+	DS1A41	Seek about the island. In accordance with the Law, the Offices are posted.	DS1A4A	TRUE			And that would be the letter of the Law, I'm sure. Very well. Indeed, the Game is afoot, so catch me if you can. Only be very sure you know what to do with me if you DO catch me.	END				
+												
+	DS1A51	Do you savor the sweet pain of the Hunt, mortal?	DS1A5A	TRUE			Going marvelously, isn't it. Refreshing exercise. Bit disappointed in the quality of the pursuit, but local standards vary, I suppose.	DS1A71				
+			DS1A5B	&Tattle			A little chunk of ice told me to tell you that Faydra Shardai, not Xivilai Moath, was the architect of the plan to invest and plunder Shade Perilous.	DS1A61				
+	DS1A61	If you think that my master or I care about any such squabbles, you are denser than the Frost Daedra. Such favors and punishments are but means to keep our allies in line.	DS1A6A	TRUE			I told the chunk of ice I'd report to you, and I live by my word.	DS1A71				
+	DS1A71	I've heard that mortals are a short-lived race, too short-lived to acquire wisdom. Let us put this proposition to the test. Perhaps first a lesson on showing proper respect is in order.	DS1A7A	TRUE			Oh. Thank you. How nice of you. I'll be leaving, then.	END	Teleport_0			
+	DS1A81	[[She stares at you haughtily and ignores your entreaties.]]	DS1A8A	TRUE				END				
+	DS1A91	[[She wrinkles her nose disdainfully and ignores you.]]	DS1A9A	TRUE				END				
+	DS1A01	[[She says nothing, but observes you cautiously.]]	DS1A0A	TRUE				END				

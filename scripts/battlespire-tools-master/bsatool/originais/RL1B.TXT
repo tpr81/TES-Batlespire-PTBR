@@ -1,0 +1,27 @@
+	Random Talk Tables			file RL1B.xls
+				
+	talkcheck			
+Rishaal	&RishDeal	RL1A31		
+	&NoRishDeal	RL1A21		
+				
+				
+				
+	talktable			
+	First	RL1A11		
+	Second	RL1A11		
+	Third	RL1A11		
+	Fourth +	RL1A11		
+				
+	Random			
+		TalkGroup	Notes	
+	Not Applicable			
+				
+				
+				
+				
+				
+				
+
+
+				
+				

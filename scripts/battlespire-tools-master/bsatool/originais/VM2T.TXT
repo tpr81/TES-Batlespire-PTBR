@@ -1,0 +1,32 @@
+		Vermai Oathkin					file Vm2T.xls			VERMAI TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	VM2A11	- Nao, nao.	VM2A1	TRUE			- Olha. Ha mais alguem aqui com quem possa falar?	END	MONSTERATTACK 			
+	VM2A12	- Nao, nao.	VM2A1B	TRUE			- Ves? - Uma arma bonita? Nao te vou bater. Eu dou-te! Largue a arma aqui. - Muito bem. - Olha. Maos vazias. Gostas?	END	DROPREADYWEAPON AND MONSTERWAIT_120 			
+	VM2A13	- Nao, nao. - Nao. - Nao, nao.	VM2A1C	TRUE			- Nao, nao. - Nao, nao. - Nao, nao. - Nao, nao. - Nao, nao. - Nao, nao.	END	MONSTERATTACK	&VermaiMad		
+			VM2A1D	&MethatsName AND NOT &WearAmuletM			METATOS! Doi-me! Doi-me! - Nao, nao.	END	MONSTERATTACK 			
+			VM2A1E	&RishaalName AND NOT &WearAmuletR			RISHAAL! Doi-me! Doi-me! - Nao, nao.	END	MONSTERATTACK 	&VermaiMad		
+			VM2A1F	&ZenaideName AND NOT &WearAmuletZ			Zenaide! Doi-me! Doi-me! - Nao, nao.	END	PCTeam			
+			VM2A1G	&WonshalaName AND NOT &WearAmuletW			WONSHALA! Doi-me! Doi-me! - Nao, nao.	END	MONSTERATTACK 			
+			VM2A1H	&MethatsName AND &WearAmuletM			- Olha. Amuleto. METATOS! Doi-me! Doi-me! - Nao, nao.	END				
+			VM2A1I	&RishaalName AND &WearAmuletR			- Olha. Amuleto. RISHAAL! Doi-me! Doi-me! - Nao, nao.	END	MONSTERATTACK 	&VermaiMad		
+			VM2A1J	&ZenaideName AND &WearAmuletZ			- Olha. Amuleto. Zenaide! Doi-me! Doi-me! - Nao, nao.	VM2A41				
+			VM2A1K	&WonshalaName AND &WearAmuletW			- Olha. Amuleto. WONSHALA! Doi-me! Doi-me! - Nao, nao.	END				
+	VM2A21	- Nao, nao. Doi-me! - Nao, nao. - Doenca! - Nao, nao.	VM2A2A	TRUE			- Muito bem. Se insistes.	END	MONSTERATTACK	&VermaiMad		
+	VM2A31	E nao te fala.					NOTA: Este e um dialogo padrao do NoTalk.					
+	VM2A32	E ele te cuspe.					NOTA: Este e um dialogo padrao do NoTalk.					
+	VM2A33	Que te olha fixamente,					NOTA: Este e um dialogo padrao do NoTalk.						
+													
+													
+	VM2A41	- Nao, nao. - Nao, nao.	VM2A4A	TRUE			- Sim, e verdade. Sim, sim! - E isso mesmo. - Nao. Deves estar exausto com a tensao do pensamento. Porque nao vais deitar-te?	END	PCTeam	&VermaiNice			
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													

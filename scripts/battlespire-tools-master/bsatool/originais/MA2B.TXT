@@ -1,0 +1,27 @@
+	Random Talk Tables			file MA2B.xls
+Egahirn L5				
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	MA2A11		
+	Second	MA2A51		
+	Third	MA2A61		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	MA2A11		
+	34-66	MA2A51		
+	67-00	MA2A61		
+				
+				
+				
+				
+
+
+				
+				

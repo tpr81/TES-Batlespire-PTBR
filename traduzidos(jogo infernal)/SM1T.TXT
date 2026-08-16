@@ -1,0 +1,28 @@
+		Sumeer Jabran					file SM1T.xls			Sumeer TALK	superhero-looking chick	
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SM1A11	- Entao? Tu es o Kaid. Fizeste-te um grande incomodo. Espero que nao te importes se eu chamar meus asseclas para te rasgar?	SM1A1A	TRUE			Nao, nao, nao. - Va la, nao te preocupes. - Perfeitamente certo.	END		&SumeerOpen		
+	SM1A12	- Entao? Tu es o Trenelle. Fizeste-te um grande incomodo. Espero que nao se importe se eu chamar os meus asseclas para te rasgar membros?	SM1A1B	TRUE			Se tivesses uma mae, tenho a certeza que ela se envergonharia dos teus modos horriveis.	END	HealthHalf AND PainSFX AND SummonVM_2	&SumeerMad		
+			SM1A1C	TRUE			Achas que ser sem membros pode interferir na minha capacidade de discutir a entrega de um guia de vacuo?	SM1A51				
+	SM1A21	Parecem-me familiares, mas e tao dificil distinguir-vos dos humanos.	SM1A2A	TRUE			Sou o humano que pode arranjar-te o guia do vazio. - Esta interessado?	SM1A61				
+	SM1A31	So podes falar com os animais sem-intelecto que me servem. Fala com eles, se quiseres, mas eles so falam na linguagem da dor... Uma lingua que mando, mas nao entendo.	SM1A3A	TRUE			O que e que isso quer dizer?	END	HealthHalf AND PainSFX AND SummonVM_2			
+	SM1A41	Por favor, coloque o guia de vacuo montado no painel do portao a nossa frente. Quando tiveres testado o guia e estiveres confiante de que funciona corretamente, espero receber um relatorio pessoal dos teus labios.	SM1A4A	TRUE			Como desejar, meu senhor, que assim seja.	END				
+												
+	SM1A51	Nao necessariamente. Mantive as cabecas a funcionar muito tempo depois de os outros pedacos terem sido usados para outros fins. Mas percebo o que queres dizer. O que e que propoe?	SM1A5A	TRUE			Acho que um tipo com os meus talentos pode ir longe em Tamriel com um pouco de apoio dos mundos exteriores. So uma palavra aqui e ali, uma pequena ajuda com o misterioso e mistico. Nada formal. Sem contratos vinculativos, sem juramentos de fidelidade, apenas bons vizinhos com interesses comuns.	SM1A61				
+	SM1A52	- Depende. - Nao. O que e que propoe?	SM1A5B	TRUE			- Olha. Nao e nada pessoal. Nao conheco ninguem aqui em Battlespire. Mas preciso de sair daqui. Se jurares perante as Grandes Potencias, perante testemunhas, que me concederas uma passagem segura para fora de Battlespire e abrires o portao da barragem para eu voltar a Tamriel, eu darei-te o guia do vazio.	SM1A71				
+			SM1A5C	TRUE			Tens o que querias. Eu dou-vos o guia do vazio e voces voltam para o vazio. Onde pertences. Ninguem mais se magoa. O que dizes?	SM1A91				
+												
+	SM1A61	So alguem muito tolo, ou muito seguro de si mesmo, propoe um acordo tao casual com um Alto Senhor dos Clas. - Muito bem. - Esta bem. Vamos ser amigos. E na expectativa do seu generoso presente do guia do vazio, seja tao bom em aceitar um sinal da minha estima? Um amuleto do meu cla?	SM1A6A	TRUE			Um presente generoso, Vossa Alteza, mas talvez uma declaracao publica demais. Recuso a honra, embora agradeca sinceramente o seu interesse.	SM1A01				
+			SM1A6B	TRUE			Estou ciente da honra que me fazes. E pelo seu sinal, outros saberao quem e a minha lealdade.	SM1B11				
+	SM1A71	- Desculpa. - Desculpa. Nao consigo abrir o portao da barragem. E o sigilo de Dagon no portao da barragem, e ninguem pode comanda-lo sem a sua permissao. Entao, nao vais voltar. Nunca. Mas e isto que posso fazer. Seque-se por juramento de fidelidade a mim, e prometo que nunca lhe faltara honra ou respeito no meu servico.	SM1A7A	TRUE			Claro que sim. Juro-te. - E agora? - Nao.	SM1B21				
+			SM1A7B	TRUE			Obrigado, mas estou obrigado a servir o Imperador enquanto viver.	SM1A81				
+	SM1A81	A sua lealdade ao seu senhor e um credito. Lamento que nos encontremos com conflitos irreconciliaveis. Se as circunstancias exigirem uma revisao das lealdades, por favor, venha ter comigo naquele momento.	SM1A8A	TRUE			Entao, me despido, meu senhor.	END				
+	SM1A91	Receio que nao tenhamos intencao de abandonar o Battlespire. Nao nos preocupamos particularmente com quem vai se machucar. - Aqui esta. Nao iamos despedaca-lo?	SM1A9A	TRUE			Como queiras.	END		&SumeerOpen		
+							
+							
+												
+	SM1A01	- Eu entendo. Agora, vou esperar ansiosamente a entrega do guia do vazio.	SM1A0A	TRUE			Vou com pressa, meu senhor.	END		&SumeerAlly		
+	SM1B11	E completamente como eu desejo. Agora, vou esperar ansiosamente a entrega do guia do vazio.	SM1B1A	TRUE			Vou com pressa, meu senhor.	END		&SumeerAlly		
+	SM1B21	Agora, vai entregar o guia de vacuo e coloca-lo no lugar. E tu ficas aqui na Espiral de Batalha ao meu servico, ajudando o Cla Dremora a catalogar os seus tesouros.	SM1B2A	TRUE			Isso parece-me optimo, meu senhor. Vou ja trabalhar.	END		&SumeerServe		
+			SM1B2A	TRUE			- Continuar no Battlespire? Quanto tempo, meu senhor?	SM1B31				
+												
+	SM1B31	Desde que eu deseje, claro. E agora, podem ir.	SM1B3A	TRUE			Vossa Alteza...	END		&SumeerServe		

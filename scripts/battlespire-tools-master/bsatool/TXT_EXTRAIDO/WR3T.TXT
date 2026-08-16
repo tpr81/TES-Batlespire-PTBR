@@ -1,0 +1,18 @@
+		Wraith					file WR3T.xls			Waith L8 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	WR3A11	Do you have the Armor of the Savior's Hide?	WR3A1A	&Armor			Who wants to know?	WR3A21				
+			WR3A1B	&NotArmor			Who wants to know?	WR3A41	PUT 24_5010 AND PUT 25_5011 AND PUT 26_5012 AND PUT 27_5013 AND PUT 28_5014 AND PUT 29_5015			
+			WR3A1C	&Armor			Wait. You don't sound right. Are you really a Wraith?	WR3A31				
+			WR3A1D	&NotArmor			Wait. You don't sound right. Are you really a Wraith?	WR3A51	PUT 24_5010 AND PUT 25_5011 AND PUT 26_5012 AND PUT 27_5013 AND PUT 28_5014 AND PUT 29_5015			
+			WR3A1E	&NotArmor			What? What armor? Oh. You mean the armor that  old fellow Chimere told me would protect me against an oathbreaker? No. I don't have it. Don't recall what I did with it, actually.	WR3A61	PUT 24_5010 AND PUT 25_5011 AND PUT 26_5012 AND PUT 27_5013 AND PUT 28_5014 AND PUT 29_5015			
+	WR3A21	Someone who wishes to see you succeed in your quest. And one who is pleased that you have come prepared to face Dagon. Farewell.	WR3A2A	TRUE			Wait. Who are you? What's going on?	END				
+	WR3A31	No. I have taken this form to pass unnoticed in Lord Dagon's domain. But I cannot tarry here, now that my task is achieved. Farewell.	WR3A3A	TRUE			Wait. Who are you? What's going on?	END				
+	WR3A41	Someone who wishes to see you succeed in your quest. And since you will need the Armor of the Savior's Hide, I have come to make sure you have it. Farewell.	WR3A4A	TRUE			Oh. Thank you. Whatever you are. I think.	END	Kill			
+	WR3A51	No. I have taken this form to pass unnoticed in Lord Dagon's domain. And I have brought you something you will be glad of when you stand before Lord Dagon. Farewell, and good luck.	WR3A5A	TRUE			Oh. Thank you. Whatever you are. I think.	END	Kill			
+	WR3A61	As I feared. But no matter, for I have brought that which you require. Farewell, and good luck.	WR3A6A	TRUE			Oh. Thank you. Whatever you are. I think.	END	Kill			
+
+												
+												
+												
+							
+							

@@ -1,0 +1,9 @@
+		Seducer Oathkin					file SR5T.xls			Good Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR5A11	Does my form please you? Would you taste of its delights?	SR5A1A	TRUE			No chance. Business first, pleasure later. And there won't be a later for you, hot stuff, unless you make yourself scarce.	END	MONSTERFLEE_120	&SeduceNoTalk		
+			SR5A1B	TRUE			Warm, soft, salty skin? Hot, hairy, happy smells? Right here? Normally, I prefer a long courtship – but – what the heck. Let's do what the monkeys do.	SR5A21				
+			SR5A1C	TRUE			What's your game? What are your interests here? Who do you serve? Make your play. Can we share a side? Or play both ends against the middle?	SR5A31				
+	SR5A21	Hah-hah-hah-hah! I feast upon your life force, mortal! Hot and juicy! Trembling! A gush of fluids, a split in skin, and gone forever! What a GLORIOUS treat, manling!	SR5A2A	TRUE			Wow. That was great. I think. Say. I don't feel so good. What's all that stuff all over my armor? Is that me?	END	HealthHalf AND PleasureSFX 			
+	SR5A31	My game is deep, mortal, too deep for you. Just stay out of it, and away from me, if you know what's good for you.		TRUE			Thanks for the tip. But us monkeys have got curiosity disease bad. We just have to poke into things. And, if you won't tell me what you're up to, I'll just have to open you up and find out how what makes you tick.	END	MONSTERFLEE_120	&SeduceNoTalk		
+	SR5A41	By the Dead and the Living Gods! It is the manling. Alive yet. We must tell his Lordship.	SR5A4A	TRUE			Yes! Behold the BOLD MANLING, and TASTE FEAR! I -- hey. Where are you going?	END	Teleport_0			
+	SR5A51	[[The creature gestures threateningly and says nothing.]]										

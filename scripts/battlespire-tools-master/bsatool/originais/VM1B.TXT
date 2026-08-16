@@ -1,0 +1,23 @@
+	Random Talk Tables				vm1b.txt
+					
+	talkcheck				
+Vermai	&VermaiMad	VM1A32			
+					
+					
+					
+					
+	talktable				
+	First	VM1A11			
+	Second	VM1A32			
+	Third	VM1A21			
+	Fourth +	GotoRandom			
+					
+	Random				
+		TalkGroup	Notes		
+	01-10	VM1A12	Futile	
+	11-20	VM1A13	Futile	
+	21-30	VM1A22	Less Futile	
+	31-40	VM1A23	Less Futile	
+	41-60	VM1A31	NoTalk default	
+	61-80	VM1A32	NoTalk default	
+	81-00	VM1A33	NoTalk default	

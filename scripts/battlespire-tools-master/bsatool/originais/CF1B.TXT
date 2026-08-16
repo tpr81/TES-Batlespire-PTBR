@@ -1,0 +1,27 @@
+	Random Talk Tables			file CF1B.xls
+Clannfear Cheaters				
+	talkcheck			
+	&XivAlly	CF1A71		
+	&XivEnemy	CF1A91		
+	&FearMad	CF1B21		
+				
+				
+	talktable			
+	First	CF1A11		
+	Second	CF1B41		
+	Third	CF1A12		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-20	CF1A11		
+	21-40	CF1A12		
+	41-60	CF1B21		
+	61-80	CF1B31		
+	81-00	CF1B41		
+				
+				
+
+
+				
+				

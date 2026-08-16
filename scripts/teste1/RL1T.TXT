@@ -1,0 +1,23 @@
+		Rishaal Tamir					file RL1T.xls			Rishaal TALK	[cute little girl demon]	
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	RL1A11	Ola, meu pequeno homem. O meu nome e Rishaal. Um homem mau levou o guia sem permissao. - Isso e mau. Isso e roubar. Mas es um homem simpatico. Porque me vais trazer o guia do vazio. Isso seria tao bom. E eu dou-te um presente simpatico.	RL1A1A	TRUE			Obrigado, mas deixa-me pensar. - Adeus. - Adeus.	END		&VoidGuide AND &NoRishDeal		
+			RL1A1B	TRUE			Claro... mas primeiro tens de me dizer o que e um guia de vaidade e qual e o meu presente NICE.	RL1A41		&VoidGuide		
+			RL1A1C	TRUE			- Ola, meu. E uma porta atras de ti? Aposto que nao sabes para onde vai.	RL1A51		&VoidGuide		
+	RL1A21	- E voce outra vez. O homem do NICE. Esqueceste-te? Traz-me o guia do vazio, e serei teu amigo, e dou-te um presente bonito.	RL1A2A	TRUE			Ainda estou a pensar nisso. Eu digo-te. - Adeus. - Adeus.	END		&NoRishDeal		
+			RL1A2B	TRUE			Quero ser teu amigo. Quando eu tiver o guia, eu trago-o para ti. Nao seria fixe? - Adeus. - Adeus.	END		&RishDeal		
+	RL1A31	- Entao? Encontramo-nos outra vez. Trouxe o guia de vaidade, espero.	RL1A3A	TRUE			Oh, querida! - Desculpa. Ainda estou a procura, mas trago-to quando o tiver. - Adeus. - Adeus.	END				
+			RL1A3B	TRUE			- Nao sei. - Nao sei. Talvez alguem me de um presente bonito se eu lhe der o guia do vazio. Espera e ve. Nao e excitante? - Adeus. - Adeus.	END		&NoRishDeal		
+			RL1A3C	TRUE			Sim, sim, sim. Claro que tenho o guia de vaidade.	RL1A61				
+							
+												
+	RL1A41	- Esta bem. - Esta bem. O guia do vazio e uma especie de chave e uma especie de mapa que guia um viajante atraves dos grandes lugares vazios ate o lugar que ele quer ir. - Ves? E o teu presente e um segredo... Uma surpresa... e se eu te contar, estraga-la-a, nao e?	RL1A4A	TRUE			Parece muito excitante. Vou ter de pensar muito bem nisto. Ate logo... talvez.	END		&NoRishDeal		
+			RL1A4B	TRUE			E justo. Quando tiver o guia, trago-o para ti. Adeus por agora.	END		&RishDeal		
+	RL1A51	Perdeu! - Nao, nao. Essa porta leva as partes secretas especiais do Battlespire. Onde esta o Sumeer. Ele e muito importante. Eu devo trazer-lhe o guia do vazio, e ele vai dar-me um presente bonito. Mas ainda nao podes ir para as partes SECRET. Porque ainda nao posso ir as partes secretas... Nao ate eu conseguir o guia de vaidade. E tu nao podes ir se eu nao posso ir. E justo, nao e?	RL1A5A	TRUE			- Eu entendo. Nao posso ir aos lugares secretos ate tu ires, e tu nao vais ate teres o guia do vazio.	RL1A91		&SumeerName		
+	RL1A61	- Boa, boa! Da-me o guia de vacuo agora mesmo!	RL1A6A	TRUE			Claro que tenho, mas nao e comigo. Entao, vou busca-lo. Volto num instante.	END				
+			RL1A6B	TRUE			- Nao. Deves pensar que sou um grande idiota. Sei que este guia e muito especial, e acho que precisas de me dar um presente Extra Especial se queres que eu te o de.	RL1A71				
+			RL1A6C	&InvVoidguide1			Aqui esta. - Entao? - Agora mesmo. Qual e o meu presente?	RL1A81	Take 30_10000			
+												
+	RL1A71	- Meu Deus. Pensei que eras um homem simpatico. Mas talvez sejas apenas um vilao. Vou ter de esperar aqui. Pobre de mim. E pobre de ti. Nao ha maneira de chegar as pecas SECRET ate eu conseguir o guia de vaidade.	RL1A7A	TRUE			- Sim, sim. Bem... bem. Vou-me embora agora.	END				
+	RL1A81	Obrigado, obrigado, obrigado. O Sumeer vai ficar muito contente. Vou pegar nesta peca e coloca-la ao lado da consola do Voidgate, tal como o Sumeer disse. E aqui esta a tua surpresa. E um pequeno amuleto Zyr Sigil. Agora pode ir para as partes SECRETAS. Mesmo por esta porta atras de mim. E aqui esta outra pequena surpresa, porque es tao simpatica. Isto vai levar-te a outro lugar com coisas bonitas. Talvez alguem tenha um pequeno problema se as coisas bonitas desaparecerem. - Nao, nao. Ate logo.	RL1A8A	TRUE			Muito obrigado. Es uma linda daedra. - Ate logo.	END	PUT  31_9026  AND Teleport_0			
+	RL1A91	Es um homem inteligente. Traz-me o guia de vaidade, ou nao podes ver as partes SECRETAS. - Nao, nao.	RL1A9A	TRUE			- Meu Deus. Quero mesmo ver as partes SECRET. E melhor ir buscar o guia de vaidade. - Ate logo. - Esta bem.	END		&RishDeal		
+												

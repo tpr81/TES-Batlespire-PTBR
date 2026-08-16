@@ -1,0 +1,23 @@
+BugsL4
+
+
+
+
+LEVEL 4 BUGS TO BE CHECKED:
+
+DATE		NAME		DESCRIP
+8/18		Ken		Fixed riddle on door near deep well.
+
+
+
+
+BUGS TO BE FIXED:
+
+DATE		NAME		DESCRIP
+
+8/18		Ken		Deyanira flat moves around and floats off floor.
+8/23		ken		Fall through wall of east wall of Deyanira's cell.
+8/23		ken		Bad collision of quayside walls intersectingwith water. No collision when moving forward, but collide with them moving backward.
+8/23		ken		No Dark [flying] Seducers belong on L4.
+8/23		ken		Check all levels for match of North-South orientation between: 1. automap, 2. game view, and 3. bsedit files.
+

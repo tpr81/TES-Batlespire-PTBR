@@ -1,0 +1,34 @@
+		Wraith of Paxti Bittor					file PB1T.xls			Wraith of Paxti Bittor		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	PB1A11	E e esta a gratidao que recebo. Traido, torturado, succionado, assassinado. E, para fazer uma boa medida, arrancam a minha alma e a deixam a deriva neste buraco abandonado pelos deuses.	PB1A1A	TRUE			Parece-me duro. Entao, quem e o rato que te traiu?	PB1A21				
+			PB1A1B	TRUE			Desculpe, mas nao quero perder o meu tempo a ouvir um fantasma choramando. - Adeus. - Adeus.	END				
+	PB1A21	Aqueles Daedra com caes, e isso. E aquele maldito sedutor. E aquele Sirran Angada. Se eu conseguir que os meus mamilos de alma entrem naquele traidor sem mae, vou fazer dele uma casca quente e vazia.	PB1A2A	TRUE			- Desculpa. - Desculpa. Nao e da minha conta. Ou me ajudas, ou nao me atrapalhas, ou faco-te muito calor.	PB1A31				
+			PB1A2B	TRUE			- Entao? Os Daedra trairam-te. - Eu entendo. Isso e mesmo horrivel. Odeio quando isso acontece. - Nao, nao. Conta-me todos os pormenores.	PB1A41				
+	PB1A31	Seu filho da puta! Vou enfiar-te a orelha para tras! Ser um Wraith nao e o paraiso, mas nao tenho de ouvir palavroes magros como tu.	PB1A3A	TRUE			Vem e come um pouco, chorao.	END				
+	PB1A41	Bem, eu percebo que e arriscado lidar com a Daedra, mas aquele Sedutor... Bem, digamos que nao e o Oito Ceus, mas esta tudo bem. E o Angada prometeu que me faria passar por um herido, um heroi...	PB1A4A	TRUE			- Desculpe. - Nao. - Angada? Devo saber esse nome?	PB1A51				
+	PB1A51	Sirran Angada? Nao, talvez nao. Um criado de sangueira de Jagar Tharn, o Mago de Batalha do Imperador. Ele arranjou tudo. Abro o portao ao Principe, ele entra, limpa o Espirito de Batalha, e eu mal consigo escapar com a minha vida, trazendo as tragicas noticias para o Imperador e Tharn. Sou um grande heroi, um servo pessoal de Jagar Tharn, proximo do Imperador e da sua familia. Com o tempo, vou ter a minha propria provincia. - Muito. E eu entreguei! Mas a escumalha enganou-me!	PB1A5A	TRUE			Parece-me um bom negocio. Nao te culpo. Eu provavelmente teria feito a mesma coisa... Se eu fosse um traidor mentiroso e preguicoso! Vou arrancar-te o membro etereo do membro etereo!	END				
+			PB1A5B	TRUE			Isso realmente me incomoda. Detesto quando um tipo se desentende com um negocio. - Olha. Como e que este Angada e? Se quiseres, vou procura-lo e dar-lhe uma boa surra.	PB1A61				
+			PB1A5C	&RestBook			Seu traidor de corvos! Este encantamento vai destruir o teu espirito fedorento, o que nao e nem metade do tormento que mereces, traidor! De cinquenta Padres congelados em escravos! Rompem o artificio! Rompam a teia da vida! Encoste bem a presa a terra! Segure-se firme no jejum da sepultura!	END	Kill AND WraithMeltSFX			
+	PB1A61	E generoso da sua parte, mas este Angada tem um feitico especial de Transmorfica, por isso pode parecer qualquer um. Angada estava a fingir ser Lomegan Mariel, a ligacao pessoal do Imperador com a Espiral de Batalha, quando a Daedra tomou o lugar, mas ele... ou ela... ja podia parecer qualquer um. Agradeco a tua ajuda, mas talvez queiras fugir agora, porque sinto a loucura da fome a voltar, e nao sou muito divertida por perto.	PB1A6A	TRUE			Obrigado pelo aviso. - Boa sorte. - Obrigado. Talvez nos vejamos por ai. - Adeus. - Adeus.	END				
+			PB1A6B	&RestBook			Agradeco o aviso. - Adeus. - Adeus. - Nao. Mas ha mais uma coisa. Como e que estas com os encantamentos em verso?	PB1A71				
+	PB1A71	Sou um mestre. Ou... Costumava ser, de qualquer forma. - Por que pergunta?	PB1A7A	TRUE			Tenho um encantamento em verso que talvez ache interessante... Seu traidor de corvos! De cinquenta Padres congelados em escravos! Rompem o artificio! Rompam a teia da vida! Encoste bem a presa a terra! Segure-se firme no jejum da sepultura!	END	Kill AND WraithMeltSFX			
+			PB1A7B				- Nao ha razao. So por curiosidade, ate logo.	END				
+	PB1A81	Cheiro a sangue! A vida! Da-me o teu sangue! Tenho de o ter. - Agora mesmo! Esta la dentro de ti e quero tira-lo! Da-mo agora!	PB1A8A	TRUE			Estas a ver a tua desgraca, diabo! - Para tras! De volta a escuridao de onde vieste!	END				
+			PB1A8B	TRUE			Talvez tenha-te pego numa ma altura. Talvez tente novamente mais tarde.	END				
+			PB1A8C	&RestBook			Seu traidor de corvos! Este encantamento vai destruir o teu espirito fedorento, o que nao e nem metade do tormento que mereces, traidor! De cinquenta Padres congelados em escravos! Rompem o artificio! Rompam a teia da vida! Encoste bem a presa a terra! Segure-se firme no jejum da sepultura!	END	Kill AND WraithMeltSFX			
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+															
+															

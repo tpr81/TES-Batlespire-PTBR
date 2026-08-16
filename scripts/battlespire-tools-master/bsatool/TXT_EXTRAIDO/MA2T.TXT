@@ -1,0 +1,36 @@
+		Herne Egahirn					file MA2T.xls			Egahirn Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MA2A11	I am the Huntsman. I hunt you in accordance with the laws of the Wild Hunt. Tremble before your death! 	MA2A1A	TRUE			I'm quaking in my boots, I guarantee you. Now how about calling off this Hunt? I think I could make it worth your while.	MA2A31				
+			MA2A1B	TRUE			Is there any way, short of killing you, that I can persuade you to let me use the gate out of here?	MA2A31				
+			MA2A1C	TRUE			Look. I'm on my way to the Havok Wellhead. I'm going past you, or through you. You think you're invulnerable. But the secret surprise is that I can knock you so far into Oblivion that even your kin forget your name.	MA2A21				
+			MA2A1D	&Spear			Look here. See? I have my own pretty Spear of the Bitter Mercy. Now. One last chance. Clear out, or you're smoke.	MA2A41				
+	MA2A21	How do you expect me to fall for such an obvious bluff?	MA2A2A	TRUE			Because, as you may know, on this island is the only mortal I know who has ever bested Dagon. And guess who has vouchsafed me the secret of your inevitable doom? 	MA2A31				
+	MA2A31	You waste your breath, and my patience. Die, mortal!	MA2A3A	TRUE			Your right. I'm wasting my breath. Goodbye.	END				
+	MA2A41	That thing? That wouldn't even fool a Scamp. Well. Perhaps. It does look remarkably like a real Spear. I salute you. A magnificent bluff. And it will make a good tale at the feast. But now, all good things must end, including you, my pretty little Hare.	MA2A4A	TRUE			Mallethead. I wish you could comprehend your doom. It would make my triumph all the sweeter. But dumb stones do not comprehend. Goodbye, Huntsman.	END				
+												
+	MA2A51	[[Apparently the daedra has nothing to say to you.]]	MA2A5A	TRUE				END				
+	MA2A61	[[The daedra looks almost fondly upon you, but doesn't say a word.]]	MA2A6A	TRUE				END				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												

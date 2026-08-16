@@ -1,0 +1,35 @@
+		Perthan Oathkin								Spider Daedra L2.2 TALK			
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SD1A11	Yes! I LOVE to talk while I fight. What shall we talk about? Wounds? Hot, dirty, monkey love? Splinters? Burns?	SD1A1A	TRUE			I was just wondering. All I've heard about the sex life of spiders is pretty dire. So. Are you...?  Do you...?  Is it like...?	SD1A51					
+	SD1A12	This is going to be fun, I hope. You aren't going to be boring, are you? I HATE boring.	SD1A1B	TRUE			You look like a fun kinda guy. What say we go put some lumps on those long-eared termites and the long-armed, dot-skulled clowns?	SD1A61					
+	SD1A13	What do you want? I HATE talk.	SD1A1C	TRUE			Hey. What's going on? What's happening here? Who's who and what's what?	SD1A71					
+			SD1A1D	&GatanasName AND NOT &WearAmuletM			I was just curious. What do you spider guys think about Gatanas and his Dremora Clan pals?	SD1A81					
+			SD1A1E	&RishaalName AND NOT &WearAmuletR			I was just curious. What do you spider guys think about Rishaal and her Scamp Clan pals?	SD1A91					
+			SD1A1F	&ZenaideName AND NOT &WearAmuletZ			I was just curious. What do you spider guys think about Zenaide and her Vermai Clan pals?	SD1A01					
+			SD1A1G	&WonshalaName AND NOT &WearAmuletW			I was just thinking. Wonshala isn't in charge here, is she? Who is the boss, and why don't you guys just mess him up and take his stuff?	SD1B11					
+			SD1A1H	&MethatsName AND &WearAmuletM			I was just curious. What do you spider guys think about Gatanas and his Dremora Clan pals?	SD1B21					
+			SD1A1I	&RishaalName AND &WearAmuletR			I was just curious. What do you spider guys think about Rishaal and her Scamp Clan pals?	SD1B31					
+			SD1A1J	&ZenaideName AND &WearAmuletZ			I was just curious. What do you spider guys think about Zenaide and her Vermai Clan pals?	SD1B41					
+			SD1A1K	&WonshalaName AND &WearAmuletW			I was just thinking. Wonshala isn't in charge here, is she? Who is the boss, and why don't you guys just mess him up and take his stuff?	SD1B51					
+	SD1A21	This is not the time for chit-chat. We can talk later, when you can't do anything but lie there and spit out teeth.	SD1A2A	TRUE			Why are you so stern? You must have eaten a bushel of prunes.	END	MONSTERATTACK 	&SpiderMad			
+	SD1A31	Hey. I got to tell you. My venom? It's gonna make you flop like a noodle poodle. And when you're flopping? Hooowee! Then comes my special sharp-claw dance. La-la-la!	SD1A3A	TRUE			OH-KAY. Glad we got that straightened out.	END	MONSTERATTACK 	&SpiderMad			
+	SD1A41	[[Dancing impatiently, it grins at you with feral glee.]]		TRUE					MonsterAttack				
+	SD1A42	[[It leers uncomprehendingly at you with fierce, unfocused intensity.]]		TRUE					MonsterAttack				
+	SD1A43	[[It looks you over, but says nothing.]]		TRUE					MonsterAttack				
+													
+													
+	SD1A51	Sex? You mean eggs and reproduction? That's boring mortal stuff. We get off on hurting things. Like you.	SD1A5A	TRUE			Thanks for clearing that up for me.	END	MONSTERATTACK 				
+	SD1A61	Nah. Got to leave the shrimp and potatoes alone. Only one thing on the menu tonight, and that's MAN.	SD1A6A	TRUE			Bon apetit.	END	MONSTERATTACK 				
+	SD1A71	Here's the news. We WIN! Battlespire is ours. Mages LOSE. Doornail dead. Just tying up loose ends. And you're the last loose end.	SD1A7A	TRUE			Congratulations. And good luck tying up THIS loose end, bub.	END	MONSTERATTACK 				
+			SD1A7B	TRUE			All done, eh? What about this missing voidguide thing I hear about?	SD1B61					
+	SD1A81	Stuck-up, boring book freaks. Real suck-ups. Mean as snakes, but too sissy to fight. Dirty cheaters use all that wizard crap. Sneaks. Sell you, then frame you. But they have their good points. Skin comes loose real easy.	SD1A8A	TRUE			Yeah. You said a mouthful there, pal.	END	MONSTERATTACK 				
+	SD1A91	Nothing but trouble. And plenty of them. But you need them for wet, dirty work. Rishaal takes orders, and the bosses like that, but her troops are just plain sorry.	SD1A9A	TRUE			I hear you there.	END	MONSTERATTACK 				
+	SD1A01	Vermai are strong and stupid. Don't know how Zenaide keeps them in line. Reliable, if you like that sort of thing.	SD1A0A	TRUE			Yeah. Reliable. Who cares.	END	MONSTERATTACK 				
+	SD1B11	Wonshala? Betray His Highness? No, never. We love High Lord Sumeer. And with this Battlespire conquest, his prestige among the Clans is way up there.	SD1B1A	TRUE			What? Is she listening or something?	END	MONSTERATTACK 				
+	SD1B21	Bless the Dremora. And bless Gatanas. Always thinking. Great wizards. And trustworthy. More or less.	SD1B2A	TRUE			Yeah. I love 'em, too.	END	MONSTERATTACK 				
+	SD1B31	Bless Rishaal. She's got her hands full with those lovable scamps. Cute, aren't they? Maybe not smart, but faithful, and durable, and only a little cowardly.	SD1B3A	TRUE			Sure are cute.	END	MONSTERATTACK on END.				
+	SD1B41	Zenaide is sharp. Runs things real smooth. And Vermai… well… they certainly are vicious, aren't they?	SD1B4A	TRUE			Absolutely the most viciousest.	END	MONSTERATTACK 				
+	SD1B51	I don't think Wonshala could take Sumeer. Doubt she'd try. But who wants to be a boss, anyway?	SD1B5A	TRUE			Right. Us soldiers have all the fun, bosses have all the worries.	END	MONSTERATTACK 				
+													
+	SD1B61	I hear the Scamps snapped the voidguide and hid the pieces, and now we can't head back until it is restored. Some scamp skins coming off, for sure, and roasted bosses, too.	SD1B6A	TRUE			Har-har. Those scamps! Gotta love 'em. 	END	MONSTERATTACK 				
+													

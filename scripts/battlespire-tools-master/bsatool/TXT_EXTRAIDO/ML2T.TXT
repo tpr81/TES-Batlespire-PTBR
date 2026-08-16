@@ -1,0 +1,10 @@
+		Daedra Lord					file ML2T.xls			Minor Lord L8 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	ML2A11	Come, manling. We hear you are quite the tough little thing. Our Lord says you shall not pass. Would you yield?	ML2A1A	TRUE			You must be kidding? To you? Are you the best Lord Dagon can rustle up to defend his private Lodge? Wow. Things must be really falling apart here.	ML2A21				
+			ML2A1B	TRUE			Oh, sure. I would yield. Except I don't trust you to honor my surrender. And I doubt my life is worth a parcel of sausages unless I  splatter you and all your pals across the landscape. But otherwise, sure, I would be PROUD to yield.	ML2A21				
+			ML2A1C	TRUE			No. Never.	ML2A21				
+	ML2A21	Good. Our orders are to kill you if you won't yield. Admirably simple and straightforward. So. Don't make me chase you about please. Just stand here and die like a good little rabbit.	ML2A2A	TRUE			You know, if you just weren't such a tedious jerk, I would really regret spoiling those boyish good looks by KICKING your TEETH down your THROAT!	END		&LordMad		
+			ML2A2B	TRUE			By all the Powers, I dedicate each righteous thump and buffet upon your lousy carcass to the departed spirits of those who died defending Battlespire. 	END		&LordMad		
+	ML2A31	[[He watches you eagerly, fidgeting with his weapon, but says nothing.]]	ML2A3A	TRUE				END				
+	ML2A41	[[Without a word, he glares at you and brandishes his weapon.]]	ML2A4A	TRUE				END				
+	ML2A51	[[He watches you coolly, but says nothing.]]	ML2A5A	TRUE				END				

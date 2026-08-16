@@ -1,0 +1,23 @@
+		Rishaal Tamir					file RL1T.xls			Rishaal TALK	[cute little girl demon]	
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	RL1A11	Hello, little manling. My name is Rishaal. A Bad manling took the voidguide without permission. That's bad. That's stealing. But you're a NICE manling. Because you will bring me the voidguide. That would be SO nice. And I'll give you a NICE present.	RL1A1A	TRUE			Thanks, but let me think about it. Goodbye.	END		&VoidGuide AND &NoRishDeal		
+			RL1A1B	TRUE			Sure… but first you have to tell me what a voidguide is, and what my NICE present is.	RL1A41		&VoidGuide		
+			RL1A1C	TRUE			Hey. Is that a door behind you? I bet you don't know where it goes.	RL1A51		&VoidGuide		
+	RL1A21	It's you again. The NICE manling. Did you forget? Bring me the voidguide, and I'll be your friend, and give you a nice present.	RL1A2A	TRUE			Still thinking about it. I'll let you know. Goodbye.	END		&NoRishDeal		
+			RL1A2B	TRUE			I WANT to be your friend. So when I get the voidguide, I'll bring it RIGHT to you. Won't that be NICE? Goodbye.	END		&RishDeal		
+	RL1A31	So. We meet again. You've brought the voidguide, I hope.	RL1A3A	TRUE			Oh, DEAR! I'm SO sorry. I'm still looking for it, but I'll bring it right to you when I get it. Goodbye.	END				
+			RL1A3B	TRUE			I don't know. Maybe someone else will give me a nice present if I give the voidguide to him. Wait and see. Isn't this exciting? Goodbye.	END		&NoRishDeal		
+			RL1A3C	TRUE			Yes, yes, yes. Of course I have the voidguide.	RL1A61				
+
+												
+	RL1A41	Okay. The voidguide is a kind of key thing and a kind of map thing that guides a traveler through the big empty places to the place he wants to go. See? And your present is a SECRET... A surprise… and if I tell you, it will spoil it, won't it?	RL1A4A	TRUE			It sounds very exciting. I'll have to think very carefully about this. See you later… maybe.	END		&NoRishDeal		
+			RL1A4B	TRUE			Fair enough. When I get the voidguide, I'll bring it to you. Goodbye for now.	END		&RishDeal		
+	RL1A51	You lose! Ha-ha! That door goes to the special SECRET parts of Battlespire. Where Sumeer is. He's very important. I'm supposed to bring HIM the voidguide, and he'll give me a nice present. But you can't go to the SECRET parts yet. Because I can't go to the secret parts yet... not until i get the voidguide. And you can't go if I can't go. That's fair, isn't it?	RL1A5A	TRUE			I see. I can't go to the SECRET places until you go, and you won't go until you've got the voidguide.	RL1A91		&SumeerName		
+	RL1A61	Goodie, goodie! Give me the voidguide RIGHT NOW!	RL1A6A	TRUE			Well, of course I've GOT it, but not actually ON me. So I'll just go get it then. Be back in a flash.	END				
+			RL1A6B	TRUE			Hah. You must think I'm a big dummy. I know this voidguide is VERY special, and I think you need to give me an Extra Special present if you want me to give it to you.	RL1A71				
+			RL1A6C	&InvVoidguide1			Here it is. So. Now. What's my present?	RL1A81	Take 30_10000			
+												
+	RL1A71	Oh, dear. I thought you were a NICE manling. But maybe you're just a meany. I'll just have to wait around here. Poor me. And poor you. No way to the SECRET parts until I get the voidguide.	RL1A7A	TRUE			Yeah? Well… fine. I'll be going now.	END				
+	RL1A81	Oh, thank you, thank you, thank you. Sumeer will be SO pleased. I'll take this piece and put it next to the voidgate console, just like Sumeer said. And here’s your little surprise.  It's a little Zyr sigil amulet. NOW you can go to the SECRET parts. Right through this door behind me. And here's another little surprise, because you're so NICE. This will get you into another someplace with NICE things. Maybe somebody will get in a teensy trouble if the NICE things disappear. Ha-ha. See you around.	RL1A8A	TRUE			Thank you very, very much. You're a NICE little daedra. Bye-bye.	END	PUT  31_9026  AND Teleport_0			
+	RL1A91	You're a SMART manling. You bring me the voidguide, or you can't see the SECRET parts. Nyah-nyah.	RL1A9A	TRUE			Golly. I really want to see the SECRET parts. So I better go get you the voidguide. See you later.	END		&RishDeal		
+												

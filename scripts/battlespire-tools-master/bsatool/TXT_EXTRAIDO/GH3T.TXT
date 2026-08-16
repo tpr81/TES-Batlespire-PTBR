@@ -1,0 +1,35 @@
+	Ghosts						file Gh1T.xls					
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	GH1A11	Death is the Mother of Beauty.	GH1A1A	TRUE			"That's very nice. Very poetic. Thank you for sharing that. I would prefer, however, that you stop trying to kill me. Please?"	GH1A31				
+	GH1A12	"The seasons turn to winter. In the frozen whiteness, time stands still."	GH1A1B	TRUE			Would you please tell me how to get out of here?	GH1A31				
+	GH1A13	We came this far for beauty. We came this far for love. From this place we can see forever.	GH1A1C	TRUE			"You're wasting your breath. So to speak. I'm alive, I like it, and I'm staying that way. Goodbye."	END				
+												
+	GH1A21	"There will be no sad farewells, no tears goodbye. No death stalks this distant shore of peace and love."	GH1A2A	TRUE			Is there any way I can help you? Ease your pain? Release you from the curse that chains you here?	GH1A31				
+	GH1A22	"Judge no man, mortal, born to die, happy before his death. In death, all is peace and joy, serene, eternal."	GH1A2B	TRUE			"I naturally assume, you being undead and all, that you are suffering terrible anguish and torment. Aren't you? You sure don't seem all that miserable to me."	GH1A31				
+	GH1A23	"We lift the veil, and enter into night, eternal night, glorious with stars."	GH1A2C	TRUE			This doesn't seem to be very productive. Goodbye.	END				
+												
+	GH1A31	"[[The ghost glimmers and keens, but does not reply.]]"		TRUE			NOTE: This is a NoTalk default dialog.	END		&GhostNoTalk		
+												
+	GH1A41	Love is stronger than death. He who serves death shall not die.	GH1A4A	TRUE			"Words to live by. Hah- hah. That was fun, but it looks like I have to resort to violence. Goodbye."	END				
+	GH1A42	"Beyond death, there is no fear, no shame. In death, the spirit arises, pure and proud."	GH1A4B	TRUE			Where am I? Who are you guys? Or who were you guys?What's going on here? Can't you just give me a hint?	GH1A31				
+	GH1A43	"Deep be roots, sturdy be limbs, tough be fibers of bark and heartwood.... but, mortal, before the winds of death, you cannot stand. "	GH1A4C	TRUE			"I abjure thee, spawn from beyond the grave! Abomination! Unholy specter! In the name of all that is good and just, I revile thee, and pray for thy destruction!"	GH1A31				
+	GH1A44	"Be assured that death is evil, for were it good, the Gods would ALL die."	GH1A4D	TRUE			"This has been very instructive, but I don't want to keep you from your very important work. Whatever it is."	END				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												

@@ -1,0 +1,41 @@
+		Sirran Angada					file SA1T.xls			Sirran Angada L6 TALK		
+	Saycode	NPC SAY		CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SA1A11	Porque me fizeram esperar? O Lorde Dagon vai querer ver-me imediatamente. Os pressagios sao muito propicios, mas uma crise esta a chegar, e ele vai querer tomar as mares em sua inundacao.	SA1A1A	TRUE			E tudo um misterio para mim, senhor. Na verdade, nao faco ideia de quem e ou porque esta aqui. Passei por aqui a procura de um par de botas de Grotesca Vida que parecem ter desaparecido. Nao os viste em lado nenhum, pois nao?	SA1A21				
+	SA1A21	Isto e inaceitavel! Isto e apenas a calma antes da tempestade. As mares da magia estao no refluxo mais remoto. Sua Senhoria deve estar preparada para monta-los na sua inundacao, ou tudo pode estar perdido!	SA1A2A	TRUE			- Desculpa. - Desculpa. Nao sei do que estas a falar. Mas se me der o seu nome, o seu proposito e uma breve mensagem, vou ver que chega ao Lorde Dagon, ou a um dos seus principais tenentes, imediatamente.	SA1A31				
+	SA1A31	Veja aqui. O meu nome e Sirran Angada. Sou um feiticeiro mortal.	SA1A3A	TRUE			Bem, qualquer um pode ver isso.	SA1A41				
+	SA1A41	Ouve, canalha, e para com a tua tagarelice. Meu Senhor, Jagar Tharn, o imperador mortal de Tamriel, e o vosso Senhor Dagon estao a ordenar assuntos muito acima do vosso conselho. Diga a alguem com autoridade que eu devo falar com Sua Senhoria.	SA1A4A	TRUE			- O que? - O que? Nao sei de assuntos atuais, mas o imperador nao e chamado Septic ou Septem ou Setembro ou algo assim?	SA1A51				
+	SA1A51	- Muito bem. - Muito bem. Pode pensar, de uma maneira. Sim, Tamriel acredita que Uriel Septem ainda governa, mas na verdade, o meu mestre Jagar Tharn, assumiu a forma do Imperador e governa em seu lugar.	SA1A5A	TRUE			Isso e muito interessante. Mas o que tem isso a ver contigo e com o Lorde Dagon?	SA1A61				
+	SA1A61	Lord Dagon foi fundamental para ajudar o meu senhor nesta impostura, e como recompensa parcial, o meu senhor colocou temporariamente as minhas habilidades nao-insignificantes em ler os caprichos das mares magicas a disposicao do seu senhor. E e este mesmo conselho que o teu senhor deseja tao fervorosamente que tu o mantens longe com as tuas perguntas estupidas.	SA1A6A	TRUE			Lord Dagon esta sempre muito ocupado, e nao se interessara pelos incompreensiveis balbucios de um homem.	SA1A71				
+	SA1A71	- Ouve. O destino dos Reinos e de tudo o que neles existe e afetado pelo fluxo e refluxo da magia. La fora, no Vazio, as Aguas do Oblivion recuaram longe das margens dos reinos mortal e imortal.	SA1A7A	TRUE			- Nao. - Nao. E por isso que esta treta esta por ai? Sao estes os magiscopicos? Consegues ver o inicio e o fim dos mundos nessas coisas? - Ola, meu. E a minha fortuna? Diz-me a minha sorte?	SA1A91				
+	SA1A81	Estes dispositivos sao muito sensiveis para perceber os destinos grosseiros e pouco sutis de sapos como voces. Estes dispositivos rastreiam as Mares do Destino. Mas posso dizer a tua sorte, se quiseres.	SA1A8A	TRUE			Sim, por favor!	SA1A91				
+	SA1A91	Se, pela sua insensatez e preguica, nao conseguir levar esta mensagem ao Senhor Dagon, e assim desperdicar a preciosa sabedoria que pode ser usada para moldar os destinos de todos os reinos mortais e imortais, acredito que o Senhor Dagon pode usar a sua boca, e, de facto, todo o seu canal digestivo, como um recipiente adequado e util para a sua Terrivel e Rapida Espada da Destruicao!	SA1A9A	TRUE			- Nao. Isso parece-me muito desagradavel. - Entao? Entao, vou entregar a sua mensagem. - Nao e?	SA1A01				
+			SA1A9B	TRUE			- Nao. - Olha. Nao sou uma Daedra. Na verdade, sou um Mago Imperial. Ou, pelo menos, vou ser um. - Muito em breve. E tu es o traidor responsavel por abrir os portoes do Espirito de Batalha aos servos de Dagon.	SA1B11				
+	SA1A01	Que ideia esplendida. Como e que alguma vez te ocorreu?	SA1A0A	TRUE			- Esta bem, entao. - Vou embora. Vou contar a Sua Senhoria, ou a um tenente, ou talvez a outro Lorde Daedra simpatico, que nao esteja muito ocupado, tudo sobre os magiscopicos e as mares e tudo mais. - Ate logo.	END		&AngadaMad		
+	SA1B11	- O que? - O que? - O que? - O que? - Nao. - Querido.	SA1B1A	TRUE			O preco da traicao e a morte. Preferia leva-lo ao proprio Imperador onde quer que esteja se ainda estiver vivo para a Sua Justica, mas receio estar com pressa. - Entao? Proclamo sobre vos a justica sumaria do Imperador Uriel Septem, em seu nome e por sua lei.	SA1B21				
+	SA1B21	Mas nao me podes matar a sangue frio. E quanto ao devido processo? Os meus direitos como nobre?	SA1B2A	TRUE			Condeno-vos a morrer pela espada pelas vossas abominacoes. Preparem-se para conhecer os vossos antepassados.	END	Kill			
+			SA1B2B	TRUE			- Esta bem. - Esta bem. - Tens razao. Entao e julgamento por combate. Defende-te, cao, e prova a tua inocencia no meu corpo.	END	Kill			
+			SA1B2C	TRUE			Tenta implorar-me misericordia.	SA1B31				
+	SA1B31	- Nao. Prefiro morrer a implorar misericordia de ti, stripper.	SA1B3A	TRUE			- Esta bem. - Esta bem. Como queiras. Entao prepara-te para morrer, traidor!	END	Kill			
+			SA1B3B	TRUE			Mereces morrer, traidor. Mas nao me encharco as maos com o contrato. Tenho coisas mais importantes para fazer. Entao, vem ou vai como quiseres, Angada. Talvez tenhas mais um papel a desempenhar neste drama, para o bem ou para o mal, e nao me intrometerei. - Adeus. - Adeus.	END		&AngadaSad		
+	SA1B41	Tu outra vez? Ja entregaste a mensagem?	SA1B4A	TRUE			- Sim, e verdade. - Nao, nao. - Mais ou menos. - De certa forma.	SA1B51				
+				TRUE			Nao, nao. Nao consegui encontrar ninguem para contar, Meritissimo. Esta uma confusao la fora.	SA1B51				
+	SA1B51	Entao, vai! Diz a alguem! Qualquer um! Algo um pouco mais sabio do que tu mesmo. Uma planta! Um banco! Uma bola de po! - Vai! - Vai! - Vai!	SA1B5A	TRUE			Certo, para fora, Meritissimo.	END		&AngadaMad		
+	SA1B61	Nao, nao, nao! - Por favor! - Nao! - Nao me matem!	SA1B6A	TRUE			- Desculpa. - Nao. Nao posso fazer isso. Nao podemos fazer uma excecao especial para um vil traidor. Mas e um bom trabalho a implorar. Muito comovente. Adeus, entao.	END	Kill			
+			SA1B6B	TRUE			Mereces morrer, traidor. Mas nao me encharco as maos com o contrato. Tenho coisas mais importantes para fazer. Entao, vem ou vai como quiseres, Angada. Talvez tenhas mais um papel a desempenhar neste drama, para o bem ou para o mal, e nao me intrometerei. - Adeus. - Adeus.	END		&AngadaSad		
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+							
+							
+							
+							
+							
+												

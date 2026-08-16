@@ -1,0 +1,33 @@
+		Fire Daedra					file Fr1T.xls			Fire Daedra TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	FR1A11	Um rompedor de festas! Malvada, pequena intrusa de festas! Pensaste que nao notariamos a tua intromissao perversa no nosso novo salao de banquetes?	FR1A1A	TRUE			Claro que sim. Afinal, es ainda mais estupido do que pareces.	END	MONSTERATTACK	&FireMad		
+			FR1A1B	TRUE			Devia saber que alguem tao grande como tu me encontraria imediatamente.	FR1A21				
+			FR1A1C	&XivilaiName			Este salao de banquetes e so para o grande Xivilai Moath!	END	MONSTERATTACK	&FireMad		
+			FR1A1D	&FaydraName 			Este salao de banquetes e so para o grande Faydra Shardai!	FR1A81				
+	FR1A21	A sua lisonja servicial comprou-lhe outro momento de vida preciosa. Vou atormentar a tua alma por mais um momento antes de a mandar para a escuridao para sempre.	FR1A2A	TRUE			Nao se eu libertar o teu primeiro!	END	MONSTERATTACK	&FireMad		
+			FR1A2B	TRUE			Agradeco a Sua Senhoria. Porque esta o seu senhor neste reino?	FR1A31				
+	FR1A31	Esta e a nossa festa! A Sombra Perigosa e a mais doce iguaria do reino nocturno e agora pertence a Daedra de Fogo! O nosso mestre fara festa connosco para sempre no seu esplendor escuro!	FR1A3A	TRUE			Quem e o teu mestre?	FR1A41		&FDBrag		
+	FR1A41	Tais nocoes estao alem do teu conhecimento, mau rapaz. Foste malvado e deves ser punido.	FR1A4A	TRUE			O que fiz para merecer um castigo?	FR1A51				
+	FR1A51	Interrompeu a minha brincadeira! Pensaste que podias vir aqui brincar? Agora vamos brincar contigo! Vou queimar os teus orgaos e apodrecer a tua alma mortal com uma chama requintada!	FR1A5A	TRUE			Menos conversa e mais massa, ficaria bem. Vamos lutar.	END	MONSTERATTACK	&FireMad		
+				&FrBrag			Os Daedra de Gelo dizem que este reino pertence a eles.	FR1A61				
+	FR1A61	Eles mentem! Nos concebemos primeiro o engano e a traicao do tolo Tenente Nocturno!	FR1A6A	TRUE			Bem, eu nao sei em quem acreditar. Desculpe-me enquanto penso bem nisto.	END	MONSTERATTACK			
+			FR1A6B	TRUE			Se fosse a ti, explodiria todos antes que possam reclamar todo o credito pelos teus gloriosos triunfos.	FR1A71				
+	FR1A71	Vamos ferver esses patos gelados quando chegar a hora! Mas agora e hora de brincar contigo!	FR1A7A	TRUE			Mas eu estava a gostar tanto da nossa pequena conversa. - Que pena.	END	MONSTERATTACK			
+	FR1A81	Nosso Senhor Faydra Shardai e todo-poderoso! Exaltamos o seu nome!	FR1A8A	TRUE			- Sim, sim! Exalta-a muito. Faydra Shardai!	FR1A91		&FaydraName 		
+			FR1A8B	TRUE			Agora estao sob o meu comando!	END	MONSTERATTACK	&FireMad		
+	FR1A91	Faydra Shardai deve deleitar-se no ichor nocturno que flui com mana escura! So a Faydra Shardai entende a beleza desse poder mortal, e so a Faydra Shardai merece mante-lo!	FR1A9A	&XivilaiName			O Xivilai pode ter algo a dizer sobre isso.	FR1A01				
+			FR1A9B	TRUE			- Sim, sim. Talvez a Faydra nao seja a unica a querer reivindicar o credito pelo sucesso desta pequena capricha.	FR1A01				
+	FR1A01	Mas voce esta errado! Xivilai Moath e demasiado burro para compreender o poder que esta aqui. Faydra Shardai, filho mais velho de Mehrunes Dagon, planeou este ataque, e so Faydra Shardai deve beber da recompensa!	FR1A0A	TRUE			Mas os Daedra de Gelo do Xivilai tambem estao a beber recompensas. O que fazemos com eles?	FR1B11		&XivilaiName		
+	FR1B11	- Sim, sim! Nao podemos fazer nada! - Nada! - Nao! Faydra e Xivilai tem um pacto que nos proibe derrete-los em nevoas de vapor!	FR1B1A	TRUE			Que pena! Tu fizeste todo o planeamento e eles ficam com toda a magia! - Nao, nao.	END	MONSTERATTACK	&FireMad		
+			FR1B1B	TRUE			- Vou fazer-te uma coisa. Se me ajudar a assa-los, eu faco o trabalho sujo por si.	FR1B21				
+	FR1B21	- Nao! - Nao! E verdade que sois depravados! Concordamos nesta ligacao, e para vincular o nosso acordo, damos-te um Coro da Opala de Fogo que aquecera a tua delicada carne quando os ventos gelados da Daedra te envolverem nos seus abracos gelados!	FR1B2A	TRUE			- Optimo. - Optimo. - Obrigado, meu.	FR1B31	Put 24_4011			
+			FR1B2B	TRUE			Levar algo de ti? Nunca! A minha mae ensinou-me a nunca aceitar presentes de monstros astutos.	END	MONSTERATTACK	&FireMad		
+	FR1B31	Nao se surpreenda que continuemos a atacar-vos enquanto estiverem na Sombra Perigosa. Nao podemos fugir as nossas ordens. Mas se te afastar das nossas festas e procurar a fria Daedra, nao teremos de derreter o teu barro mortal. Agora dancamos a danca do triunfo e expulso a Daedra Frost da nossa gloriosa festa!	FR1B3A	TRUE			- Nao, nao.	END		&FirePal		
+			FR1B3B	TRUE			O que sabes sobre o Dremora?	FR1B41				
+	FR1B41	Como a Daedra de Gelo, nao entendem os prazeres da danca. Nao tem alegria na festa. Ate pararam o nosso desporto perverso com o Menor Nocturnal.	FR1B4A	TRUE			- Quem? - O que?	FR1B51				
+	FR1B51	Quando capturamos e amarramos o Tenente Nocturnal Jaciel Morgen, a menor Nocturnal Deyanira Katrece tambem se tornou nossa prisioneira. A nossa mestra, Faydra Shardai, procurou drenar o menor Nocturnal do seu poder obscuro. Poder para o nosso prazer. Mas a Dremora sem paixao impediu-nos! Os Dremora sao cascas secas, e os fogos do desejo nao estao neles. Os seus coracoes sao mais frios que a gelada Daedra!	FR1B5A	TRUE			Entao, onde estao estes prisioneiros nocturnos?	FR1B61		&JacielName AND &DeyaniraName		
+	FR1B61	Mortal malvado! Pedes mais do que mereces!	FR1B6A	TRUE			Se queres que eu esmague a Frost Daedra, e melhor que me digas.	FR1B71				
+	FR1B71	- Sim, e verdade. - Eu entendo. - Nao, nao. O nocturno menor e a celula mais distante da abobada sul. Visitamo-la para a atormentar com Fogo e Gelo. O portal so se abre com o comando "O Gerente de Dagon governa aqui".	FR1B7A	TRUE			E o Numero Um? O Tenente Noturno? - Onde esta ela? - Nao sei.	FR1B81				
+	FR1B81	A maior Nocturnal esta alem dos moinhos em espiral, mas ela esta alem do meu poder de visita-la. Agora corre, malvado! Corram e despedacem a Daedra de Gelo, como juraram no vosso pacto! Vamos cavar-nos enquanto destrocas a Daedra de Gelo em mil pedacos de gelo!	FR1B8A	TRUE			Desfruta, Senhor do Fogo. E guarda essa ultima danca para mim. - Ate logo. - Esta bem.	END		&FirePal		
+	FR1B91	O Tita de Fogo encara furiosamente e se recusa a falar contigo.	FR1B9A	TRUE				END				
+	FR1B01	[Ele encolhe os ombros indiferentemente, e nao diz nada.]	FR1B0A	TRUE				END				

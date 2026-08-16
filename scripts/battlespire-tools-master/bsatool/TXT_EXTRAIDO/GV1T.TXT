@@ -1,0 +1,27 @@
+		Ideal Master					file Gv1T.xls			Uncooperative Gem Vampire		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	GV1A11	Who disturbs our rest?	GV1A1A	 TRUE			No one. No one at all. Beg pardon. Just leaving. Sorry. Goodbye.	END				
+			GV1A1B	 TRUE			A humble mortal who begs your aid.	GV1A31				
+			GV1A1C	 TRUE			A celebrated master of arts martial and arcane, intent on a quest, and worthy of your aid.	GV1A31				
+			GV1A1D	 TRUE			Look. I don't know what's going on here, but it smacks of necromancy, and I won't stand for it. Goodbye.	END		&GemMad		
+	GV1A21	[[You address the gem, but there is no response.]]										
+	GV1A91	Perhaps you seek death without the Rites. It is foolish, but you are free to choose.	GV1A9A	 TRUE			I'm not afraid to die. Do your worst. Goodbye	END	HealthHalf AND PainSFX			
+			GV1A9B	 TRUE			No, no, no! Sorry to bother you. I am not seeking death, not even a little. Goodbye.	END				
+												
+	GV1A31	You are not invited here. WHY DO YOU DISTURB OUR REST?!	GV1A3A	 TRUE			Well, I'm not sure, really. Actually, I seem to be stuck here, wherever here is, and I'm looking around for something or someone who can help me out.	GV1A41				
+			GV1A3B	 TRUE			I, a poor, desperate creature of flesh, have chosen to contest with the Princes of Oblivion and their minions, and I humbly seek your aid.	GV1A41				
+			GV1A3C	 TRUE			I can take a hint. You want me to go away and leave you alone. Fine. Just don't expect me to do YOU any favors. Goodbye.	END				
+			GV1A3D	 TRUE			A traveler through the outer realms, I have come upon your world, and found it wondrous strange. I seek to learn more of its mysteries. What is this place, and what is its purpose?	GV1A81				
+												
+												
+	GV1A41	Would you enter our service, mortal?	GV1A4A	 TRUE			No. I do not offer service.	GV1A71				
+			GV1A4B	 TRUE			I am surprised and honored by the prospect, but am curious. How might I enter your service?	GV1A51				
+	GV1A51	Put off your mortal garments, and stand naked in the spirit. Your stained tablet must first be washed white by the fires of mana.	GV1A5A	 TRUE			That sounds very nice. And how would I go about getting my tablet washed?	GV1A61				
+			GV1A5B	 TRUE			You can't fool me. You're talking about making me into an undead creature. If that's how I join your service, I'm not interested. Goodbye.	END		&GemNoTalk		
+												
+	GV1A61	Seek the twin Fingers of Life in the Chapel of Love. Stand upon the pedestal and bathe yourself in the manabeams. The corruption of the flesh shall fall away, and the spirit shall be revealed in its glory. Then may you stand before us and serve for eternity in peace and joy.	GV1A6A	 TRUE			This is truly a glorious miracle. I must ponder its mysteries.	GV1A71				
+			GV1A6B	 TRUE			Uh. Bathe myself in MANAbeams. Yes. Flesh. Falls away. In chunks, I bet. Sorry. I'll struggle along with my comfortable old stained tablet, thank you.	GV1A71				
+	GV1A71	Unless you join our service, we offer you no aid. Affairs of mortals are not our concern. Each mote of mana spent diminishes our eternity. Go and trouble me no more. But you speak with our brethren, who perhaps better recall wearing flesh, and who may look more generously upon your request.	GV1A7A	 TRUE			I shall certainly be happy to speak with any of your more generous brethren. Lots of you talking crystals floating in coffins around here, I take it? Dandy. I sure hope they are much more generous than you are. But thank you for your patience. Goodbye.	END		&GemNoTalk		
+												
+	GV1A81	You stand within the precincts of the Soul Cairn, an otherworldly refuge dedicated to peace, love, eternal rest and harmony. You stand before one of its Makers, whose name is so exalted you may not even speak it. You walk among its servants, who have pledged themselves in service to us, and who in reward have been gifted with life eternal and the peace that passes all mortal understanding.	GV1A8A	 TRUE			I am humbled before the splendor of your creation, and the glory of its faithful servants.	GV1A41				
+			GV1A8B	 TRUE			All this religious mumbo jumbo is making me nervous. Are you going to help me, nor not?	GV1A41				

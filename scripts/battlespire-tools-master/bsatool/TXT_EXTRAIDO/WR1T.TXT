@@ -1,0 +1,43 @@
+		Wrathman					file WR1T.xls			Wraiths		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	WR1A11	Cheated! Betrayed! Deceived! You promised! But you lied! Forever! 	WR1A1A	TRUE			I don't know who you think I am, or what you are talking about. Just leave me alone, or I'll have to hurt you bad.	WR1A61				
+	WR1A12	You have taken my life, and given me NOTHING! Eternal happiness? Life everlasting? No! Eternal nightmare! Death everlasting! Nothing now. Nothing forever more.	WR1A1B	TRUE			No offense, but you're mad as a loon. And not enjoying it, more's the pity. Is there any hope for your salvation? Or would you like me to put you out of your misery?	WR1A71				
+	WR1A13	Where is this land of joy and plenty you promised? No days, no nights. Tired without rest. Weary without hope. Time without end. And this is the paradise you promised? 	WR1A1C	TRUE			Sounds terrible. So, who do you think you're talking to? Or are you just talking to yourself?	WR1A81				
+			WR1A1D	TRUE			Have I caught you at a bad time? Never mind. We can talk later. Goodbye.	END				
+			WR1A1E	&RestBook			With these words, I free you, piteous, unclean spirit, from the bonds of undeath.   From fifty Fathers   Frozen in slavepast!   Rip from the wraithloom!   Sunder the lifeweave!   Lock tight in earthgrip!   Hold firm in gravefast!	END	Kill AND WraithMeltSFX			
+	WR1A21	Once I was a man filled with love and hate. Now I am a monster, empty, and hungry. I surrendered my life, and now I must feast upon yours. Flee, mortal, for I have no heart, and would feed on yours.	WR1A2A	TRUE			Thanks for the warning. Goodbye.	END				
+	WR1A22	I smell your life, and rave with hunger. I can suck you to a husk, and still scream for thirst. Run, now. There is no hope... Only horror.	WR1A2B	TRUE			Can I help you in any way? Do you want me to put an end to your miserable existence?	WR1A51				
+	WR1A23	I want you. All of you. Nothing left. I could pour you all into me, and still feel hollow. How can you stand there? Don't you know what I am? A wraith? A husk? A mad, hungry, hating husk?	WR1A2C	TRUE			I wish I could help you, but I'm in real trouble myself. For what it's worth, I feel for you, but I'm warning YOU... Get in my way, and you're going to get hurt. I think. These weapons and spells, they are hurting you, right?	WR1A61				
+			WR1A2D	&RestBook			From fifty Fathers
+Frozen in slavepast
+Rip from the wraithloom
+Sunder the lifeweave
+Lock tight in earthgrip
+Hold firm in gravefast	END	Kill AND WraithMeltSFX			
+	WR1A31	Your weapons amuse me. Against flesh, they may triumph, but they scarcely stir the gossamer threads of the revenant spirit.	WR1A3A	TRUE			You talk a lot. I'm not afraid of you. I'm still alive, and I like it that way. You are just a cloud of bad air with a big mouth, and I'm going to rid this place of your stink if it's the last thing I do.	WR1A61				
+	WR1A32	Show me your little toys, child. Play your little parlor tricks. See how little tin and tinsel avails against the Soul Which Never Dies.	WR1A3B	TRUE			Help! Help! I'm really, really scared. I'm going to flee in terror. Right now. PLEASE have pity on me, O mighty, wonderful being of eternal power and glory, and let me run and hide myself from your awesome presence.	END				
+			WR1A3C	&RestBook			With these words, I free you, piteous, unclean spirit, from the bonds of undeath.   From fifty Fathers   Frozen in slavepast!   Rip from the wraithloom!   Sunder the lifeweave!   Lock tight in earthgrip!   Hold firm in gravefast!	END	Kill AND WraithMeltSFX			
+												
+	WR1A41	[[The ghostly presence offers no answering response.]]		TRUE				END				
+												
+	WR1A51	How could you ever understand my pain? You know NOTHING. You understand NOTHING! You are an animal... a weed... a STONE... compared to me. I see all, feel all, suffer all, HATE all, FOREVER! You know NOTHING!	WR1A5A	TRUE			I see. Excuse me, but this conversation has lost its luster.	END				
+	WR1A61	What can your puny weapons, your feeble sorceries, avail against an immortal spirit? I CANNOT DIE, you fool! CANNOT DIE! I LAUGH at your pity. I mock your tiny fists.	WR1A6A	TRUE			You are a bad thing. Soon I will make you go away. Far, far away.	END				
+	WR1A71	Listen carefully. We take little harm from your weapons or spells. Seek the Book of Rest and Endings. Speak the Words, and dissolve the Bonds.	WR1A7A	TRUE			Thank you. I'll do as you say, and with a blessing.	END	PCTeam			
+	WR1A81	What does it matter? It's not MY fault! You said I'd live forever. And this is LIFE? You CHEATED me! I HATE you!	WR1A8A	TRUE			It sounds to me, friend, like YOU are the one who got yourself into this mess. Don't blame me. Don't fool around with necromancy, and blame someone else when you don't like the results. And if you go around sucking the souls out of folks, don't be surprised if they want to blot you out like a bug. Goodbye.	END				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+							
+							
+							
+							
+							
+							

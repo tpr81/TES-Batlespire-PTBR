@@ -1,0 +1,4 @@
+		Jaciel Morgen					file JM2T.xls			Jaciel Morgen Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	JM2A11	Ela sorri sombrio e pisca, mas o rosto dela esta tenso de concentracao, e ela nao fala.	JM2A1A	TRUE				END				
+	JM2A21	Estou aqui, vela fraca! Ataca com forca! - Agora mesmo! - Para mim!	JM2A2A	TRUE				END				

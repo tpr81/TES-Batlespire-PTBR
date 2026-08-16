@@ -1,0 +1,42 @@
+		Frost Daedra					file Ft1T.xls			Frost Daedra1		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	FT1A11	Interloper! This realm is not for your brittle kind! 	FT1A1A	TRUE			Who you calling brittle, ice boy?	END				
+			FT1A11B	TRUE			Who is this realm for, then? 	FT1A21				
+			FT1A1C	TRUE			I'll shatter you like an icicle!	END				
+			FT1A1D	&XivilaiName			Quite right! This realm is only for the great Xivilai Moath!	FT1A71				
+			FT1A1E	&FaydraName			Quite right! This realm is only for the great Faydra Shardai!	END	MonsterAttack	&FrostMad		
+	FT1A21	For us! With but an infinitesimal measure of our vast power have the Frost Daedra subjugated this land! 	FT1A2A	TRUE			Whom do you serve?	FT1A31		&FrBrag		
+			FT1A2B	TRUE			With an infinitesimal measure of my vast power I'll subjugate you!	END	MonsterAttack	&FrostMad		
+	FT1A31	You are not fit to utter the name of the master of the Frost Daedra, mortal! 	FT1A3A	TRUE			Why do you want this land?  	FT1A41				
+			FT1A3B	TRUE			I am fit to skewer your chilly chitterlings, though. 	END	MonsterAttack	&FrostMad		
+	FT1A41	This land holds rich mysteries and great rewards. But not for mortals. Now I shall end your profane trespass.	FT1A4A	TRUE			Talk tough to me, pretty boy.	END	MonsterAttack	&FrostMad		
+			FT1A4B	&FDBrag			The Fire Daedra say that this realm belongs to them.	FT1A51				
+	FT1A51	Oh they do? They cannot be trusted. It was our lord who challenged the forces of the Nocturnal Lieutenant! Many Frost Daedra melted in the conflagration before the battle was won. None may take that triumph from us!   	FT1A5A	TRUE			Well, I just don't know who to believe. Excuse me while I give this a good long think.	END				
+			FT1A5B	TRUE			If I were you, I'd blast them all to Oblivion before they can claim all the credit for your glorious triumphs.	FT1A61				
+	FT1A61	We do not need to be schooled by a puny manling. For all their refusal to hew to rigors of lawful conduct, the Fire Daedra belong here. You do not. We shall expunge you.	FT1A6A	TRUE			Ouch. I cringe abjectly in sheer anticipation of your titanic fury. Sheesh. What a blowhard.	END	MonsterAttack	&FrostMad		
+	FT1A71	ALL HAIL XIVILAI MOATH!	FT1A7A	TRUE			YEAH! ALL HAIL XIVILAI MOATH!	FT1A81		&XivilaiName		
+			FT1A7B	TRUE			Now you are under my command!	END	MonsterAttack	&FrostMad		
+	FT1A81	The great Xivilai Moath shall bring order and control to this dark land! Xivilai alone deserves to rule here!	FT1A8A	TRUE			Yeah? Well, maybe Xivilai isn't the only one planning to harvest the power and glory for this triumph.	FT1A91				
+			FT1A8B	&FaydraName 			Faydra will fry you guys. 	FT1A91				
+	FT1A91	Hah! Xivilai alone will possess this rich, darkling land! He is the true heir to the great Mehrunes Dagon! Faydra Shardai is too consumed with fripperies and foolishness to do the hard work of conquest. Her Fire Daedra are too frivolous to harvest the mana riches of this realm, just as they were too frivolous to help imprison the Nocturnal Lieutenant. 	FT1A9A	TRUE			So what are we going to do about those pesky Fire Daedra?	FT1A01		&FaydraName 		
+	FT1A01	Our accursed pact forbids us from fighting them directly. But we deserve the mana, and they deserve Oblivion.	FT1A0A	TRUE			Hah! You're out of luck! You did all the work and they get all the mana!	FT1B11				
+			FT1A0B	TRUE			Tell you what. If you help me kill them, I'll do your dirty work for you.	FT1B21				
+	FT1B11	You are insolent, manling. You must be taught a lesson.	FT1B1A	TRUE			Goody, goody. Show me something fancy, twinkle toes.	END 	MonsterAttack	&FrostMad		
+	FT1B21	Yes! That is a most orderly arrangement! We agree, and to seal the pact, we shall gift you with the Greaves of Ice Crystals. Its potent charm will protect your bones from the scorching heat of the Fire Daedra.  	FT1B2A	TRUE			I don't trust you enough to take your tricky trinkets! So long, iceman.	END 	MonsterAttack	&FrostMad		
+			FT1B2B	TRUE			Thanks. Now we are great friends forever. Right?	FT1B31	Put 27_4010			
+	FT1B31	Understand that servitors of the great Xivilai Moath must continue to attack you as long as you are within the Shade Perilous. Flee vigorously from us and attack the Fire Daedra! Bring all our enemies to heel! 	FT1B3A	TRUE			You know it. Now excuse me while I dampen a few fires.	END		&FrostPal		
+			FT1B3B	TRUE			Hey, what do you know about the Dremora?	FT1B41				
+	FT1B41	They serve our Lord Mehrunes Dagon through the court of the Grand Vizier, Imago Storm. 	FT1B4A	TRUE			What's this Imago Storm up to?	FT1B51		&StormName		
+	FT1B51	He controls the details of the invasion, that our Lord Mehrunes Dagon may be free to think greater thoughts. 	FT1B5A	TRUE			Is Imago loyal to Dagon? 	FT1B61				
+	FT1B61	What strange thoughts you mortals may entertain. ALL are loyal to our Lord Mehrunes Dagon. Now go and root out the interloper Fire Daedra!	FT1B6A	TRUE			Thank you for your wisdom and generosity. Goodbye.	END		&FrostPal		
+	FT1B71	[[The icy giant ignores your attempt to speak with him.]]	FT1B7A	TRUE				END				
+	FT1B81	[[He nods patronizingly, but shows no inclination to speak.]]	FT1B8A	TRUE				END				
+												
+												
+												
+												
+												
+												
+												
+												
+												

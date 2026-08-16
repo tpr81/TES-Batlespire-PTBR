@@ -1,0 +1,56 @@
+Name	"of Argent Warding"
+Item	1
+Spell	16, -1, -1
+App	100
+Adv	37
+Uses	50
+Level	2
+	
+Name	"of Percipience"
+Item	2
+Spell	-1, 2, -1
+App	100
+Adv	-1
+Uses	100
+Level	2
+	
+Name	"of the Traveler"
+Item	2
+Spell	-1, 25, -1
+App	12, 20, 100
+Adv	37
+Uses	10
+Level	2
+	
+Name	"of Forbidding"
+Item	0
+Spell	-1, 13, -1
+App	100
+Adv	-1
+Uses	25
+Level	2
+	
+Name	"of the Bold Warrior"
+Item	1
+Spell	-1, -1, -1
+App	14, 20, 15, 20, 16, 20, 17, 20, 18, 20, 100
+Adv	41
+Uses	200
+Level	2
+	
+Name	"of the Craven Knave and Jackal"
+Item	1
+Spell	-1, -1, 23
+App	19, 20, 100
+Adv	44, 45
+Uses	50
+Level	2
+	
+Name	"of the Cursed Traitor"
+Item	1
+Spell	-1, -1, 10
+App	5, 20, 100
+Adv	50
+Uses	10
+Level	2
+

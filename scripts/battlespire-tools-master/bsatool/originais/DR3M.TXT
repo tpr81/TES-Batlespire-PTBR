@@ -1,0 +1,24 @@
+	Random Talk Tables			file dr3m.xls
+	Dremora Male L2.2			
+	talkcheck			
+	&DremoraNice	DR3A43		
+	&DremoraFoe	DR3A51		
+	&DremoraMad	DR3A51		
+				
+				
+	talktable			
+	First	DR3A21		
+	Second	DR3A22		
+	Third	DR3A23		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-10	DR3A21	Say your piece.	
+	11-20	DR3A22	Say your piece.	
+	21-30	DR3A23	Say your piece.	
+	31-40	DR3A31	Surrender	
+	41-55	DR3A41	NoTalk default	
+	56-70	DR3A42	NoTalk default	
+	71-85	DR3A43	NoTalk default	
+	86-00	DR3A51	Annoyed	

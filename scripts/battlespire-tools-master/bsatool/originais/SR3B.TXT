@@ -1,0 +1,27 @@
+	Random Talk Tables			file SR3B.xls
+Good Seducer				
+	talkcheck			
+	&Hero	SR3A71		
+	&Buddy	SR3A71		
+	&Dog	SR3A71		
+				
+				
+	talktable			
+	First	SR3A11		
+	Second	SR3A11		
+	Third	SR3A11		
+	Fourth +	SR3A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

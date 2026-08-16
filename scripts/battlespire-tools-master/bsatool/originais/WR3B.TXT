@@ -1,0 +1,27 @@
+	Random Talk Tables			file WR3B.xls
+L8 Wraith & Armor				
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	WR3A11		
+	Second	WR3A11		
+	Third	WR3A11		
+	Fourth +	WR3A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

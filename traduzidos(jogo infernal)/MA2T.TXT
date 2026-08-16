@@ -1,0 +1,36 @@
+		Herne Egahirn					file MA2T.xls			Egahirn Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MA2A11	Sou o Cacador. Eu caco-te de acordo com as leis da caca selvagem. Treme antes de morrer!	MA2A1A	TRUE			Estou a tremer, garanto-te. E agora, que tal cancelar esta caca? Acho que posso fazer valer a pena.	MA2A31				
+			MA2A1B	TRUE			Ha alguma maneira, alem de te matar, de te persuadir a deixar-me usar o portal para sair daqui?	MA2A31				
+			MA2A1C	TRUE			- Olha. Estou a caminho do Havok Wellhead. Vou passar por ti, ou atravessar-te. Achas que es invulneravel. Mas a surpresa secreta e que posso levar-te tao longe que ate os teus parentes esquecem o teu nome.	MA2A21				
+			MA2A1D	&Spear			Olha para isto. - Ves? Tenho a minha linda Lanca da Misericordia amarga. - Agora mesmo. Uma ultima oportunidade. Saiam, ou vao-se embora.	MA2A41				
+	MA2A21	Como e que espera que eu caia numa mentira tao obvia?	MA2A2A	TRUE			Porque, como sabe, nesta ilha esta o unico mortal que conheco que ja derrotou Dagon. E adivinha quem me deu o segredo da tua fatalidade inevitavel?	MA2A31				
+	MA2A31	Estas a desperdicar a tua respiracao e a minha paciencia. Morre, mortal!	MA2A3A	TRUE			- A sua direita. Estou a desperdicar o folego. - Adeus. - Adeus.	END				
+	MA2A41	Aquela coisa? Nem um escravo enganaria. - Nao, nao. Talvez. Parece-se com uma lanca a serio. Eu saudo-te. Um blefe magnifico. E vai fazer uma boa historia no banquete. Mas agora, todas as coisas boas tem de acabar, incluindo tu, minha linda coelhinha.	MA2A4A	TRUE			Cabeca de martelo. Gostava que pudesses compreender o teu destino. Isso tornaria o meu triunfo ainda mais doce. Mas as pedras mudas nao compreendem. Adeus, Cacador.	END				
+												
+	MA2A51	Aparentemente a daedra nao tem nada a dizer-te.	MA2A5A	TRUE				END				
+	MA2A61	A daedra olha-te com carinho, mas nao diz uma palavra.	MA2A6A	TRUE				END				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												

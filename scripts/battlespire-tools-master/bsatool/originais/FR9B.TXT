@@ -1,0 +1,27 @@
+	Random Talk Tables			file FR2B.xls
+Fire daedra L5				
+	talkcheck			
+	&FireMad	FR2B41		
+				
+				
+				
+				
+	talktable			
+	First	FR2A11		
+	Second	FR2B41		
+	Third	FR2B51		
+	Fourth +	Random		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	FR2A11		
+	34-66	FR2B41		
+	67-00	FR2B51		
+				
+				
+				
+				
+
+
+				
+				

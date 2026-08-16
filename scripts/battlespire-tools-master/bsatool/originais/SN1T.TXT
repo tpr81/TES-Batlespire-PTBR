@@ -1,0 +1,28 @@
+		Boneman					file SN1T.xls			Skeletons		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SN1A11	Morremos. Nos rezamos. Para viver. Nos servimos.	SN1A1A	TRUE			Deixa-me em paz, ou vou esmagar-te.	SN1A21		&SkelNoTalk		
+			SN1A1B	TRUE			Es um morto-vivo. Como podes morrer?	SN1A21		&SkelNoTalk		
+			SN1A1C	TRUE			- Entendes-me? - Nao. Ou es apenas um monstro homicida estupido?	SN1A21		&SkelNoTalk		
+			SN1A1D	&ReadBook AND NOT &SkelServe			Tu juraste. Para servir. O vosso Senhor. - Comando.	SN1A31				
+			SN1A1D	&ReadBook AND &SkelServe			Tu juraste. Para servir. O vosso Senhor. - Comando.	SN1A41				
+												
+	SN1A21	Os dentes e mandibulas se movem, mas nao surge som.]									
+												
+	SN1A31	Servo a Sua Vontade. Eu ando pelo Seu Caminho.	SN1A3A	TRUE			Ah-HA! Agora, servem a minha vontade e caminhem no meu caminho, porque eu sou o vosso Senhor. Entao, faras o que eu te mandar. - Nao e?	SN1A21	PCTeam	&SkelServe		
+			SN1A3B	TRUE			Vai e mata os meus inimigos. - Nao, nao. Todas as coisas desagradaveis... Bem... - Nao, nao. Coisas mortas.	SN1A21	PCTeam	&SkelServe		
+			SN1A3C	TRUE			O vosso Senhor. - Comando. Procura o Portal. E abre-a. E tira-me daqui. - Sim, ja. E com seguranca, se nao for muito incomodo.	SN1A21	PCTeam	&SkelServe		
+												
+	SN1A41	Um serve a Sua maneira. Mas nao mais uma.	SN1A4A	TRUE			Estas a tentar dizer-me que nao posso comandar mais de um de voces ao mesmo tempo? - Porra! - Nao.	SN1A21				
+			SN1A4B	TRUE			Entao, como me livro do velho esqueleto que serve a Minha Vontade e anda pelo Meu Caminho para poder comandar um esqueleto novo e bonito?	SN1A21				
+			SN1A4C	TRUE			Tu juraste. Para servir. O vosso Senhor. - Comando. Faz o meu. - A licitacao. - Desculpa. - Um pedaco. - Merda. - Nao.	SN1A21				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												

@@ -1,0 +1,64 @@
+Codex Arcana, Volume III
+ESTUDANTES E ESTUDIOSO: Atentem para nossas Abjuracoes!$DEMONSTRANDO A DEVIDA PROPRIEDADE NA CUSTODIA DOS LIVROS$
+Nao apenas prestamos servicos ao Imperador ao preparar volumes de novos livros, mas tambem exercemos um oficio de sagrada piedade quando tratamos os livros com cuidado, e novamente quando os restauramos aos seus devidos lugares e os encarregamos a uma custodia inviolavel; para que eles possam se regozijar na pureza enquanto os temos em nossas maos, e descansar em seguranca quando forem restaurados aos seus repositorios. E certamente, depois das vestes e maquinas dedicadas a gloria do Imperador, os livros arcanos merecem ser devidamente tratados pelo mago de batalha, aos quais grandes danos sao causados todas as vezes que sao tocados por maos impuras. Por isso, julgamos conveniente alertar nossos estudantes contra varias negligencias, tais como as que poderiam ser facilmente evitadas e que causam danos incriveis aos livros.$
+Sendo a continuacao de um indice parcial de artefatos arcanos conhecidos pelos estudiosos e alquimistas de Battlespire, para que esses artefatos possam ser mais facilmente conhecidos por todos os estudantes, e nem abusados, nem negligenciados, nem desperdicados em seu uso.$
+$
+"Cavalheiro da Grande Vigilia"$
+Produz a conjuracao de Escudo Maior$
+$
+"Sorte do Destino"$
+Produz a conjuracao de Dano Contínuo Medio a vitima$
+$
+"Dama da Geada"$
+Conjura a magia de Dano Medio por Frio$
+$
+"Mota do Fogo Purificador"$
+Produz a conjuracao de Dano Maior por Fogo a Distancia$
+$
+"Pluma do Pesar Funesto"$
+Concede o poder de Dano Menor por Magia$
+$
+"Oracao do Fogo na Carne"$
+Conjura a magia de Dano Medio por Veneno a Distancia$
+$
+"Principio da Forca Ampla"$
+Concede o poder de Dano Medio por Choque$
+$
+"Costelas da Protecao de Mana"$
+Produz a conjuracao de Resistencia a Magia$
+$
+"Raiz do Heroi"$
+Concede o poder de Cura Media de Vida$
+$
+"Rosa da Perdicao Estranha"$
+Produz a conjuracao de Dano Medio por Magia$
+$
+"Selo da Grande Forca"$
+Conjura a magia de Dano Maior por Choque a Distancia$
+$
+"Semente de Cura"$
+Produz a conjuracao de Cura Menor de Vida$
+$
+"Conchas da Ruina do Mago"$
+Conjura a magia de Dano Maior por Magia a Distancia$
+$
+"Brilho da Protecao Gelada"$
+Produz a conjuracao de Resistencia ao Frio$
+$
+"Peneiracao da Mancha"$
+Produz a conjuracao de Dano Menor por Veneno a Distancia$
+$
+"Meada da Convulsao"$
+Concede o poder de Confusao$
+$
+"Peles da Protecao contra Veneno"$
+Conjura a magia de Resistencia a Veneno$
+$
+"Lasca de Frio na Pele"$
+Produz a conjuracao de Dano Menor por Frio a Distancia$
+$
+"Alfinete Doce dos Segredos"$
+Concede o poder de Dano Menor Retardado$
+$
+"Redemoinho do Poco Brilhante"$
+Concede o poder de Absorcao de Magia$

@@ -1,0 +1,20 @@
+		Herne Oathkin					file MA5T.xls			Mastema Homeguard Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MA5A11	O que e que temos aqui? Um mortal? No exterior, no mundo vasto, sem ninguem para o salvar? Deve estar cansado dos longos dias e noites. Venha, caia sobre a sua arma e acabe com a dor. Senao, temo que tenhamos de alimentar-te com as tuas partes delicadas e estragar essa pele bonita com dentes e fogo.	MA5A1A	TRUE			Eu rio-me da morte. - Nao, nao. E a ti tambem. - Nao, nao. E nas tuas botas de aspecto idiota.	MA5A21				
+	MA5A12	Estas no lugar errado, pequenino. Este e o teu ultimo erro. - Vamos la. Se se matar, promete-se uma morte rapida. Se deixar o assunto para nos, podemos passar muito tempo a morrer.	MA5A1B	&Payem OR &Cess			Tenho a permissao da Senhora para ir e vir como quiser. Se duvidares disso, pergunta-lhe tu mesmo. Mas se me tocarem, ou seja o que for que estao no fim dos vossos bracos, vao retirar um par de tocos ensanguentados.	01-50: MA5A21 51-00: MA5A31				
+	MA5A21	- Cotovelos, mortal. Nao botas. E para te dar um pontape nos dentes.	MA5A2A	TRUE			E a cauda... Tu matas-me.	END	MonsteraAttack	&HerneMad		
+	MA5A31	Veremos o teu amuleto, quando o colocarmos diante da minha Rainha, juntamente com qualquer peca que decidires acompanhar.	MA5A3A	TRUE			Vou para onde quiser e quando quiser, fofinho.	END	MonsteraAttack	&HerneMad		
+	MA5A41	Estou inclinado a pegar nesse amuleto e enfia-lo na tua garganta. Mas tenho outras coisas para fazer. Saiam da minha vista.	MA5A4A	TRUE			Vou porque quero, nao porque me mandes. - Nao, nao.	END	PCTeam			
+												
+	MA5A61	Meu Deus! O que e que temos aqui? Um macaco? Um mago de batalha em forma de burro? Um manequim animado para o nosso desporto? Se fosse um homem, teriamos de o deixar em paz, pois sao ordens da minha senhora. Mas certamente, nao pode ser o homem, por isso podemos usa-lo para as nossas piadas.	MA5A6A	TRUE			- A serio? - Sim. Nao me reconheces? - Nao. - Eu entendo. Se e assim que queres jogar, esta-me bem.	END	MonsterAttack	&HerneMad		
+												
+							
+	MA5A91	A Lady Faydra foi-se. Ja nao sinto a emocao dela no meu coracao. Nao, nao pode ser que tenhas alguma coisa a ver com isso, pois nao, Manling?	MA5A9A	TRUE			- Nao. - Claro que sim. - Fui eu. - Nao. Acabei de atirar a Senhora onde as estrelas nao brilham. E boa sorte. Velha bruxa ma.	END	MonsterAttack	&HerneMad		
+			MA5A9B	TRUE			Desculpa desaponta-lo, mas nao tenho esse tipo de musculo. E perder a Senhora tambem me deu umas formigas no jantar, rapaz. Tinhamos planos para cozinhar. - Entao? Estava a pensar em ir la e magoar o Xivilai e o bando dele. Estas pronto para isso?	01-50: MA5A01 51-00: MA5B11				
+	MA5A01	Talvez tenha feito o Faydra, e talvez nao. Nao importa para mim, agora. Estamos so nos e os nossos assuntos pessoais. E e hora de pagar pelo que fez ao meu Oathkin, Egahirn.	MA5A0A	TRUE			Isso e historia antiga. Mas vejo que te incomoda. - Esta bem. - Esta bem. Vamos tratar de assuntos inacabados.	END	MonsterAttack	&HerneMad		
+	MA5B11	As coisas estao um pouco confusas agora, Manling. Acho que vou ficar aqui sentado, a ver para onde sopra o vento. Entao talvez seja melhor uma tregua temporaria. Se fores simpatico, eu tambem serei. E mais tarde, quando as coisas acalmarem, vem ver-me e teremos uma conversa agradavel.	MA5B1A	TRUE			Nao posso prometer nada. Mas estou um pouco exausto por partir os torsos e arrancar os bracos. Entao vamos ambos respirar um pouco.	END	PCTeam			
+												
+												
+	MA5B21	Os olhos dele brilham de furia, mas ele nao diz uma palavra.	MA5B2A	TRUE				END				
+	MA5B31	Ele te considera como um pouco mais do que o que tu pensas.	MA5B3A	TRUE				END				
+	MA5B41	Que vos observa,	MA5B4A	TRUE				END				

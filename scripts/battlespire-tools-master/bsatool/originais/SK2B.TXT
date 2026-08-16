@@ -1,0 +1,44 @@
+	Random Talk Tables		file sk2b.xls	
+
+	Both Scamp Talk Table			
+	talkcheck			
+Scamp	&ScampNice	SK2A31		
+	&ScampMad	SK2A51		
+				
+				
+				
+				
+				
+	talktable			
+	First	SK2A11		
+	Second	SK2A42		
+	Third	SK2A23		
+	Fourth +	GotoRandom		
+					
+	Random	Both PC			
+		TalkGroup	Notes		
+	01-09	SK2A11	All humans same		
+	10-18	SK2A12	All humans same		
+	19-27	SK2A13	All humans same		
+	28-36	SK2A21	Hate Human! Kill!		
+	37-45	SK2A22	Hate Human! Kill!		
+	46-54	SK2A23	Hate Human! Kill!		
+	55-63	SK2A31	"Leave me alone, please"		
+	64-72	SK2A41	NoTalk default		
+	73-81	SK2A42	NoTalk default		
+	82-90	SK2A43	NoTalk default		
+	91-00	SK2A51	Hate Mad!		
+					
+					
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											

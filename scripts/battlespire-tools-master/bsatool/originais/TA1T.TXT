@@ -1,0 +1,43 @@
+	Test Actions and Flags						file ta1t.xls 0710									
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3				
+	TA1A11	Ve esta accao.	TA1A1A				Preparado. Arma.	TA1A11	DROPREADYWEAPON							
+			TA1A1B				PCATTACK_100	TA1A11	PCATTACK_100							
+			TA1A1C				Monstro Ataque	TA1A11	MonsterAttack							
+			TA1A1D				- Nao, nao.	TA1A11	MONSTERWANDER_120							
+			TA1A1E				- Nao, nao.	TA1A21	MONSTERFLEE_120							
+	TA1A21	Ve esta accao.	TA1A2A				Monstruosamente_4	TA1A21	MONSTERRALLY_4							
+			TA1A2B				- Nao, nao.	TA1A21	MONSTERWAIT_120							
+			TA1A2C				Monstersek	TA1A21	MONSTERSEEK							
+			TA1A2D				- Nao, nao.	TA1A21	MONSTERGUARD_120							
+			TA1A2E				Monsterlead	TA1A31	MONSTERLEAD							
+	TA1A31	Ve esta accao.	TA1A3A				Saude_2_120	TA1A31	Health_2_120							
+			TA1A3B				FeebleDelay_120	TA1A31	FeebleDelay_120							
+			TA1A3C				Prazer SFX	TA1A31	PleasureSFX							
+			TA1A3D				Saude	TA1A31	HealthHalf							
+			TA1A3E				Dor SFX	TA1A41	PainSFX							
+	TA1A41	Ve esta accao.	TA1A4A				Invocar VM_2	TA1A41	Summon VM_2							
+			TA1A4B				UNEQUIPARMOR	TA1A41	UNEQUIPARMOR							
+			TA1A4C				Teletransporte 120	TA1A41	Teleport120							
+			TA1A4D				Chama o SD_2	TA1A41	Summon SD_2							
+			TA1A4E				Invocar SD_4	TA1A51	Summon SD_4							
+	TA1A51	Ve esta accao.	TA1A5A				WonshalaMeltSFX	TA1A51	WonshalaMeltSFX							
+			TA1A5B				WonshalaFlatMelt	TA1A51	WonshalaFlatMelt							
+			TA1A5C				UNEQUIPARMOR	TA1A51	UNEQUIPARMOR							
+			TA1A5D				TAMPO 30_10000	TA1A51	TAKE 30_10000							
+			TA1A5E				Teletransporte	TA1A61	Teleport0							
+	TA1A61	Ve esta accao.	TA1A6A				Tanchelm Teleport0	TA1A61	TanchelmTeleport0							
+			TA1A6B				EndFrame Texto#1036	TA1A61	ENDFRAME Text#1036							
+			TA1A6C				PUT 31_9018	TA1A61	PUT 31_9018							
+			TA1A6D				PUT 31_9039	TA1A61	PUT 31_9039							
+			TA1A6E				TAMPO 7_2017	TA1A71	TAKE 7_2017 							
+	TA1A71	Ve esta accao.	TA1A7A				PUT 30_10000	TA1A71	PUT 30_10000							
+			TA1A7B				PUT 32_002	TA1A71	PUT 32_002							
+			TA1A7C				Kill_Aman	TA1A71	Kill_Aman							
+			TA1A7D				Kill_Wraith	TA1A71	Kill_Wraith							
+			TA1A7E				WraithMeltSFX	TA1A81	WraithMeltSFX							
+	TA1A81	Ve esta accao.	TA1A8A				Kill_Bittor	TA1A81	Kill_Bittor							
+			TA1A8B				Kill_Xivilai	TA1A81	Kill_Xivilai							
+			TA1A8C				Kill_Faydra	TA1A81	Kill_Faydra							
+			TF1A8D				TIRAR 7_2017 E PUTAR 30_10000	TA1A81	TAKE 7_2017 AND PUT 30_10000							
+			TF1A8E				Kill_Wraith E WraithMeltSFX	TA1A91	Kill_Wraith AND WraithMeltSFX							
+	TA1A91	Ja acabou!	TA1A9A					TA1A11								

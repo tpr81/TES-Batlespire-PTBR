@@ -1,0 +1,29 @@
+	Random Talk Tables			file Ch1B.xls
+Chimere				
+	talkcheck			
+	&Boast	CH1E51		
+	&Killer	CH1E11		
+	&Bye	CH1F01		
+	&Kids	CH1F81		
+	&Cat	CH1F11		
+	&Spoon	CH1B61		
+				
+	talktable			
+	First	CH1A11		
+	Second	CH1A11		
+	Third	CH1A11		
+	Fourth +	CH1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

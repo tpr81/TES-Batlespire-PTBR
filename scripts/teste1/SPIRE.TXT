@@ -1,0 +1,208 @@
+#0000
+Este feitico invocara aleatoriamente um monstro de nivel aproximadamente equivalente ao do conjurador.
+O monstro aparecera perto do conjurador e atacara qualquer criatura na area, exceto
+o proprio conjurador.
+#0001
+Use este feitico para detectar qualquer feitico retardado e tambem qualquer feitico lancado por
+qualquer pessoa nas proximidades do conjurador.
+#0002
+Quando este feitico estiver ativo, ele indicara o monstro mais proximo
+do conjurador. Isso inclui outros jogadores no modo multijogador.
+#0003
+Usar este feitico permite ao conjurador enxergar objetos invisiveis sem
+dificuldade.
+#0004
+Isso tornara o conjurador invisivel por uma duracao especifica ou ate que
+ele ataque alguem.
+#0005
+Os efeitos deste feitico transformam o conjurador em sombra. O
+conjurador ainda ficara ligeiramente visivel em areas muito iluminadas, mas
+quase totalmente invisivel na escuridao.
+#0006
+Isso faz o conjurador se misturar ao ambiente, tornando-o muito
+dificil de perceber. O conjurador causara uma leve distorcao no
+plano de fundo.
+#0007
+Ao alterar o peso do personagem, ele caira leve e
+lentamente como uma pena, evitando que sofra dano de qualquer queda.
+#0008
+O alvo deste feitico sofrera dano periodico durante a
+duracao do feitico.
+#0009
+Isso injeta um veneno potente na vitima. Esse veneno nao e
+magico e nao pode ser removido por dissipacao magica.
+#0010
+Isso fara os controles funcionarem de forma erratica para o infeliz
+alvo durante a duracao do feitico.
+#0011
+Alem de drenar o alvo, ele tambem transferira tudo o que foi
+drenado para o conjurador.
+#0012
+Esta e sua mina magica basica. Ela permanecera onde foi deixada por
+um periodo de tempo ou ate que alguem a acione e sofra dano.
+#0013
+Isso exibira uma lista de todos os feiticos ativos no conjurador e nas
+proximidades imediatas, incluindo outros jogadores, e permitira ao
+conjurador encerrar qualquer feitico individual dessa lista.
+#0014
+#1000
+Eu me elevo acima dos telhados abaixo^
+Dedo erguido aos ceus.^
+Falo em tons claros^
+Que chamam os outros^
+A se reunirem onde convoco.^
+#1001
+torre do sino, torre, campanario, torres dos sinos, torres, campanarios, torre de igreja, templo, santuario
+#1002
+Armaduras reluzentes^
+Brancas e brilhantes^
+Uma unica fileira^
+Seus rostos vazios^
+Agora ocultos pela noite^
+Agora audazes a luz^
+Vermelho vivo o chao^
+Onde os soldados estao^
+#1003
+dentes, dente, boca, lingua
+#1004
+Portador de carga, Guerreiro^
+Ardente, Bravo^
+Pes ligeiros, Ferrado^
+Fiel, Escravo^
+#1005
+Cavalo, cavalos, ponei, poneis, corcel, destrier, palafrem
+#1006
+Alguns vivem em mim, alguns vivem sobre mim,^
+E alguns me aplainam para caminhar sobre mim.^
+Raramente deixo minha terra natal.^
+Ate minha morte, sempre permaneco de pe.^
+Posso ser encontrado no alto e embaixo^
+Tanto acima quanto abaixo do solo.
+#1007
+Arvore, arvores, tronco de arvore, tronco, madeira, lenha
+#1008
+Tao escuro, sujo e frio e este lugar,
+Que voce evitaria permanecer nele
+Mas aqueles que ocupam este lugar
+Nunca reclamam
+#1009
+sepultura, tumulo, cripta
+#1010
+O presente que sua mae lhe da,
+Embora valorizado por todos, no fim das contas,
+Em excesso, sempre mata voce.
+#1011
+Vida, sopro, respiracao, viver
+#1012
+Que visao meus olhos contemplavam
+Quando vi os mortos carregando os vivos?
+#1013
+um navio, barco, barco a remo, embarcacao, batel, bote
+#1014
+Dizemos que algumas coisas melhoram com a morte.
+O que fede quando vivo, mas morto cheira bem?
+#1015
+Porco, suino, javali
+#1016
+Quem o faz nao precisa dele nem o quer.
+Quem o compra nao o usa nem o veste.
+Quem o usa nao o ve nem o sente.
+#1017
+Caixao, ataude
+#1018
+[[Um vitral retrata, de um lado, muitas pessoas trabalhando arduamente, carregadas de grandes pesos e sofrendo as agonias da guerra e da morte. Do outro lado, as pessoas largam seus fardos e sao transfiguradas por uma luz verde flamejante que remove suas vestes esfarrapadas e sujas, deixando-as em perfeito esplendor de corpo e espirito. Abaixo do vitral ha uma simples inscricao:]]
+O SEPULCRO DAS ALMAS^
+Outrora lutaram, martelaram, choraram^
+Lutaram por justica, honra, orgulho.^
+Agora libertos do tempo e da mare^
+Guardam e servem em silenciosa paz^
+#1019
+[[Uma longa inscricao identifica um dos servidores do Mestre que veio ao Sepulcro das Almas para morrer e renascer em seu Servico Eterno.]]
+#1020
+[[Gravadas em uma placa de metal estao as imagens de cinco caixoes. Abaixo de cada imagem ha um pequeno verso ou epigrama. Na tampa de cada caixao ha uma unica palavra.]]
+[[abaixo do primeiro caixao:]]
+Tao escuro, sujo e frio e este lugar,
+Que voce evitaria permanecer nele
+Mas aqueles que ocupam este lugar
+Nunca reclamam
+[[marcando a tampa do primeiro caixao:]]
+SEPULTURA
+[[abaixo do segundo caixao:]]
+O presente que sua mae lhe da,
+Embora valorizado por todos, no fim das contas,
+Em excesso, sempre mata voce.
+[[marcando a tampa do segundo caixao:]]
+VIDA
+[[abaixo do terceiro caixao:]]
+Que visao meus olhos contemplavam
+Quando vi os mortos carregando os vivos?
+[[marcando a tampa do terceiro caixao:]]
+BARCO
+[[abaixo do quarto caixao:]]
+Dizemos que algumas coisas melhoram com a morte.
+O que fede quando vivo, mas morto cheira bem?
+[[marcando a tampa do quarto caixao:]]
+PORCO
+[[abaixo do quinto caixao:]]
+Quem o faz nao precisa dele nem o quer.
+Quem o compra nao o usa nem o veste.
+Quem o usa nao o ve nem o sente.
+[[marcando a tampa do quinto caixao:]]
+CAIXAO
+#1021
+Honra sagrada, amor leal, servico eterno.
+#1022
+O Espirito Serve ao que Nunca Morre
+O Santo que Salvou Todos Nos
+#1023
+O Genio e o Poder passam.
+A Paz e a Constancia triunfam.
+#1024
+Mova meus remos e minha balsa,
+Pois passarei para o outro lado
+Na companhia de amigos e amantes.
+#1025
+Assim engano os vermes, privando-os de seu saque injusto.
+#1026
+Eu fui, e nao fui, e fui novamente para sempre.
+#1027
+Nem profeta nem lucro, passamos de maos vazias para a luz.
+#1028
+Nestes mundos alem do sol, nenhuma escuridao oculta a costa distante.
+#1029
+Fizemos, fazemos e faremos.
+As gentis flores do sol triunfam sobre o tumulo.
+#1030
+Pobre Alex...
+partiu desta vida.
+#1031
+Porco Disco
+bateu as botas.
+#1032
+Diga seu destino. Fale e tenha certeza, pois um erro e fatal.
+#1033
+Perigo Sombrio
+#1034
+Bom trabalho! A Battlespire foi destruida. Pelo lado positivo, ela nao podera mais ser usada pelos Daedra para seus fins vis. Pelo lado negativo, tanto ela quanto voce estao agora condenados a vagar eternamente pelo vazio frio e escuro, onde nao ha muito o que fazer, nem comer, nem nada, exceto morrer uma morte longa e lenta. Gostaria de tentar novamente?
+#1035
+Infelizmente, voce definha em uma masmorra, esquecido e ignorado, com o duvidoso consolo de que sua substancia alimentara os vermes de longas caudas e guinchos que sao seus companheiros finais.
+#1036
+Fiel a sua palavra, Faydra Shardai torna sua substancia imune ao tempo, o que significa que voce permanecera consciente durante a eternidade de tormento que ela planejou para voce. E suas recompensas de fato nao sao menores que as dos mais ousados de seus tenentes - os ousados tenentes que desafiam sua autoridade, os ousados tenentes que compartilham sua miseria e desespero sem fim.
+#1037
+Sobre as Ancoras indispensaveis e a necessidade absoluta de sua preservacao perpetua.
+Para instrucao e advertencia de todos que passarem por este salao.
+Saiba que esta e uma das cinco grandes Ancoras que mantem a Battlespire em seu lugar e a retem no fluxo vital da Mana que a sustenta, sem a qual nao haveria luz, nem vida, nem Ser.
+Em sua sabedoria excessiva, a Administracao exigiu de mim, contra todos os meus protestos e reclamacoes, que afixasse nela um dispositivo terrivel, que voce ve diante de si, cuja finalidade e separar e dividir esta Ancora e colocar em perigo a Spire e todos os que nela habitam.
+Nunca divida a Ancora. Ela e a rocha sobre a qual todas as nossas vidas estao fundadas. Todas as Ancoras devem permanecer unidas para garantir a seguranca e a estabilidade da Spire.
+Acima de tudo, nunca, nunca, nunca permita que todas sejam desprendidas. A destruicao certa vira quando a Battlespire se afastar do fluxo que mantem todos os lados da natureza em unidade.
+Agora va embora e deixe esta camara, para que o demonio da tentacao, ou algum humor infeliz, nao o domine e o conduza pelo caminho da aniquilacao certa.
+C.V.
+#1038
+Contemple este Dispositivo e seus Sutilezas de Funcionamento, e Trema de Admiracao!
+Pela graca e pelos dons de Clarentavious Valisious, assim a Gale Estelar esta Presa e Protegida por ele.
+#1039
+A Tartaruga Falsa se apresenta como membro da rara especie de Grande Tartaruga da qual e feita a famosa Sopa de Tartaruga Falsa, a Sopa dos Reis.
+"Sente-se e nao diga uma palavra ate eu terminar. Certa vez", disse a Tartaruga Falsa com um suspiro profundo, "eu era uma Tartaruga de verdade."
+A Tartaruga Falsa conta uma historia tragica e longa sobre frequentar a escola no mar e sobre seus estudos nas obscuras disciplinas da Quadriva Arithmetia - Ambicao, Distracao, Uglificacao e Derisao - e nos cursos de instrucao em Misterio, antigo e moderno, com Oceanografia, Desenho, Alongamento, Desmaio em Espiral, Riso e Tristeza.
+Por fim, quando fica claro que sua historia nao tem proposito, voce fica inquieto.
+"Oh, ceus", disse a Tartaruga Falsa. "Receio te-lo entediado. Voce foi tao gentil ao ouvir os devaneios de um reptil anciao... por favor, diga meu nome de tras para frente onde isso fizer o maior bem e, como sinal de minha gratidao, aceite um produto de minhas pesquisas no campo da Ontologia Especulativa."

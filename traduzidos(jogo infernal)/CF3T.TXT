@@ -1,0 +1,21 @@
+		Clannfear Oathkin					file CF3T.xls			Clannfear Truculent Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CF3A11	Como te atreves, mortal? Tolo ou assassino? Espiao ou ladrao? Entao aqui esta a tua recompensa, coisa furtiva: A MORTE!	CF3A1A	TRUE			- Olha. Sem ofensa. Mas tenho descascado os teus lagartos como a minha mae descascava ervilhas. Pensa um pouco. Nao devias esperar pela ajuda?	01-50: CF3A21 51-00: CF3A51				
+	CF3A12	Pao de rosa! Intruso! Alarme!	CF3A1B	&Tayem			Amuleto. Veja o amuleto. Amigos? Aliados? Monstros armados? Amigos grandes com todos os horrores dentados.	01-50: CF3A31 51-00: CF3A41				
+			CF3A1C	&Tayem			- Nao! Segredo! Eu carrego o amuleto de Xivilai, e venho com uma mensagem importante e secreta! - Nao, nao.	01-50: CF3A31 51-00: CF3A41				
+	CF3A21	O Clannfear nao tem medo de uma pele rosa. Clannfear SMART. O Clannfear fala e fala e fala com a pele rosa. Em breve... muito Clannfear, sim? Esperas aqui? - Sim, sim.	CF3A2A	TRUE			- Sim, sim. Bem, vou levar-te a ti e a todos os teus amigos.	END	Summon CF_2			
+	CF3A31	- Homem tolo. Mentiras tao estupidas. Que insultos! Pensar que vamos engolir tais residuos de sapo? Faz-nos um grande mal.	CF3A3A	TRUE			Peco desculpa por ter questionado a sua modesta inteligencia. - Desculpa-me. Nem sabia que tinhas bom humor! - Nao, nao. Eu mato-me.	END	MonsterAttack	&FearMad		
+	CF3A41	- O que? O amuleto nao significa nada! VOCEs pisam na terra do Senhor, e nao mostram sinal de seu prazer. Talvez ele fique satisfeito com a tua pele!	CF3A4A	TRUE			- Nao. Nao tem uma bebida de agua a mao? Porque este descascar Clannfear e um trabalho sedento.	END	MonsterAttack	&FearMad		
+	CF3A51	- Saiam daqui! - Agora mesmo. Fiquem fora! Ha muito que roubar noutros lugares. Nao e o Clanfear! - Vai. - Nao. - Agora mesmo. E nos poupamos-te!	CF3A5A	TRUE			- Esta bem. - Esta bem. - Esta bem. - Esta bem. - Boa ideia. - Sim. Ha muitas coisas boas noutros lugares. - Esta bem. - Esta bem. Desta vez, vou dar-te uma oportunidade. Mais tarde, talvez.	END	MonsterWait_60	&FearMad		
+	CF3A61	- O que? - O que? Porque falar? Que conversa? Odeia falar!	CF3A6A	TRUE			- Ola, meu. O vosso senhor Xivilai concede-me a sua proteccao. Porque me bates?	CF3A71				
+	CF3A71	Clanfear nao manchado como traidores, nao! O Senhor diz: "A carne nao e morta, mas castigada como carne desagradavel, Oathkin, transgressao dos costumes". Sente os dentes e as garras. Mas vai silencioso, deixa-nos? Carne inteligente, sim.	CF3A7A	TRUE			Eu estava a sair. - Nao, nao.	END	MonsterAttack	&FearMad		
+			CF3A7B	TRUE			Prove o meu aco. E uma bota. E bola de fogo. E este velho pedaco de pano. E este pedaco de cera. E um pouco de pelos.	END	MonsterAttack	&FearMad		
+	CF3A91	Vinganca! O nosso Senhor esta ferido! Alguem feriu o nosso Senhor!	CF3A9A	TRUE			- Ola, meu. - Fui eu. - Nao. Acabei de dar um pontape no cu do teu Senhor no Oblivion. Vem ca e eu tambem te dou um pontape no rabo escamoso.	END	MonsterAttack	&FearMad		
+			CF3A9B	TRUE			- Nao. - Nao. - Traicao! - Traicao! Faydra e os seus Hernes lancaram traicoeiramente Xivilai para o Oblivion! Ataquem os traidores e vingem o exilio do nosso nobre senhor.	01-50: CF3A01 51-00: CF3B11				
+	CF3A01	- E voce? - Sim. Nao tomaste parte, carne? - MENTIS! E tu morres!	CF3A0A	TRUE			Estas verde. - Sabes disso? - Sim. So animais e plantas sao verdes. Portanto, voce e um animal estupido ou uma planta estupida. E logica. Ou talvez sejas um insecto.	END	MonsterAttack	&FearMad		
+	CF3B11	- Traicao! - Traicao! Guerra a Faydra e a toda a sua faccao!	CF3B1A	TRUE			- Sim, sim! Apanhem-nos! Poe-no no alto! Queimem os traidores! Faca guerra a Faydra! - Nao, nao.	END	PCTeam			
+												
+												
+	CF3B21	[Ela sussurra e cuspe, mas nao fala.]	CF3B2A	TRUE				END				
+	CF3B31	Que cheira e olha.	CF3B3A	TRUE				END				
+	CF3B41	E ele vos olha, e depois, com as garras, boceja.	CF3B41	TRUE				END				

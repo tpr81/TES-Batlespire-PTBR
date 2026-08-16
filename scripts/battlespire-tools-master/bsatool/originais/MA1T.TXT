@@ -1,0 +1,19 @@
+		Herne Oathkin					file MA1T.xls			Herne Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MA1A11	Ola, coelhinha. Sou um Cacador. Eu caco-te de acordo com as leis da caca selvagem. Como e que gostaste da nossa caca?	MA1A1A	TRUE			Bem, nao e mau, para as provincias. Nao e um patch sobre as cacadas imperiais, e claro, mas tendo em conta o status inferior e a sofisticacao dos participantes aqui, nao e uma confusao completamente embaracosa. Agora, se me das licenca, vou dar uma volta por alguns dos teus filhotes. - Adeus. - Adeus.	END		&HerneMad		
+			MA1A1B	TRUE			O melhor de sempre! Meu Deus, estou a divertir-me. E muito divertido para perder tempo a falar com uma porcaria como tu. - Ate logo.	END		&HerneMad		
+			MA1A1C	TRUE			- Porque eu?	MA1A61				
+			MA1A1D	TRUE			Que chato total. Para com isso agora. Perdeu o seu valor de entretenimento ha muito tempo. Entao para com isso.	MA1A21				
+	MA1A21	A caca selvagem nao pode acabar ate que a lanca sagrada da Misericordia Amargo tire a vida da presa, e o vencedor Chame o Sedutor Negro para ver a matanca. Tudo deve ser feito de acordo com a Lei. Como ve, ainda nao acabamos.	MA1A2A	TRUE			A proposito, porque nao me atacas tu?	MA1A31				
+	MA1A31	Nao vejo razao para nao te dizer, ja que estas a poucos minutos da morte. Desejamos que o nosso mais novo Oathkinsman Egahirn recolha a porcao. Deixamos as nossas lancas seladas, para nao sermos tentados a mata-los na emocao da perseguicao.	MA1A3A	TRUE			Entao, nao me vais matar?	MA1A41				
+	MA1A41	Bem, nos tentamos nao te matar. Seria um desperdicio. Mas voces sao vasos tao frageis, e as vezes ficamos excitados. Quando provocado. Quando a perseguicao estiver quente.	MA1A4A	TRUE			Onde deixaste a tua Lanca?	MA1A51				
+	MA1A51	Nao gostarias de saber?	MA1A5A	TRUE			Porque e que estas a fazer isto?	MA1A61				
+	MA1A61	- Porque? - Nao. Para ganhar energia das ricas correntes magicas em torno desta ilha. A caca e apenas um meio para esse fim, e a tua morte e apenas um subproduto de sorte.	MA1A6A	TRUE			Onde estao as chaves que me permitem escapar?	MA1A71				
+	MA1A71	- Nao, nao. Nunca te vou dizer. Eles estao escondidos em estrita conformidade com a Lei da Caca Selvagem.	MA1A7A	TRUE			- E louco. - Nao, nao. Foi bom falar contigo. Espero que te sufoques. - Adeus. - Adeus.	END				
+			MA1A7B	&Egahirn			- Sim, sim. De acordo com a lei, nao e? O Egahirn tem a sexta chave escondida dentro das calcinhas invulneraveis e chama a isso "em estrita conformidade com a lei"? Devias ter vergonha.	MA1A81				
+	MA1A81	Voce me surpreende, mortal. Como descobriu isso?	MA1A8A	TRUE			Como e que vou conseguir uma chave de um Cacador invulneravel? Isso nao e desportivo.	MA1A91				
+	MA1A91	Segui a Lei da Caca a letra, mortal! Senao a caca acabaria antes de comecar.	MA1A9A	TRUE			Pode ter observado a letra da lei, mas pervertido o seu espirito.	MA1A01				
+	MA1A01	Diverte-me, mortal. O mais gratificante. Para discutir a Lei com a Lebre. - Nao. Vou festejar livre para sempre com o encanto deste conto. Agradeco-te, Lebre, e prometo que seras imortalizado no meu glorioso relato desta caca. Mas agora temo que a nossa conversa tenha acabado, pois a caca deve continuar. Corra bem, coelhinha, e de-nos um bom desporto.	MA1A0A	TRUE			E sempre bom ser apreciado, meu senhor. E tenha a certeza, Cacador, que nao faltara surpresas da sua coelhinha, embora algumas possam ser muito menos do seu agrado.	END				
+												
+	MA1B11	Aparentemente a daedra nao tem nada a dizer-te.	MA1B1A	TRUE				END				
+	MA1B21	A daedra olha-te com carinho, mas nao diz uma palavra.	MA1B2A	TRUE				END				

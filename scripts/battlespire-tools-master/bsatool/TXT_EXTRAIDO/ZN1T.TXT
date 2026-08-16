@@ -1,0 +1,29 @@
+		Zenaida Nacarra					file ZL1T.xls			Zenaida TALK	superhero-looking chick				
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3			
+	ZN1A11	Goodness. Where did you come from? I thought we’d done ALL the guards and the battlemages on the list.	ZN1A1A	TRUE			Right, your worship. No, I’m not on the list, cause I’m not a guard or battlemage. I’m with Lomegan.	ZN1A51							
+			ZN1A1B	TRUE			Ha-ha-ha! A battlemage. Ha-ha-ha. Well. Perhaps I do look a bit shabby at that, but no, I've heard you folks are having a bit of trouble here, and I'm supposed to report to Wonshala right away.	ZN1A61							
+			ZN1A1C	TRUE			Oh. Hadn't you heard? Methats sent me to give you a hand?	ZN1A71							
+			ZN1A1D	&voidguide			Oh. Lords no. I’m no battlemage. Ha-ha. The idea. No. I’m with Rishaal. We KNOW who's got the voidguide. So hand it over, no harm done, and we'll keep this all quiet among ourselves.	ZN1A81							
+			ZN1A1E	&voidguide			The voidguide is missing, in case you hadn't heard. I have to get that voidguide back, or the Boss will pop my spirit like a bubble. Can you help me?	ZN1A91							
+	ZN1A21	Oh. It's you again. Well, you've been quite clever, Master Kaid, But now we're on to your game. I have orders to take you alive… but I've never been much good at taking orders. Still… if you'd just drop your weapon and peel off all armor, I'll be spared the tiresome task of summoning minions to rend your flesh.	ZN1A2A	TRUE			Come on. That's just silly. Josiah Kaid is a MALE. See this chest? Do I look like a MAN?	ZN1A01							
+			ZN1A2B	TRUE			Well, you seen through my clever disguise. But little good it will do you, for you shall never take me alive!	END	Teleport_0 AND Summon VM_2	&ZenaideMad					
+			ZN1A2C	TRUE			If somehow I were to escape, who knows what kinds of misfortune might befall your enemies?	ZN1B11							
+	ZN1A31	Oh. It's you again. Well, you've been quite clever, Lady Trenelle, But now we're on to your game. I have orders to take you alive… but I've never been much good at taking orders. Still… if you'd just drop your weapon and peel off all armor, I'll be spared the tiresome task of summoning minions to rend your flesh.	ZN1A3A	TRUE			Come on. That's just silly. Vatasha Trenelle is a FEMALE. See this chest? Does this look like a FEMALE chest?	ZN1B21							
+			ZN1A3B	TRUE			Well, you seen through my clever disguise. But little good it will do you, for you shall never take me alive!	END	Teleport_0 AND Summon VM_2	&ZenaideMad					Pity. I like your looks. Well, carry on. I’ve other things to attend to. [*tweedle*]
+			ZN1A3C	TRUE			If somehow I were to escape, who knows what kinds of misfortune might befall your enemies?	ZN1B31	PUT 31_9018						
+	ZN1A41	You? Again? What could you be thinking? Must I tire myself by summoning my minions to deal with you?	ZN1A4A	TRUE			You aren't so tough. And your vermin are dopes. Come on. I'll take you ALL on.	END	Teleport_0 AND Summon VM_4	&ZenaideMad					
+			ZN1A4B	TRUE			Ooops. My mistake. I thought you were that other fellow. No, no, no… don't trouble yourself. I'll just let myself out….	END	Teleport_0 AND Summon VM_2	&ZenaideMad					
+
+												
+	ZN1A51	Oh, dear. If that were true, then you’d know that she’s Sirran Angada, NOT Lomegan Mariel. Reap him, my minions!	ZN1A5A	TRUE			Oh, what a tangled web we weave,
+When first we practice to deceive….	END	Teleport_0 AND Summon VM_2	&ZenaideTwo		
+	ZN1A61	Well you tell Wonshala we had nothing to do with the voidguide. It was Rishaal and her little Scamps, of course, stealing everything but bedrock, while my Vermai follow orders faithfully.	ZN1A6A	TRUE			Right. Should have guessed. I'll tell Wonshala right away.	END		&ZenaideTwo AND &Voidguide		
+	ZN1A71	Hmm. That's a first. Well, everything's under control, except for the damn voidguide, which the Scamps have got tucked away somewhere, I suspect.	ZN1A7A	TRUE			I'll just go look for the voidguide then, shall I? If you'll excuse me.	END		&ZenaideTwo AND &Voidguide		
+	ZN1A81	Really. How nice. You wait right here with my eager servants while I go have a little chat with her.	ZN1A8A	TRUE			Well… really… I'm very busy, you know…	END	Teleport_0 AND Summon VM_2	&ZenaideTwo		
+	ZN1A91	I think Gatanas has it, and plans to blame it on my Vermai. You'll need a Meht amulet, though, to pass a Meht sigil. Vorn might have it, but getting it out of him won't be easy.	ZN1A9A	TRUE			Thanks.	END		&ZenaideTwo AND &GatanasName AND &VornName		
+	ZN1A01	Excuse me. Perhaps I was misinformed. But, in any case, you know this Kaid, then, and therefore must be captured or killed while trying to escape. Have you a preference? If so, you might mention it to the ravening minions I'm summoning.	ZN1A0A	TRUE			Hmm. I'll try the escape option first.	END	Teleport_0 AND Summon VM_2	&ZenaideMad		
+	ZN1B11	I'm listening.	ZN1B1A	TRUE			I won't bother you. I can't handle you. But I can bother some of your slower brethren… with a little help from you.	ZN1B31	PUT 31_9018			
+	ZN1B21	Excuse me. Perhaps I was misinformed. But, in any case, you know this Trenelle, then, and therefore must be captured or killed while trying to escape. Have you a preference? If so, you might mention it to the ravening minions I'm summoning.	ZN1B2A	TRUE			Hmm. I'll try the escape option first.	END	Teleport_0 AND Summon VM_2	&ZenaideMad		
+
+												
+	ZN1B31	An amusing idea. Very well. Poor Rishaal has "lost" one of her sigil amulets. I wonder how you got hold of it? This is a mystery, isn't it? Now… go far away and don't annoy me again.	ZN1B3A	TRUE			High One, your enemies are my enemies.	END	Teleport_0	&ZenaideMad		

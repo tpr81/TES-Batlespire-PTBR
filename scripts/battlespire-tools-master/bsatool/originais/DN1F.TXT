@@ -1,0 +1,23 @@
+	Random Talk Tables		
+	Female PC		
+	talkcheck		
+Dremora	&RathineNice	DN1A91	
+Rathine	&RathineMad	DN1B11	
+			
+			
+			
+	talktable		
+	First	DN1A11	
+	Second	DN1B11	
+	Third	DN1A11	
+	Fourth +	GotoRandom	
+			
+	Random		
+		TalkGroup	Notes
+	01-50	DN1A11	
+	51-00	DN1B11	
+			
+			
+			
+			
+			

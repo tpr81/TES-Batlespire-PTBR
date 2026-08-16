@@ -1,0 +1,28 @@
+		Boneman					file SN1T.xls			Skeletons		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SN1A11	We die. We pray. To live. We serve.	SN1A1A	TRUE			Leave me alone, or I'll smash you to dust.	SN1A21		&SkelNoTalk		
+			SN1A1B	TRUE			You're undead. How can you die?	SN1A21		&SkelNoTalk		
+			SN1A1C	TRUE			Can you understand me? Or are you just a dumb  homicidal monster?	SN1A21		&SkelNoTalk		
+			SN1A1D	&ReadBook AND NOT &SkelServe			You swore. To Serve. Your Lord. Commands.	SN1A31				
+			SN1A1D	&ReadBook AND &SkelServe			You swore. To Serve. Your Lord. Commands.	SN1A41				
+												
+	SN1A21	[[The teeth and jaws move, but no sound emerges.]]									
+												
+	SN1A31	I serve His Will. I walk His Way.	SN1A3A	TRUE			Ah-HA! So now you serve my will and walk my way, because I am your Lord. So you will do my bidding. Right?	SN1A21	PCTeam	&SkelServe		
+			SN1A3B	TRUE			Go forth and smite my enemies. You know. All the nasty.... Well.... You know. Undead things.	SN1A21	PCTeam	&SkelServe		
+			SN1A3C	TRUE			Your Lord. Commands. Seek the Gate. And open it up. And get me out of here. Right away. And safely, too, if it's not too much bother.	SN1A21	PCTeam	&SkelServe		
+												
+	SN1A41	One serves His Way. But not one more.	SN1A4A	TRUE			Are you trying to tell me that I can't command more than one of you guys at one time? Darn.	SN1A21				
+			SN1A4B	TRUE			So how do I get rid of the old skeleton who serves My Will and walks My Way so I can command a nice pretty new skeleton?	SN1A21				
+			SN1A4C	TRUE			You swore. To Serve. Your Lord. Commands. Do my. Bidding. You sorry. Piece of. Crap.	SN1A21				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												

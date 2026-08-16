@@ -1,0 +1,27 @@
+	Random Talk Tables			file ML1B.xls
+Minor Lord L6				
+	talkcheck			
+	&ImagoMad	ML1A71		
+	&ImagoAlly	ML1A51		
+	&LordMad	ML1A61		
+				
+				
+	talktable			
+	First	ML1A11		
+	Second	ML1A81		
+	Third	ML1A11		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-25	ML1A11		
+	26-50	ML1A61		
+	51-75	ML1A71		
+	76-00	ML1A81		
+				
+				
+				
+
+
+				
+				

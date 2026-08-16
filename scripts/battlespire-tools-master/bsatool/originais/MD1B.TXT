@@ -1,0 +1,23 @@
+	Random Talk Tables			file MD1b.xls
+	Morphoid Daedra			
+	talkcheck			
+	&MorphNoTalk	MD1A33		
+	&MorphMad	MD1A41		
+				
+				
+				
+	talktable			
+	First	MD1A11		
+	Second	MD1A31		
+	Third	MD1A21		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-10	MD1A11	Sly cunning	
+	11-20	MD1A12	Sly cunning	
+	21-30	MD1A13	Sly cunning	
+	31-40	MD1A21	Aggressive	
+	41-60	MD1A31	NoTalk default	
+	61-80	MD1A32	NoTalk default	
+	81-00	MD1A33	NoTalk default	

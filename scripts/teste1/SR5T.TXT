@@ -1,0 +1,9 @@
+		Seducer Oathkin					file SR5T.xls			Good Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR5A11	A minha forma agrada-te? Gostaria de provar as suas delicias?	SR5A1A	TRUE			- Nao, nao. Primeiro os negocios, depois o prazer. E nao havera mais tarde para ti, coisa quente, a menos que te facas escassear.	END	MONSTERFLEE_120	&SeduceNoTalk		
+			SR5A1B	TRUE			Pele quente, macia e salgada? Cheiros quentes, peludos e felizes? - Aqui mesmo? Normalmente, prefiro um namoro longo, mas que diabo. Vamos fazer o que os macacos fazem.	SR5A21				
+			SR5A1C	TRUE			Qual e o teu jogo? Quais sao os seus interesses aqui? A quem serve? Faz a tua jogada. Podemos partilhar um lado? Ou jogar os dois lados contra o meio?	SR5A31				
+	SR5A21	- Nao, nao. Eu safo-me da tua forca vital, mortal! Quente e suculento! Tremendo! Um fluxo de liquidos, uma fenda na pele, e desapareceu para sempre! Que deleite glorioso, manling!	SR5A2A	TRUE			- Nao. - Foi optimo. Acho que sim. - Nao. Nao me sinto muito bem. O que e tudo aquilo na minha armadura? Sou eu?	END	HealthHalf AND PleasureSFX 			
+	SR5A31	O meu jogo e profundo, mortal, profundo demais para ti. Fica fora disso e longe de mim, se sabes o que e bom para ti.		TRUE			Obrigado pela dica. Mas nos, macacos, temos a doenca da curiosidade. So temos de espreitar as coisas. E, se nao me disser o que esta a tramar, vou ter de o abrir e descobrir como e que o faz funcionar.	END	MONSTERFLEE_120	&SeduceNoTalk		
+	SR5A41	Pelos Deuses Mortos e Vivos! E o Manling. Ainda vivo. Temos de dizer a Sua Senhoria.	SR5A4A	TRUE			- Sim, sim! Vejam o homem ousado e experimentem o medo! Eu... Ola. - Onde e que vais? - Para a casa.	END	Teleport_0			
+	SR5A51	A criatura faz gestos ameacadores e nao diz nada.										

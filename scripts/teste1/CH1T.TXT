@@ -1,0 +1,129 @@
+		Old Man Chimere					file CH1T.xls			Chimere Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CH1A11	- Nao!	CH1A1A	TRUE			- Ola, senhor.	CH1A21				
+			CH1A1B	TRUE			Esta tudo bem, Barba-Cinza. Nao vou fazer-te mal.	CH1A21				
+			CH1A1C	TRUE			Quem e voce? - O que? O que e que estas a fazer aqui?	CH1A21				
+	CH1A21	- Nao. - Nao. (Rindo e gemendo como se nao tivesse falado em duzentos anos.)	CH1A2A	TRUE			Tem uma lingua, velhote. - Fala.	CH1A31				
+			CH1A2B	TRUE			O que e que estas a fazer aqui?	CH1A31				
+	CH1A31	Afasta-te! - Nao , nao .	CH1A3A	TRUE			Ah, entao voce pode falar. - Vamos la. Estou com pressa, velhote.	CH1A41				
+			CH1A3B	TRUE			- Esta bem? - Sim.	CH1A41				
+			CH1A3C	TRUE			Quem e voce? - O que? O que e que estas a fazer aqui?	CH1A41				
+	CH1A41	Afastem-se! Sou um poderoso feiticeiro! Posso destruir o mais poderoso dos deuses com apenas uma palavra! Mais um passo e vou entregar-te ao Oblivion!	CH1A4A	TRUE			Admiro um blefeador tanto quanto o outro jogador, mas nao sou estranho a matar. Nao facas ameacas.	CH1A51				
+			CH1A4B	TRUE			Calma, velho.	CH1A51				
+	CH1A51	Eu avisei-te! Com um gesto, invoco o poder do mais negro... Nao me posso mexer. Artrite. Mantem-te afastado! Bela criatura.	CH1A5A	TRUE			- O que? - O que?	CH1A61				
+			CH1A5B	TRUE			Nao sou uma criatura. Ou agradavel, para o que interessa.	CH1A61				
+	CH1A61	- Nao, nao. Tu uivas tao estranhamente. Que especie de besta sao voces? Um demonio dos pocos mais escuros? Um animal selvagem cheio de garras, pele e presas?	CH1A6A	TRUE			Sou um humano! Manling. Um mortal de Tamriel. Um estranho neste mundo.	CH1A71				
+			CH1A6B	TRUE			Tu continuas a falar, velho.	CH1A71				
+	CH1A71	Talvez seja uma ilusao da mente. Um pouco de pudim nao digerido.	CH1A7A	TRUE			Puding? Tens alguma a mao?	CH1A81				
+			CH1A7B	TRUE			Nao sou uma ilusao. Sou real. Muito real. Queres um soco afiado para provar?	CH1A81				
+	CH1A81	Egad! Falas! Um ridiculo treinado, repete como um papagaio a elevada fala da humanidade!	CH1A8A	TRUE			Como estava a dizer, ha muito tempo, parece que sou humano. Hyoo- homem. Por acaso, es surdo?	CH1A91				
+			CH1A8B	TRUE			Estou a perder a paciencia contigo, idiota!	CH1A91				
+	CH1A91	Voces sao humanos! Quase me esquecia... de onde vens, mortal? Do continente de Northmoor? A tua cara nao me e familiar, e eu conheco toda a gente da ilha.	CH1A9A	TRUE			Tenho noticias para ti. Nao acho que haja terra firme. Acho que este e apenas outro mundo perdido flutuando no vazio.	CH1A01				
+			CH1A9B	TRUE			Vim de Tamriel. E mais recentemente, de Battlespire, e Shade Perilous, e de outros mundos amaldicoados pelos Poderes flutuando no vazio.	CH1A01				
+			CH1A9C	TRUE			- Sim, sim. O velho Wistful Vista. E como estao as coisas na Vossa cidade?	CH1A01				
+	CH1A01	Que alivio ser humano. Talvez possam ajudar o velho Chimere. Perdi algo e nao o consigo encontrar. Com a minha artrite, nao posso ir a procura do que perdi...	CH1A0A	TRUE			- Nao. Finalmente informacoes. - O teu nome. O velho Chimera. - Nao e? Claro, estou feliz por ajudar os velhos.	CH1B11				
+			CH1A0B	TRUE			Acho melhor responderes algumas perguntas primeiro, velhote.	CH1B11				
+	CH1B11	Nao, nao! Tenho de encontra-lo primeiro...	CH1B1A	TRUE			- Esta bem. O que e que estas a procura?	CH1B21				
+			CH1B1B	TRUE			Isto pode continuar para sempre. Talvez haja alguem menos malcriado com quem possa falar. - Adeus. - Adeus.	END				
+	CH1B21	Perdi a minha... a minha... a minha coisa!	CH1B2A	TRUE			- Nao.	CH1B31				
+			CH1B2B	TRUE			Vou ja tratar disso. Uma coisa vai chegar. Pobre velhote. So um remo na agua. - Adeus. - Adeus.	CH1B31				
+			CH1B2C	TRUE			Perdeste os teus marmores.	CH1B31				
+	CH1B31	Nao, nao. Nada de nada. A minha colher! Uma vez comi uma colher!	CH1B3A	TRUE			Queres que procure uma colher? Uma missao de colher?	CH1B41				
+			CH1B3B	TRUE			Chega de tolices. Que lugar e este? - Porque estas aqui? - Nao sei.	CH1B41				
+	CH1B41	- Sim, e verdade. Uma colher. Tenho a certeza que perdi uma... colher.	CH1B4A	TRUE			- Esta bem. Vou buscar a tua colher. Volto daqui a pouco. - Adeus. - Adeus.	END		&Spoon		
+			CH1B4B	TRUE			Foi magico? Tinha propriedades especiais?	CH1B51				
+	CH1B51	Adorava tanto aquela colher e agora nao sei o que fiz com ela.	CH1B5A	TRUE			- Esta bem. - Esta bem. Se eu vir uma colher, eu trago-a para voce. Entao seremos bons amigos e tu vais dizer-me o que eu quero saber. Ou estrangulei-te.	END		&Spoon		
+												
+	CH1B61	Yi! - Nao. E voce.	CH1B6A	TRUE			Procurei por todo o lado e nao encontro nenhuma colher.	CH1B71				
+	CH1B71	- Cucharada? - O que e que estas a dizer? O que quero com uma colher?	CH1B7A	TRUE			- O que? - O que? Pediste-me para te encontrar uma colher!	CH1B81				
+	CH1B81	Tive uma TAC! Onde esta o meu kit?	CH1B8A	TRUE			Queres que procure um gato? - Esta bem. - Esta bem. Nao ha muito mais para fazer, senao passear pela ilha a procura de um gato! - Esta bem. - Esta bem. - Muito bem! - Adeus. - Adeus.	END		&Cat		
+			CH1B8B	TRUE			Que tipo de gato?	CH1B91				
+	CH1B91	Uma vez tive um gato. Nao, nao! Muitos kits! Eu tinha um bando de gatinhos! - Nao. Devias ver como eles se deslizam! Em toda a cidade! Eram a minha alegria. Que chitarros eles fariam!	CH1B9A	TRUE			Por falar nesta cidade, o que e? Como se chama?	CH1B01				
+			CH1B9B	TRUE			- Esta bem. Vou encontrar o teu gato. - Adeus. - Adeus.	END		&Cat		
+	CH1B01	Nao posso responder a essas coisas ate que me devolvam os meus kits!	CH1B0A	TRUE			- Esta bem. Vou encontrar os seus gatos.	END		&Cat		
+												
+	CH1F11	O deuses! - E voce.	CH1F1A	TRUE			- Desculpa. - Desculpa. Nao consigo encontrar os seus gatos. - Para qualquer lado. Procurei por todo o lado. Alto e baixo. Nao ha gatos. - E ponto final. Muitas outras tolices. Mas nao um maldito gato!	CH1F21				
+	CH1F21	Gatos? Nao tenho gatos. Eu tive uns filhos. Ja me viram, criancas? - Pescadores brincalhoes. Sem duvida, os duendes estao a fazer algum mal.	CH1F2A	TRUE			Nao, nao vi nenhuma crianca.	CH1F31				
+			CH1F2B	TRUE			Isto esta a ficar extremamente tedioso. Nao parece que vamos a lado nenhum. Estou em perigo terrivel, e o meu amigo foi capturado e levado cativo perante o Senhor Dagon, Daedra, Senhor da Destruicao. Estou a ficar cansado das tuas conversacoes.	CH1F31				
+	CH1F31	Tive alguns filhos. - Um? Dois? Milhares? Esqueci-me. Eu lembro-me! Cerca de dois mil!	CH1F3A	TRUE			Es um maluco. Nao ha filhos. - E ponto final.	CH1F41				
+			CH1F3B	TRUE			Nao ha 2000 criancas. Nao aqui. E nao sei se quero continuar a viver num mundo onde se tem dois mil filhos.	CH1F41				
+			CH1F3C	TRUE			- Sim, sim. - Nao. Encontrei-os todos. Agora estao a salvo com as suas familias.	CH1F41				
+	CH1F41	Voces mentem! Um negro de coracao pecaminoso! Eu devia bater-te com apenas um gesto... A minha artrite.	CH1F4A	TRUE			- Esta bem. - Desculpa. - Desculpa. Ha milhares de criancas. Mesmo a porta da casa. Mas... Nao sao tuas! - Nao, nao.	CH1F51				
+			CH1F4B	TRUE			Repito, nao. Nao ha 2000 criancas. Nao aqui.	CH1F51				
+	CH1F51	Eu sei! Eu... eu... eu... eu... eu... eu... Ja se foram. Ja os viste?	CH1F5A	TRUE			Nao ha humanos nesta cidade, exceto tu e eu.	CH1F61				
+			CH1F5B	TRUE			- Claro que sim. Estao todos la fora a divertirem-se... com as fadas e as fadas!	CH1F61				
+	CH1F61	Nao ha ninguem? - Ninguem? A minha cidade! Meu povo! - Nao ha mais! - Nao! Agora lembro-me! Maldica-me por um tolo! Eu destrui-os a todos!	CH1F6A	TRUE			Porque e que os destruiste?	CH1F71				
+			CH1F6B	TRUE			Quem e voce? - O que? E o que e que se passa aqui?	CH1F71				
+	CH1F71	- Desculpa. - Nao. Nao fui eu mesmo. De-me algum tempo. Quanto as suas perguntas, olhe para ali na mesa para o meu diario. A historia esta la. Nao te demores. Quando acabares, talvez eu tenha mais controlo.	CH1F7A	TRUE			- Esta bem. Vou fazer o que sugerir.	END		&Kids		
+												
+	CH1F81	Ja leste o meu diario?	CH1F8A	&ChimereJournal			- Sim, e verdade.	CH1C21				
+			CH1F8B	TRUE			Bem, eu...	CH1F91				
+			CH1F8C	TRUE			Nao, nao.	CH1F91				
+	CH1F91	Leia o meu diario. - Por favor, nao. E nao me incomode mais ate o ter feito.	CH1F9A	TRUE			- Muito bem. - Esta bem.	END				
+			CH1F9B	TRUE			Nao quero. Nao me podes obrigar.	END				
+	CH1F01	- Entao? A Caca ainda nao te engoliu. Um sinal promissor. - Posso ajuda-la? - Sim.	CH1F0A	TRUE			Nao, nao. Este lugar parece seguro, e eu preciso de descansar.	END				
+			CH1F0B	TRUE			- Espero que sim. Tens novas ideias?	CH1C11				
+			CH1F0C	TRUE			Na verdade, preciso de ajuda. Estou um pouco confuso. Ou completamente confuso. Nao me lembro qual.	CH1C21				
+	CH1C11	Nao, nao. Ja lhe disse tudo o que me ocorreu.	CH1C1A	TRUE			- Meu Deus. Bem, obrigado de qualquer maneira.	END				
+	CH1C21	Tem mais alguma pergunta?	CH1C2A	TRUE			- Sim, e verdade. Como derrotaste o Dagon?	CH1C31				
+			CH1C2B	TRUE			Como saio deste lugar? Posso sair deste lugar?	CH1E71				
+			CH1C2C	TRUE			Preciso da tua ajuda. Se eu puder ajudar-te a mudar... ou acabar com o teu exilio aqui, estarias disposta a ajudar-me?	CH1D41				
+			CH1C2D	TRUE			Li aqui no seu diario sobre a armadura do esconderijo do Salvador. Posso pedir emprestada esta armadura?	CH1C91				
+			CH1C2E	TRUE			A Lanca de um Cacador pode ferir o Cacador?	CH1D11				
+			CH1C2F	&Armor			Tenho a armadura do Salvador, tudo. capacete, toalhas, coraca, luvas, grelhas e botas.	CH1D51				
+			CH1C2G	&Case			Tenho este caso. Tem a Lanca, certo?	CH1D71				
+			CH1C2H	TRUE			Nao, nao. Talvez mais tarde. Mas obrigado. - Adeus. - Adeus.	END		&Bye		
+												
+	CH1C31	Baniei Dagon invocando o seu protonimo.	CH1C3A	TRUE			- Nao. - Bom trabalho. - Sim. O que?	CH1C41				
+	CH1C41	O protonimo dele. Como o verdadeiro nome de um feiticeiro mortal. O foco da magia do incantor. Os cabelos curtos.	CH1C4A	TRUE			- Eu entendo. E qual e o protonimo de Dagon?	CH1C51				
+	CH1C51	Tenho a certeza que nao te vai fazer bem. Desde que voltou a aparecer no Oblivion, ele certamente adicionou um neonimico. Para se proteger de mim e de qualquer outra pessoa que receba o seu protonimo.	CH1C5A	TRUE			- Esta bem. - Esta bem. Um neonimo e, suponho, um novo protonimo. - Nao e?	CH1C61				
+	CH1C61	- Quase.	CH1C6A	TRUE			- Entao? Diz-me o protonimo dele. So para rir.	CH1C71				
+	CH1C71	Lehkelogah.	CH1C7A	TRUE			Deus o abencoe.	CH1C81				
+	CH1C81	Nao, nao. Lehkelogah. O seu protonimo era Lehkelogah. Mas agora e so metade do seu nome de encantador. Entao, ves, nao te serve de nada. Mesmo que estivesses perto o suficiente para invoca-lo na sua presenca.	CH1C8A	TRUE			- Isso e optimo. - Sim. Muito util. Obrigado e adeus.	END				
+			CH1C8B	TRUE			- Eu entendo. Obrigado por isso. Importas-te que falemos de outra coisa?	CH1C21				
+												
+	CH1C91	- Claro que sim! Vais querer a minha armadura do esconderijo do Salvador. Quando estiver concluida, pode ate afastar a ameaca da Lanca do Cacador. Ha seculos espalhei e escondi as pecas pela ilha para que nao caissem em maos erradas. Quem me dera poder lembrar onde as deixei.	CH1C9A	TRUE			Nao sabes onde esta a armadura?	CH1C01				
+	CH1C01	Nao, nao. - Desculpa. - Desculpa. Nao estava bem na cabeca quando as escondi. As coisas estao muito confusas desde entao. - Aqui esta. - Espera um momento. - Nao. Vou anotar tudo o que me lembro. Leva as minhas notas e olha pela ilha. E uma ilha pequena, e nao ha muitos lugares para um velho esconder grandes pecas de armadura.	CH1C0A	TRUE			Estou a ver, obrigado e adeus.	END	PUT 21_033			
+			CH1C0B	TRUE			- Eu entendo. Obrigado por isso. Importas-te que falemos de outra coisa?	CH1C21	PUT 21_033			
+												
+												
+	CH1D11	Que pergunta estranha. E interessante. - Sim, e verdade. - Claro que sim. Mas como sobreviveria aos ataques da Lanca do Cacador? Mesmo que uses a armadura da pele do Salvador, so e realmente eficaz contra um quebra-de-juramento.	CH1D1A	TRUE			- Nao. - Eu entendo. - Nao, nao. - Obrigado, meu. Importas-te que falemos de outra coisa?	CH1C21				
+			CH1D1B	&Egahirn			- Espera um pouco. Egahirn, o Cacador. Os Daedra de Gelo disseram-me que ele levou a sexta chave que abre o portal. Isso e contra a lei, certo? O Egahirn nao tem de jurar um juramento ou algo para defender a Lei para ser um Cacador e usar a Lanca?	CH1D21				
+	CH1D21	Claro que sim! A minha armadura do esconderijo do Salvador! Protege o portador dos ataques de um quebra-de-juramento! Se Egahirn for abandonado, a armadura ira proteger-te. Isso e muito querido. E melhor ainda, pensem nisto! Quem fez a lanca? Dagon forjou a lanca para a caca. E e o proprio poder de Dagon que torna o poder da Lanca tao terrivel! E adivinha quem e um grande e gordo quebra-de-pes?! - Nao, nao. E PERFEITO!	CH1D2A	TRUE			- Entao? Usar a armadura da pele do Salvador vai proteger-me dos ataques do Cacador? Aposto que ate recebo dupla protecao, ja que tanto o Cacador como Dagon, o fabricante da Lanca, sao transgressores de juramento! Parece perfeito. Mas... tens a certeza? Quero dizer... Este assunto do Dagon, o quebra-juros? E a Lanca usando o poder do Dagon? E a armadura? Seria muito desagradavel para mim se estivesses errado.	CH1D31				
+	CH1D31	Claro que tenho a certeza. Ja te falhei antes? - Nao, nao. E perfeito. Veste a minha armadura. Tu podes brandir a Lanca. Podes matar o cacador! - Nao, nao. Vejo as maos dos Deuses nisto! JUSTICA! JUSTICA divina em Dagon! E voces, jovens, sao claramente a INSTRUMENTE DE DEUS! Nao podes falhar.	CH1D3A	TRUE			Estas a assustar-me, velhote. Mas e loucura o suficiente para funcionar. Obrigado pela dica. E adeus.	END				
+			CH1D3B	&Armor			Tenho a armadura do Salvador, tudo. capacete, toalhas, coraca, luvas, grelhas e botas.	CH1D51				
+			CH1D3C	TRUE			Obrigado, mas gostava de poder partilhar a tua confianca absoluta. Importas-te que falemos de outra coisa?	CH1C21				
+												
+	CH1D41	Eu ajudo-te. Tudo o que sei ou possuo e teu por pedir. E a unica coisa que me falta neste mundo e a minha vida, e isso nao e um presente que possa dar. Talvez so Dagon pudesse conceder tal presente. Eu sofri, da idade e da culpa. Mas nao sao muitos os mortais que venceram Dagon. E uma compensacao. Estou sozinho, sim. Talvez um companheiro. - Sim, e verdade. Mas nao percas tempo a pensar nisso. Concentra-te na tua situacao e deixa-me ajudar-te.	CH1D4A	TRUE			Estou a ver, obrigado e adeus.	END				
+			CH1D4B	TRUE			- Eu entendo. Obrigado por isso. Importas-te que falemos de outra coisa?	CH1C21				
+												
+	CH1D51	Sim, claro que sim. Tens a armadura.	CH1D5A	TRUE			E agora?	CH1D61				
+			CH1D5B	&Case			E tenho este caso.	CH1D71				
+	CH1D61	Entao vai buscar a Lanca. Esta numa caixa na Capela da Pedreira Inocente, a monstruosidade de cristal verde ao sul da cachoeira. Nao pode abrir a mala sozinho, claro. - Carpatos magicos e selos em abundancia. Mas traga-mo de volta e abro-o num piscar de olhos. Depois vou verificar a Lanca para ver se ha armadilhas, maldicoes, esse tipo de coisa... Nao se pode ser demasiado cuidadoso com a magia daedrica. Depois, pega na Lanca e esta no negocio.	CH1D6A	TRUE			- Sim, sim. Leva a mala do monstro do cristal verde e traga-a de volta para ti e tu tiras a Lanca, certificas-te que esta segura e das-ma. - Optimo. - Obrigado, meu. - Adeus. - Adeus.	END				
+	CH1D71	Tens a mala? Tens a armadura?	CH1D7A	&Armor			- Claro que sim.	CH1D81				
+			CH1D7B	TRUE			Nao, nao. - Ainda nao. - Nao.	CH1E61				
+			CH1D7C	TRUE			- Nao, nao. Eu... - Nao.	CH1E61				
+	CH1D81	Da-me a mala. - Sim, sim. Como eu pensava. Tal como todos os outros esquemas de proteccao de Dagon... apenas alguns ajustes... um beliscao... um arranque habil... e... ta da! Abre. Como eu disse. - Esta bem. - Esta bem. Pegue na Lanca. - Nao, nao. Nao sejas timida. Esta tudo bem. Verifiquei tudo, estas a salvo. Eu disse-te! Eu disse-te! Nem sequer es um morto. - Nao, nao. Ainda tenho o velho toque. Nao e verdade?! Nao e verdade!?	CH1D8A	TRUE			- Nao. Es incrivel, velho... a tua grande magia. - Esta bem. - Esta bem. Tenho a armadura. Tenho a Lanca. Sou o Homem da Hora. A Lebre transforma-se em Cacador! - Nao. - Nao. Como funciona a Lanca?	CH1D91	PUT 14_5016	&Spear		
+	CH1D91	A Lanca? - Nao. - Sim, e verdade. - Usa-o. - Nao, nao. - Como se fosse. Agarra e empurra. Simples, na verdade. - Nao. E nao percas tempo a espetar nada alem do Cacador. Corta os Cacadores durante uma caca, o ritual, mas e afiado como uma faca de manteiga na maior parte da Daedra.	CH1D9A	TRUE			Agarra e empurra. Muito facil, a serio.	CH1D01				
+	CH1D01	Vai la e faz-me orgulhoso de ti. Tenho a certeza que vai correr bem. - Agora mesmo. Se nao se importa, acho que e hora da minha soneca. Muito entusiasmo para um velho. Mas nao te esquecas de voltar e contar-me como correu tudo.	CH1D0A	TRUE			Nao e preciso dizer antes de fazer. Adeus e obrigado novamente. - Nao, senhor.	END		&Killer		
+												
+	CH1E11	O velho senhor esta como uma estatua, mas ele esta roncando, de pe.	CH1E1A	TRUE			Ola, meu. - Desculpe. - Nao. Esperava ter uma palavra.	CH1E21				
+			CH1E1B	TRUE			Ola! Ola! - Nao, nao. - Nao, nao, nao! Acordem!	CH1E21				
+			CH1E1C	TRUE			- O que e isto? - O que e isto? Eu fiz! Eu fiz! Eu enganei o cacador! Sou o Senhor de tudo o que eu pesquiso! Olhem para mim, o poderosos e desesperados!	CH1E31		&Boast		
+	CH1E21	O velho senhor esta como uma estatua, mas ele esta roncando, de pe.	CH1E2A	TRUE			- O que e que se passa? - O que? - O que?	CH1E51				
+	CH1E31	O velho senhorio ronca e olha para fora atraves de um olho adormecido.	CH1E3A	TRUE			- Nao. - Desculpa. - Desculpa. Nao queria incomoda-lo, senhor. Estou a fazer o relatorio como quiseste.	CH1E41				
+			CH1E3B	TRUE			- Conseguiste. - Conseguiste. - Conseguiste. O que achas disso?	CH1E41				
+			CH1E3C	TRUE			Vou-me embora agora, senhor. Foi tudo como disseste. Mas nao queria ir embora sem te dizer. E a agradecer. E desejo-te... bem... o melhor de tudo.	CH1E41				
+	CH1E41	- Nao. Eu disse-te, nao disse? Es a Ferramenta dos Deuses. Tu es a Justica encarnada. - Agora mesmo. Vai buscar o Dagon. - Boa noite. - Ola.	CH1E4A	TRUE			Boa noite, senhor. O Dagon nao sabera o que o atingiu. E obrigado outra vez.	END				
+				TRUE								
+	CH1E51	O velho senhor esta como uma estatua, mas ele esta roncando, de pe.	CH1E5A	TRUE			Ola, meu. - Desculpe. - Nao. Esperava ter uma palavra.	CH1E21				
+			CH1E5B	TRUE			Ola! Ola! - Nao, nao. - Nao, nao, nao! Acordem!	CH1E21				
+			CH1E5C	TRUE			- Nao. - Nao, nao. Boa noite, velho.	END				
+												
+	CH1E61	- Nao, nao. Vai buscar a armadura. Nao vais receber a Lanca ate te ver na armadura. Sem armadura? Sem Lanca. Seguranca em primeiro lugar. Primeira regra da feiticaria. Seguranca em primeiro lugar.	CH1E6A	TRUE			- Esta bem. - Esta bem. - Pega na armadura. Seguranca em primeiro lugar. - Esta bem. - Esta bem. - Ja volto. - Esta bem.	END				
+												
+	CH1E71	Voce pode ir embora. Nao posso. Nao posso. O portao esta no Templo dos Ritos Daedric, a grande parodia de chifres em Granvellusa, a cidade murada. Precisas de seis chaves para entrar no Templo, mas uma vez la dentro, o caminho para o portao esta aberto. Receio nao saber onde estao as chaves, mas tambem nunca as procurei. Nao adianta muito. - Para mim.	CH1E7A	TRUE			O portal esta no templo da cidade murada, e preciso de seis chaves. - Sim, sim. Obrigado e adeus.	END				
+			CH1E7B	TRUE			- Eu entendo. - E bom saber. Importas-te que falemos de outra coisa?	CH1C21				
+			CH1E7C	&Egahirn			Os Daedra de Gelo disseram-me que o Egahirn, o Cacador, levou a sexta chave que abre o portal. Pelo menos sei onde esta aquele.	CH1E81				
+	CH1E81	- Isso e rude. As chaves devem ser deixadas onde a Lebre possa encontra-las. Isso significa que tens de matar o Egahirn para conseguir a sexta chave e escapar. Isso nao e justo. Os cacadores nao sofrem nenhum dano de qualquer arma mortal.	CH1E8A	TRUE			- Esta bem. - Esta bem. Isso significa que tenho de matar o Egahirn para sair daqui, e isso significa que tenho de encontrar uma especie de arma especial. Informacoes uteis. Devem haver muitas armas especiais por ai. E melhor olhar a volta. Obrigado e adeus.	END				
+			CH1E8B	TRUE			- Eu entendo. Obrigado por isso. Importas-te que falemos de outra coisa?	CH1C21				

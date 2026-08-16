@@ -1,0 +1,33 @@
+BugsL3
+
+
+
+
+LEVEL 3 BUGS TO BE CHECKED:
+
+DATE		NAME		DESCRIP
+
+
+
+
+
+BUGS TO BE FIXED:
+
+DATE		NAME		DESCRIP
+
+8/18		Ken		Need Talker art asset for Gem Vampires [aka Ideal Masters; Mark is on the case]
+8/20		Lan		Mace in 2nd room has no structure...can't get it.
+8/20		Lan		Baddies pop up to platforms when you ride elevators up.  If you jump off they pop down too, which makes sense (more at least) but they will pop up on you if you ride an elevator up and stand still.
+8/20		Lan		Morphoid Daedra dialouge...a response from player (I AM a daedra...how could anoyne not make it here so fresh?) is missing the word one.
+8/20		Lan		Still pop through elevators on ascent
+8/20		Lan		The lowercase 'g' is too big in the new player dialouge response font
+8/20		Lan		Pain on baddies from hand to hand punch occurs on the last frame of the pullback of the hand.  Feels odd...can we put the 'cause blood spurt' trigger for a hit on the apex of the swing?
+8/20		Lan		GENERAL - assigning a key to backwards locks game
+8/20		Lan		Sigil pain effect can be felt in corridors above where they exist...is this on purpose?
+8/20		Lan		What's with the [[ on the text ending and beginings?  is this to indicate narative?
+8/20		Lan		Scrolls in coffins with gem vampires crash game
+8/20		Lan		L2rod.3d is being represented by key.3d in Soul Cairn now.
+8/23		Ken		Can't recall first elevators you encounter in the game [in left and right symmetrical hallways near trap doors].
+8/23		Ken		Can't swim forward until page down to bottom and move; thereafter, swim normally.
+8/23		Ken		Boat missing from west dock. Coffer of Restroation and Chest of Water Breathing missing from crosstunnel.
+8/23		ken		Check all levels for match of North-South orientation between: 1. automap, 2. game view, and 3. bsedit files.

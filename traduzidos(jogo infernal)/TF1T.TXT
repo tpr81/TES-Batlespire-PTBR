@@ -1,0 +1,46 @@
+Test Flags						file tf1t.xls 0710					
+Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+TF1A11	Verifica esta bandeira.	TF1A1A				& PCFemale : PC e feminino; flag definido na criacao do personagem	TF1A11		&PCFemale		
+		TF1A1B				& PCMale : Pc e masculino; flag definido na criacao de personagem	TF1A11		&PCMale		
+		TF1A1C				&WearAmuletM: Verificacao de inventario: 9013 & 9039	TF1A11		&WearAmuletM		
+		TF1A1D				& WearAmuletR: Verificacao de inventario: 9018 & 9044	TF1A11		&WearAmuletR		
+		TF1A1E				&WearAmuletZ: Verificacao de inventario: 9026 & 9052	TF1A21		&WearAmuletZ		
+TF1A21	Verifica esta bandeira.	TF1A2A				&WearAmuletW: Verificacao de inventario: 9023 & 9049	TF1A21		&WearAmuletW		
+		TF1A2B				& InvVoidguide1 : Verificacao de inventario: 30_10000	TF1A21		&InvVoidguide1		
+		TF1A2C				NOT &Scourge: NAO tem 7_2017 no Inventario.	TF1A21		NOT &Scourge		
+		TF1A2D				& Scourge: Tem 7_2017 em Inventario.	TF1A21		&Scourge		
+		TF1A2E				NO &Mischief : Use BK2_007 flag = Falso.	TF1A31		NOT &Mischief 		
+TF1A31	Verifica esta bandeira.	TF1A3A				&Mischief : Configure a bandeira quando Use BK2_007.	TF1A31		&Mischief		
+		TF1A3B				&ReadBook: PC tem o Livro da Vida e Servico [e pode controlar um esqueleto]. Configure a bandeira quando usar BK3_021.	TF1A31		&ReadBook		
+		TF1A3C				&RestBook : PC tem o Livro de Descanso e Fim. Isso adiciona uma opcao na caixa de dialogo que permite ao usuario destruir wraiths. Esta e a UNICA maneira de destruir um Wraith.	TF1A31		&RestBook		
+		TF1A3D				"&SkelServe: PC tem um esqueleto na sua equipa, e nao pode ter mais. Configure a bandeira no dialogo SN1T.txt".	TF1A31		&SkelServe		
+		TF1A3E				&WearAmuletH: Verificacao de inventario: 9008 & 9034	TF1A41		&WearAmuletH  		
+TF1A41	Verifica esta bandeira.	TF1A4A				&WearAmuletO: Verificacao de inventario: 9015 & 9041	TF1A41		&WearAmuletO 		
+		TF1A4B				& WearAmuletU: Verificacao de inventario: 9021 & 9047	TF1A51		&WearAmuletU		
+TF1A51	Esta tudo feito!	TF1A5A				Comecar de novo?	TF1A11				
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+						
+						
+								

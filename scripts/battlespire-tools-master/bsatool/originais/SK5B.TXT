@@ -1,0 +1,24 @@
+	Random Talk Tables			file Sk5m.xls
+	Scamp 4-7			
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	SK5A11		
+	Second	SK5A21		
+	Third	SK5A31		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	SK5A11	NoTalk default	
+	34-66	SK5A21	NoTalk default	
+	67-00	SK5A31	NoTalk default	
+				
+				
+				
+				
+				

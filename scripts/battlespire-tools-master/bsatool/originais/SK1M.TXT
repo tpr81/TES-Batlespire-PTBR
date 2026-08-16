@@ -1,0 +1,26 @@
+	Random Talk Tables		
+			
+	Male Scamp Talk Table		
+	talkcheck		
+Scamp	SKNoTalk	SK1A42	local
+	ScampMad	SK1A31	
+			
+			
+			
+	talktable		
+	First	SK1A21	global
+	Second	SK1A61	
+	Third	SK1A13	
+	Fourth +	GotoRandom	
+			
+	Random	Male PC	
+		TalkGroup	Notes
+	01-10	SK1A11	Drop weapon
+	11-20	SK1A12	Drop weapon
+	21-30	SK1A22	What want?
+	31-40	SK1A23	What want?
+	41-50	SK1A31	Angry Attack
+	51-63	SK1A41	NoTalk default
+	63-76	SK1A42	NoTalk default
+	77-90	SK1A43	NoTalk default
+	91-00	SK1A61	Companion/Rishaal

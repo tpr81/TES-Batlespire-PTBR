@@ -1,0 +1,23 @@
+	Random Talk Tables			file SA1b.xls
+				
+	talkcheck			
+Angada L6	&AngadaSad	SA1B61		
+	&AngadaMad	SA1B41		
+				
+				
+				
+	talktable			
+	First	SA1A11		
+	Second	SA1A11		
+	Third	SA1A11		
+	Fourth +	SA1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				

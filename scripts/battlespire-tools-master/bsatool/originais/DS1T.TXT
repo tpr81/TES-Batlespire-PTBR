@@ -1,0 +1,14 @@
+		Dark Seducer					file DS1T.xls			Dark Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DS1A11	Ouve mortal, e ouve bem. Aqui estao os vossos senhores e aqui esta o vosso inferno. A caca selvagem comeca hoje. Nos somos os cacadores e voces sao a presa. Mas nos daremos uma oportunidade esportiva para escapar da sua morte pela lanca do cacador.	DS1A1A	TRUE			E muito gentil da tua parte.	DS1A21				
+	DS1A21	Escondemos seis chaves nesta ilha. Encontrem-nos a todos e fugam desta ilha. $ Mas nao os encontrar ou parar com a duvida, e caes vai arrastar para limpar voce. $ caes vai perseguir para alimentar a sua saciedade, entao o cacador me chama para ver sua caca. $ Do arrastar para a perseguicao para o chamado para a visao, o vencedor que eu vejo torna-se cacador novamente.	DS1A2A	TRUE			Entao, e um jogo que jogamos? E o que, rezar sao as regras?	DS1A31				
+	DS1A31	Ouve, mortal, a Lebre Inocente. A caca esta a comecar e o jogo esta a decorrer. Foge pela tua vida, miseravel desgracado.	DS1A3A	TRUE			Fugirei imediatamente, mas exijo como meu direito uma leitura das regras.	DS1A41				
+	DS1A41	Procura pela ilha. Em conformidade com a lei, os gabinetes sao destacados.	DS1A4A	TRUE			E essa seria a letra da lei, tenho a certeza. - Muito bem. - Esta bem. De facto, o jogo esta a decorrer, por isso apanha-me se puderes. Mas certifica-te que sabes o que fazer comigo se me apanhares.	END				
+												
+	DS1A51	Sabores a doce dor da Caca, mortal?	DS1A5A	TRUE			Esta a correr maravilhosamente, nao esta? Exercicio refrescante. Um pouco desapontado com a qualidade da perseguicao, mas os padroes locais variam, suponho.	DS1A71				
+			DS1A5B	&Tattle			Um pedaco de gelo disse-me para te dizer que Faydra Shardai, nao Xivilai Moath, foi o arquiteto do plano para investir e saquear a Shade Perilous.	DS1A61				
+	DS1A61	Se achas que o meu mestre ou eu nos importamos com tais disputas, es mais denso que a Daedra de Gelo. Tais favores e punicoes sao apenas meios para manter os nossos aliados em linha.	DS1A6A	TRUE			Disse ao pedaco de gelo que te reportaria, e cumpro a minha palavra.	DS1A71				
+	DS1A71	Ouvi dizer que os mortais sao uma raca de curta duracao, muito curta para adquirir sabedoria. Vamos testar esta proposicao. Talvez seja melhor ensinar primeiro a respeito de mostrar respeito apropriado.	DS1A7A	TRUE			- Nao. - Obrigado, meu. Que simpatico da tua parte. Entao, vou-me embora.	END	Teleport_0			
+	DS1A81	E ela olha para ti, arrogante.	DS1A8A	TRUE				END				
+	DS1A91	Ela arruma o nariz com desdem e ignora-te.	DS1A9A	TRUE				END				
+	DS1A01	E ela nao fala, mas observa-te.	DS1A0A	TRUE				END				

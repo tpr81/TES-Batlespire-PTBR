@@ -1,0 +1,5 @@
+		Seducer Oathkin					file Ds5T.xls			Dremora L1 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DS5A11	[[It glares at you fiercely and refuses to speak with you.]]										
+	DS5A21	[[It shows no willingness to enter into parlay with you.]]										
+	DS5A31	[[It does not appear to be interested in speech with you.]]										

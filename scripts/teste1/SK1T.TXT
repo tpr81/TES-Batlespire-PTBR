@@ -1,0 +1,33 @@
+		Scamp Oathkin							SCAMPTALK				
+	Saycode	NPC SAY	Replycode	response CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SK1A11	Ooh... Manikin! Larga as armas? Claro que vamos ser simpaticos!	SK1A1A	true			- Claro que sim. - Prazer em servir. La esta ...	END	DROPREADYWEAPON				
+	SK1A12	Mankin! Larguem a arma! - Agora mesmo!	SK1A1B	TRUE			- Uma arma? Oh... queres dizer... isto?	END	PCATTACK _100	&ScampMad			
+	SK1A13	- Ooo! - Um homem mau. O Scamp tem medo. Larga a arma, para o Scamp se sentir seguro?	SK1A1C	TRUE			- Idiota! - Nao! Pareco um manequim? Encoste-se e sirva, ou arranco-lhe as orelhas.	END	MONSTERATTACK				
+			SK1A1D	&MethatsName			- Idiota! - Nao! Pareco um manequim? Methats chama, e quando chamados, os caes rastejam para seus senhores.	SK1A71					
+			SK1A1E	&WearAmuletD			Olha, palhaco. Estou a usar o amuleto. Entao beija-me o rabo. Entao, se muito simpatico e vai-te embora, antes que pinte as paredes contigo.	SK1A81					
+	SK1A21	- O que? - O que? Carne e sangue? Fala? O que quer?	SK1A2A	TRUE			Da-me as chaves deste lugar, ou vais ser um macaquinho triste.	SK1A91					
+	SK1A22	O QUE!! O que queres?	SK1A2B	&PCFemale			Diz-me onde esta o Josian Kaid e poupo-te a vida miseravel.	SK1A01					
+	SK1A23	- Porque eu? Odeia o barulho dos homens.	SK1A2C	&PCMale			Diz-me onde esta o Vatasha Trenelle e poupo-te a vida miseravel.	SK1B11					
+			SK1A2D	TRUE			Diz-me como sair deste lugar e juro por todos os deuses que vais sair ileso.	SK1B21					
+				&RishaalName			O Rishaal convocou-me. Onde esta o portal para os outros mundos?	SK1B41					
+	SK1A31	- O meu filho! Morre! Morre! - Agora mesmo!	SK1A3A	TRUE			Nao, obrigado.	END	MONSTERATTACK				
+	SK1A41	E nao te fala.											
+	SK1A42	E ele te cuspe.											
+	SK1A43	Que te olha fixamente,											
+	SK1A51	- Nao. - O que? Como aqui? Tu es o Kaid? O Rishaal quer a coisa do Kaid!	SK1A5A	TRUE			- Idiota! - Nao! Toca-me e morre! Mas JUNTA-TE a minha Gloriosa Banda de Guerra, mata os meus inimigos, e festeja para sempre nos Saloes dos Poderosos. Na verdade, junte-se a mim, e como sinal do meu favor, nao o matarei... Nem um pouco.	END	PCTeam	&RishaalName			
+			SK1A5B	TRUE			Olhe para mim e conheca o seu destino. Nao toques no Josiah Kaid, ou parto-te a pele e espalho as tuas entranhas a vapor pelas paredes.	END	Command SK_4 	&RishaalName			
+			SK1A5C	TRUE			- Idiota! - Nao! O Kaid e uma criatura masculina. Pareco-te uma criatura masculina? Desaparece, ou o teu senhor Rishaal pode ouvir como me ofendeste.	END	Command SK_4	&RishaalName			
+	SK1A61	- Nao. - O que? Como aqui? - E o Trenelle? O Rishaal quer o Trenelle!	SK1A6A	TRUE			- Idiota! - Nao! Toca-me e morre! Mas JUNTA-TE a minha Gloriosa Banda de Guerra, mata os meus inimigos, e festeja para sempre nos Saloes dos Poderosos. Na verdade, junte-se a mim, e como sinal do meu favor, nao o matarei... Nem um pouco.	END	PCTeam	&RishaalName			
+			SK1A6B	TRUE			Olhe para mim e conheca o seu destino. Nao toques no Vatasha Trenelle, ou parto a tua pele e alimento-te com o seu conteudo fumegante.	END	Command SK_4 	&RishaalName			
+			SK1A6C	TRUE			- Idiota! - Nao! Trenelle e um homem FEE. Pareco-te um homem da FEE? Desaparece, ou o Rishaal vai ouvir como me ofendeste.	END	Command SK_4	&RishaalName			
+													
+													
+	SK1A71	- Nao. - Nao. - Nao. Nao! Nao o fizemos! Foi o VermaI! Foi tudo o VERMAI! Nao tocamos nas ancoras, nem nos cogs!	SK1A7A	TRUE			E uma coisa boa tambem. Estamos satisfeitos com o zelo com que informa aos seus colegas de trabalho. - Agora mesmo. - Vai-te embora. Tenha muito trabalho. - Adeus. - Adeus.	END	Command SK_4				
+	SK1A81	- Nao! O MANkin apanhou o BOSS! - Nao! Perigo! Perigo!	SK1A8A	TRUE			- Espera, espera! Nao, nao! E o meu amuleto. O que te faz pensar...	END	Command SK_4 AND MONSTERRALLY_2				
+	SK1A91	- Chaves? - Nao. Chaves num lugar escuro e desagradavel. Perto da minha cauda. Queres ver? - Ves?	SK1A9A	TRUE			Nao, obrigado.	END					
+	SK1A01	Boykin? Boykin desapareceu, pedacos de carne.	SK1A0A	TRUE			- Resposta errada.	END					
+	SK1B11	- A serio? As miudas desapareceram, pedacos de carne.	SK1B1A	TRUE			- Resposta errada.	END					
+	SK1B21	- A serio? Esta bem, claro. Um caminho de volta ao mundo dos homens, sigilo do BIG Boss, toque, e BOOM! Uma saida, vai com os chefes. - Nao, nao. Muito seguro. Uma maneira, andar num barco magico, dizem os patroes. - Nao, nao. Muito seguro. Agora, prometeste! Nao te magoes! Os deuses vao-te apodrecer se fores furtivo.	SK1B2A	TRUE			Um juramento e um juramento, e sagrado perante os deuses.	END	PCTeam	&ScampOath			
+	SK1B31	- Claro que sim. A promessa humana vale merda! Ptui!	SK1B3A	TRUE			Lamento que sintas isso.	END		&SKNoTalk			
+	SK1B41	Nao sei, irmao. Os patroes dizem que o barco magico tem de ser reparado, quebrado, pedacos desaparecidos, que tem de ser encontrado. Encontrar pedacos, arranjar, e depois vamos.	SK1B4A	TRUE			Obrigado, irmao, e boa viagem.	END	PCTeam				
+												

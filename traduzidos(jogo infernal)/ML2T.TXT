@@ -1,0 +1,10 @@
+		Daedra Lord					file ML2T.xls			Minor Lord L8 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	ML2A11	Anda, manling. Ouvimos que es uma coisa muito dura. Nosso Senhor diz que nao passareis. Voce cederia?	ML2A1A	TRUE			- Estas a brincar? - Para ti? E o melhor que o Lorde Dagon pode arranjar para defender a sua Loja privada? - Nao. As coisas devem estar a desmoronar-se.	ML2A21				
+			ML2A1B	TRUE			- Claro que sim. Eu cedei. So que nao confio em ti para honrares a minha rendicao. E duvido que a minha vida valha um pacote de salsichas, a menos que espalhe voce e todos os seus amigos pela paisagem. Mas, caso contrario, certamente, eu estaria orgulhoso de ceder.	ML2A21				
+			ML2A1C	TRUE			Nao, nao. Nunca. Nunca.	ML2A21				
+	ML2A21	- Esta bem. Temos ordens para mata-lo se nao se render. Admiravelmente simples e direta. - Entao? Nao me facas perseguir-te por favor. Fica aqui parado e morre como um coelho.	ML2A2A	TRUE			Se nao fosses um idiota tao chato, arrependeria-me de estragar essa beleza de rapaz, dando-te um pontape na garganta!	END		&LordMad		
+			ML2A2B	TRUE			Por todos os Poderes, dedico cada golpe justo e buffet sobre a tua carcaca miseravel aos espiritos defuntos daqueles que morreram a defender o Battlespire.	END		&LordMad		
+	ML2A31	E ele te observa, agitando-se, mas nao diz nada.	ML2A3A	TRUE				END				
+	ML2A41	[E ele te olha sem dizer nada e brandindo sua arma.]	ML2A4A	TRUE				END				
+	ML2A51	Que te observa, mas nao fala.	ML2A5A	TRUE				END				

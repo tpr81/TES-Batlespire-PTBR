@@ -1,0 +1,35 @@
+		Vermai Oathkin								VERMAI TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	VM1A11	HNNNRRGH!	VM1A1A	TRUE			ME… FRIEND! FRIEND! FRIEND!	END	MONSTERATTACK 			
+	VM1A12	HNNNRRGH?	VM1A1B	TRUE			Speak Tamrielic, you lackwit brute! TAMRIELIC! Not that animal gibberish --	END	MONSTERATTACK 			
+	VM1A13	Hnnrrgh. Hnnnrrgh? HNNNRRGH!	VM1A1C	TRUE			HNNNRRGH yourself and see how you like it.	END	MONSTERATTACK 	&VermaiMad		
+			VM1A1D	&MethatsName			METHATS! HNNNRRGH!	END	PCTeam			
+			VM1A1E	&WearAmuletD			Look! Amulet! Now shoo! Go away.	END	PCTeam			
+			VM1A1F	&MethatsName AND &WearAmuletD			Look. Amulet. METHATS! HNNNRRGH?	VM1A41				
+	VM1A21	Hrrn-hrrn-hrrn.	VM1A2A	TRUE			DEATH? KILL? PAIN? HURT? OUCH-OUCH-OUCH?	VM1A51				
+	VM1A22	Hrrn-HRNN- hrrn-hrrn.	VM1A2B	&PCFemale			Josian? Kaid? Can you take me to -- Josian? Kaid? 	END	MONSTERATTACK			
+	VM1A23	HRNN-HRNN- hrrn-hrrn-hrrn.	VM1A2C	&PCMale			Vatasha? Trenelle? Can you take me to -- Vatasha? Trenelle? 	END	MONSTERATTACK 			
+			VM1A2D	&CogPage			COGS? 
+WHERE? 
+YOU -- GIVE? 
+ME --  NOT --  SMASH --  TINY  -- SKULL?	END	MONSTERATTACK 			
+			VM1A2E	&WearAmuletD			AM -- YOO --  LET?  SEE --  AM --  YOO --  LET?	END	MONSTERATTACK 			
+	VM1A31	[[It snears and refuses to speak with you.]]										
+	VM1A32	[[It hisses and spits at you.]]										
+	VM1A33	[[Fixing you with a wary eye, it makes no response.]]										
+													
+													
+	VM1A41	Hrnn. HRRRRRngh.	VM1A4A	TRUE			You bet.	END	PCTeam				
+	VM1A51	HHUUUrt! HRRRRRngh!	VM1A5A	TRUE			Not ME, you moron!	END	MONSTERATTACK 				
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													
+													

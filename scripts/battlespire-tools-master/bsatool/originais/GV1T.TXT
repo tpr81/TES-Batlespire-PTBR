@@ -1,0 +1,27 @@
+		Ideal Master					file Gv1T.xls			Uncooperative Gem Vampire		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	GV1A11	Quem perturba o nosso descanso?	GV1A1A	 TRUE			- Ninguem. Ninguem. Peco desculpa. Estou a ir embora. - Desculpa. - Desculpa. - Adeus. - Adeus.	END				
+			GV1A1B	 TRUE			Um humilde mortal que implora a tua ajuda.	GV1A31				
+			GV1A1C	 TRUE			Um celebre mestre de artes marciais e arcanos, em busca de uma missao, e digno da tua ajuda.	GV1A31				
+			GV1A1D	 TRUE			- Olha. Nao sei o que se passa aqui, mas cheira a necromancia, e nao vou tolerar. - Adeus. - Adeus.	END		&GemMad		
+	GV1A21	[Voce dirige-se a joia, mas nao ha resposta.]]										
+	GV1A91	Talvez procure a morte sem os Ritos. E uma tolice, mas tens liberdade de escolha.	GV1A9A	 TRUE			Nao tenho medo de morrer. Faz o teu pior. Adeus .	END	HealthHalf AND PainSFX			
+			GV1A9B	 TRUE			Nao, nao, nao! Desculpe incomoda-la. Nao estou a procurar a morte, nem um pouco. - Adeus. - Adeus.	END				
+												
+	GV1A31	Nao esta convidado para vir aqui. Por que perturbas o nosso descanso?!	GV1A3A	 TRUE			Bem, nao tenho a certeza, a serio. Na verdade, pareco estar preso aqui, onde quer que este lugar seja, e estou a procura de algo ou de alguem que me possa ajudar.	GV1A41				
+			GV1A3B	 TRUE			Eu, uma pobre e desesperada criatura de carne, escolhi competir com os Principes do Oblivion e os seus asseclas, e humildemente peco a vossa ajuda.	GV1A41				
+			GV1A3C	 TRUE			Eu entendo. Queres que me va embora e te deixe em paz. - Esta bem. - Esta bem. So nao espere que eu faca favores. - Adeus. - Adeus.	END				
+			GV1A3D	 TRUE			Um viajante atraves dos reinos exteriores, cheguei ao vosso mundo, e achei-o maravilhosamente estranho. Procuro aprender mais dos seus misterios. O que e esse lugar, e qual e o seu proposito?	GV1A81				
+												
+												
+	GV1A41	Entrarias no nosso servico, mortal?	GV1A4A	 TRUE			Nao, nao. Nao lhe ofereco servico.	GV1A71				
+			GV1A4B	 TRUE			Estou surpreendido e honrado com a perspectiva, mas estou curioso. Como posso entrar no seu servico?	GV1A51				
+	GV1A51	Tirem as vossas vestes mortais e fiquem nus no espirito. O seu comprimido manchado deve primeiro ser lavado de branco pelos fogos do mana.	GV1A5A	 TRUE			Parece-me muito simpatico. E como e que eu ia lavar o meu tablet?	GV1A61				
+			GV1A5B	 TRUE			Nao me podes enganar. Estas a falar de me transformar numa criatura morta-viva. Se e assim que me junto ao vosso servico, nao estou interessado. - Adeus. - Adeus.	END		&GemNoTalk		
+												
+	GV1A61	Procurem os dedos gemeos da vida na Capela do Amor. Poe-te no pedestal e toma banho nos manabeams. A corrupcao da carne caira, e o espirito sera revelado em sua gloria. Entao, que possas estar diante de nos e servir para sempre em paz e alegria.	GV1A6A	 TRUE			Este e verdadeiramente um milagre glorioso. Tenho de ponderar os seus misterios.	GV1A71				
+			GV1A6B	 TRUE			- Nao. Tomar banho em MANAbeams. - Sim, e verdade. Carne. Caia. Em pedacos, aposto. - Desculpa. - Desculpa. Vou lutar com o meu velho e confortavel tablet manchado, obrigado.	GV1A71				
+	GV1A71	A menos que se junte ao nosso servico, nao lhe oferecemos ajuda. Os assuntos dos mortais nao sao da nossa conta. Cada grao de mana gasto diminui a nossa eternidade. Nao me incomodes mais. Mas fala com os nossos irmaos, que talvez se lembrem melhor de usar carne, e que podem olhar mais generosamente para o teu pedido.	GV1A7A	 TRUE			Ficarei feliz em falar com qualquer um dos seus irmaos mais generosos. Muitos de voces estao a falar de cristais a flutuar em caixoes por aqui, suponho? - E fantastico. Espero que sejam muito mais generosos do que tu. Mas obrigado pela sua paciencia. - Adeus. - Adeus.	END		&GemNoTalk		
+												
+	GV1A81	Estao dentro do recinto do Cairn da Alma, um refugio de outro mundo dedicado a paz, amor, descanso eterno e harmonia. Voce esta diante de um de seus Criadores, cujo nome e tao exaltado que nem pode pronuncia-lo. Andas entre os seus servos, que se comprometeram a servir-nos, e que foram recompensados com a vida eterna e a paz que ultrapassa todo o entendimento mortal.	GV1A8A	 TRUE			Sinto-me humilde perante o esplendor da tua criacao e a gloria dos seus fieis servos.	GV1A41				
+			GV1A8B	 TRUE			Esta treta religiosa esta a deixar-me nervoso. Vais ajudar-me ou nao?	GV1A41				

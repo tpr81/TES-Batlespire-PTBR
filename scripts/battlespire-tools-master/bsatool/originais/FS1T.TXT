@@ -1,0 +1,57 @@
+		Faydra Shardai					file FS1T.xls			Faydra L6 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	FS1A11	Estamos satisfeitos por ter vindo ate nos. Provaste o teu valor. Estamos preparados para lhe conceder o que pedir em troca do seu servico. Mas tem cuidado... Peca com sabedoria e receba a nossa bencao.	FS1A1A	TRUE			So desejo servir-vos, minha Rainha.	FS1A21				
+			FS1A1B	&PCFemale			So desejo a vida do meu amigo Josian Kaid e o nosso regresso seguro a Tamriel.	FS1A41				
+			FS1A1C	&PCMale			So desejo a vida da minha amiga Vatasha Trenelle e o nosso regresso seguro a Tamriel.	FS1A41				
+			FS1A1D	&PCFemale			So desejo a chave do portao da Loja de Caca de Lorde Dagon e uma passagem segura ate la, onde possa negociar com Lorde Dagon pela vida do meu companheiro Josian e o nosso regresso seguro a Tamriel.	FS1A51				
+			FS1A1E	&PCMale			So desejo a chave do portao da Loja de Caca de Lorde Dagon e uma passagem segura ate la, onde possa negociar com Lorde Dagon pela vida da minha companheira Vatasha e o nosso regresso seguro a Tamriel.	FS1A51				
+			FS1A1F	&Neonymic			Sao ambos generosos e sabios, e so desejava poder servir-vos, mas juramentos anteriores de fidelidade me obrigam. Proponho negociar consigo em meu proprio nome. Porque tenho o teu neonimico, e com prazer renunciaria ao perigoso julgamento de tentar banir-te, se me pudesses emprestar a chave do portao da Loja de Caca do Senhor Dagon.	FS1A91				
+	FS1A21	Nenhuma outra resposta me agradaria tanto. Jura aos Poderes servir-me e eu farei da tua fortuna prova do tempo, e as tuas recompensas nao serao inferiores as dos meus mais ousados tenentes.	FS1A2A	TRUE			Pelos Grandes Poderes, juro servir-vos, minha senhora.	END	ENDFRAME_1036			
+			FS1A2B	TRUE			E muito generosa, minha senhora. Permita-me retirar-me para procurar um presente digno da honra que me faria.	FS1A31				
+	FS1A31	Isso nao me agrada. Eu disse-te o que me agrada. Faz isso agora, ou vais fazer a tua senhora muito, muito zangada.	FS1A3A	TRUE			Pelos Grandes Poderes, juro servir-vos, minha senhora.	END	ENDFRAME_1036			
+			FS1A3B	TRUE			Nao vou, e nao me podes obrigar. Entao, aqui esta. E ate logo.	END	Summon MA_2	&FayMad		
+			FS1A3C	&Neonymic			Nao me assustas. Exilio-te, Faydra Shardai, Nepehkweh-kodo, para os Pocos do Oblivion. Agora talvez voce vai lamentar em frustracao e desespero enquanto eu me deleito no meu triunfo. - Nao, nao.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A41	- Nao, nao. Abandonavas-me a mim e aos prazeres do meu reino pelo teu pequeno homem e uma vida pitoresca em Tamriel. Desiludiste-me. Muito, muito! Nao, nao. Juras ao meu servico perante as Grandes Potencias, agora mesmo, ou contemplas o esplendor celestial da minha furia!	FS1A4A	TRUE			Pelos Grandes Poderes, juro servir-vos, minha senhora.	END	ENDFRAME_0036			
+			FS1A4B	TRUE			Nao vou jurar assim, sua bruxa de cara de rato. Cheiras a cabra e tens coxas gordas.	END	Summon MA_2	&FayMad		
+			FS1A4C	&Neonymic			Batem-me os ouvidos e borbulham os labios com o esplendor celestial da tua furia, seu saco de saliva de canalha. Exilio-te, Faydra Shardai, Nepehkweh-kodo, para os Pocos do Oblivion. Talvez consigas perder uns quilos a assar nos Fornos do Tormento, rabo gordo.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A51	- Entao? Pedes muito... Mas sou generoso com os meus servos. Entao jura-me servico perante as Grandes Potencias e teras o que pedires.	FS1A5A	TRUE			Pelos Grandes Poderes, juro servir-vos, minha senhora.	FS1A61				
+			FS1A5B	TRUE			Na verdade, se nao se importa, primeiro gostaria de ouvir os termos e condicoes do meu servico.	FS1A71				
+			FS1A5C	TRUE			Es mais generoso do que eu imaginava. Desculpe-me enquanto me retiro para contemplar a minha boa sorte e agradecer.	FS1A71				
+			FS1A5D	&Neonymic			Por favor, perdoe-me. Tenho estado a tratar sob falsos pretextos. Na verdade, nao vou servir-te, mas quero a chave do portao e a passagem segura, que me concederas, porque possuo o teu neonimico. Entao, aqui esta.	FS1A81				
+			FS1A5E	&Neonymic			Eu odeio-me. A tentacao e demasiado grande. - Entao? Exilio-te, Faydra Shardai, Nepehkweh-kodo, para os Pocos do Oblivion. Sei que e mal-educado regozijar-se, mas... bem... nyah-na-nyah-nyah.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A61	- Excelente. - Muito bem. Aqui esta a chave do portao, e darei ordens imediatamente para que nao sejam molestados. Volte para mim quando tiver falado com meu senhor Dagom, pois terei urgente necessidade de seus servicos.	FS1A6A	TRUE			Obrigado, minha senhora. Agora vou-me embora.	END	PUT 35_10000 	&FayDupe		
+	FS1A71	Isso nao me agrada. Eu disse-te para jurares ao meu servico. Faz isso agora, ou vais fazer a tua senhora muito, muito zangada.	FS1A7A	TRUE			Pelos Grandes Poderes, juro servir-vos, minha senhora.	END	ENDFRAME_1036			
+			FS1A7B	TRUE			Meu Deus! Sinto a sua desaprovacao. - Nao, nao. Acho que vou ter de arriscar. Desculpa, mas nao vou jurar servico a ti. - Adeus. - Adeus.	END	Summon MA_2	&FayMad		
+			FS1A7C	&Neonymic			Lembra-te disso. Tu trouxeste isto por seres tao mau comigo. - Entao? Por esta lei, exijo-te, Faydra Shardai, Nepehkweh-kodo, para os pocos do esquecimento. Boa viagem, cara de ameixa.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A81	Ousas desafiar-me? No meu proprio quarto de trono? - Nao! Apanhem-no! E afasta-o muito!	FS1A8A	TRUE			E quem achas que me deu o teu neonimico? O teu aliado, Xivilai Moath. Ele disse que ficarias chateada. Se me das licenca, tenho de me reportar ao Lorde Moath e contar-lhe tudo sobre a nossa pequena entrevista.	FS1B31				
+			FS1A8B	TRUE			- Nao, nao. Nao me deixas escolha. Por esta lei, exijo-te, Faydra Shardai, Nepehkweh-kodo, para os pocos do esquecimento. De meus cumprimentos a todas as outras almas imortais que se contorcem no tormento.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A91	- O que? - O que? O QUE? Seu mortal sujo. Eu dou-te a chave do portao. Mesmo no teu olho! Apanhem-no! Quero a cabeca dele cortada! E tudo o mais! Agora mesmo!	FS1A9A	TRUE			E quem achas que me deu o teu neonimico? O teu aliado, Xivilai Moath. Ele disse que ficarias chateada. Se me das licenca, tenho de me reportar ao Lorde Moath e contar-lhe tudo sobre a nossa pequena entrevista.	FS1B31				
+			FS1A9B	TRUE			- Nao, nao. Nao me deixas escolha. Por esta lei, exijo-te, Faydra Shardai, Nepehkweh-kodo, para os pocos do esquecimento. Desculpa o barulho. De meus cumprimentos a todas as outras almas imortais que se contorcem no tormento.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A01	Tinha medo que nao voltasses. Porque eu quero ver-te a partir membros de membros! Apanhem-no!	FS1A0A	TRUE			Alguem ja te disse que es adoravel quando estas zangada? Talvez outra vez seja mais conveniente. Ate logo.	END	Summon MA_2			
+			FS1A0B	&Neonymic			Desculpa desapontar-te, mas tenho outros planos. Por esta lei, exijo-te, Faydra Shardai, Nepehkweh-kodo, para os pocos do esquecimento. Nao se esquecam das suas roupas de la.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1B11	Pensei que tinhas assuntos urgentes com o meu Senhor Dagon.	FS1B1A	TRUE			- Nao. - Sim, e verdade. - Sim, sim. Nao sei como me esqueci disso. - Desculpe. - Nao.	END				
+			FS1B1B	TRUE			Na verdade, parece haver algum tipo de confusao entre os seus seguidores. Emitiu uma ordem de conducao segura para mim, nao foi?	FS1B21				
+	FS1B21	- Claro que sim. Pode duvidar disso? Talvez a mensagem tenha chegado tarde em alguns lugares. As ordens serao enviadas imediatamente com a mais alta prioridade.	FS1B2A	TRUE			- Nao. Isso parece maravilhoso. - Obrigado, meu.	END				
+	FS1B31	O Xivilai deu-te o meu neonimico? - O que? - O que? - Nao, nao. Se ele quer guerra, vai ter guerra. A armas, meus asseclas! derrota e destruicao para Xivilai e todo o seu cla! E tragam-me a pele do mortal!	FS1B3A	TRUE			Como a minha pele esta ocupada a manter as partes uteis dentro, acho que e melhor tira-la daqui.	END	Summon MA_2	&FayMad AND &FayVsXiv		
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+							
+							
+							
+							
+							
+												

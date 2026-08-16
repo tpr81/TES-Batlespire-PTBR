@@ -1,0 +1,20 @@
+		Herne Oathkin					file MA5T.xls			Mastema Homeguard Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MA5A11	What have we here? A mortal? Abroad in the great wide world with no one to save him? Oh, how tired he must be of the long days and nights. Come, fall upon your weapon, and end the pain. Else I fear we must feed you your own dainty parts, and spoil that pretty skin with teeth and fire.	MA5A1A	TRUE			I laugh at death. Hah-hah-hah! And at you. Hah-hah-hah. And at your goofy-looking boots.	MA5A21				
+	MA5A12	You are in the wrong place, little one. This is your last mistake. Come now. If you kill yourself, you are promised a swift death. If your leave the matter to us, we may spend a long time dying.	MA5A1B	&Payem OR &Cess			I have the Lady's leave to come and go as I wish. If you doubt that, ask her yourself. But if you lay hands on me -- or whatever those things are at the ends of your arms -- you shall draw back a pair of bloody stumps.	01-50: MA5A21 51-00: MA5A31				
+	MA5A21	Hoofs, mortal. Not boots. And all the better to kick in your silly teeth.	MA5A2A	TRUE			And the tail -- hah-hah-hah! You slay me.	END	MonsteraAttack	&HerneMad		
+	MA5A31	We shall see about your amulet, manling, when we place it before my Queen, along with whatever pieces of you decide to accompany it.	MA5A3A	TRUE			I'll go where I wish, and when I wish, fuzzy wuzzy.	END	MonsteraAttack	&HerneMad		
+	MA5A41	I'm inclined to take that amulet and stuff it down your throat. But I have other things to do. Get out of my sight.	MA5A4A	TRUE			I'll go because I want to, not because you tell me to. Nyah-nyah.	END	PCTeam			
+												
+	MA5A61	Goodness. What have we here? An ape? A battlemage in donkeyform? An animated manikin for our sport? Now, if it were a manling, then we would have to leave it be, for such are my Lady's orders. But surely, it cannot be the manling, so we may use it for our jests.	MA5A6A	TRUE			Seriously? You don't recognize me? Oh. I see. If that's the way you want to play, it suits me fine.	END	MonsterAttack	&HerneMad		
+												
+
+	MA5A91	Lady Faydra is gone. I no longer feel the thrill of her in my heart. No, it couldn't be that YOU had anything to do with that, could it, manling?	MA5A9A	TRUE			Hoh. Sure. It was me. I just tossed her Ladyship where the stars don't shine. And good riddance. Mean old witch.	END	MonsterAttack	&HerneMad		
+			MA5A9B	TRUE			Sorry to disappoint you, but I don't carry that sort of muscle. And losing her Ladyship kicked some ants into my dinner, too, big boy. We had some plans cooking. So. I was thinking of waltzing over and putting a hurt on Xivilai and his bunch. You up for that?	01-50: MA5A01 51-00: MA5B11				
+	MA5A01	Maybe you did Faydra, and maybe you didn't. Doesn't matter to me, now. It's just us, and our personal matters. And time to settle up for what you did to my Oathkin, Egahirn. 	MA5A0A	TRUE			That's old history. But I can see it bothers you. Okay. Let's take care of unfinished business.	END	MonsterAttack	&HerneMad		
+	MA5B11	Things are a little confused right now, manling. I think I'll sit this one out, see which way the wind blows. So perhaps a temporary truce is in order. You play nice, and I'll play nice. And later, when things settle down, come see me, and we'll have a nice little chat.	MA5B1A	TRUE			Can't promise anything. But I am feeling a little tuckered out from bursting torsos and ripping off arms. So let's both take a little breather.	END	PCTeam			
+												
+												
+	MA5B21	[[His eyes glow with fury, but he says not a word.]]	MA5B2A	TRUE				END				
+	MA5B31	[[He sizes you up as he ignores your offer to parlay.]]	MA5B3A	TRUE				END				
+	MA5B41	[[He gazes at you indifferently, and keeps his own counsel.]]	MA5B4A	TRUE				END				

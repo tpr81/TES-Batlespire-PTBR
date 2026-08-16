@@ -1,0 +1,7 @@
+DATE		ALIAS		NEEDS REPAIRS ***********************************************************
+
+8/18		ken		When two monsters die in same spot, treasure bags overlap, and block access to one of two bags. Vital inventory can be lost that way. Fix? 1. Reposition monster markers in maps to spread them more widely. 2. Place monsters with critical inventory in isolated terrains. 3. Julian clever idea.
+8/20		ken		Create character, Start Game, End Scenario, Create character, Start Game, and Crash -- either on Load Game, or when enter game, then crash on End Scenario with "invalid memopry pointer" error message.
+9/22		ken		L1: Automaps not reliable on restore saved games.
+10/9		ken		Don reports TWO pieces of the voidguide in the sack near Sumeer [not one, as would be correct]. No one else has reported this, and the structures are correct in BsEdit.
+

@@ -1,0 +1,32 @@
+		Scamp Oathkin					file sk3t.xls			SCAMPTALK			
+	Saycode	NPC SAY	Replycode	response CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3	
+	SK3A11	Help! Help! MAN-thing! KILL-KILL!	SK3A1A	TRUE			Ha-HA! I want to pop legs RIGHT OFF! And PEEL SCALPS with RUSTY METAL SCRAPS! Ha-HA!	SK3A61					
+	SK3A12	HELP! HELP! HELP!	SK3A1B	TRUE			No need to panic, little friends. Go FREE! Go FREE! I release you from your cruel servitude! Go forth henceforth, and love LIGHT and MERCY.	SK3A71					
+	SK3A13	BITE! BITE! BITE! BITE! BITE! BITE! BITE! BITE! 	SK3A1C	TRUE			Look out! Behind you! Aggh! AGHH!	SK3A81					
+			SK3A1D	TRUE			So! Steal the voidguide, will you? Think you can fool Sumeer? Make fools of Vermai and Dremora? NO! Rally to me, good daedra, and slaughter the traitors.	01-25: SK3A91
+26-50: SK3A01
+51-75: SK3B11
+76-00: SK3B21					
+	SK3A21	MAN-thing! KILL friends! Rip flesh! Bite bits!	SK3A2A	TRUE			Me? You must be kidding. I wouldn't hurt a fly.	END		&ScampMad			
+	SK3A22	LOOK! LOOK! NASTY MAN-THING! COME! COME! KILL QUICK!	SK3A2B	TRUE			I'll take you on, and your squeaky  friends, too.	END	MonsterRally	&ScampMad			
+	SK3A23	Sneaky, lying, man-thing. Sneaks and cheats us, hurts us. Now we catch it, pull its arms HARD… POP!	SK3A23	TRUE			Oh, dear. I suppose now I must pound you to a pulp for a bit.	END		&ScampMad			
+	SK3A31	Scamp very sad. Rishaal tell Scamp "Bite nasty man-thing." But man-thing pop Scamp like grape.	SK3A3A	TRUE			You are pretty smart for a scamp. So I'll give you a count of five running head start. One… two… three…	END	MONSTERFLEE_120				
+	SK3A41	[[It crouches alertly, but says nothing.]]		TRUE				END					
+	SK3A42	[[It shifts uneasily, but won't speak.]]		TRUE				END					
+	SK3A43	[[It leers evilly at you, and licks its lips.]]		TRUE				END					
+	SK3A51	BAD man-thing! RIP stinking FACE! Bite and scratch and chew the TIPS and BITS!	SK3A5A	TRUE			You know, sometimes I really enjoy this work.	END		&ScampMad			
+													
+													
+	SK3A61	WAAH! SCARED!	SK3A6A	TRUE			Ha-Ha-HA-HA-HA! Blood! Guts! HUGE CHUNKS OF SCAMPS MEAT!	END	MONSTERFLEE_120	&ScampMad			
+	SK3A71	Uhh… what? You… be… nice?	SK3A7A	TRUE			I love all things, and only want every living creature to be happy and free.	END	MONSTERFLEE_120				
+	SK3A81	Huh? Where?	SK3A8A	TRUE			BEHIND you, nitwit!	END	MONSTERFLEE_120				
+	SK3A91	Oh, NO! SHUT MOUTH! Stop lies! GOOD scamps!	SK3A9A	TRUE			It's curtains for you, traitor.	END	MONSTERFLEE_120	&ScampMad			
+	SK3A01	WHAT?! MAN-thing big LIAR! KILL-KILL!	SK3A0A	TRUE			Calling all daedra! Death to traitors!	END	MONSTERATTACK	&ScampMad			
+	SK3B11	Uh-uh. Bad, bad. Get goodies and RUN!	SK3B1A	TRUE			Come back and fight, you little cowards.	END	MONSTERFLEE_120	&ScampMad			
+	SK3B21	Tricky man! Think scamp STUPID? You sneaky-sneak-sneak! Grrr! Nasty! BIG bites and scratches.	SK3B2A	TRUE			If you're so smart, why aren't you running, shorty? And why can't you wear PANTS like civilized creatures?	END	MONSTERATTACK	&ScampMad			
+													
+													
+													
+													
+													
+													

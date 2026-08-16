@@ -1,0 +1,27 @@
+	Random Talk Tables			file DS2B.xls
+Dark Seducer Talk2				
+	talkcheck			
+	&CalltoView	DS2B11		
+				
+				
+				
+				
+	talktable			
+	First	DS2B11		
+	Second	DS2B11		
+	Third	DS2B11		
+	Fourth +	DS2B11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

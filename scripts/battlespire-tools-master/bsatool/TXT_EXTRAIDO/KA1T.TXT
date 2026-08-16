@@ -1,0 +1,39 @@
+		Wraith of Kirel Aman					file Ka1T.xls			Kirel Aman		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	KA1A11	I've failed. I've betrayed my sacred oath and trust. I swore to defend the Battlespire for my Emperor. And now I'm dead, and all in my charge dead, too, and the Battlespire in ruins, plundered by daedra, and ruled by the Prince of Destruction.	KA1A1A	TRUE			You DOG! Justice and vengeance! It will be a pleasure to destroy you, traitor! Prepare to die AGAIN!	END				
+			KA1A1B	TRUE			What? Who are you? And what are you doing here? And why do you attack me?	KA1A21				
+	KA1A21	I am Kirel Aman, Praeceptor Superior of Battlespire. I was sucked dry of my power by daedra, paralyzed, dominated, and carried to this place, where I told my captors all they wished to know. I could not prevent myself, so deeply had they my will enthralled. Even through death I could not escape them. And now I am doomed to haunt these halls for all time. The madness comes on me, and I become a wraith, a fiend, a monster that feeds on the souls of others.	KA1A2A	TRUE			Take heart. I seek to avenge you, and all those who died at Battlespire. If I can, I shall win back Battlespire, for you, and for my Emperor.	KA1A31				
+			KA1A2B	TRUE			I pity you. Is there a way I can free your soul?	KA1A41				
+			KA1A2C	&PCMale			I am searching for a companion who came toe Battlespire for testing, and managed to evade the Daedra. Her name is Vatasha Trenelle. Is she here?	KA1A91				
+			KA1A2D	&PCFemale			I am searching for a companion who came to Battlespire for testing, and managed to evade the Daedra. His name is Josiah Kaid. Is he here?	KA1A01				
+	KA1A31	I bless you. Listen, and mark well, for the madness comes upon me, and I cannot command my own spirit. Lord Dagon, Mehrunes Dagon, and all his hosts fell upon us without warning. How they entered the citadel, I cannot know, for it should be impossible. There must have been a traitor. You must return to Tamriel, and warn the Emperor.	KA1A3A	TRUE			You have my word. I will get word to the Emperor as soon as I can, and I will avenge your death, and the deaths of all Battlemages and guards who fell defending Battlespire. But I would not leave you here to suffer. Can I release your spirit from its ensorcelment?	KA1A41				
+	KA1A41	A wraith cannot be destroyed, save by the power that created it. Yet I know another way. You may bind my spirit to an enchanted soul gem, and pledge that soul gem to eternal vengeance. I know the ritual, but cannot perform the rites without a material form. 	KA1A4A	TRUE			Could you teach me the ritual? Can I use this ritual on anyone?	KA1A51				
+	KA1A51	The rite may only be performed on a willing discorporate spirit. The praxis is necromantic, and evil, and condemns my soul to everlasting torment,  but gladly will I endure such to avenge myself, my friends, and my Emperor. Will you learn this rite, and swear a solemn oath to wield the spirit-doomed device in the war upon our enemies?	KA1A5A	TRUE			I'm sorry, but necromancy is evil, and I will not be a party to such an act. I am sorry but I must refuse. Goodbye.	END				
+			KA1A5B	TRUE			If you choose this fate of your own will, I am willing.	KA1A61				
+	KA1A61	Now compose your spirit, and speak the words. I myself will provide the praxis and the power for the rite. My ghostly form will disappear, and you will find a magic gem. Take this gem, use it well, and when you strike against our foes, think of me.	KA1A6A	TRUE			I understand, and I'm ready.	KA1A71				
+	KA1A71	 Repeat after me:
+Thy power spend, thy form in flames,
+Curse my foes, and curse their names.
+Vest thy power and consecrate
+This weapon's art to damn their fate. 	KA1A7A	TRUE			 Thy power spend, thy form in flames,   Curse my foes, and curse their names.   Vest thy power and consecrate   
+This weapon's art to damn their fate. 	END	Kill AND Drop 20_9260			
+			KA1A7B	TRUE			 I'm sorry, but I'm just not sure about this. Give me some time to think about it. Goodbye. 	END		&ReadyRite		
+	KA1A81	Please. Are you ready now to perform the rite? Please. Do not deny me this chance to redeem my failures.	KA1A8A	TRUE			Yes. I see that it is your right to choose. If it is your wish, I shall perform the rite.	KA1A61				
+			KA1A8B	TRUE			No, I'm still not sure. Goodbye.	END				
+	KA1A91	I have not encountered another mortal here, but your companion might have passed this way without my knowledge. I cannot pass beyond the Daedric sigil wards. 	KA1A9A	TRUE			If you see her, tell her thanks for the presents, and  I am looking forward to seeing her. Real soon. The Daedra are careless, disorganized, divided in counsel, and  they don't seem to know we threaten them.  With luck, we will avenge you, and all those who died at Battlespire. 	KA1A31				
+	KA1A01	I have not encountered another mortal here, but your companion might have passed this way without my knowledge. I cannot pass beyond the Daedric sigil wards. 	KA1A0A	TRUE			If you see him, tell him thanks for the presents, and  I am looking forward to seeing him.  Real soon. The Daedra are careless, disorganized, divided in counsel, and  they don't seem to know we threaten them.  With luck, we will avenge you, and all those who died at Battlespire. 	KA1A31				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+															
+															

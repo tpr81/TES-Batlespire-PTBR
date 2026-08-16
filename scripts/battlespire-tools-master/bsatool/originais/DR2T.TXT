@@ -1,0 +1,31 @@
+		Dremora Oathkin					file DR2T.xls			Dremora L2 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DR2A11	Vem ca, meu pequeno homem. Nao vou fazer-te mal. So quero dizer-te uma coisa... - Segredo.	DR2A1A	TRUE			Sou um guarda da Battlespire.	END	MONSTERATTACK 	&DremoraFoe		
+	DR2A12	O que e que tu es? E o que fazes aqui? Aproxima-te, para que eu possa falar contigo.	DR2A1B	TRUE			Sou um Mago de Batalha. Deixa-me mostrar-te as minhas credenciais.	END	MONSTERATTACK 	&DremoraFoe		
+	DR2A13	- Nao. Bem-vindo. Estou muito feliz por te ver. Tenho um presente para ti.	DR2A1C	&RishaalName			Pergunta ao Rishaal. Se ela quiser que saibas, ela pode dizer-te.	DR2A51				
+			DR2A1D	&ZenaideName			Nao tens o direito de me questionar. Servo a Zenaide e faco o que ela quer.	DR2A61				
+			DR2A1E	&WonshalaName			O Wonshala sabe o meu nome. Nao o fazes e nao o faras.	DR2A71				
+			DR2A1F	&MethatsName			Venho de Methats, que quer um relatorio imediatamente.	DR2A81				
+			DR2A1G	&SumeerName			O Sumeer e meu mestre e nao tolero interferencias de pessoas como voce.	DR2B11				
+			DR2A1H	TRUE			Sou a Ira e a Vinganca. Em nome do Imperador, abjuro-te e condeno o teu espirito ao esquecimento pelos teus crimes.	END	MONSTERATTACK 	&DremoraFoe		
+	DR2A21	Nao pertences aqui. Larguem as armas e submetam-se, ou serao destruidos.	DR2A2A	TRUE			- Muito bem. Se insistes.	END	DROPREADYWEAPON AND  MONSTERAttack	&DremoraMad		
+			DR2A2B	TRUE			Espero que tenhas tido uma boa dieta e descansado bastante, porque vou levar muito a destruir, amigo.	END	MONSTERATTACK 	&DremoraMad		
+	DR2A31	Nao parece querer falar contigo.										
+	DR2A32	Aparentemente nao tem nada a dizer neste momento.										
+	DR2A33	Parece que nao te esta a ouvir.										
+	DR2A41	Ainda estas aqui? Que raio estao a fazer aqueles escandalos e o Vermai? Ninguem pode fazer nada por aqui?	DR2A4A	TRUE			Acho que sou demasiado duro para um bando de lacaios daedric.	END	MONSTERATTACK 	&DremoraMad		
+												
+	DR2A51	- Nao. Isso e obvio. Com a carga de escravos que tem, ela aceita qualquer coisa a seu servico... ate humanos.	DR2A5A	TRUE			Tenho a certeza que nao se ofende. Entao vou tratar dos meus assuntos.	END	MonsterWander_120	&DremoraNice		
+	DR2A61	Boa tentativa, mas a Zenaide gosta de soldados burros e feios, e tu nao te qualificas.	DR2A6A	TRUE			Obrigado pelo elogio.	END	MONSTERATTACK 	&DremoraMad		
+	DR2A71	- Nao. - Eu entendo. - Excelente. - Muito bem. Tenho uma mensagem especial para ela. Incline-se e eu sussurro-lhe no ouvido.	DR2A7A	TRUE			- Sim, sim. - Sim, sim. - Diz-me...	END	MONSTERATTACK 	&DremoraMad		
+			DR2A7B	TRUE			Nao te aproximes de mim.	END	MONSTERATTACK 	&DremoraMad		
+	DR2A81	- Nao. - Sim, e. E extremamente provavel. Acho que vou matar-te agora.	DR2A8A	TRUE			Nao te incomodes...	END	MONSTERATTACK 	&DremoraMad		
+	DR2A91	Meu, estas confuso. Ou estupido. Ou ambas. Por favor, morra agora.	DR2A9A	TRUE			Qualquer coisa que possa ser util.	END	MONSTERATTACK 	&DremoraMad		
+	DR2A01	Com licenca, Syndic. Entao esta e a forma original? Nao adianta manter a forma Mariel, suponho... embora nao seja uma forma desagradavel, pois nao?	DR2A0A	TRUE			Presumes da minha disposicao genial. Talvez isso nao seja sabio. Talvez me deixe em paz.	END	MonsterWander_120	&DremoraNice		
+	DR2B11	De fato, Sumeer e o mestre de todos nos, e cada respiracao dele e como nectar para seus servos. Mil perdoes por perturbar as tuas reflexoes.	DR2B1A	TRUE			- Esta livre.	END	Command DR_4	&DremoraNice		
+							
+							
+							
+							
+							
+												

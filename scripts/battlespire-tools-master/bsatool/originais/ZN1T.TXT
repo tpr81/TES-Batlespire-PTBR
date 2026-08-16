@@ -1,0 +1,29 @@
+		Zenaida Nacarra					file ZL1T.xls			Zenaida TALK	superhero-looking chick				
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3			
+	ZN1A11	Meu Deus! De onde e que voce veio? Pensei que tinhamos acabado com todos os guardas e os magos da lista.	ZN1A1A	TRUE			Certo, Vossa Excelencia. Nao, nao estou na lista, porque nao sou guarda nem mago de batalha. Estou com a Lomegan.	ZN1A51							
+			ZN1A1B	TRUE			- Nao, nao. Um mago de batalha. - Nao, nao. - Nao, nao. Talvez pareca um pouco mal, mas ouvi dizer que voces estao a ter problemas e que devo ir ter com o Wonshala.	ZN1A61							
+			ZN1A1C	TRUE			- Nao. Nao soubeste? O Methats mandou-me ajudar-te?	ZN1A71							
+			ZN1A1D	&voidguide			- Nao. Senhores, nao. Nao sou mago de batalha. - Nao, nao. A ideia. Nao, nao. Estou com o Rishaal. Sabemos quem tem o guia do vazio. Entrega-me, sem mal nenhum, e manteremos isto em segredo.	ZN1A81							
+			ZN1A1E	&voidguide			O guia de vacuo esta desaparecido, caso nao tenhas ouvido. Tenho de recuperar o guia de vacuo, ou o Chefe vai rebentar o meu espirito como uma bolha. Pode ajudar-me?	ZN1A91							
+	ZN1A21	- Nao. - E voce outra vez. Bem, foi bastante esperto, Mestre Kaid, mas agora estamos no seu jogo. Tenho ordens para te apanhar vivo, mas nunca fui muito bom a aceitar ordens. Ainda assim... se largasses a arma e tirasses toda a armadura, poupava-me a tarefa cansativa de convocar asseclas para rasgar a tua carne.	ZN1A2A	TRUE			- Nao, nao. Isso e uma tolice. O Josiah Kaid e um homem. Ves este bau? Pareco-te um homem?	ZN1A01							
+			ZN1A2B	TRUE			Bem, viste atraves do meu disfarce inteligente. Mas pouco bem vos fara, pois nunca me apanharao vivo!	END	Teleport_0 AND Summon VM_2	&ZenaideMad					
+			ZN1A2C	TRUE			Se eu escapar, quem sabe que tipo de desgraca pode acontecer aos vossos inimigos?	ZN1B11							
+	ZN1A31	- Nao. - E voce outra vez. Bem, foi bastante inteligente, Lady Trenelle, mas agora estamos no seu jogo. Tenho ordens para te apanhar vivo, mas nunca fui muito bom a aceitar ordens. Ainda assim... se largasses a arma e tirasses toda a armadura, poupava-me a tarefa cansativa de convocar asseclas para rasgar a tua carne.	ZN1A3A	TRUE			- Nao, nao. Isso e uma tolice. Vatasha Trenelle e uma mulher. Ves este bau? Isto parece-te um peito feminino?	ZN1B21							
+			ZN1A3B	TRUE			Bem, viste atraves do meu disfarce inteligente. Mas pouco bem vos fara, pois nunca me apanharao vivo!	END	Teleport_0 AND Summon VM_2	&ZenaideMad					Pity. I like your looks. Well, carry on. I’ve other things to attend to. [*tweedle*]
+			ZN1A3C	TRUE			Se eu escapar, quem sabe que tipo de desgraca pode acontecer aos vossos inimigos?	ZN1B31	PUT 31_9018						
+	ZN1A41	- E tu? - Nao. - Outra vez? Em que e que estas a pensar? Tenho de me cansar a chamar os meus asseclas para lidarem consigo?	ZN1A4A	TRUE			Nao es tao duro. E os teus parasitas sao idiotas. - Nao, nao. Vou levar-vos a todos.	END	Teleport_0 AND Summon VM_4	&ZenaideMad					
+			ZN1A4B	TRUE			- Nao, nao. O meu erro. Pensei que fosses aquele outro tipo. Nao, nao, nao... Nao te incomodes. Vou sair sozinho...	END	Teleport_0 AND Summon VM_2	&ZenaideMad					
+							
+												
+	ZN1A51	- Meu Deus. Se isso fosse verdade, entao saberia que ela e Sirran Angada, nao Lomegan Mariel. Colhem-no, meus asseclas!	ZN1A5A	TRUE			Que teia de teia nos tecemos.
+When first we practice to deceive….	END	Teletransporte_0 E convocar VM_2	&ZenaideTwo				
+	ZN1A61	Diz ao Wonshala que nao tivemos nada a ver com o guia. Era a Rishaal e os seus pequenos escandalos, claro, roubaram tudo menos a rocha, enquanto o meu Vermai seguiu as ordens fielmente.	ZN1A6A	TRUE			- Sim, sim. Devia ter adivinhado. Vou dizer ao Wonshala imediatamente.	END		&ZenaideTwo AND &Voidguide		
+	ZN1A71	- Nao. E a primeira vez. Tudo esta sob controlo, excepto o maldito guia de vazio, que os Scamps tem escondido algures, suspeito.	ZN1A7A	TRUE			Entao vou procurar o guia de vaidade, esta bem? Se me das licenca.	END		&ZenaideTwo AND &Voidguide		
+	ZN1A81	- A serio. - Sim. Que bom. Espera aqui com os meus entusiastas criados enquanto eu falo com ela.	ZN1A8A	TRUE			Bem, estou muito ocupado.	END	Teleport_0 AND Summon VM_2	&ZenaideTwo		
+	ZN1A91	Acho que o Gatanas tem e planeia culpar o meu Vermai. Mas vai precisar de um amuleto para passar um sigilo. O Vorn pode te-lo, mas nao sera facil tira-lo dele.	ZN1A9A	TRUE			- Obrigado, meu.	END		&ZenaideTwo AND &GatanasName AND &VornName		
+	ZN1A01	- Desculpe. - Nao. Talvez tenha sido mal informado. Mas, em qualquer caso, conhece este Kaid, entao, e, portanto, deve ser capturado ou morto enquanto tenta escapar. Tem alguma preferencia? Se for assim, pode mencionar isso aos servos que estou a convocar.	ZN1A0A	TRUE			- Nao. Vou tentar a opcao de fuga primeiro.	END	Teleport_0 AND Summon VM_2	&ZenaideMad		
+	ZN1B11	Estou a ouvir.	ZN1B1A	TRUE			Nao vou incomodar-te. Nao consigo lidar contigo. Mas posso incomodar alguns dos seus irmaos mais lentos... com uma pequena ajuda sua.	ZN1B31	PUT 31_9018			
+	ZN1B21	- Desculpe. - Nao. Talvez tenha sido mal informado. Mas, em qualquer caso, voce conhece este Trenelle, entao, e, portanto, deve ser capturado ou morto enquanto tenta escapar. Tem alguma preferencia? Se for assim, pode mencionar isso aos servos que estou a convocar.	ZN1B2A	TRUE			- Nao. Vou tentar a opcao de fuga primeiro.	END	Teleport_0 AND Summon VM_2	&ZenaideMad		
+							
+												
+	ZN1B31	Uma ideia divertida. - Muito bem. - Esta bem. A pobre Rishaal perdeu um dos seus amuletos. Como e que o arranjaste? Isto e um misterio, nao e? Agora... vai-te embora e nao me incomodes mais.	ZN1B3A	TRUE			Altissimo, os teus inimigos sao os meus inimigos.	END	Teleport_0	&ZenaideMad		

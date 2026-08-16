@@ -1,0 +1,12 @@
+		Wraith					file WR2T.xls			Waith L8 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	WR2A11	LOOK UPON ME, MORTAL, AND DESPAIR!	WR2A1A	TRUE			You don't scare me. After what I've faced, you're a light workout.	WR2A21				
+			WR2A1B	TRUE			It's wrong that your spirit should linger here after death as sport for Dagon's hunts. I shall sunder the ties that bind you here. May the Powers bless your soul and grant you rest. Goodbye.	END				
+			WR2A1C	TRUE			You're undead, right? So you are an abomination, and must be destroyed. Begone, foul fiend!	END				
+			WR2A1D	TRUE			I'm here to challenge Lord Dagon for my own life, and for the life of a friend. Can you aid me in my quest?	WR2A31				
+			WR2A1E	&RestBook			I free you, unclean spirit, from the bonds of undeath.   From fifty Fathers   Frozen in slavepast!   Rip from the wraithloom!   Sunder the lifeweave!   Lock tight in earthgrip!   Hold firm in gravefast!	WR2A41				
+			WR2A1F	TRUE			Spare this poor miserable life, in remembrance of the times when your mortal form also lived and walked and breathed fresh, spring air, and listened to the murmurings of the bee-loud glade.	WR2A51				
+	WR2A21	PREPARE TO MEET YOUR DOOM!	WR2A2A	TRUE			Okay. Give me your best shot.	END				
+	WR2A31	PREPARE TO MEET YOUR DOOM!	WR2A3A	TRUE			Well. So much for niceness and universal brotherhood.	END				
+	WR2A41	PREPARE TO MEET YOUR DOOM!	WR2A4A	TRUE			So. This little ritual doesn't work on all kinds of Wraiths. Live and learn.	END				
+	WR2A51	PREPARE TO MEET YOUR DOOM!	WR2A5A	TRUE			I'm very disappointed. I'd hoped for a touching scene with fond recollections of a past life,  followed by a shower of generous gifts and a heart-felt blessing. Silly me. It's what comes of listening to all those bards and their silly romantic ballads.	END				

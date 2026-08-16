@@ -1,0 +1,57 @@
+		Faydra Shardai					file FS1T.xls			Faydra L6 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	FS1A11	We are pleased you have come to us. You have proven your worth. We are prepared to grant you what you ask in return for your service. Only be careful... ask wisely, and receive our blessing. 	FS1A1A	TRUE			I wish only to serve you, my Queen.	FS1A21				
+			FS1A1B	&PCFemale			I wish only the life of my friend Josian Kaid and our safe return to Tamriel.	FS1A41				
+			FS1A1C	&PCMale			I wish only the life of my friend Vatasha Trenelle and our safe return to Tamriel.	FS1A41				
+			FS1A1D	&PCFemale			I wish only the key to the gate to Lord Dagon Hunting Lodge, and safe passage there, where I might parlay with Lord Dagon for the life of my companion Josian and our safe return to Tamriel.	FS1A51				
+			FS1A1E	&PCMale			I wish only the key to the gate to Lord Dagon Hunting Lodge, and safe passage there, where I might parlay with Lord Dagon for the life of my companion Vatasha and our safe return to Tamriel.	FS1A51				
+			FS1A1F	&Neonymic			You are both generous and wise, and I only wish I could serve you, but previous oaths of fealty bind me. I propose instead to bargain with you on my own behalf. For I have your neonymic, and would gladly forego the perilous trial of attempting to banish you, if only you could grant me the loan of the gatekey to Lord Dagon’s Hunting Lodge.	FS1A91				
+	FS1A21	No other answer could so please me. Swear an oath to the Powers to serve me, and I shall render your substance proof against time, and your rewards shall be no less than the boldest of my lieutenants.	FS1A2A	TRUE			By the Great Powers, I so swear to serve you, my Lady.	END	ENDFRAME_1036			
+			FS1A2B	TRUE			You are too generous, my Lady. Allow me to withdraw to seek a present fitting the honor you would do me.	FS1A31				
+	FS1A31	That does not please me. I HAVE TOLD YOU WHAT PLEASES ME. NOW DO IT, OR YOU WILL MAKE YOUR LADY VERY, VERY ANGRY.	FS1A3A	TRUE			By the Great Powers, I so swear to serve you, my Lady.	END	ENDFRAME_1036			
+			FS1A3B	TRUE			I will not, and you can't make me. So there. And so long.	END	Summon MA_2	&FayMad		
+			FS1A3C	&Neonymic			You don't scare me. I banish you, Faydra Shardai, Nepehkweh-kodo, to the Wells of Oblivion. Now perhaps you'll wail in frustration and despair while I revel in my triumph. Hah-hah-HAH!	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A41	Well. You would forsake me and the pleasures of my realm for your little man and a quaint life in Tamriel. You disappoint me. VERY, VERY MUCH! No. You shall swear to my service before the Great Powers, right now, or contemplate the CELESTIAL SPLENDOR OF MY FURY!	FS1A4A	TRUE			By the Great Powers, I so swear to serve you, my Lady.	END	ENDFRAME_0036			
+			FS1A4B	TRUE			I will not so swear, you rat-faced witch. You smell like a goat, and you got fat thighs.	END	Summon MA_2	&FayMad		
+			FS1A4C	&Neonymic			I flap my ears and bubble my lips at the celestial splendor of your fury, you sorry sack of scamp spit. I banish you, Faydra Shardai, Nepehkweh-kodo, to the Wells of Oblivion. Maybe you can lose a couple pounds roasting in the Furnaces of Torment, tubby-butt.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A51	So. You ask for much... But I am generous to my servants. Then swear to my service before the Great Powers, and you shall have what you ask.	FS1A5A	TRUE			By the Great Powers, I so swear to serve you, my Lady.	FS1A61				
+			FS1A5B	TRUE			Actually, if you don't mind, I'd first like to hear the terms and conditions of my service.	FS1A71				
+			FS1A5C	TRUE			You are more generous than I might have imagined. Excuse me while I withdraw to contemplate my good fortune, and give thanks.	FS1A71				
+			FS1A5D	&Neonymic			Please forgive me. I've been treating under false pretenses. Actually, I will not serve you, but I want the gatekey and safe passage, which you will grant me, because I possess your neonymic. So there.	FS1A81				
+			FS1A5E	&Neonymic			I hate myself. The temptation is just too great. So. I banish you, Faydra Shardai, Nepehkweh-kodo, to the Wells of Oblivion. I know it's bad form to gloat, but --  well -- nyah-na-nyah-nyah.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A61	Excellent. Here is the gatekey, and I shall give orders straight away that you are not to be molested. Return to me when you have spoken with my Lord Dagon, for I shall have pressing need of your service.	FS1A6A	TRUE			Thank you my Lady. Now I take my leave.	END	PUT 35_10000 	&FayDupe		
+	FS1A71	That does not please me. I HAVE TOLD YOU TO SWEAR TO MY SERVICE. NOW DO IT, OR YOU WILL MAKE YOUR LADY VERY, VERY ANGRY.	FS1A7A	TRUE			By the Great Powers, I so swear to serve you, my Lady.	END	ENDFRAME_1036			
+			FS1A7B	TRUE			Goodness. I sense your disapproval. Well. I guess I'll just have to risk it. Sorry, but I won't be swearing service to you. Goodbye.	END	Summon MA_2	&FayMad		
+			FS1A7C	&Neonymic			Remember. You brought this on yourself by being so mean to me. So. I hereby banish you, Faydra Shardai, Nepehkweh-kodo, to the Wells of Oblivion. Bon voyage, pruneface.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A81	YOU DARE DEFY ME? IN MY OWN THRONE ROOM? ARGGH! SEIZE HIM! AND PULL HIM VERY MUCH APART!	FS1A8A	TRUE			And who do you think GAVE me your neonymic? Your ally, Xivilai Moath. He said you'd be upset. Well, if you'll excuse me, I have to report back to Lord Moath and tell him all about our little interview.	FS1B31				
+			FS1A8B	TRUE			Oh, well. You leave me no choice. I hereby banish you, Faydra Shardai, Nepehkweh-kodo, to the Wells of Oblivion. Give my regards to all the other immortal souls writhing in torment.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A91	What? WHAT? You filthy mortal. I'll give you the gatekey. RIGHT IN YOUR EYE! SEIZE HIM! I WANT HIS HEAD TORN OFF! AND EVERYTHING ELSE! RIGHT NOW!	FS1A9A	TRUE			And who do you think GAVE me your neonymic? Your ally, Xivilai Moath. He said you'd be upset. Well, if you'll excuse me, I have to report back to Lord Moath and tell him all about our little interview.	FS1B31				
+			FS1A9B	TRUE			Oh, well. You leave me no choice. I hereby banish you, Faydra Shardai, Nepehkweh-kodo, to the Wells of Oblivion. Sorry for all the fuss. Give my regards to all the other immortal souls writhing in torment.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1A01	I was afraid you wouldn't come back. Because I PERSONALLY WANT TO WATCH YOU TORN LIMB FROM LIMB! SEIZE HIM!	FS1A0A	TRUE			Did anyone ever tell you you're lovely when you're mad? Maybe some other time would be more convenient. Until later.	END	Summon MA_2			
+			FS1A0B	&Neonymic			Sorry to disappoint you, but I have other plans. I hereby banish you, Faydra Shardai, Nepehkweh-kodo, to the Wells of Oblivion. Don't forget your woolens.	END	Kill AND Summon MA_2  AND DROP 35_10000	&FayEnemy		
+	FS1B11	I thought you had pressing business with my Lord Dagon.	FS1B1A	TRUE			Oh. Yes. Right. Don't know how that slipped my mind. Excuse me.	END				
+			FS1B1B	TRUE			Actually, there appears to be some sort of confusion among your followers. You did issue an order of safe conduct for me, didn't you?	FS1B21				
+	FS1B21	Certainly. Can you doubt it? Perhaps the message may have come late in some quarters. The orders will go out again immediately with the highest priority.	FS1B2A	TRUE			Ehr. That sounds wonderful. Thanks.	END				
+	FS1B31	Xivilai gave you my neonymic? What? Well. If it's WAR he wants, it's WAR he'll get. To arms, my minions! Defeat and destruction to Xivilai and all his clan! AND BRING ME THE MORTAL'S SKIN!	FS1B3A	TRUE			Since my skin is busy holding the useful parts inside, I guess I'd better get it out of here.	END	Summon MA_2	&FayMad AND &FayVsXiv		
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+
+
+
+
+
+												

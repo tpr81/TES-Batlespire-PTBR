@@ -1,0 +1,48 @@
+Name	"of the Assassin's Glory"
+Item	1
+Spell	3, -1, -1
+App	5, 20, 100
+Adv	37
+Uses	10
+Level	2
+	
+Name	"of Lambent Fire"
+Item	1
+Spell	-1, 19, -1
+App	100
+Adv	48
+Uses	50
+Level	2
+	
+Name	"of Waxen Abruption"
+Item	2
+Spell	-1, 14, -1
+App	100
+Adv	-1
+Uses	5
+Level	2
+	
+Name	"of the Brazen Weavers"
+Item	0
+Spell	26, -1, -1
+App	100
+Adv	12
+Uses	100
+Level	2
+	
+Name	"of the Sundark Drape"
+Item	0
+Spell	6, -1, -1
+App	3, 20, 100
+Adv	41
+Uses	50
+Level	2
+	
+Name	"of Rimmon's Fingernail"
+Item	1
+Spell	-1, -1, 12
+App	100
+Adv	40
+Uses	50
+Level	2
+

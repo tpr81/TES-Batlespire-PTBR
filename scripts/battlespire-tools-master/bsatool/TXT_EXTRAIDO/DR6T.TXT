@@ -1,0 +1,27 @@
+		Dremora Oathkin					file DR6T.xls			Dremora Informant Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DR6A11	I thought you might find me here. I have nothing to say now, but when you return, perhaps.	DR6A1A	TRUE			Yeah? Well, I have a few question for you, bucko.	DR6A21				
+			DR6A1B	TRUE			Later, then. Goodbye.	END				
+	DR6A21	And you will still have them when we speak again. You are dismissed. Leave me.	DR6A2A	TRUE			Grr. All right.	END				
+	DR6A31	Once again, you exceed our expectations. We did not expect you to find Jaciel.	DR6A3A	TRUE			Really? Good, huh?	DR6A61				
+			DR6A3B	TRUE			I thought so. You never expected me to find her and get her help to leave. You just wanted to use me as a stick to beat the Fire and Frost Daedra with.	DR6A61				
+			DR6A3C	&StormName			Yeah. And I know who your boss is, and can guess at your game. Imago Storm would be willing to see his Master Dagon cast low and himself raised high. Right?	DR6A71				
+	DR6A61	I will neither confirm nor deny your surmise.	DR6A6A	TRUE			If you want my cooperation, you have to come clean with me.	DR6B11				
+	DR6A71	Nonsense. There are none more loyal to Dagon as Imago Storm and all the Dremora clan. We simply hope to expedite the Battlespire campaign with as little disorder and unwarranted risk as possible.	DR6A7A	TRUE			Sure. Maybe Lord Imago is content -- even comfortable -- as the power behind the throne.	DR6A81				
+	DR6A81	Do not question my loyalty to Dagon, or the loyalty of my Lord, or you will answer for it.	DR6A8A	TRUE			Fine. I want to talk to Lord Imago. Where is he?	DR6A01				
+			DR6A8A	TRUE			Don't threaten me, or my feisty pride will overwhelm my natural good humor and civility.	DR6A91				
+	DR6A91	Perhaps you prize your pride overmuch. Perhaps I can help you reevaluate your true worth in the light of a good beating.	DR6A9A	TRUE			That suits me fine, tough guy.	DR6B21				
+	DR6A01	You overestimate your value in our eyes. If Lord Imago wishes to see you, then you will see him.	DR6A0A	TRUE			If I'm going to be your pawn, there are things I need to know.	DR6B21				
+	DR6B11	We will tell you what you need to know.	DR6B1A	TRUE			Okay. I'm a big man. I can be humble. I'm begging you. What can you tell me? Give me something. A little scrap.	DR6B21				
+			DR6B1B	TRUE			You tell me what I WANT to know, or you may find your tool turned against you in other hands.	DR6B21				
+	DR6B21	You test my patience, mortal!	DR6B2A	TRUE			So why are you still talking to me?	DR6B31				
+	DR6B31	Eh. Eh-hmm. A good point. Set aside the posturing. I have something to say to you. We Daedra have a standard joke about news, that there is no good news without bad news.	DR6B3A	TRUE			We humans have a similar perception.	DR6B41				
+	DR6B41	So. The bad news is that Dagon has your companion.	DR6B4A	&PCFemale			What? When? How?	DR6B51				
+			DR6B4B	&PCMale			What? When? How?	DR6B61				
+	DR6B51	We don't know. All we know is that Josian Kaid has been taken to Lord Dagon's hunting lodge. That is all we know.	DR6B5A	TRUE			I see. And your good news?	DR6B71				
+	DR6B61	We don't know. All we know is that Vatasha Trenelle has been taken to Lord Dagon's hunting lodge. That is all we know.	DR6B6A	TRUE			I see. And your good news?	DR6B71				
+	DR6B71	We can help you rescue your friend. We will not tell you how, or where, or when, but will hold it as an incentive to your continued cooperation.	DR6B7A	TRUE			Such faithful and trusting allies you are.	DR6B81				
+	DR6B81	Seek fairer allies if you can. And now, for more bad news. There will be a hunt. And you are the prey.  Escape Shade Perilous, and you will be hunted within the Chimera of Desolation by the Rites of the Innocent Quarry.	DR6B8A	TRUE			That would be bad news. And the good news?	DR6B91				
+	DR6B91	In the Hunt, there are rules. Turn those rules to your use. And on the ground, seek hidden resources. Seek a thing that once was a man. On him is the mantle of distinction. Be patient, heed him, and learn.	DR6B9A	TRUE			Could you possibly be more obscure?	DR6B01				
+	DR6B01	You are not to be trusted with more. You are bound by no oath or code, save your own self-interest. We risk much in our dealings with you. Do not look for more. If we deem it safe, we will leave you messages. Now I must go. You have done well so far. It would be very frightening for us to learn that you are the type, and not the exception, of humans. Farewell. And in the Hunt, good fortune.	DR6B0A	TRUE			All right. I don't like it, but I don't have much choice. Farewell.	END	Teleport_0			
+			DR6B0B	TRUE			I am trying to appreciate what you are doing. It would help if I could trust you and your boss. If there is common interest between us, you would be smart to make it plainer. Tell that to your boss. Goodbye.	END	Teleport_0			

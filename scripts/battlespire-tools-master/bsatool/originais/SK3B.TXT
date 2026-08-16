@@ -1,0 +1,44 @@
+	Random Talk Tables		file sk3b.xls	
+
+	Both Scamp Talk Table			
+	talkcheck			
+Scamp	&ScampMad	SK3A51	local	
+				
+				
+				
+				
+				
+				
+	talktable			
+	First	SK3A12	global	
+	Second	SK3A23		
+	Third	SK3A31		
+	Fourth +	GotoRandom		
+					
+	Random	Both PC			
+		TalkGroup	Notes		
+	01-09	SK3A11	Alarm!		
+	10-18	SK3A12	Alarm!		
+	19-27	SK3A13	Alarm!		
+	28-36	SK3A21	Aggressive		
+	37-45	SK3A22	Aggressive		
+	46-54	SK3A23	Aggressive		
+	55-63	SK3A31	Scamp sad		
+	64-72	SK3A41	NoTalk default		
+	73-81	SK3A42	NoTalk default		
+	82-90	SK3A43	NoTalk default		
+	91-00	SK3A51	Hate Mad!		
+					
+					
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											

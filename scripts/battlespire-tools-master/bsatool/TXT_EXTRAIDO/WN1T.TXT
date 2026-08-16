@@ -1,0 +1,33 @@
+		Wonshala Keriayn					file WN1T.xls			Wonshala TALK [spider chief]		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	WN1A11	You are not stupid, human. So you will listen, and not annoy me with your lies.	WN1A1A	TRUE			I don't like your tone. I'll do as I please, and say what I please, and you'll like it.	WN1A41				
+			WN1A1B	TRUE			I would never DREAM of trying to mislead you, your Highness. I hope only to please you.	WN1A51				
+			WN1A1C	TRUE			I am listening.	WN1A61				
+	WN1A21	So. You have FINALLY brought me SCOURGE and its keyword?	WN1A2A	NOT &Scourge			I'm sorry. I don't have the Scourge.	WN1A71				
+			WN1A2B	&Scourge			I'm sorry. I don't have the Scourge.	WN1A81				
+			WN1A2C	NOT &Scourge			I have the Scourge, but you shall never receive such a treasure from my hands.	WN1A91				
+			WN1A2D	&Scourge			I have the Scourge, but you shall never receive such a treasure from my hands.	WN1A01				
+			WN1A2E	NOT &Scourge			I have the Scourge, and will give it to you only after I have the piece of the voidguide you promised in my possession.	WN1B11				
+			WN1A2F	&Scourge			I have the Scourge, and will give it to you only after I have the piece of the voidguide you promised in my possession.	WN1B21				
+	WN1A31	So. Are you ready to listen respectfully?	WN1A3A	TRUE			No.	END	HealthHalf, PainSFX	&WonshalaMad		
+			WN1A3B	TRUE			Yes	WN1A61				
+												
+	WN1A41	Sometimes I AM wrong, stupid human. Maybe pain will make you more civil.	WN1A4A	TRUE			…and maybe not.	END	HealthHalf AND PainSFX	&WonshalaMad		
+	WN1A51	YOU LIE! Listen, maggot, or I'll school your flesh to respect.	WN1A5A	TRUE			With respect, you're a silly old witch, and I thumb my nose at your tiresome blather.	END	HealthHalf AND PainSFX	&WonshalaMad		
+			WN1A5B	TRUE			So say something worth hearing, Highness.	WN1A61				
+	WN1A61	I have a piece of the voidguide. I will trade it for a  weapon called SCOURGE. It's here on Battlespire, and its functions are protected by a magical warding keyword, but that's all I know. Deliver me SCOURGE, and provide me with the keyword, and you shall have your voidpiece.	WN1A6A	TRUE			No chance. If you have a voidguide piece, I'll take it from you. And I'd never give you anything you wanted, anyway.	END		&WonshalaMad		
+			WN1A6B	TRUE			I hear you. 	END		&WonshalaTask		
+			WN1A6C	TRUE			I agree. So keep your troops out of my hair, and I'll be back that much faster.	END		&WonshalaTask		
+	WN1A71	I won't speak with you until you have SCOURGE.	WN1A7A	TRUE			Fine.	END				
+	WN1A81	I detest lying fools. I will not listen to your lies.	WN1A8A	TRUE			Fine.	END	HealthHalf AND PainSFX			
+	WN1A91	Perhaps you think your lies and mocking tone amuse me? Can pain persuade you otherwise?	WN1A9A	TRUE			I think we'll get a chance to find out.	END	HealthHalf AND PainSFX			
+	WN1A01	I am scarcely impressed by your pretense of defiance. Either you will trade the SCOURGE for the voidguide, or we have nothing to talk about.	WN1A0A	TRUE			We'll SEE if my defiance is nothing but pretense, Highness.	END	HealthHalf AND PainSFX			
+	WN1B11	I am not even slightly curious about the trick you think you will play on me. I can scarcely summon interest in your response to a dose of educational pain.	WN1B1A	TRUE			You'll be sorry. It was a really cute trick.	END	HealthHalf AND PainSFX			
+	WN1B21	I will now hand you the piece of the voidguide with one hand while I accept SCOURGE with my other hand. As we each grasp these valued objects, you will tell me the keyword, and I will activate SCOURGE to prove that you have not tried to give me a false keyword.	WN1B2A	NOT &Mischief			Nuts. The keyword. Forgot all about it. Getting that should be EASY. Back in a jiffy.	END	HealthHalf AND PainSFX			
+			WN1B2B	NOT &Mischief AND NOT &Malacath			I agree. Here is SCOURGE. And the keyword is… Malacath!	WN1B31				
+			WN1B2C	&Mischief			Hmm. Double hmm. Ohh, NO!  I COMPLETELY  forgot. I have to TEST that password first, right? Or you'll give me another educational jolt. So excuse me	END	HealthHalf AND PainSFX			
+			WN1B2D	&Mischief			I agree. Here is SCOURGE. And the keyword is… Equality!	WN1B41	TAKE 7_2017 AND PUT 30_10000			
+												
+	WN1B31	SCOURGE, I invoke thee in the name of Malacath.... Hmm. Perhaps that is not the keyword. An honest mistake, I'm sure. Perhaps a sharp reminder of my wrath will focus your mind.	WN1B3A	TRUE			Thank you, your Highness.	END	HealthHalf AND PainSFX	&Malacath		
+	WN1B41	SCOURGE, I invoke thee in the name of Equality.... YES! 	WN1B4A	TRUE			Satisfied, Highness?	WN1B51				
+	WN1B51	And with this power, I may now rid myself of your irksome stink... But... what... oh... OHHHH, GODS!	WN1B5A	TRUE			Farewell, Highness. I hear that a lengthy vacation in the Outer Darkness is a splendid tonic for the nerves.	END	Kill			

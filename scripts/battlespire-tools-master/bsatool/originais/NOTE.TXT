@@ -1,0 +1,24 @@
+
+  Jules --
+
+  I've done the character pointer array list of games...
+
+  It's accessed via the variable 'networkGames' (I think :)
+
+  Calling the GenerateGameList function will update the networkGames
+  list.  U can call it around once a second to keep it well updated.
+
+  All my stuff is in source safe.  If you get it, you will also need
+  to get the netgine.lib file (under spire\libs) and the netgine.h
+  file (under spire\source\headers) and new files which are network.c
+  and network.h.  I've updated several files like extern.h, intro.c,
+  game.c, etc.
+
+  To compile you'll need to update ur makefile and makelist.lnk files
+  to compile network.c and link in with netgine.lib.
+
+  I think that's about it.
+
+  BTW I commented out PlaySound in intro.c... that is a new thing
+  you must have added that it cannot find anywhere when I compile it.
+

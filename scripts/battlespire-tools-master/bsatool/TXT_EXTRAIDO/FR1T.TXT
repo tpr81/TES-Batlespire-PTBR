@@ -1,0 +1,33 @@
+		Fire Daedra					file Fr1T.xls			Fire Daedra TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	FR1A11	A party crasher! Wicked little party crasher! Did you think we would not notice your wicked intrusion into our new banquet hall?  	FR1A1A	TRUE			Well sure. After all, you're even stupider than you look. 	END	MONSTERATTACK	&FireMad		
+			FR1A1B	TRUE			I should have known that one as great as you would find me right away. 	FR1A21				
+			FR1A1C	&XivilaiName			This banquet hall is only for the great Xivilai Moath!	END	MONSTERATTACK	&FireMad		
+			FR1A1D	&FaydraName 			 This banquet hall is only for the great Faydra Shardai! 	FR1A81				
+	FR1A21	Your obsequious flattery has purchased you another moment of precious life. I shall torment your soul a moment longer before I send it into the darkness forever.	FR1A2A	TRUE			Not if I release yours first!	END	MONSTERATTACK	&FireMad		
+			FR1A2B	TRUE			I thank his lordship. Why is his lordship in this realm? 	FR1A31				
+	FR1A31	This is our party! The Shade Perilous is the sweetest delicacy in Nocturnal realm, and it now belongs to the Fire Daedra! Our master shall feast with us forever within its darkened splendor!	FR1A3A	TRUE			Who's your master?  	FR1A41		&FDBrag		
+	FR1A41	Such notions are beyond your ken, naughty manling. You've been wicked and you must be punished.	FR1A4A	TRUE			What did I do to deserve punishment?	FR1A51				
+	FR1A51	You have interrupted my frolic! You thought you could come here to play? Now we will play with you! I shall sear your organs and shrivel your mortal soul with exquisite flame!	FR1A5A	TRUE			Less chatter, and more batter, would suit me fine. Let's fight.	END	MONSTERATTACK	&FireMad		
+				&FrBrag			The Frost Daedra say that this realm belongs to them.	FR1A61				
+	FR1A61	They lie! We first conceived the deceit and betrayal of the foolish Nocturnal Lieutenant! 	FR1A6A	TRUE			Well, I just don't know who to believe. Excuse me while I give this a good long think.	END	MONSTERATTACK			
+			FR1A6B	TRUE			If I were you, I'd blast them all to Oblivion before they can claim all the credit for your glorious triumphs.	FR1A71				
+	FR1A71	We will boil  those icy dullards when the time comes! But now it's time to play with you!	FR1A7A	TRUE			But I was so enjoying our little chat. Pity.	END	MONSTERATTACK			
+	FR1A81	Our Lord Faydra Shardai is all-powerful! We exalt her name! 	FR1A8A	TRUE			Yeah! Exalt her a lot. Faydra Shardai!, that is.	FR1A91		&FaydraName 		
+			FR1A8B	TRUE			Now you are under my command! 	END	MONSTERATTACK	&FireMad		
+	FR1A91	Faydra Shardai shall revel in the Nocturnal ichor that flows with darkling mana! Only Faydra Shardai understands the beauty of that deadly power, and only Faydra Shardai deserves to keep it! 	FR1A9A	&XivilaiName			Xivilai may have something to say about that.	FR1A01				
+			FR1A9B	TRUE			Yeah? Well, maybe Faydra isn't the only one angling to claim the credit for the success of this little caper.	FR1A01				
+	FR1A01	But you are wrong! Xivilai Moath is too dull-witted to understand the power that is here. Faydra Shardai, greatest child of Mehrunes Dagon, planned this attack, and only Faydra Shardai shall drink of the rewards! 	FR1A0A	TRUE			But Xivilai's Frost Daedra are drinking rewards too. What do we do about them?	FR1B11		&XivilaiName		
+	FR1B11	Yeaaah! We can do nothing! Nothing! Faydra and Xivilai have a pact that forbids us from melting them to vaporous mists! 	FR1B1A	TRUE			Too bad! You did all the planning and they get all the magica! Hah- hah- hah.	END	MONSTERATTACK	&FireMad		
+			FR1B1B	TRUE			Tell you what. If you help me roast them, I'll do your dirty work for you.	FR1B21				
+	FR1B21	Ah! Ahhh! You are indeed wicked! We agree to this bond, and to bind our agreement, we gift to you a Helm of the Fire Opal that will warm your delicate flesh when the icy winds of Frost Daedra wrap you in their frigid embrace!	FR1B2A	TRUE			Great. Thanks.	FR1B31	Put 24_4011			
+			FR1B2B	TRUE			Take something from you? Never! My mother taught me never to take presents from sneaky monsters.	END	MONSTERATTACK	&FireMad		
+	FR1B31	Be not surprised that we continue to attack you while you are in the Shade Perilous. We may not evade our orders. But if you shy away from our revels, and seek the plodding Frost Daedra, we will not have to melt your mortal clay. Now we dance the dance of triumph, and drive the Frost Daedra from our glorious party! 	FR1B3A	TRUE			You bet. 	END		&FirePal		
+			FR1B3B	TRUE			Hey, what do you know about the Dremora?	FR1B41				
+	FR1B41	Like the Frost Daedra, they do not understand the pleasures of the dance. They have no joy in the revel. They even stopped our wicked sport with the lesser Nocturnal. 	FR1B4A	TRUE			Who?	FR1B51				
+	FR1B51	When we did capture and bind the Nocturnal Lieutenant Jaciel Morgen, the lesser Nocturnal Deyanira Katrece also became our prisoner. Our master, Faydra Shardai, sought to drain the lesser Nocturnal of her darkling power. Power for our pleasure. But the passionless Dremora stopped us! The Dremora are dry husks, and the fires of desire rage not in them. Their hearts are colder than the frigid Frost Daedra! 	FR1B5A	TRUE			So where are these Nocturnal prisoners?	FR1B61		&JacielName AND &DeyaniraName		
+	FR1B61	Wicked mortal! You ask for more than you deserve! 	FR1B6A	TRUE			If you want me to crush Frost Daedra, you better tell me. 	FR1B71				
+	FR1B71	Yes. I see. Well. The lesser Nocturnal is the farthest cell in the southern vault. We visit her to torment her with Fire and Frost. The portal only opens to the command "The Gerent of Dagon Rules Here." 	FR1B7A	TRUE			And what about the Number One? The Noctural Lieutenant? Where's she?	FR1B81				
+	FR1B81	The greater Nocturnal is beyond the whirling spiral grinders, but she is beyond even MY power to visit. Now run, wicked one! Run and splinter the Frost Daedra, as you swore in your pact! We will cavort while you shatter the Frost Daedra into a thousand icy shards!	FR1B8A	TRUE			Revel on, Fire Lord. And save that last dance for me. See you later. 	END		&FirePal		
+	FR1B91	[[The firey titan scowls furiously and refuses to speak with you.]]	FR1B9A	TRUE				END				
+	FR1B01	[[He shrugs indifferently, and says nothing.]]	FR1B0A	TRUE				END				

@@ -1,0 +1,24 @@
+	Random Talk Tables			file ds5b.xls
+	DArkSeducerL4			
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	DS5A11		
+	Second	DS5A21		
+	Third	DS5A31		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	DS5A11	NoTalk default	
+	34-66	DS5A21	NoTalk default	
+	67-00	DS5A31	NoTalk default	
+				
+				
+				
+				
+				

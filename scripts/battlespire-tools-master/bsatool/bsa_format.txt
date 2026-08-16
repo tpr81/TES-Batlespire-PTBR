@@ -1,0 +1,93 @@
+BSA File Format:
+
+  +-----+-------------+------------------------------------------+
+  |     | name        | Notes                                    |
+  +-----+-------------+------------------------------------------+
+  | 0-1 | Count       | Number of files in this archive          |
+  +-----+-------------+------------------------------------------+
+  | 2-3 | Type        | Type of archive, Not on all files        |
+  +-----+-------------+------------------------------------------+
+
+There are 2 types of bsa archive
+
+0x100 # Named records
+0x200 # Numeric records
+
+Not all archives includes a type
+Terminator: Future Shock, SkyNet and Arena archives lack a type, and
+data starts at byte 2 instead of 4
+
+If where Type should be is not equal to 0x100 or 0x200, it's probably
+a named archive with data starting at 2
+
+Footer:
+For named records, footer starts at EOF - (Count * 18)
+For numeric records, footer starts at EOF - (Count * 8)
+
+Files are concatenated together, so for a named record with type:
+file 0's offset is 4
+file n's offset is the sum of all previous file lengths + 4
+
+  Named record
+    Name           Comp    Length
+    0---------11   12-13   14-------17
+  +--------------+-------+-------------+
+  | MHLMT502.BSI | 00 00 | 33 52 00 00 |
+  +--------------+-------+-------------+
+  Compressed
+  +--------------+-------+-------------+
+  | CHAR08.BSI   | 00 01 | CA 04 02 00 |
+  +--------------+-------+-------------+
+
+  Numeric record
+    Id      Comp    Length
+    0---1   2---3   4---------7
+  +-------+-------+-------------+
+  | F9 01 | 00 00 | B8 6C 00 00 |
+  +-------+-------+-------------+
+
+Compression:
+NOTE: This describes the compression used in Battlespire
+      The terminator games use something different
+
+LZSS based compression
+
+Codes and raw data is seperated by a bitfield preceeding them
+bitfields are parsed lsb first
+codes are 16 bits, raw data is 8
+
+ Example from DAGGER.3D:
+   mark  raw
+  +----+-------------------------+
+  | FF | 76 32 2E 37 19 00 00 00 |
+  +----+-------------------------+
+       |  1  1  1  1  1  1  1  1 |
+       +-------------------------+
+
+   mark  raw  code    raw     code    raw
+  +----+---------------------------------------+
+  | ED | 1A | F3 F0 | 00 11 | F7 F1 | 00 00 D6 |
+  +----+---------------------------------------+
+       |  1 | 0     | 1  1  | 0     | 1  1  1  |
+       +---------------------------------------+
+
+Codes are comprised of a 12bit offset and an a 4 bit length
+
+  +------+-------------+--------------+
+  | bits | name        | Notes        |
+  +------+-------------+--------------+
+  | 0-3  | Offset      | Upper 4 bits |
+  +------+-------------+--------------+
+  | 4-7  | Length      |              |
+  +------+-------------+--------------+
+  | 8-15 | Offset      | Lower 8 bits |
+  +------+-------------+--------------+
+
+offset is the offset within a 4096 byte window
+length is the Length + 3
+If offset + length exceeds 4096, it wraps around to 0
+
+The first 4078 bytes of the window must be filled with 0x20 (' '), the
+remaining with 0x00.
+As data is decompressed it is placed into the window, starting at 4078,
+Wrapping around to 0 when it exceeds 4096.

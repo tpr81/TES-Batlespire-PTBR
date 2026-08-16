@@ -1,0 +1,31 @@
+BugsL5
+
+
+
+
+LEVEL 5 BUGS TO BE CHECKED:
+
+DATE		NAME		DESCRIP
+
+
+
+
+
+BUGS TO BE FIXED:
+
+DATE		NAME		DESCRIP
+
+8/21		Lan		Waterfall texture...need one!
+8/21		Lan		Step up distance on elevators in courtyard is too high...make em shallower
+8/21		Lan		Jump pointer won't show up in inlust.bs6
+8/21		Lan		Water level in inlust.bs6 is wrong
+8/21		Lan		Rocks are floating...kill em
+8/21		Lan		Textures on broken trebuchet are fucked...replace with draw*.bsi
+8/21		Lan		Remove rotation from the handle that lowers the drawbridge
+8/21		Lan		Sail texture is funky on ship (quading)
+8/21		Lan		Frame rate drops to 2fps average near ship
+8/21		Lan		The door to the inship does not work
+8/21		Lan		There's a fire daedra under water on the dark side of the mountains
+8/21		Lan		Signs are fucked...colors are funky
+
+

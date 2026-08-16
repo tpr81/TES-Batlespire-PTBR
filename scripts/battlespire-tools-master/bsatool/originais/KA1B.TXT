@@ -1,0 +1,25 @@
+	Random Talk Tables			file Ka1B.xls
+	Kirel Aman			
+	talkcheck			
+	&ReadyRite	KA1A81		
+				
+				
+				
+				
+	talktable			
+	First	KA1A11		
+	Second	KA1A11		
+	Third	KA1A11		
+	Fourth +	KA1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+				
+				

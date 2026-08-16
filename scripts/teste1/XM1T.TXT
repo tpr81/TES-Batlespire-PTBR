@@ -1,0 +1,44 @@
+		Xivilai Moath					file XM1T.xls			Xivilai L6 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	XM1A11	Vou falar-lhe de forma simples e direta, da maneira da sua raca.	XM1A1A	TRUE			Obrigado, Vossa Senhoria. Estou ciente da honra que me fazes.	XM1A41				
+			XM1A1B	TRUE			Nao, nao. Eu falo contigo e tu ouves.	XM1A21				
+	XM1A21	Talvez precise de licoes de civilidade antes de continuarmos.	XM1A2A	TRUE			Tu e que legiao de demonios?	END	Summon CF_2	&XivMad		
+	XM1A31	- Sim, sim.	XM1A3A	TRUE			Por favor, desculpe-me, senhor. Fui muito ferido pelos meus inimigos, e sou rapido em temperar. Desejo ouvir o que tem a dizer, e escutarei respeitosamente e atentamente.	XM1A41				
+			XM1A3B	TRUE			Da-me a chave do portao ou vou atirar-te tao fundo no esquecimento que quando voltares as tuas roupas estarao fora de moda.	END	Summon CF_2	&XivMad		
+	XM1A41	Chegaste ate aqui contra uma oposicao consideravel. Portanto, voce pode se proteger. Estas a falar connosco. Portanto, tem algo para vender. Vamos ouvir o seu pedido... simples e direto. Entao, consideraremos o seu recurso, ou vamos dizer que e um blefe.	XM1A4A	&PCFemale			Claramente as minhas acoes incomodaram-te. Se pudesse arranjar que o meu amigo Josian Kaid e eu voltassemos a Tamriel, nao poderia incomoda-lo mais.	XM1B31				
+			XM1A4B	&PCMale			Claramente as minhas acoes incomodaram-te. Se pudesse arranjar que o meu amigo Vatasha Trenelle e eu fossemos devolvidos a Tamriel, nao poderia incomoda-lo mais.	XM1B31				
+			XM1A4C	&Neonymic			Para ser franco, senhor. Em suma, meu senhor, tenho o seu neonimico. Posso dizer-te onde o comprei. Quero salvar o meu amigo do vosso Senhor Dagon. Preciso de ir ao seu Lar de Caca para realizar este resgate. Como sabes, posso usar o neonimo para te banir, pegar a chave, e depois lutar contra as tuas tropas. Ou podes dar-me a chave, dizer as tuas tropas para demonstrarem valor honroso, mas prudente, na defesa do portao, e eu manter o neonimo o meu pequeno segredo, a espera do improvavel evento de um futuro encontro entre nos.	XM1A81				
+			XM1A4D	&PCFemale AND &Neonymic			Exigimos o regresso do Battlespire ao Imperio, o preco da morte pelos mortos na invasao, reparacoes pelos danos fisicos e a entrega de mim e do meu companheiro, Josian Kaid, a Tamriel.	XM1A51				
+			XM1A4E	&PCMale AND &Neonymic			Exigimos o regresso do Battlespire ao Imperio, o preco da morte pelos mortos na invasao, reparacoes pelos danos fisicos e a entrega de mim e da minha companheira, Vatasha Trenelle, a Tamriel.	XM1A51				
+	XM1A51	Tenho a certeza que esta a falar a serio, mas as suas expectativas sao irrealistas e a sua inferencia do meu status inferior e insultante. A nossa entrevista esta no fim.	XM1A5A	TRUE			- Eu entendo. Talvez, depois de mais consideracoes, possamos ter outras propostas para discutir.	END				
+	XM1A61	Isto e pior do que eu pensava. Talvez queira esclarecer a sua proposta enquanto eu considero a minha posicao a luz das suas alegacoes indesejaveis.	XM1A6A	TRUE			Como sabes, posso usar o neonimo para te banir, pegar a chave, e depois lutar contra as tuas tropas. Ou podes dar-me a chave, dizer as tuas tropas para demonstrarem valor honroso, mas prudente, na defesa do portao, e eu manter o neonimo o meu pequeno segredo, a espera do improvavel evento de um futuro encontro entre nos.	XM1A71				
+			XM1A6B	TRUE			Na verdade, nao temos nada para falar. Exilio-te, Xivilai Moath, Wegerohseh-chehkohieu, para os Pocos do Oblivion. E boa sorte.	END	Kill AND DROP 35_10000	&XivEnemy		
+	XM1A71	Porque e que tens de lidar comigo? Porque nao pegas na tua arma e a ofereces aos meus inimigos?	XM1A7A	TRUE			Nao es completamente louco, imprudente e irracional. Gosto disso num aliado. E os teus inimigos nao sao do meu tipo. Na verdade, para adocar o negocio, posso dizer-lhe quem me disse o seu neonimico, para que possa proteger as suas costas, ou esfaquear as de outra pessoa, como medida de precaucao.	XM1A81				
+	XM1A81	Quem te deu o meu neonimico?	XM1A8A	TRUE			A tua antiga aliada, Faydra Shardai. Devia ter um olho nela, Senhor. Ela e uma astuta.	XM1A91				
+	XM1A91	Eu julguei mal a Faydra. Como e que ela descobriu o meu neonimico? - Muito bem. - Esta bem. Vou exigir um juramento aos Poderes de que nunca revelara o neonimico a outra alma...	XM1A9A	TRUE			Alem de si, claro...	XM1A01				
+	XM1A01	- Nao. - Sim, e verdade. - Claro que sim. Nunca revelaras o meu neonimico a ninguem, excepto a mim, em troca, teras a chave do portao da Casinha de Caca de Dagon, e uma passagem secreta do meu cla.	XM1A0A	TRUE			Pela sua proposta, pelas Grandes Potencias, juro.	XM1B11	PUT 35_10000 			
+	XM1B11	Aqui esta a chave do portao. Dar-lhe-ei ordens imediatamente. Acredito que me consolarei com a conquista de Battlespire, e agradeco-lhe por me ter tirado do caminho por um preco tao modesto. E agora, se me das licenca, o meu cla e eu temos assuntos urgentes com o cla Shardai e o seu lider manchado de honra.	XM1B1A	TRUE			Se nao se importa, vou fazer-me escassear antes que as coisas fiquem perigosas por aqui. Boa sorte e boa caca.	END	Teleport_0	&XivAlly		
+	XM1B21	Testaste a minha paciencia. Nao tenho desejo de falar consigo.	XM1B2A	TRUE			- Desculpa. - Nao. Nao queria ofender.	END		&XivCalm		
+			XM1B2B	TRUE			- Nao, nao. - E assim. Ver se me importo.	END				
+	XM1B31	Sobrevalora o inconveniente que me causou e sobrevalora o seu estatuto nas negociacoes com um senhor imortal. Estou disposto a ignorar as suas desvantagens como uma caracteristica da sua juventude e inexperiencia. Sugiro que retire o recurso para reconsiderar.	XM1B3A	TRUE			- Nao. Posso considerar isso como um nao?	END				
+	XM1B41	E ele nao quer falar mais contigo.	XM1B4A	TRUE				END				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+							
+							
+							
+							
+							
+												

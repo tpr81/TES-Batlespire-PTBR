@@ -1,0 +1,29 @@
+		Dremora Methats					file dm1T.xls	Methats TALK	standard Dremora			
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DM1A11	What are you doing here, mortal? Explain yourself! Are you the Vatasha Trenelle?	DM1A1A	TRUE			Oh. Yeah, sure. Do you have a message for me?	DM1A21				
+			DM1A1B	TRUE			No, I'm not - do you know if she's nearby?	DM1A31				
+			DM1A1C	TRUE			I'm, well…  here to help… my lord. Do you have any orders for me?	DM1A31				
+			DM1A1D	&RathineName			Lord Rathine has sent me to serve you.	DM1A41				
+	DM1A21	I have awaited you, and have a proposal that might spare your life. Please place your weapons on the ground in front of you, and we can talk.	DM1A2A	TRUE			Very well... I shall. As long as this isn't a trick.	DM1A51	DROPREADYWEAPON			
+			DM1A2B	TRUE			Not a chance, friend.	DM1A51				
+												
+	DM1A31	So what are you? I don't see your badge of service. Are you one of the Battlemages? 	DM1A3A	TRUE			Yes. Yes I am. And in fairness I should advise you that I'm a mighty powerful one, too.	DM1A51				
+			DM1A3B	TRUE			Actually, no. I'm a student and I'm here for a test, but it seems that's not going to happen now, so if you could just show me how to get out of here, I'll be on my way. Thanks.	DM1A61				
+			DM1A3D	TRUE			Gee, I must have dropped it somewhere. Could you give me a new one?	DM1A51				
+			DM1A3D	&DohtAmulet			I have this amulet here, if that's what you mean.	DM1A41				
+	DM1A41	Good. I need you. The idiot Scamps have been skulking about disabling the anchors. We  didn’t come this far to be robbed of the prize by the antics of Scamps. Go check the anchors, re-connect them where necessary, and  make sure the scamps stay well clear of them. Dismissed.	DM1A4A	TRUE			At once, my lord. I go at once.	END		&MethatsNice		
+	DM1A51	Then you are a fool, and shall die like one	DM1A5A	TRUE			You wouldn't like to take a bet on that, would you?	END	MONSTERATTACK			
+	DM1A61	How amusing. The way out? Yes, certainly.	DM1A6A	TRUE			Oh, thank you, sir.	END	MONSTERATTACK			
+												
+	DM1A71	What are you doing here? Go back and guard the anchors immediately!	DM1A7A	TRUE			As you wish, my lord	END				
+			DM1A7B	&PCFemale			I was wondering if you could tell me about Kaid.	DM1A81				
+			DM1A7C	&PCMale			I was wondering if you could tell me about Trenelle.	DM1A81				
+	DM1A81	Still curious about your Mortal friend? I fear you may be a defective servant.	DM1A8A	TRUE			No, no, no, I didn't mean anything by it	END	MONSTERATTACK			
+												
+	DM1A91	What are you doing here, mortal? Explain yourself! Are you the Josian Kaid?	DM1A9A	TRUE			Oh. Yeah, sure. Do you have a message for me?	DM1A21				
+			DM1A9B	TRUE			No, I'm not - do you know if he's nearby?	DM1A31				
+	DM1A01	[[From its baleful glance, you guess it is little interested in anything you have to say.]]	DM1A0A	TRUE			NOTE: This is a NoTalk default dialog.	END				
+			dm1a1d	&RathineName			Lord Rathine has sent me to serve you.	dm1a41				
+			DM1A9C	TRUE			I'm, well…  here to help… my lord. Do you have any orders for me?	DM1A31				
+			DM1A9D	&RathineName			Lord Rathine has sent me to serve you.	DM1A41				
+	DM1A01	[[It seems little interested in anything you have to say.]]	DM1A0A	TRUE				END				

@@ -1,0 +1,27 @@
+	Random Talk Tables			file MA6B.xls
+Mastema Boxers				
+	talkcheck			
+	&FayDupe	MA6B61		
+	FayvEnemy	MA6A91		
+	&HerneFite	MA6A61		
+	&HerneMad	MA6B21		
+				
+	talktable			
+	First	MA6A11		
+	Second	MA6B41		
+	Third	MA6A12		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-20	MA6A11		
+	21-40	MA6A12		
+	41-60	MA6B21		
+	61-80	MA6B31		
+	81-00	MA6B41		
+				
+				
+
+
+				
+				

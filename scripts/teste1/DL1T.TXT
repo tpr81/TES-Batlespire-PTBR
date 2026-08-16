@@ -1,0 +1,18 @@
+		Daedra Count					file DL1T.xls			Daedra Lord L8 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DL1A11	"Voce e bom. No entanto, voce esta cansado, as reservas esgotadas. E estamos frescos. E muito bom. Aqueles que derrotaste? Somos os seus senhores, e muito maiores do que voces viram.	DL1A1A	TRUE			Nao estou diminuido. Eu prevalecerei.	DL1A21				
+			DL1A1B	TRUE			Tudo isto pode ser verdade. O que queres dizer?	DL1A21				
+			DL1A1C	TRUE			Isto nao tem sentido. Somos inimigos. O unico discurso que vou ouvir e a sua rendicao. Eu ate te pouparia se me desviasses do caminho, embora eu saiba que a temor ao teu Senhor te proibe. Agora, deita-te, e amaldicoado seja quem gritar primeiro, "Espera!"	END		&CountMad		
+	DL1A21	Es carne e osso, e mortal. Nao perecas, em teu orgulho, e pereca para sempre. Enquanto ainda houver uma hipotese de sucesso, nao importa o quao magro, sabemos que tens de lutar. Mas quando toda a esperanca se foi e a morte esta sobre ti, entrega-te a nos. Nos vamos proteger-te bem, porque tu es um premio de grande valor.	DL1A2A	TRUE			Obrigado, mas o orgulho e a honra proibem-me de ceder. - Vamos. Vamos experimentar os nossos bracos.	END		&CountYield		
+			DL1A2B	TRUE			Eu observo as suas palavras, mas nao conheco a sua honra, nem a honra do seu Senhor, e nao a testaria entregando a minha vida e as minhas armas.	DL1A31				
+	DL1A31	- Sim, e verdade. Sabemos da traicao de Egahirn e estamos envergonhados pelas suas acoes falsas. Mas considera. Embora sejamos elogiados como vossos vencedores, sejam vos mortos ou vivos, a nossa fama aumenta se nos honrardes tornando-vos o nosso resgate. Mesmo que a nossa honra seja manchada, a razao prova o nosso interesse em preservar-vos intactos para a nossa gloria.	DL1A3A	TRUE			Vou considerar as suas palavras. Mas agora temos de voltar a nossa disputa de armas, sobre a qual repousa a nossa sorte.	END		&CountYield		
+	DL1A41	Ja consideraste a nossa oferta? Cederia a nos?	DL1A4A	TRUE			Nao, nao. Nao me renderia. - Cedeu?	DL1A51				
+			DL1A4B	TRUE			- Sim, e verdade. Vou ceder, com a condicao de que a minha vida e a vida do meu companheiro sejam poupadas.	DL1A61				
+	DL1A51	Nao vamos ceder.	DL1A5A	TRUE			Entao so pelas nossas armas podemos resolver a nossa disputa.	END		&CountMad		
+	DL1A61	Posso falar pela sua vida, pela minha honra, mas nao pela vida do seu companheiro, que esta nas maos do meu senhor.	DL1A6A	TRUE			Entao nao posso ceder. A nossa luta e ate a morte.	END		&CountMad		
+			DL1A6B	TRUE			Entao devo estar satisfeito com a minha propria vida. Deito as minhas armas e armaduras e entrego-me a ti.	01-50: DL1A71 51-00: DL1A81	DropReadyWeapon AND UNEQUIPARMOR			
+	DL1A71	Aceito a sua rendicao. E a tua parte neste caso esta agora concluida. Nao prevaleceram, mas estao em inferioridade numerica e dominados, e nao estao envergonhados. Honramos-vos e aceitamos os vossos bracos com orgulho.	DL1A7A	TRUE			Gostava que fosse de outra forma. Mas aqui esta o fim.	END	ENDFRAME_1057			
+	DL1A81	Aceito a sua rendicao. E agora executarei sobre vos a Justica do Meio, como e o direito da nossa posicao. Condenamo-lo a morrer por fazer guerra ao nosso soberano Senhor. - Nao, nao.	DL1A8A	TRUE			Suspeitei da tua traicao, cao perfido. Agora, enfrentam um inimigo desesperado, e eu saborearei a sua destruicao e humilhacao.	END				
+	DL1A91	Que te observa, mas nao fala.	DL1A9A	TRUE				END				
+	DL1A01	[E ele te olha sem dizer nada e brandindo sua arma.]	DL1A0A	TRUE				END				
+	DL1B11	Ele te olha com respeito,	DL1B1A	TRUE				END				

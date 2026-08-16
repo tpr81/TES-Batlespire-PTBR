@@ -1,0 +1,46 @@
+Test Flags						file tf1t.xls 0710					
+Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+TF1A11	Check this flag.	TF1A1A				&PCFemale :  PC is female; flag set at character creation	TF1A11		&PCFemale		
+		TF1A1B				&PCMale :  Pc is male; flag set at character creation	TF1A11		&PCMale		
+		TF1A1C				&WearAmuletM :  Inventory Check: 9013 & 9039	TF1A11		&WearAmuletM		
+		TF1A1D				&WearAmuletR :  Inventory Check: 9018 & 9044	TF1A11		&WearAmuletR		
+		TF1A1E				&WearAmuletZ :  Inventory Check: 9026 & 9052	TF1A21		&WearAmuletZ		
+TF1A21	Check this flag.	TF1A2A				&WearAmuletW :  Inventory Check: 9023 & 9049	TF1A21		&WearAmuletW		
+		TF1A2B				&InvVoidguide1 :  Inventory Check: 30_10000	TF1A21		&InvVoidguide1		
+		TF1A2C				NOT &Scourge :  Does NOT have 7_2017 in Inventory.	TF1A21		NOT &Scourge		
+		TF1A2D				&Scourge :  Has 7_2017 in Inventory.	TF1A21		&Scourge		
+		TF1A2E				NOT &Mischief  :  Use BK2_007 flag = False.	TF1A31		NOT &Mischief 		
+TF1A31	Check this flag.	TF1A3A				&Mischief :  Set flag when Use BK2_007.	TF1A31		&Mischief		
+		TF1A3B				&ReadBook :  PC has the Book of Life and Service [and can control a skeleton]. Set flag when Use BK3_021.	TF1A31		&ReadBook		
+		TF1A3C				&RestBook :  PC has the Book of Rest and Endings. This adds an option in dialog which permits the user to destroy wraiths. [This is the ONLY way a wraith can be destroyed.] Set flag when Use BK3_022.	TF1A31		&RestBook		
+		TF1A3D				"&SkelServe :  PC has one skeleton on his team, and can't have any more. Set flag in dialog SN1T.txt."	TF1A31		&SkelServe		
+		TF1A3E				&WearAmuletH   :  Inventory Check: 9008 & 9034	TF1A41		&WearAmuletH  		
+TF1A41	Check this flag.	TF1A4A				&WearAmuletO  :  Inventory Check: 9015 & 9041	TF1A41		&WearAmuletO 		
+		TF1A4B				&WearAmuletU :  Inventory Check:  9021 & 9047	TF1A51		&WearAmuletU		
+TF1A51	All done!	TF1A5A				Start again?	TF1A11				
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+
+
+								

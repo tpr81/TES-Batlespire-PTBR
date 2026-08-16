@@ -1,0 +1,22 @@
+BugsL6
+
+
+
+
+LEVEL 6 BUGS TO BE CHECKED:
+
+DATE		NAME		DESCRIP
+
+
+
+
+
+BUGS TO BE FIXED:
+
+DATE		NAME		DESCRIP
+
+8/23		Ken		Teleportals don't work. Submap to Imago's Keep doesn't work.
+8/23		Ken		Absurdly low frame rate in Vaults [near Teleport to Xivilai's Chambers]
+8/23		Ken		No way to recall elevator in observatory.
+8/23		Ken		No Sirran Angada flat in Observatory area.
+8/23		Ken		Hit rock near three telephone poles, and all three poles fall down and open gate. Hit any pole, and knocks over poles to open gate.

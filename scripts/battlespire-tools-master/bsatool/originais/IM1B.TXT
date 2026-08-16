@@ -1,0 +1,23 @@
+	Random Talk Tables			file Im1b.xls
+				
+	talkcheck			
+Imago L6	&ImagoMad	IM1B71		
+				
+				
+				
+				
+	talktable			
+	First	IM1A11		
+	Second	IM1A11		
+	Third	IM1A11		
+	Fourth +	IM1A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				

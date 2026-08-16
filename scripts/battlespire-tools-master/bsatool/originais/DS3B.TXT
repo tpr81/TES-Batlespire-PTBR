@@ -1,0 +1,27 @@
+	Random Talk Tables			file DS3B.xls
+Dark Seducer L8				
+	talkcheck			
+	&DarkEnemy	DS3A91		
+	&DarkThink	DS3B11		
+	&DarkMad	DS3A01		
+				
+				
+	talktable			
+	First	DS3A11		
+	Second	DS3A11		
+	Third	DS3A11		
+	Fourth +	DS3A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

@@ -1,0 +1,38 @@
+		Morphoid Oathkin					file MD1T.xls			Morphoid L3 TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MD1A11	Vem ca, pequeno homem. Nao vou fazer-te mal. So quero dizer-te uma coisa... - Segredo.	MD1A1A	TRUE			Relata, seu idiota. O que e que estas a fazer aqui? E a quem serve?	MD1A51				
+	MD1A12	O que e que tu es? E o que fazes aqui? Aproxima-te, para que eu possa falar contigo.	MD1A1B	TRUE			E a pessoa que eu queria ver. Era suposto eu dar-te isto... O que fiz com o pacote? Espera um segundo enquanto olho na minha mala...	END	MONSTERWAIT_30			
+	MD1A13	- Nao. Bem-vindo. Estou muito feliz por te ver. Tenho um presente para ti.	MD1A1C	&PCFemale			Nao sejas chato. Estou aqui a procura do Josian Kaid. Tomei a forma de um homem para o enganar. Agora, vai tratar dos teus assuntos como se nunca me tivesses visto.	MD1A61				
+			MD1A1D	&PCMale			Nao sejas chato. Estou aqui a procura da Vatasha Trenelle. Tomei a forma de um homem para a enganar. Agora, vai tratar dos teus assuntos como se nunca me tivesses visto.	MD1A61				
+			MD1A1E	TRUE			Entre a minha especie, sou considerado um grande guerreiro e mestre de feiticaria. - Vamos. Vamos falar primeiro, tomar a medida uns dos outros em palavras, e depois, se tivermos que lutar, vamos lutar com dignidade e honra.	MD1A71				
+	MD1A21	- Nao, nao. E voce, manling. Ouvi dizer que es uma bola de fogo. Disseram para te capturarmos vivo. Eu costumo ficar excitado numa luta, por isso lembra-me da parte do ALIVE se eu parecer ficar muito excitado.	MD1A2A	TRUE			- Olha. Tens a certeza que me queres capturar vivo? Nao foi isso que ouvi. Quem lhe disse isso?	MD1B21				
+			MD1A2B	TRUE			E minha politica nao bater em pobres idiotas indefesos. Voce se qualifica?	END		&MorphMad		
+			MD1A2C	&WearAmuletH OR &WearAmuletO OR &WearAmuletU			Olha para aqui, seu idiota. Tenho este amuleto. Isso significa que nao sou um homem. Sou uma daedra muito respeitada, e vais ter muitos problemas se me respirares.	MD1A81				
+	MD1A31	Nao parece estar de humor para conversar.								&MorphNoTalk		
+	MD1A32	Aparentemente nao tem nada a dizer neste momento.								&MorphNoTalk		
+	MD1A33	Nao diz uma palavra nem responde.								&MorphNoTalk		
+	MD1A41	- Nao. Voltaste por mais, nao? Gostas muito de mim, nao gostas? - Nao, nao, nao. Bem, tu vens aqui e eu dou-te um beijinho bonito.	MD1A4A	TRUE			Voces podem ser as coisas mais repulsivas que ja vi. A unica coisa que vais beijar, meu amigo gordo, e a ponta em que eu me sento.	END	MONSTERATTACK	&MorphMad		
+			MD1A4B	TRUE			- Nao, nao. Matas-me! - Nao, nao. Nao aguento mais. Es um pedaco engracado de gordura. - Nao, nao. - Nao, nao. - Espera um minuto. - Nao. Ja ouviste aquela do dragao e do banco da carruagem? Deixa-me dizer-te. E uma coisa...	END	MONSTERWAIT_30			
+												
+	MD1A51	Grr. Se queres falar comigo, mostra algum respeito. Ou talvez te de uma sova.	MD1A5A	TRUE			Tens de ganhar o meu respeito, cabeca de martelo.	END	MONSTERATTACK	&MorphMad		
+			MD1A5B	TRUE			- Desculpa. - Desculpa. Sou um pouco irritavel. Pode ter algo a ver com todas as coisas mortas a andar por ai. - Esta bem. - Esta bem. De onde venho, os guerreiros falam antes de uma luta, conhecem-se. Depois, se quiseres, podemos bater-nos no cerebro.	MD1A71				
+	MD1A61	Tenho de ter a certeza que nao es o homem. Vou bater-te um pouco. Entao, se realmente es uma daedra, podes mostrar-me enquanto te bato.	MD1A6A	TRUE			- Nao, nao. Sou da DAEDRA. Qualquer um pode ver isso. Nenhum homem pode atravessar um exercito de Daedra e aparecer aqui, fresco como uma margarida.	END	MONSTERATTACK	&MorphNoTalk		
+			MD1A6B	TRUE			Esta bem, esta bem. So uma piada. - Claro que sim. Sou o homem. Nao me podes culpar por tentar. Es tao grande e duro, que nao tenho hipoteses numa luta justa. - Entao? E melhor ter uma pequena conversa primeiro. - Nao e?	MD1A71				
+	MD1A71	- Esta bem. - Esta bem. Falamos um pouco. Entao tenho de te bater. E apanhar-te. - Vivo. Nao posso esquecer a parte viva. - Entao? Do que queres falar?	MD1A7A	TRUE			Quem e o teu chefe e o que fazes aqui?	MD1A91				
+			MD1A7B	TRUE			Acabo de voltar do Battlespire. - Bom trabalho. - Sim. Como foi? - Bem. Esses Magos de Batalha sao supostamente muito duros.	MD1A01				
+			MD1A7C	TRUE			Onde me vais levar depois de me capturares? - Vivo. Lembra-te disso.	MD1B11				
+												
+	MD1A81	- Nao. Achas que vou cair nesse velho truque? Usas amuleto? Isso nao significa nada. So que magoaste um dos meus bons amigos. E isso deixa-me furioso.	MD1A8A	TRUE			- Vivo. Captura. Lembras-te?	END		&MorphMad		
+	MD1A91	Xivilai Moath. Ele e o meu chefe e e muito importante. Mehrunes Dagon gosta muito do meu chefe, porque ele e tao esperto e duro. Ele mandou-me aqui para vigiar este lugar e procurar o Manling. Ele quer o Manling. Vivo, disse ele. - Esta bem. - Esta bem. Nos conversamos. Agora lutamos.	MD1A9A	TRUE			Nao, nao. Devias falar. Faz-te sentir melhor. E bom exercicio para a mente.	END	MONSTERATTACK	&MorphNoTalk		
+			MD1A9B	TRUE			- Claro que sim. Adoro luta livre.	END	MONSTERATTACK	&MorphNoTalk		
+	MD1A01	O Battlespire foi uma brincadeira. O traidor abre um portao, nos entramos, limpam as coisas. Apanhar os Magos e os guardas a dormir. Alguns sao duros para os manlings, mas so alguns. Centenas de nos. - Bom, bom, bom. O trabalho esta feito. Entao, o resto das tropas vao para casa, deixando o Scamps e o Vermai a limpar. - Esta bem. - Esta bem. - Bela conversa. - Divertida. Agora lutamos.	MD1A0A	TRUE			Nao, nao. Devias falar. - Uma voz adoravel. Podia ouvir-te durante horas.	END	MONSTERATTACK	&MorphNoTalk		
+			MD1A0B	TRUE			- Claro que sim. Adoro luta livre.	END	MONSTERATTACK	&MorphNoTalk		
+	MD1B11	- Nao. Quando te apanho, espero aqui um bocado e alguem abre um portao. Nao sei abrir portoes. Entao, vamos pelo portal para a Sombra Perigosa, depois vamos por outro portal para a Quimera e depois para casa, para o Wellhead. - Esta bem. - Esta bem. Falamos o suficiente? Agora lutamos?	MD1B1A	TRUE			Nao, nao. - Espera, espera. Ainda nao tive oportunidade de falar. E a minha vez, nao e?	END	MONSTERATTACK	&MorphNoTalk 		
+			MD1B1B	TRUE			- Claro que sim. Vamos lutar.	END	MONSTERATTACK	&MorphNoTalk		
+	MD1B21	Capturem o Manling. - Vivo. Foi o que o Xivilai Moath disse. Capturar todos os Manlings vivos. Entao eles falam. Tal como os tres Magos da Batalha. Eles falaram e falaram e falaram sobre todo o tipo de coisas. O Xivilai Moath faz com que falem. Eles estavam felizes em conversar. Contar muitos segredos. O Xivilai Moath tambem te faz falar, aposto. Diz-me todos os teus segredos. - Entao? Agora e hora de bater. - Pronto? - Sim.	MD1B2A	TRUE			- Claro que sim. Estou pronto. Mas nao te esquecas. Captura. - Vivo. E muito importante. Nao quero chatear o teu chefe.	END	MONSTERATTACK	&MorphNoTalk		
+							
+							
+							
+							
+							
+												

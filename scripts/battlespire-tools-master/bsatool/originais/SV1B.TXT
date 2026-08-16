@@ -1,0 +1,27 @@
+	Random Talk Tables			SD1b.xls
+				
+	Both Spider Deadra Talk Table			
+	talkcheck			
+Spider	&SVNoTalk	SV1A42	local	
+Daedra L2.2	&VornMad	SV1A31		
+				
+				
+				
+	talktable			
+	First	SV1A12	global	
+	Second	SV1A31		
+	Third	SV1A23		
+	Fourth +	GotoRandom		
+				
+	Random	Both PC		
+		TalkGroup	Notes
+	01-10	SV1A11	sexy
+	11-20	SV1A12	sexy
+	21-30	SV1A13	sexy
+	31-40	SV1A21	born to die
+	41-50	SV1A22	born to die
+	51-60	SV1A23	born to die
+	61-70	SV1A31	aggressive
+	71-80	SV1A41	NoTalk default
+	81-90	SV1A42	NoTalk default
+	91-00	SV1A43	NoTalk default

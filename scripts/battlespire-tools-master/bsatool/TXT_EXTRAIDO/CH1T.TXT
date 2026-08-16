@@ -1,0 +1,129 @@
+		Old Man Chimere					file CH1T.xls			Chimere Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CH1A11	Yiiiiii!	CH1A1A	TRUE			Hello?	CH1A21				
+			CH1A1B	TRUE			It's all right, greybeard. I'm not going to harm you. 	CH1A21				
+			CH1A1C	TRUE			Who are you? What are you doing here? 	CH1A21				
+	CH1A21	Er.. uh.. (creaking and groaning like he hasn't talked in two hundred years.)	CH1A2A	TRUE			Have a tongue, old man. Speak.	CH1A31				
+			CH1A2B	TRUE			What are you doing here?	CH1A31				
+	CH1A31	Errr… er… keep ye back! (croaking it out)	CH1A3A	TRUE			Ah, so you CAN speak. Come one. I'm in a hurry, old man.	CH1A41				
+			CH1A3B	TRUE			Are you all right?	CH1A41				
+			CH1A3C	TRUE			Who are you? What are you doing here? 	CH1A41				
+	CH1A41	Keep ye back! I am a powerful conjuror! I can destroy the most powerful of godlings with but a word! One more step and I will consign thee to Oblivion! 	CH1A4A	TRUE			Old man, I admire a bluffer as much as the next gambler, but I'm no stranger to killing. Don't make threats.	CH1A51				
+			CH1A4B	TRUE			Easy, old timer. 	CH1A51				
+	CH1A51	I warned ye! With but a gesture I invoke the power of the darkest… urk.. can't move. Dang arfritis. KEEP YE BACK! Nice creature.	CH1A5A	TRUE			What? 	CH1A61				
+			CH1A5B	TRUE			I'm not a creature. Or nice, for that matter.	CH1A61				
+	CH1A61	Errrrr! You howl so strangely. What manner of fell beast are ye? Some demonling from the darkest pits? Some savage animal bristling with claws and fur and fangs? 	CH1A6A	TRUE			I'm a human! Manling. A Mortal from Tamriel. A stranger in this world.	CH1A71				
+			CH1A6B	TRUE			You sure do go on and on and on and on, old man.	CH1A71				
+	CH1A71	Mayhap ye are a delusion of the mind. A bit of undigested pudding.	CH1A7A	TRUE			Pudding? Do have some handy?	CH1A81				
+			CH1A7B	TRUE			I'm no delusion. I'm real. Very real. Would you like a sharp poke to prove it?	CH1A81				
+	CH1A81	Egad! Ye speak! A trained mockery, parroting the exalted speech of humankind! 	CH1A8A	TRUE			As I was saying, for a very long time, it seems, I am a human. Hyoo- man. Are you deaf, by chance?	CH1A91				
+			CH1A8B	TRUE			I'm losing patience with you, doddering fool!	CH1A91				
+	CH1A91	Ye ARE human! I had nearly forgotten… From whence come ye, mortal? From the Northmoor mainland? Your face isn't familiar, and I know everyone on the island.	CH1A9A	TRUE			I've got news for you. I don't think there's any mainland. I think this is just another lost world floating in the void.	CH1A01				
+			CH1A9B	TRUE			I come from Tamriel. And most recently, from Battlespire, and Shade Perilous, and from some other Powers-cursed worlds floating in the void.	CH1A01				
+			CH1A9C	TRUE			Why, yes. Good old Wistful Vista. And how are things in YOUR town?	CH1A01				
+	CH1A01	What a relief ye be human. Perhaps ye can be of assistance to old man Chimere. I have lost something, and I canna find it. With me arthritis, I canna go looking for what I have lost…	CH1A0A	TRUE			Ah. Information at last. Your name. Old Man Chimere. Right? Well, sure, I'm happy to help out the old folks.	CH1B11				
+			CH1A0B	TRUE			I think you'd better answer some questions first, old man.	CH1B11				
+	CH1B11	No! I must find it first…	CH1B1A	TRUE			OK. What is are you looking for? 	CH1B21				
+			CH1B1B	TRUE			This could go on forever. Maybe there's someone less crotchety I can talk to. Goodbye.	END				
+	CH1B21	I've lost me… me… me THINGY!	CH1B2A	TRUE			Huh?	CH1B31				
+			CH1B2B	TRUE			I'll get right on it. One THINGY coming right up. -----Poor old guy. Just one oar in the water. Goodbye.	CH1B31				
+			CH1B2C	TRUE			You've lost your MARBLES. 	CH1B31				
+	CH1B31	(thinking hard) No. Not a thingy. Me spoon! I had a spoon once! 	CH1B3A	TRUE			You want me to find a SPOON? A spoon quest? 	CH1B41				
+			CH1B3B	TRUE			Enough of this foolishness. What is this place? Why are you here?	CH1B41				
+	CH1B41	Yes. A spoon. I'm sure I have lost a… spoon.	CH1B4A	TRUE			OK. I'll go get your spoon. Back ina bit. Goodbye.	END		&Spoon		
+			CH1B4B	TRUE			Was it magic? Did it have special properties?	CH1B51				
+	CH1B51	I loved that little spoon so… and now I know not what I have done with it.	CH1B5A	TRUE			All right. If I see a spoon I'll bring it to you. Then we'll b GOOD friends and you'll tell me what I want to know. Or I'll strangle you.	END		&Spoon		
+												
+	CH1B61	Yi! Oh. It's ye. 	CH1B6A	TRUE			I looked everywhere, and I can't find any spoon.	CH1B71				
+	CH1B71	Spoon? What are you talking about? What do I want with a spoon?	CH1B7A	TRUE			What? You asked me to find a spoon for you! 	CH1B81				
+	CH1B81	I had a CAT! Where is me kit? 	CH1B8A	TRUE			You want me to find a cat? Fine. Not much else to do but WANDER AROUND THE DAMN ISLAND LOOKING FOR A DAMN CAT! Fine. FINE! Goodbye.	END		&Cat		
+			CH1B8B	TRUE			What kind of cat?	CH1B91				
+	CH1B91	Once I had a little cat. No! Many kits! I had FLOCKS of kittens! Oh! You should see how they skitter! All over the town! Oh, they were my joy. What squeakings they would make! 	CH1B9A	TRUE			Speaking of this town, what is it? What's its name?	CH1B01				
+			CH1B9B	TRUE			OK. I'll find your cat. Goodbye.	END		&Cat		
+	CH1B01	I canna answer such things until me kits are restored to me! 	CH1B0A	TRUE			OK. I'll find your cats. 	END		&Cat		
+												
+	CH1F11	Ye gods! Oh, it be ye. 	CH1F1A	TRUE			Sorry. I can't find your cats. Anywhere. Looked everywhere. High and low. No cats. Period. Plenty of other nonsense. But not ONE DAMN CAT!	CH1F21				
+	CH1F21	Cats? I have no cats. I had some children. Have ye seen me children? Playful scamps. Up to some mischief, no doubt, the imps.	CH1F2A	TRUE			No I haven't seen any children.	CH1F31				
+			CH1F2B	TRUE			This is getting extremely tedious. We don't seem to be getting anywhere. I am in terrible danger, and my friend has been captured and delivered into captivity before Lord Dagon, Daedra Lord of Destruction. So I'm getting extra tired of your prattle.	CH1F31				
+	CH1F31	I had a few children. One? Two? Thousand? I forget. I remember! About two thousand!	CH1F3A	TRUE			You're a loony. There are no children. Period.	CH1F41				
+			CH1F3B	TRUE			No two thousand children. Not here.  And I don't know if I want to go on living in a world where you have two thousand children. 	CH1F41				
+			CH1F3C	TRUE			Ah, yeah. I found 'em all. They're safe with their families now.	CH1F41				
+	CH1F41	Ye lie! Sin-hearted blackguard! I should smite ye with but a gesture-- ouch. Me arthritis.	CH1F4A	TRUE			OK, OK. Sorry. There are thousands of children. Right outside the cottage. But -- THEY'RE NOT YOURS! HAH-HAH-HAH!	CH1F51				
+			CH1F4B	TRUE			I repeat. No two thousand children. Not here.	CH1F51				
+	CH1F51	I do! I do!… I did… I did. They're gone now. Have ye seen them?	CH1F5A	TRUE			There are no humans in this town except you and me. 	CH1F61				
+			CH1F5B	TRUE			Ah, sure. They're all outside having a good time -- WITH THE PIXIES AND THE FAIRIES!	CH1F61				
+	CH1F61	There's no one? No one at all? My town! My people! All gone! gone! I remember now! Curse me for a fool! I have destroyed them all!	CH1F6A	TRUE			Why did you destroy them? 	CH1F71				
+			CH1F6B	TRUE			Who are you? And what for Stendarr's sake is going on here? 	CH1F71				
+	CH1F71	I am sorry. I have not been myself. Give me some time. As for your questions, look over there on the table for my  journal. The story is there. Take your time. When you've finished, perhaps I'll be in better control.	CH1F7A	TRUE			Good. I shall do as you suggest.	END		&Kids		
+												
+	CH1F81	Have you reviewed my journal?	CH1F8A	&ChimereJournal			Yes.	CH1C21				
+			CH1F8B	TRUE			Well, I -- ehr -- uh.	CH1F91				
+			CH1F8C	TRUE			No.	CH1F91				
+	CH1F91	Read my journal. Please. And don't trouble me again until you have.	CH1F9A	TRUE			Very well.	END				
+			CH1F9B	TRUE			I don't want to. You can't make me.	END				
+	CH1F01	So. The Hunt hasn't yet swallowed you up. A promising sign. Can I help you?	CH1F0A	TRUE			No. This place seems to be safe, and I need a rest.	END				
+			CH1F0B	TRUE			I hope so. You have any new ideas?	CH1C11				
+			CH1F0C	TRUE			Actually, I could use some help. I'm a little confused. Or completely confused. I can't remember which.	CH1C21				
+	CH1C11	No. I've told you all I can think of.	CH1C1A	TRUE			Oh, dear. Well, thanks anyway.	END				
+	CH1C21	Have you any other questions?	CH1C2A	TRUE			Yes. How did you defeat Dagon?	CH1C31				
+			CH1C2B	TRUE			How do I get out of this place? CAN I get out of this place?	CH1E71				
+			CH1C2C	TRUE			I need your help. If I can help you change -- or end -- your exile here, would you be willing to help me?	CH1D41				
+			CH1C2D	TRUE			I read here in your journal about the Armor of the Savior's Hide. Can I borrow this armor?	CH1C91				
+			CH1C2E	TRUE			Can a Huntsman's Spear wound the Huntsman?	CH1D11				
+			CH1C2F	&Armor			I have the Armor of the Savior's Hide -- all of it -- helmet, pauldrons, cuirass, gauntlets, greaves, and boots.	CH1D51				
+			CH1C2G	&Case			I have this case. It has the Spear in it, right?	CH1D71				
+			CH1C2H	TRUE			No. Perhap later. But thanks. Goodbye.	END		&Bye		
+												
+	CH1C31	I banished Dagon by invoking his protonymic.	CH1C3A	TRUE			Oh. Good work. His what?	CH1C41				
+	CH1C41	His protonymic. Like a mortal wizard's true name. The focus of incantory magics. The short hairs.	CH1C4A	TRUE			I see. And what, pray tell, is Dagon's protonymic?	CH1C51				
+	CH1C51	Oh, I'm sure it will do you no good. Since his reemergence from Oblivion, he has surely added a neonymic. To protect himself against me, and anyone else who gets his protonymic.	CH1C5A	TRUE			Okay. A neonymic is, I suppose, a new protonymic. Right?	CH1C61				
+	CH1C61	Close enough.	CH1C6A	TRUE			So. Tell me his protonymic anyway. Just for laughs.	CH1C71				
+	CH1C71	 Lehkelogah.	CH1C7A	TRUE			Bless you.	CH1C81				
+	CH1C81	No. Lehkelogah. His protonymic was Lehkelogah. But surely that's now only half his incantory name. So you see, it does you no good. Even if you were close enough to him to invoke it in his presence. 	CH1C8A	TRUE			That's great. Very helpful. Thanks, and goodbye.	END				
+			CH1C8B	TRUE			I see. Thanks for that. Do you mind if we talk about something else?	CH1C21				
+												
+	CH1C91	Of course! You'll be wanting  my Armour of the Saviour's Hide. When complete, it might even turn aside the menace of the Huntsman's Spear. Ages ago I scattered and hid the pieces around the island to keep them from falling into the wrong hands. I wish I could remember where I left them --	CH1C9A	TRUE			You don't know where the armor is?	CH1C01				
+	CH1C01	No. Sorry. I wasn't quite right in the head when I hid them. Things are very hazy from that time. Here. Wait a moment. I'll jot down everything I can remember. Take my notes, and look around the island. It's a small island, and not that many places for an old man to hide large pieces of armor.	CH1C0A	TRUE			I see, Thanks, and goodbye.	END	PUT 21_033			
+			CH1C0B	TRUE			I see. Thanks for that. Do you mind if we talk about something else?	CH1C21	PUT 21_033			
+												
+												
+	CH1D11	What an odd question. And interesting. Yes. Certainly. But how would you survive the attacks of the Huntsman Spear? Even if you wear the Armor of the Savior's Hide, it is only REALLY effective against an oathbreaker.	CH1D1A	TRUE			Oh. I see. Well. Thanks. Do you mind if we talk about something else?	CH1C21				
+			CH1D1B	&Egahirn			Hang on. Egahirn, the Huntsman. The Frost Daedra tell me he took the sixth key that opens the gate. That is against the Law, right? Doesn't Egahirn have to swear an oath or something to uphold the Law in order to be a Huntsman and use the Spear?	CH1D21				
+	CH1D21	OF COURSE! My Armour of the Savior's Hide! It protects the wearer from attacks of an oathbreaker! If Egahirn is forsworn, the armor will protect you. Oh, that's too sweet. And better yet -- think of THIS! Who MADE the Spear? Dagon FORGED the Spear for the Hunt. And it is Dagon's own power which makes the Spear's power so utterly terrible! And GUESS WHO IS A BIG FAT OATHBREAKER?! Hah, hah, hah! It's PERFECT!	CH1D2A	TRUE			So. Wearing the Armour of the Savior's Hide will protect me from the attacks of the Huntsman? I bet I even get DOUBLE protection, since BOTH the Huntsman AND Dagon, the Spear maker, are oathbreakers! Sounds exactly perfect. But -- are you sure? I mean -- this business about Dagon the oathbreaker?  And the Spear using Dagon's power? And the armor? It would be really unpleasant for me if you were wrong.	CH1D31				
+	CH1D31	OF COURSE I'm sure. Have I ever failed you before? Hah-hah-hah! It's PERFECT. You wear my armor. You can wield the Spear. YOU CAN KILL THE HUNTSMAN! Hah-hah-hah. I see the hands of the Gods in this! JUSTICE! Divine JUSTICE on Dagon! And you, youth, are clearly the GODS' TOOL! You cannot fail.	CH1D3A	TRUE			You're scaring me, old man. But it's just crazy enough to work. Thanks for the tip. And goodbye.	END				
+			CH1D3B	&Armor			I have the Armor of the Savior's Hide -- all of it -- helmet, pauldrons, cuirass, gauntlets, greaves, and boots.	CH1D51				
+			CH1D3C	TRUE			Thanks, but I wish I could share your absolute confidence. Do you mind if we talk about something else?	CH1C21				
+												
+	CH1D41	I will help you. All I know or own is yours for the asking. And the one possession I lack in this world is my life, and that is not a gift you can give. Perhaps only Dagon could grant such a gift. I suffer, from age and guilt. But not many mortals have bested Dagon. It's some compensation. I am lonely, yes. Perhaps a companion. Yes. But don't waste thought on it. Concentrate on your plight, and let me aid you. 	CH1D4A	TRUE			I see, Thanks, and goodbye.	END				
+			CH1D4B	TRUE			I see. Thanks for that. Do you mind if we talk about something else?	CH1C21				
+												
+	CH1D51	Yes, of course. You have the armor.	CH1D5A	TRUE			So now what?	CH1D61				
+			CH1D5B	&Case			And I have this case. 	CH1D71				
+	CH1D61	So go get the Spear. It's in a case in the Chapel of the Innocent Quarry -- the green crystal monstrosity south of the waterfall. You can't open the case yourself, of course. Magical wards and seals galore. But bring it back to me, and I'll have it open in a jiffy. Then I'll check the Spear for traps, curses, that sort of thing -- can't be too careful with Daedric sorcery. Then you take the Spear, and you're in business.	CH1D6A	TRUE			Right. Get the case from the green crystal monstrosity and bring it back to you and you'll get the Spear out, make sure it's safe, and give it to me. Swell. Thanks. Goodbye.	END				
+	CH1D71	You  have the case? Do you have the armor?	CH1D7A	&Armor			Sure.	CH1D81				
+			CH1D7B	TRUE			Nope. Not yet.	CH1E61				
+			CH1D7C	TRUE			Well. I. Ehr.	CH1E61				
+	CH1D81	GIVE ME THE CASE. Right. Just as I thought. Just like all Dagon's other little protection schemes -- just a few tweaks -- a pinch -- a deft yank -- and -- ta da! Open. Just like I told you. Okay. Take the Spear. Go ahead. Don't be shy. Everything is fine. I've checked it completely, you're perfectly safe -- THERE! I TOLD YOU! I TOLD YOU! YOU'RE NOT EVEN A LITTLE DEAD. HAH-HAH-HAH! Still have the old touch. Right?! Right!?	CH1D8A	TRUE			Phew. You're amazing, old man -- ehr -- your high wizardship. Okay. I have the Armor. I have the Spear. I'm the Man of the Hour. The Hare turns Hunter! Oh. Say. How does the Spear work?	CH1D91	PUT 14_5016	&Spear		
+	CH1D91	The Spear? Oh. Yes. You use it. You know. Like. Grab hold and poke. Simple, really. Oh. And don't waste time poking anything but the Huntsman, actually. Cuts right through Huntsmen during a Hunt -- the ritual thing, you know -- but sharp as a butter knife on most Daedra. 	CH1D9A	TRUE			Grab hold and poke. Too easy, really.	CH1D01				
+	CH1D01	Go out there, and make me proud of you. I'm sure you'll do just fine. Now. If you don't mind, I think it's time for my nap. A lot of excitement for an old man. But be sure to come back and tell me how everything works out.	CH1D0A	TRUE			No sooner said than done. Goodbye, and thanks again. Sir.	END		&Killer		
+												
+	CH1E11	[[The old gentleman stands like a statue, but he's snoring away, out on his feet.]]	CH1E1A	TRUE			Hello. Excuse me. I was hoping to have a word.	CH1E21				
+			CH1E1B	TRUE			HELLO! AHHHHHHH! BANG-BANG-BANG! WAKE UP!	CH1E21				
+			CH1E1C	TRUE			HOORAY! HOORAY! I DID IT!  I DID IT! I SLEW THE HUNTSMAN! I AM LORD OF ALL I SURVEY! LOOK ON ME, O YE MIGHTY AND DESPAIR!	CH1E31		&Boast		
+	CH1E21	[[The old gentleman stands like a statue, but he's snoring away, out on his feet.]]	CH1E2A	TRUE			WOOEEWOOEEWOOEEWOOEEWOOEE! HOO! HOO!	CH1E51				
+	CH1E31	[[The old gentleman snorts in mid-snore and peers out balefully through one sleep-gummed eye.]]	CH1E3A	TRUE			Oh. Sorry. Didn't mean to disturb you, sir. Just reporting back as you wished.	CH1E41				
+			CH1E3B	TRUE			Did it. Did it. Did it. Whattya think of that?!	CH1E41				
+			CH1E3C	TRUE			I'll be leaving now, sir. It all went just as you said. But I didn't want to leave without telling you. And saying thank you. And wishing you -- well -- the best of everything.	CH1E41				
+	CH1E41	Hmmph. Told you, didn't I? You're the Tool of the Gods. You're Justice Incarnate. Now. Go get Dagon for me. Good night.	CH1E4A	TRUE			Ehr -- good night, sir. Dagon won't know what hit 'im. And thanks again.	END				
+				TRUE								
+	CH1E51	[[The old gentleman stands like a statue, but he's snoring away, out on his feet.]]	CH1E5A	TRUE			Hello. Excuse me. I was hoping to have a word.	CH1E21				
+			CH1E5B	TRUE			HELLO! AHHHHHHH! BANG-BANG-BANG! WAKE UP!	CH1E21				
+			CH1E5C	TRUE			Oh. Well. Goodnight, old man.	END				
+												
+	CH1E61	Go on. Go get the armor. You're not getting the Spear until I see you in the Armor. No Armor? No Spear. Safety first. First rule of sorcery. Safety first.	CH1E6A	TRUE			Fine. Get the armor. Safety first. Fine. Be right back.	END				
+												
+	CH1E71	YOU can leave. I can't. The gate is in the Temple of the Daedric Rites, the great horned travesty in Granvellusa, the walled town. You need six keys to get into the Temple, but once inside, the path to the gate is open. I'm afraid I don't know where the keys are, but I've never looked for them, either. Not much point. For me.	CH1E7A	TRUE			The gate is in the temple in the walled city, and I need six keys. Right. Thanks, and goodbye.	END				
+			CH1E7B	TRUE			I see. That's good to know. Do you mind if we talk about something else?	CH1C21				
+			CH1E7C	&Egahirn			The Frost Daedra tell me Egahirn, the Huntsman, took the sixth key that opens the gate. At least I know where that one is.	CH1E81				
+	CH1E81	That's rude. The keys must be left where the Hare can find them. That means you must  KILL Egahirn to get the sixth key and escape. That's just not fair. Huntsmen take no harm from any mortal weapon.	CH1E8A	TRUE			Okay. That means I have to kill Egahirn to get out of here, and that means I have to find some sort of special weapon. Useful information. Should be PLENTY of special weapons lying around. Better look around. Thanks, and goodbye.	END				
+			CH1E8B	TRUE			I see. Thanks for that. Do you mind if we talk about something else?	CH1C21				

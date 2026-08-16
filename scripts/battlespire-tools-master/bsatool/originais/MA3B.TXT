@@ -1,0 +1,27 @@
+	Random Talk Tables			file MA3B.xls
+Mastema Toy				
+	talkcheck			
+	&FayDupe	MA3B51		
+	FayEnemy	MA3A91		
+	&HerneMad	MA3B21		
+				
+				
+	talktable			
+	First	MA3A11		
+	Second	MA3B41		
+	Third	MA3A12		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-20	MA3A11		
+	21-40	MA3A12		
+	41-60	MA3B21		
+	61-80	MA3B31		
+	81-00	MA3B41		
+				
+				
+
+
+				
+				

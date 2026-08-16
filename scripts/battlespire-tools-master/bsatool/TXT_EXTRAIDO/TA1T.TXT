@@ -1,0 +1,43 @@
+	Test Actions and Flags						file ta1t.xls 0710									
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3				
+	TA1A11	Check this action.	TA1A1A				DROPREADYWEAPON	TA1A11	DROPREADYWEAPON							
+			TA1A1B				PCATTACK_100	TA1A11	PCATTACK_100							
+			TA1A1C				MonsterAttack	TA1A11	MonsterAttack							
+			TA1A1D				MONSTERWANDER_120	TA1A11	MONSTERWANDER_120							
+			TA1A1E				MONSTERFLEE_120	TA1A21	MONSTERFLEE_120							
+	TA1A21	Check this action.	TA1A2A				MONSTERRALLY_4	TA1A21	MONSTERRALLY_4							
+			TA1A2B				MONSTERWAIT_120	TA1A21	MONSTERWAIT_120							
+			TA1A2C				MONSTERSEEK	TA1A21	MONSTERSEEK							
+			TA1A2D				MONSTERGUARD_120	TA1A21	MONSTERGUARD_120							
+			TA1A2E				MONSTERLEAD	TA1A31	MONSTERLEAD							
+	TA1A31	Check this action.	TA1A3A				Health_2_120	TA1A31	Health_2_120							
+			TA1A3B				FeebleDelay_120	TA1A31	FeebleDelay_120							
+			TA1A3C				PleasureSFX	TA1A31	PleasureSFX							
+			TA1A3D				HealthHalf	TA1A31	HealthHalf							
+			TA1A3E				PainSFX	TA1A41	PainSFX							
+	TA1A41	Check this action.	TA1A4A				Summon VM_2	TA1A41	Summon VM_2							
+			TA1A4B				UNEQUIPARMOR	TA1A41	UNEQUIPARMOR							
+			TA1A4C				Teleport120	TA1A41	Teleport120							
+			TA1A4D				Summon SD_2	TA1A41	Summon SD_2							
+			TA1A4E				Summon SD_4	TA1A51	Summon SD_4							
+	TA1A51	Check this action.	TA1A5A				WonshalaMeltSFX	TA1A51	WonshalaMeltSFX							
+			TA1A5B				WonshalaFlatMelt	TA1A51	WonshalaFlatMelt							
+			TA1A5C				UNEQUIPARMOR	TA1A51	UNEQUIPARMOR							
+			TA1A5D				TAKE 30_10000	TA1A51	TAKE 30_10000							
+			TA1A5E				Teleport0	TA1A61	Teleport0							
+	TA1A61	Check this action.	TA1A6A				TanchelmTeleport0	TA1A61	TanchelmTeleport0							
+			TA1A6B				ENDFRAME Text#1036	TA1A61	ENDFRAME Text#1036							
+			TA1A6C				PUT 31_9018	TA1A61	PUT 31_9018							
+			TA1A6D				PUT 31_9039	TA1A61	PUT 31_9039							
+			TA1A6E				TAKE 7_2017 	TA1A71	TAKE 7_2017 							
+	TA1A71	Check this action.	TA1A7A				PUT 30_10000	TA1A71	PUT 30_10000							
+			TA1A7B				PUT 32_002	TA1A71	PUT 32_002							
+			TA1A7C				Kill_Aman	TA1A71	Kill_Aman							
+			TA1A7D				Kill_Wraith	TA1A71	Kill_Wraith							
+			TA1A7E				WraithMeltSFX	TA1A81	WraithMeltSFX							
+	TA1A81	Check this action.	TA1A8A				Kill_Bittor	TA1A81	Kill_Bittor							
+			TA1A8B				Kill_Xivilai	TA1A81	Kill_Xivilai							
+			TA1A8C				Kill_Faydra	TA1A81	Kill_Faydra							
+			TF1A8D				TAKE 7_2017 AND PUT 30_10000	TA1A81	TAKE 7_2017 AND PUT 30_10000							
+			TF1A8E				Kill_Wraith AND WraithMeltSFX	TA1A91	Kill_Wraith AND WraithMeltSFX							
+	TA1A91	You're done!	TA1A9A					TA1A11								

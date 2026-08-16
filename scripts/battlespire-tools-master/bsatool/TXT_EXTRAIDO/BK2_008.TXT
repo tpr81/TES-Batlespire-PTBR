@@ -1,0 +1,26 @@
+do LIVRO REQUISITO DOS DAEDRA
+
+[Este volume e uma referencia enciclopedica aos Senhores dos Reinos Daedricos, seus principais clans, os temas e esferas de influencia de cada clan, e as lendas e tradicoes associadas aos mortais que negociam com os Daedra.]
+
+Azura, cuja esfera e o crepusculo e a aurora, a magia entre os reinos da penumbra^
+Boethiah, cuja esfera e o engano e a conspiracao, e os planos secretos de assassinato, traicao e derrubada ilegal de autoridade^
+Clavicus Vile, cuja esfera e a concessao de poder e desejos por meio de invocacoes rituais e pactos^
+Hermaeus Mora, cuja esfera e a adivinhacao das mares do Destino, do passado e do futuro como lidos nas estrelas e nos ceus, e em cujo dominio estao os tesouros do conhecimento e da memoria^
+Hircine, cuja esfera e a Caca, o Esporte dos Daedras, o Maior Jogo, a Perseguicao e o Sacrificio de Mortais^
+Malacath, cuja esfera e o patronato dos rejeitados e ostracizados, e o Juramento Jurado, e a Maledicao Sangrenta^
+Mehrunes Dagon, cuja esfera e a Destruicao, Mudanca, Revolucao, Energia e Ambicao^
+Mephala, cuja esfera e obscura para os mortais; conhecida pelos nomes Tecelã de Teias, Tecelã e Aranha; cujo unico tema consistente parece ser a interferencia nos assuntos dos mortais para sua propria diversao^
+Meridia, cuja esfera e obscura para os mortais; que esta associada as energias dos seres vivos^
+Molag Bal, cuja esfera e a dominacao e escravizacao dos mortais; cujo desejo e colher as almas dos mortais e trazer as almas mortais para sob seu dominio, espalhando sementes de conflito e discordia nos reinos mortais^
+Namira, cuja esfera e a antiga Escuridao; conhecida como o Espirito Daedra, governante de diversos espiritos sombrios e das sombras; associada a aranhas, insetos, babosas e outras criaturas repulsivas que inspiram nos mortais uma repulsa instintiva^
+Nocturnal, cuja esfera e a noite e a escuridao; que e conhecida como a Senhora da Noite^
+Peryite, cuja esfera e a ordenacao das ordens mais baixas do Esquecimento; que e conhecido como o Mestre de Tarefas^
+Sanguine, cuja esfera e a folia hedonista e a devassidao, e as indulgencias apaixonadas de naturezas mais sombrias^
+Sheogorath, cuja esfera e a Loucura, e cujos motivos sao desconhecidos^
+Vaermina, cuja esfera e o reino dos sonhos e pesadelos, e de cujo reino emanam maus pressagios^
+
+[especialmente marcado para interesse especial sob o titulo "Malacath" voce encontra uma referencia ao FLAGELO, abencoado por Malacath, e dedicado ao uso dos mortais. Em resumo, a referencia sugere que qualquer daedra que tentar invocar os poderes da arma sera expulso para os fluxos do vazio do Esquecimento.]
+
+"Dos artefatos lendarios dos daedra, muitos sao bem conhecidos, como a Estrela de Azura e o Wabbajack de Sheogorath. Outros sao menos conhecidos, como o Flagelo, o Martelo de Mackkan, a Perdicao dos Daedra....
+
+"...contudo, embora Malacath tenha abencoado o Flagelo para ser potente contra seus parentes daedra, ele nao pensou que ele cairia em maos daedricas, para entao servir como ferramenta para guerras privadas entre os covardes e abandonados. Assim Malacath amaldicoou o dispositivo de modo que, se qualquer parente sombrio tentar invocar seus poderes, um buraco de vazio se abrira e engolira esse daedra, e o expurgara para os fluxos do vazio do Esquecimento, para que de la encontre o caminho de volta aos Mundos Reais e Irreais na ordem completa do tempo."

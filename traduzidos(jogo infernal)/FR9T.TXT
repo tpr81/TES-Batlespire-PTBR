@@ -1,0 +1,24 @@
+		Fire Daedra L5 Talk					file FR2T.xls					
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	FR2A11	"Somos os Grandes Cacadores. Perseguimos a Lebre, de acordo com as Leis da Caca Selvagem. E, manling, pelo que nos fizeste em Shade Perilous, nos te pagaremos dez vezes mais".	FR2A1A	TRUE			"Quanto mais fraco o guerreiro, mais dificil e a conversa. Va la, grande rapaz. "Faca-me tremer".	END	MonsterAttack	&FireMad		
+			FR2A1B	TRUE			Eu sei tudo sobre isso. So recebeste essa honra porque a Daedra de Gelo foi culpada pela debacle da Sombra Perigosa.	FR2A51				
+			FR2A1C	TRUE			"Olha, Smoky. Sei que esta a fazer o seu trabalho, mas conhece a lei. Nao importa quem quebre as leis da caca selvagem. TODOS voces carregam a mancha da desonra".	FR2A21				
+	FR2A21	- O que? - O que? Conhecemos a lei. Ninguem violou a Lei.	FR2A2A	TRUE			"Oh, meu Deus. - Eu entendo. Nao sabias. Mas Egahirn detem a sexta chave, o que e, claro, contra a Lei".	FR2A31				
+	FR2A31	"O que? - Espera, espera! Como e que tu, mortal, conheces a Lei?"	FR2A3A	TRUE			"Va la. Pensaram que se eu nao conhecia a Lei, que nao a tinha violado? Disseram-lhe isso? Como podes ser tao ingenuo?"	FR2A41				
+	FR2A41	"Manling. Nao nos importamos muito com a Lei. Nos queremos a nossa propria gloria! Desejamos vingar a nossa vergonha em Sombra Perigosa. Queremos-te morto. Disseram-nos para te pouparmos pela Lanca de Egahirn, mas nao nos importamos com Egahirn, nem com a sua gloria. Se Egahirn for desonrado do seu juramento, nao ganha poder nem gloria pela sua morte, mas nao nos importa. So nos interessa a morte. Vamos ve-lo morto. Isso e suficiente recompensa para nos".	FR2A4A	TRUE			"Hmm. Em suma, e voce ou eu. Sem piedade. Assim seja. Adeus".	END	MonsterAttack	&FireMad		
+	FR2A51	Como e que sabes? O que sabe dos conselhos do Lorde Dagon?	FR2A5A	TRUE			"Tenho as minhas fontes. Nem todos os do vosso cla desfrutam da confianca do Senhor Dagon. E ha sempre Daedra ambiciosos e espertos ansiosos para trocar palavras e favores".	FR2A61				
+			FR2A5B	TRUE			Sei que Faydra Shardai comecou a guerra contra os Sombras Perigosas. Nao o Xivilai Moath.	FR2A71				
+	FR2A61	Mortais tolos! Nao estou interessado nos teus contos e conversacoes.	FR2A6A	TRUE			"Talvez a mulher alada, a Sedutora Negra, seja uma audiencia mais graciosa para a minha conta dos erros embaracosos da vossa faccao no julgamento e execucao em Shade Perilous".	FR2A71				
+			FR2A6B	TRUE			"Bem, entao, nao adianta falar ociosamente. Vamos continuar com a guerra. Prontos?"	END	MonsterAttack	&FireMad		
+	FR2A71	- Nao. Talvez nao seja do seu interesse falar com o Sedutor Negro sobre isto.	FR2A7A	TRUE			- Que pena. Quem me dera saber como te sentias antes de falar com ela.	FR2A81				
+			FR2A7B	TRUE			Fala-me mais sobre o meu melhor interesse.	FR2A91				
+	FR2A81	Ja lhe disseste? Maldito sejas tu e a tua intromissao!	FR2A8A	TRUE			"Memoria, memoria. Nao deve acrescentar a sua ja extensa lista de responsabilidades desocupadas".	END	MonsterAttack	&FireMad		
+	FR2A91	"O teu preco, mortal. O que queres?"	FR2A9A	TRUE			Um fim da Caca?	FR2A01				
+	FR2A01	"Nao podemos acabar com a caca, e nao o fariamos se pudessemos".	FR2A0A	TRUE			Uma maneira de matar os Cacadores?	FR2B11				
+	FR2B11	"Os Cacadores nao podem ser mortos, idiota. Sao protegidos pelo ritual de todas as armas mortais. Podemos e vamos dizer-lhe que so o Cacador Egahirn lhe tirara a vida hoje por estes motivos. Os parentes dele optaram por nao atacar, assegurando assim que Egahirn dara o golpe mortal. Embora todos os Cacadores sejam protegidos pelo ritual, apenas um, Egahirn, caca a serio".	FR2B1A	TRUE			A sua informacao e util. Um intercambio justo. Um favor por um favor. Nao vou revelar as tuas ineptitudes e erros de calculo ao Sedutor Negro. - Adeus. - Adeus.	END				
+			FR2B1B	TRUE			Mas tal curiosidade dificilmente vale o meu silencio. Tem mais alguma coisa para oferecer? Diga-me como entrar na Capela da Pedreira Inocente?	FR2B21				
+	FR2B21	"Talvez. Se disseres ao Sedutor das Trevas que o Moath Xivilai e o Daedra Frost foram culpados pelo Perigoso da Sombra, e nao por nos?"	FR2B2A	TRUE			Isso e outra questao. E dificilmente a verdade. Mas... - Estou de acordo.	FR2B31				
+	FR2B31	"Muito bem. So nos, os Grandes Cacadores, os Daedra de Fogo, carregamos o amuleto que concede a passagem para alem do sigilo de defesa. E nenhum de nos lhe daria um amuleto, ou permitiria que o tirasse. Entao, resigna-te, mortal".	FR2B3A	TRUE			- Entao? Tens o amuleto necessario. Que pena. - Adeus. - Adeus.	END				
+												
+	FR2B41	O Tita de Fogo encara furiosamente e se recusa a falar contigo.	FR2B4A	TRUE			NOTA: Este e um dialogo padrao do NoTalk.	END				
+	FR2B51	Ele nao tem nada a dizer.	FR2B5A	TRUE			NOTA: Este e um dialogo padrao do NoTalk.	END				

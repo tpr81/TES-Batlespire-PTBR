@@ -1,0 +1,12 @@
+		Wraith					file WR2T.xls			Waith L8 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	WR2A11	Olhem para mim, mortais e desesperados!	WR2A1A	TRUE			Nao me assustas. Depois do que eu passei, es um treino leve.	WR2A21				
+			WR2A1B	TRUE			E errado que o teu espirito permaneca aqui apos a morte como desporto para as cacadas do Dagon. Vou cortar os lacos que vos ligam aqui. Que os Poderes abencoem a tua alma e te deem descanso. - Adeus. - Adeus.	END				
+			WR2A1C	TRUE			Es um morto-vivo, nao es? Entao, es uma abominacao e deves ser destruida. Vai-te embora, maldito demonio!	END				
+			WR2A1D	TRUE			Estou aqui para desafiar o Lorde Dagon pela minha vida e pela vida de um amigo. Pode ajudar-me na minha busca?	WR2A31				
+			WR2A1E	&RestBook			Libero-te, espirito imundo, dos lacos da morte-viva. De cinquenta Padres congelados em escravos! Rompem o artificio! Rompam a teia da vida! Encoste bem a presa a terra! Segure-se firme no jejum da sepultura!	WR2A41				
+			WR2A1F	TRUE			Poupa esta pobre vida miseravel, em memoria dos tempos em que a tua forma mortal tambem vivia e andava e respirava ar fresco e de primavera, e ouvia os murmurios da clara abelha.	WR2A51				
+	WR2A21	Prepare-se para enfrentar o seu destino!	WR2A2A	TRUE			- Esta bem. - Esta bem. Da-me o teu melhor tiro.	END				
+	WR2A31	Prepare-se para enfrentar o seu destino!	WR2A3A	TRUE			- Nao, nao. La se foi a gentileza e a fraternidade universal.	END				
+	WR2A41	Prepare-se para enfrentar o seu destino!	WR2A4A	TRUE			- Entao? Este pequeno ritual nao funciona em todos os tipos de wraiths. Vive e aprende.	END				
+	WR2A51	Prepare-se para enfrentar o seu destino!	WR2A5A	TRUE			Estou muito desapontado. Tinha esperado uma cena comovente com boas lembrancas de uma vida passada, seguida de uma chuva de presentes generosos e uma bencao sincera. Eu, idiota. E o que acontece ao ouvir todos aqueles bardos e as suas idiotas baladas romanticas.	END				

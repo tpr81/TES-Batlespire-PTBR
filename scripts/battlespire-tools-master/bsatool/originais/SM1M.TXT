@@ -1,0 +1,27 @@
+	Random Talk Tables			file SM1M.xls
+	Male			
+	talkcheck			
+Sumeer	&SumeerAlly	SM1A41		
+	&SumeerServe	SM1A41		
+	&SumeerOpen	SM1A21		
+	&SumeerMad	SM1A31		
+				
+	talktable			
+	First	SM1A12		
+	Second	SM1A12		
+	Third	SM1A12		
+	Fourth +	SM1A12		
+				
+	Random			
+		TalkGroup	Notes	
+	Not Applicable			
+				
+				
+				
+				
+				
+				
+
+
+				
+				

@@ -1,0 +1,2301 @@
+Name	“of the Typos Sophia”
+ID#	1010
+Item	1
+Spell	-1, 16, -1, 4, 0
+App	100
+Adv	36, 37
+Uses	30
+Level	1
+
+	
+Name	“of Lord Methats”
+ID#	1011
+Item	0
+Spell	-1, -1, -1, -1, -1
+App	4, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	“of Magica Resartus”
+ID#	1012
+Item	2
+Spell	-1, 40, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	“of Precipitous Travel”
+ID#	1013
+Item	0
+Spell	-1, 25, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	“of Bandy Interfraction”
+ID#	1014
+Item	0
+Spell	-1, -1, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	“of Futlock Reciprocation”
+ID#	1015
+Item	0
+Spell	-1, -1, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	“of Flux Capacitation”
+ID#	1016
+Item	0
+Spell	-1, -1, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	“of Fang Interleaving”
+ID#	1017
+Item	0
+Spell	-1, -1, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	“of Pinion Precession”
+ID#	1018
+Item	0
+Spell	-1, -1, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	“of Tusk Retrogression”
+ID#	1019
+Item	0
+Spell	-1, -1, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Assassin's Glory"
+ID#	2010
+Item	1
+Spell	3, -1, -1, 4, 0
+App	5, 20, 100
+Adv	36, 37
+Uses	10
+Level	2
+	
+Name	"of Lambent Fire"
+ID#	2011
+Item	1
+Spell	-1, 19, -1, 2, 0
+App	100
+Adv	48
+Uses	50
+Level	2
+	
+Name	"of Waxen Abruption"
+ID#	2012
+Item	2
+Spell	-1, 14, -1, 4, 0
+App	100
+Adv	-1
+Uses	5
+Level	2
+	
+Name	"of the Brazen Weavers"
+ID#	2013
+Item	0
+Spell	-1, 26, -1, 2, 0
+App	100
+Adv	12
+Uses	30
+Level	2
+	
+Name	"of the Sundark Drape"
+ID#	2014
+Item	0
+Spell	5, -1, -1, 4, 0
+App	3, 20, 100
+Adv	41
+Uses	10
+Level	2
+	
+Name	"of Rimmon's Fingernail"
+ID#	2015
+Item	1
+Spell	-1, -1, 12, 4, 0
+App	100
+Adv	40
+Uses	50
+Level	2
+	
+Name	"of the Supple Beast"
+ID#	2016
+Item	0
+Spell	-1, -1, 12, 2, 0
+App	14, -20, 15, -20, 16, -20, 17, -20, 18, -20, 100
+Adv	40
+Uses	50
+Level	2
+	
+Name	""SCOURGE, Blessed of Malacath""
+ID#	2017
+Item	1
+Spell	-1, -1, 10, 8, 0
+App	100
+Adv	40, 41
+Uses	-1
+Level	2
+	
+Name	"Summoner's Concordance"
+ID#	2018
+Item	3
+Spell	-1, 1, -1, 4, 0
+App	12, 20, 13, 20, 100
+Adv	-1
+Uses	10
+Level	0
+	
+Name	"Battlespire Cape of Arcane Sight"
+ID#	2019
+Item	0
+Spell	-1, 2, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Argent Warding"
+ID#	2020
+Item	1
+Spell	16, -1, -1, 2, 0
+App	100
+Adv	36, 37
+Uses	50
+Level	2
+	
+Name	"of Percipience"
+ID#	2021
+Item	2
+Spell	-1, 2, -1, 2, 0
+App	100
+Adv	-1
+Uses	100
+Level	2
+	
+Name	"of the Traveler"
+ID#	2022
+Item	2
+Spell	-1, 25, -1, 2, 0
+App	12, 20, 100
+Adv	36, 37
+Uses	10
+Level	2
+	
+Name	"of Forbidding"
+ID#	2023
+Item	0
+Spell	-1, 13, -1, 2, 0
+App	100
+Adv	-1
+Uses	25
+Level	2
+	
+Name	"of the Bold Warrior"
+ID#	2024
+Item	1
+Spell	-1, -1, -1, 2, 0
+App	14, 20, 15, 20, 16, 20, 17, 20, 18, 20, 100
+Adv	41
+Uses	20
+Level	2
+	
+Name	"of the Craven Knave and Jackal"
+ID#	2025
+Item	1
+Spell	-1, -1, 24, 2, 0
+App	19, 20, 100
+Adv	44, 45
+Uses	10
+Level	2
+	
+Name	"of the Cursed Traitor"
+ID#	2026
+Item	1
+Spell	-1, -1, 10, 2, 0
+App	5, 20, 100
+Adv	50
+Uses	10
+Level	2
+
+Name	"of Transmorph"
+ID#	2027
+Item	0
+Spell	-1, -1, -1, 2, 0
+App	100
+Adv	31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50
+Uses	1
+Level	2
+
+
+Name	"of the Brittle Husk"
+ID#	3010
+Item	1
+Spell	-1, 12, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Pilot"
+ID#	3011
+Item	1
+Spell	-1, 21, -1, 3, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Pillar"
+ID#	3012
+Item	1
+Spell	-1, 40, -1, 3, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Passage"
+ID#	3013
+Item	1
+Spell	-1, 12, -1, 3, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Airy Gills"
+ID#	3014
+Item	2
+Spell	-1, 39, -1, 3, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Ice Crystals"
+ID#	4010
+Item	0
+Spell	-1, 27, -1, 8, 2
+App	100
+Adv	10
+Uses	10
+Level	0
+
+	
+Name	"of the Fire Opal"
+ID#	4011
+Item	0
+Spell	-1, 27, -1, 8, 1
+App	100
+Adv	11
+Uses	10
+Level	0
+
+	
+Name	"of the Open Soul"
+ID#	4012
+Item	1
+Spell	-1, 14, -1, 8, 0
+App	100
+Adv	9
+Uses	20
+Level	0
+
+
+Name	"of the Savior's Hide"
+ID#	5010
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	30
+Uses	10
+Level	0
+
+	
+Name	"of the Savior's Hide"
+ID#	5011
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	41
+Uses	10
+Level	0
+
+	
+Name	"of the Savior's Hide"
+ID#	5012
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	42
+Uses	10
+Level	0
+
+	
+Name	"of the Savior's Hide"
+ID#	5013
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	43
+Uses	10
+Level	0
+
+	
+Name	"of the Savior's Hide"
+ID#	5014
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	44
+Uses	10
+Level	0
+
+	
+Name	"of the Savior's Hide"
+ID#	5015
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	45
+Uses	10
+Level	0
+
+	
+Name	"of Bitter Mercy"
+ID#	5016
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	-1
+Uses	-1
+Level	0
+
+
+Name	"of Despair"
+ID#	6201
+Item	2
+Spell	-1, 10, -1, 6, 0
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Dusk and the Dawn"
+ID#	6202
+Item	2
+Spell	-1, 5, -1, 6, 0
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Monkey's Apprehension"
+ID#	6203
+Item	2
+Spell	-1, 3, -1, 6, 0
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Stamp of the Toad"
+ID#	6204
+Item	2
+Spell	-1, 1, -1, 6, 0
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Creeping Things"
+ID#	6205
+Item	2
+Spell	-1, 1, -1, 4, 0
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Expectant Wonder"
+ID#	6206
+Item	2
+Spell	-1, 1, -1, 6, 0
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Capering Dog"
+ID#	6207
+Item	2
+Spell	-1, 1, -1, 8, 0
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Sunken Gods' Awakening"
+ID#	6208
+Item	2
+Spell	-1, 1, -1, 10, 0
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Eye of the World"
+ID#	6209
+Item	2
+Spell	-1, 2, -1, 6, 0
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Uncertainty"
+ID#	6210
+Item	2
+Spell	-1, 5, -1, 6, 0
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Mysteries"
+ID#	6211
+Item	2
+Spell	-1, 5, -1, 6, 0
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Marvelous Extension"
+ID#	6212
+Item	2
+Spell	-1, 8, -1, 6, 0
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Tears of the Shark"
+ID#	6213
+Item	2
+Spell	-1, 9, -1, 1, 0
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Odious Disorder"
+ID#	6214
+Item	2
+Spell	-1, 9, -1, 6, 0
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Saturnine Purpose"
+ID#	6215
+Item	2
+Spell	-1, 9, -1, 3, 0
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Scars"
+ID#	6216
+Item	2
+Spell	-1, 9, -1, 4, 0
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Grotesque Liveliness"
+ID#	6217
+Item	2
+Spell	-1, 9, -1, 5, 0
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Endless Woe"
+ID#	6218
+Item	2
+Spell	-1, 9, -1, 6, 0
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Fickle Endowment"
+ID#	6219
+Item	2
+Spell	-1, 11, -1, 6, 0
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Architect's Gaze"
+ID#	6220
+Item	2
+Spell	-1, 12, -1, 6, 0
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Snares and Springes"
+ID#	6221
+Item	2
+Spell	-1, 13, -1, 6, 0
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Precipitous Revelation"
+ID#	6222
+Item	2
+Spell	-1, 13, -1, 4, 0
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Outermost Wastes"
+ID#	6223
+Item	2
+Spell	-1, 13, -1, 6, 0
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Mischievous Hand"
+ID#	6224
+Item	2
+Spell	-1, 15, -1, 6, 0
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Unrequited Intent"
+ID#	6225
+Item	2
+Spell	-1, 16, -1, 6, 0
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of Consuming Indwelling"
+ID#	6226
+Item	2
+Spell	-1, 17, -1, 6, 0
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Rain of Fire"
+ID#	6227
+Item	2
+Spell	-1, 18, -1, 6, 1
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Tongue of the Wyrm"
+ID#	6228
+Item	2
+Spell	-1, 18, -1, 4, 1
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Final Virtue"
+ID#	6229
+Item	2
+Spell	-1, 18, -1, 6, 1
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Winter's Winds"
+ID#	6230
+Item	2
+Spell	-1, 18, -1, 6, 2
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Biting Pains"
+ID#	6231
+Item	2
+Spell	-1, 18, -1, 4, 2
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Glacial Hue"
+ID#	6232
+Item	2
+Spell	-1, 18, -1, 6, 2
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Scathing"
+ID#	6233
+Item	2
+Spell	-1, 18, -1, 6, 3
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Shrew"
+ID#	6234
+Item	2
+Spell	-1, 18, -1, 4, 3
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Vengeance"
+ID#	6235
+Item	2
+Spell	-1, 18, -1, 6, 3
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Exposure"
+ID#	6236
+Item	2
+Spell	-1, 18, -1, 6, 4
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Unnatural Essence"
+ID#	6237
+Item	2
+Spell	-1, 18, -1, 4, 4
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Sulphurous Death"
+ID#	6238
+Item	2
+Spell	-1, 18, -1, 6, 4
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Heaven's Teeth"
+ID#	6239
+Item	2
+Spell	-1, 18, -1, 6, 5
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Riven Stars"
+ID#	6240
+Item	2
+Spell	-1, 18, -1, 4, 5
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Dancing Fate"
+ID#	6241
+Item	2
+Spell	-1, 18, -1, 6, 5
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Rain of Fire"
+ID#	6242
+Item	2
+Spell	-1, 18, -1, 6, 1
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Tongue of the Wyrm"
+ID#	6243
+Item	2
+Spell	-1, 18, -1, 4, 1
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Final Virtue"
+ID#	6244
+Item	2
+Spell	-1, 18, -1, 6, 1
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Winter's Winds"
+ID#	6245
+Item	2
+Spell	-1, 18, -1, 6, 2
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Biting Pains"
+ID#	6246
+Item	2
+Spell	-1, 18, -1, 4, 2
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Glacial Hue"
+ID#	6247
+Item	2
+Spell	-1, 18, -1, 6, 2
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Scathing"
+ID#	6248
+Item	2
+Spell	-1, 18, -1, 6, 3
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Shrew"
+ID#	6249
+Item	2
+Spell	-1, 18, -1, 4, 3
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Vengeance"
+ID#	6250
+Item	2
+Spell	-1, 18, -1, 6, 3
+App	3, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Exposure"
+ID#	6251
+Item	2
+Spell	-1, 18, -1, 6, 4
+App	4, 05, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of the Unnatural Essence"
+ID#	6252
+Item	2
+Spell	-1, 18, -1, 4, 4
+App	5, 05, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of Sulphurous Death"
+ID#	6253
+Item	2
+Spell	-1, 18, -1, 6, 4
+App	1, 05, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of Heaven's Teeth"
+ID#	6254
+Item	2
+Spell	-1, 18, -1, 6, 5
+App	7, 05, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of Riven Stars"
+ID#	6255
+Item	2
+Spell	-1, 18, -1, 4, 5
+App	8, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Dancing Fate"
+ID#	6256
+Item	2
+Spell	-1, 18, -1, 6, 5
+App	9, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Bile of the Earth"
+ID#	6257
+Item	2
+Spell	-1, 19, -1, 6, 0
+App	10, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Sweet Airs"
+ID#	6258
+Item	2
+Spell	-1, 20, -1, 6, 0
+App	11, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Pleasure"
+ID#	6259
+Item	2
+Spell	-1, 21, -1, 6, 0
+App	12, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Joy"
+ID#	6260
+Item	2
+Spell	-1, 21, -1, 4, 0
+App	13, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Delight"
+ID#	6261
+Item	2
+Spell	-1, 21, -1, 6, 0
+App	14, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of High Purpose"
+ID#	6262
+Item	2
+Spell	-1, 22, -1, 6, 0
+App	15, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Fox's Footfall"
+ID#	6263
+Item	2
+Spell	-1, 24, -1, 6, 0
+App	16, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Winding Road"
+ID#	6264
+Item	2
+Spell	-1, 25, -1, 6, 0
+App	17, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Scaly Pelt"
+ID#	6265
+Item	2
+Spell	-1, 26, -1, 6, 0
+App	18, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Sacred Honor"
+ID#	6266
+Item	2
+Spell	-1, 26, -1, 6, 0
+App	19, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Kings"
+ID#	6267
+Item	2
+Spell	-1, 26, -1, 6, 0
+App	13, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Exquisite Perfection"
+ID#	6268
+Item	2
+Spell	-1, 27, -1, 6, 0
+App	14, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Merry Lumberjack"
+ID#	6269
+Item	2
+Spell	-1, 27, -1, 6, 1
+App	15, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Winter's Night"
+ID#	6270
+Item	2
+Spell	-1, 27, -1, 6, 2
+App	16, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Inner Eye"
+ID#	6271
+Item	2
+Spell	-1, 27, -1, 6, 3
+App	17, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Noble Flesh"
+ID#	6272
+Item	2
+Spell	-1, 27, -1, 6, 4
+App	18, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Firmament"
+ID#	6273
+Item	2
+Spell	-1, 27, -1, 6, 5
+App	19, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Starkhorn's Stalking"
+ID#	6301
+Item	2
+Spell	27, -1, -1, 2, 0
+App	3, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Starkhorn's Swimmer"
+ID#	6302
+Item	2
+Spell	27, -1, -1, 2, 1
+App	4, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Surprise"
+ID#	6303
+Item	2
+Spell	27, -1, -1, 2, 2
+App	5, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Leaping"
+ID#	6304
+Item	2
+Spell	27, -1, -1, 2, 3
+App	1, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Fleetness"
+ID#	6305
+Item	2
+Spell	27, -1, -1, 2, 4
+App	7, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Red Wisdom"
+ID#	6306
+Item	2
+Spell	27, -1, -1, 2, 5
+App	8, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Green Wisdom"
+ID#	6307
+Item	2
+Spell	27, -1, -1, 2, 0
+App	9, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Silver Wisdom"
+ID#	6308
+Item	2
+Spell	27, -1, -1, 2, 1
+App	10, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Golden Wisdom"
+ID#	6309
+Item	2
+Spell	27, -1, -1, 2, 2
+App	11, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Unseen Wisdom"
+ID#	6310
+Item	2
+Spell	27, -1, -1, 2, 3
+App	12, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Unknown Wisdom"
+ID#	6311
+Item	2
+Spell	27, -1, -1, 2, 4
+App	13, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Swiftblade"
+ID#	6312
+Item	2
+Spell	27, -1, -1, 2, 5
+App	14, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Hewing"
+ID#	6313
+Item	2
+Spell	27, -1, -1, 2, 0
+App	15, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Starkhorn's  Horny Fist"
+ID#	6314
+Item	2
+Spell	27, -1, -1, 2, 1
+App	16, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Deep Biting"
+ID#	6315
+Item	2
+Spell	27, -1, -1, 2, 2
+App	17, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Smiting"
+ID#	6316
+Item	2
+Spell	27, -1, -1, 2, 3
+App	18, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Starkhorn's Sureflight"
+ID#	6317
+Item	2
+Spell	27, -1, -1, 2, 4
+App	19, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Stalking"
+ID#	6326
+Item	2
+Spell	-1, -1, 18, 2, 1
+App	3, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Augmented Swimmer"
+ID#	6327
+Item	2
+Spell	-1, -1, 18, 4, 1
+App	4, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Surprise"
+ID#	6328
+Item	2
+Spell	-1, -1, 18, 6, 1
+App	5, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Leaping"
+ID#	6329
+Item	2
+Spell	-1, -1, 18, 2, 2
+App	1, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Fleetness"
+ID#	6330
+Item	2
+Spell	-1, -1, 18, 4, 2
+App	7, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Red Wisdom"
+ID#	6331
+Item	2
+Spell	-1, -1, 18, 6, 2
+App	8, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Green Wisdom"
+ID#	6332
+Item	2
+Spell	-1, -1, 18, 2, 3
+App	9, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Silver Wisdom"
+ID#	6333
+Item	2
+Spell	-1, -1, 18, 4, 3
+App	10, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Golden Wisdom"
+ID#	6334
+Item	2
+Spell	-1, -1, 18, 2, 1
+App	11, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Unseen Wisdom"
+ID#	6335
+Item	2
+Spell	-1, -1, 18, 4, 1
+App	12, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Unknown Wisdom"
+ID#	6336
+Item	2
+Spell	-1, -1, 18, 6, 1
+App	13, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Swiftblade"
+ID#	6337
+Item	2
+Spell	-1, -1, 18, 2, 2
+App	14, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Hewing"
+ID#	6338
+Item	2
+Spell	-1, -1, 18, 4, 2
+App	15, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Augmented Horny Fist"
+ID#	6339
+Item	2
+Spell	-1, -1, 18, 6, 2
+App	16, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Deep Biting"
+ID#	6340
+Item	2
+Spell	-1, -1, 18, 2, 3
+App	17, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Smiting"
+ID#	6341
+Item	2
+Spell	-1, -1, 18, 4, 3
+App	18, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Augmented Sureflight"
+ID#	6342
+Item	2
+Spell	-1, -1, 18, 4, 3
+App	19, 10, 100
+Adv	-1
+Uses	10
+Level	0
+	
+
+Name	"of Noble Stalking"
+ID#	6351
+Item	2
+Spell	-1, -1, 21, 2, 0
+App	3, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Noble Swimmer"
+ID#	6352
+Item	2
+Spell	-1, -1, 21, 4, 0
+App	4, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Surprise"
+ID#	6353
+Item	2
+Spell	-1, -1, 21, 6, 0
+App	5, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Leaping"
+ID#	6354
+Item	2
+Spell	-1, -1, 22, 2, 0
+App	1, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Fleetness"
+ID#	6355
+Item	2
+Spell	-1, -1, 24, 2, 0
+App	7, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Red Wisdom"
+ID#	6356
+Item	2
+Spell	-1, -1, 25, 2, 0
+App	8, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Green Wisdom"
+ID#	6357
+Item	2
+Spell	-1, -1, 26, 2, 0
+App	9, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Silver Wisdom"
+ID#	6358
+Item	2
+Spell	-1, -1, 26, 2, 0
+App	10, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Golden Wisdom"
+ID#	6359
+Item	2
+Spell	-1, -1, 21, 2, 0
+App	11, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Unseen Wisdom"
+ID#	6360
+Item	2
+Spell	-1, -1, 21, 4, 0
+App	12, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Unknown Wisdom"
+ID#	6361
+Item	2
+Spell	-1, -1, 21, 6, 0
+App	13, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Swiftblade"
+ID#	6362
+Item	2
+Spell	-1, -1, 22, 2, 0
+App	14, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Hewing"
+ID#	6363
+Item	2
+Spell	-1, -1, 24, 2, 0
+App	15, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Noble Horny Fist"
+ID#	6364
+Item	2
+Spell	-1, -1, 25, 2, 0
+App	16, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Deep Biting"
+ID#	6365
+Item	2
+Spell	-1, -1, 26, 2, 0
+App	17, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Smiting"
+ID#	6366
+Item	2
+Spell	-1, -1, 26, 2, 0
+App	18, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of Noble Sureflight"
+ID#	6367
+Item	2
+Spell	-1, -1, 26, 2, 0
+App	19, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Tiger's Stalking"
+ID#	6376
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	3, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of the Fervent Swimmer"
+ID#	6377
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	4, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Iniquitous Surprise"
+ID#	6378
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	5, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of the Flea's Leaping"
+ID#	6379
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	1, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of the Hare's Fleetness"
+ID#	6380
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	7, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Rubicund Wisdom"
+ID#	6381
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	8, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Emerald Wisdom"
+ID#	6382
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	9, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Argent Wisdom"
+ID#	6383
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	10, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Auricular Wisdom"
+ID#	6384
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	11, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Percipient Wisdom"
+ID#	6385
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	12, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Transcendent Wisdom"
+ID#	6386
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	13, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Furious Swiftblade"
+ID#	6387
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	14, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Furious Hewing"
+ID#	6388
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	15, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of the Furious Horny Fist"
+ID#	6389
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	16, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Furious Deep Cleaving"
+ID#	6390
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	17, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Furious Smiting"
+ID#	6391
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	18, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Grand Sureflight"
+ID#	6392
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	19, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+Name	"of the Starkhorn's Dolphin"
+ID#	6393
+Item	2
+Spell	39, -1, -1, 2, 1
+App	4, 05, 100
+Adv	-1
+Uses	10
+Level	0
+	
+	
+Name	"of the Augmented Dolphin"
+ID#	6394
+Item	2
+Spell	39, -1, -1, 4, 1
+App	4, 10, 100
+Adv	-1
+Uses	10
+Level	0
+	
+	
+Name	"of the Noble Dolphin"
+ID#	6395
+Item	2
+Spell	-1, 39, -1,  4, 0
+App	4, 15, 100
+Adv	-1
+Uses	10
+Level	0
+	
+	
+Name	"of the Fervent Dolphin"
+ID#	6396
+Item	2
+Spell	-1, 39, -1, 2, 0
+App	4, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of the Saint's Apprehension"
+ID#	7101
+Item	2
+Spell	3, -1, -1, 6, 0
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of the Stamp of the Leviathan"
+ID#	7102
+Item	2
+Spell	-1, 1, -1, 6, 0
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Niggling Things"
+ID#	7103
+Item	2
+Spell	-1, 1, -1, 4, 0
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of Eager Helpmates"
+ID#	7104
+Item	2
+Spell	-1, 1, -1, 6, 0
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Capering Clowns"
+ID#	7105
+Item	2
+Spell	-1, 1, -1, 8, 0
+App	8, 10, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of the Sunken Gods' Watchmen"
+ID#	7106
+Item	2
+Spell	-1, 1, -1, 10, 0
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Eyes of the Spider"
+ID#	7107
+Item	2
+Spell	-1, 2, -1, 6, 0
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of Blacklight"
+ID#	7108
+Item	2
+Spell	-1, 15, -1, 6, 0
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Curlew"
+ID#	7109
+Item	2
+Spell	-1, 8, -1, 6, 0
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of the Architect's Touch"
+ID#	7110
+Item	2
+Spell	-1, 12, -1, 6, 0
+App	9, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of Subtle Springes"
+ID#	7111
+Item	2
+Spell	-1, 13, -1, 6, 0
+App	10, 10, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of the Sagacious Revelation"
+ID#	7112
+Item	2
+Spell	-1, 13, -1, 4, 0
+App	11, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Innermost Wastes"
+ID#	7113
+Item	2
+Spell	-1, 13, -1, 6, 0
+App	12, 10, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of the Mischievous Paw"
+ID#	7114
+Item	2
+Spell	-1, 15, -1, 6, 0
+App	13, 10, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Soothing"
+ID#	7115
+Item	2
+Spell	-1, 21, -1, 6, 0
+App	12, 05, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of Beebalm"
+ID#	7116
+Item	2
+Spell	-1, 21, -1, 4, 0
+App	13, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Wellweal"
+ID#	7117
+Item	2
+Spell	-1, 21, -1, 6, 0
+App	14, 05, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of High Aspiration"
+ID#	7118
+Item	2
+Spell	-1, 22, -1, 6, 0
+App	15, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of the Star Road"
+ID#	7119
+Item	2
+Spell	-1, 25, -1, 6, 0
+App	17, 05, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of the Snow Drake's Pelt"
+ID#	7120
+Item	2
+Spell	-1, 26, -1, 6, 0
+App	18, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+	
+Name	"of Signal Honor"
+ID#	7121
+Item	2
+Spell	-1, 26, -1, 6, 0
+App	19, 05, 100
+Adv	-1
+Uses	20
+Level	0
+	
+	
+Name	"of Justice"
+ID#	7122
+Item	2
+Spell	-1, 26, -1, 6, 0
+App	13, 05, 100
+Adv	-1
+Uses	20
+Level	0
+
+
+Name	"of the Leopard's Stalking"
+ID#	7123
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	3, 20, 100
+Adv	24
+Uses	10
+Level	0
+	
+	
+Name	"of the Triton"
+ID#	7124
+Item	2
+Spell	-1, 14, -1, 2, 0
+App	4, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Iniquitous Sanctions"
+ID#	7125
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	5, 20, 100
+Adv	24
+Uses	10
+Level	0
+	
+	
+Name	"of the Flea's Soaring"
+ID#	7126
+Item	2
+Spell	-1, 22, -1, 2, 0
+App	1, 20, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Rubicund Mastery"
+ID#	7127
+Item	2
+Spell	-1, 14, -1, 2, 0
+App	8, 40, 100
+Adv	24
+Uses	10
+Level	0
+	
+	
+Name	"of Emerald Mastery"
+ID#	7128
+Item	2
+Spell	-1, 21, -1, 8, 0
+App	9, 40, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Argent Mastery"
+ID#	7129
+Item	2
+Spell	-1, 5, -1, 2, 0
+App	10, 40, 100
+Adv	24
+Uses	10
+Level	0
+	
+	
+Name	"of Auricular Mastery"
+ID#	7130
+Item	2
+Spell	-1, 8, -1, 2, 0
+App	11, 40, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Percipient Mastery"
+ID#	7131
+Item	2
+Spell	-1, 15, -1, 2, 0
+App	12, 40, 100
+Adv	24
+Uses	10
+Level	0
+	
+	
+Name	"of Transcendent Mastery"
+ID#	7132
+Item	2
+Spell	-1, 2, -1, 2, 0
+App	13, 40, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Surpassing Swiftblade"
+ID#	7133
+Item	2
+Spell	-1, 19, -1, 2, 0
+App	14, 50, 100
+Adv	24
+Uses	10
+Level	0
+	
+	
+Name	"of Surpassing Hewing"
+ID#	7134
+Item	2
+Spell	-1, 19, -1, 2, 0
+App	15, 50, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of the Surpassing Horny Fist"
+ID#	7135
+Item	2
+Spell	-1, 19, -1, 2, 0
+App	16, 50, 100
+Adv	24
+Uses	10
+Level	0
+	
+	
+Name	"of Furious Surpassing Cleaving"
+ID#	7136
+Item	2
+Spell	-1, 19, -1, 2, 0
+App	17, 50, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Surpassing Smiting"
+ID#	7137
+Item	2
+Spell	-1, 19, -1, 2, 0
+App	18, 50, 100
+Adv	24
+Uses	10
+Level	0
+	
+	
+Name	"of Surpassing Sureflight"
+ID#	7138
+Item	2
+Spell	-1, 19, -1, 2, 0
+App	19, 50, 100
+Adv	24
+Uses	10
+Level	0
+
+
+Name	"of Destruction"
+ID#	8010
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+
+Name	"of the Moon Reiver"
+ID#	8011
+Item	0
+Spell	-1, 28, -1, 8, 4
+App	15, 30, 100
+Adv	36, 37
+Uses	10
+Level	0
+
+	
+Name	"of Heaven's Hail"
+ID#	8012
+Item	0
+Spell	-1, 9, -1, 8, 0
+App	19, 30, 100
+Adv	46, 47, 48, 49, 50
+Uses	10
+Level	0
+
+	
+Name	"of Peace"
+ID#	8013
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	1, 30, 2, 30, 3, 30, 4, 30, 5, 30, 6, 30, 7, 30, 16, 30, 100
+Adv	22, 31, 32, 33, 34, 35
+Uses	10
+Level	0
+
+
+Name	"of the Poor"
+ID#	8014
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	9
+Uses	10
+Level	0
+	
+	
+Name	"of the Light Within"
+ID#	8015
+Item	0
+Spell	-1, -1, -1, 0, 0
+App	100
+Adv	20
+Uses	10
+Level	0

@@ -1,0 +1,27 @@
+	Random Talk Tables			file Dr5B.xls
+Dremora Informant				
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	DR5A11		
+	Second	DR5A11		
+	Third	DR5A11		
+	Fourth +	DR5A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

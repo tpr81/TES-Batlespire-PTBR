@@ -1,0 +1,23 @@
+		Dremora Gatanas TALK					file DG1T.xls					
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	DG1A11	Still alive? I'm impressed. You have grit, child. Have you wit? For I have need of such in my service. 	DG1A1A	PCFemale			You disgust me, and all your kin. But I'll spare you if you'll tell me where to find Josian Kaid.	DG1A51				
+			DG1A1B	PCMale			You disgust me, and all your kin. But I'll spare you if you'll tell me where to find Vatasha Trenelle.	DG1A61				
+			DG1A1C	TRUE			Oh. Hadn't you heard? Methats sent me to give you a hand?	DG1A71				
+			DG1A1D	TRUE			Make me an offer.	DG1A81				
+	DG1A21	[[Smiling genially, it says nothing..]]		TRUE								
+	DG1A22	[It seems to be trying to ignore you.]]		TRUE								
+	DG1A23	[[It shows little interest in speaking with you.]]		TRUE								
+	DG1A31	I suppose it's time to dispose of your tiresome carcass.	DG1A3A	TRUE			Wait. We can deal.	END	MONSTERATTACK			
+			DG1A3B	TRUE			Fine. No hard feelings, jerk.	END	MONSTERATTACK			
+	DG1A41	Have you the voidguide?	DG1A4A	TRUE			Yes.	DG1A91				
+			DG1A4B	TRUE			Not yet, milord.	DG1A01				
+			DG1A4C	TRUE			No, milord. I gave it to Rishaal, as you said.	DG1B11				
+												
+	DG1A51	It's so kind of you to offer to spare my miserable life. In return, I am happy to tell you where you may find Kaid's remains. Try the lever on the east wall.	DG1A5A	TRUE			If this is a trick, you'll be sorry.	END		&GatanasMad		
+	DG1A61	It's so kind of you to offer to spare my miserable life. In return, I am happy to tell you where you may find Trenelle's remains. Try the lever on the east wall.	DG1A6A	TRUE			If this is a trick, you'll be sorry.	END		&GatanasMad		
+	DG1A71	How thoughtful. Everything seems to be completely under control… but you COULD be a dear and go fetch me the missing voidguide.	DG1A7A	TRUE			Right away, honored One.	END		&GatanasNice		
+	DG1A81	Take this enchanted Sigil Amulet and swear a solemn oath to the Great Powers upon it to serve me, and I in turn shall so swear and make you my chief lieutenant.	DG1A8A	TRUE			That sounds like a good offer. Done.	END	PUT  31_9039	&GatanasNice		
+			DG1A8B	TRUE			That sounds like a generous offer. Let me think about it.	END		&GatanasNice		
+	DG1A91	Then deliver it to Rishaal immediately. She'll take it to Sumeer.	DG1A9A	TRUE			Right away, honored One.	END				
+	DG1A01	Then don't bother me until you DO have it.	DG1A0A	TRUE			A thousand pardons,  honored One.	END				
+	DG1B11	Well done. Now go away. I have deep counsels to ponder, and your interruptions are most vexing.	DG1B1A	TRUE			I am yours to command, honored One.	END				

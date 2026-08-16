@@ -1,0 +1,29 @@
+		Clannfear Oathkin					file CF4T.xls			Clannfear Boxers Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	CF4A11	Pinkskin! Stand clear. This combat for honor of Xivilai and Clannfear!	CF4A1A	TRUE			You must have confused me with someone else. I'm no pinkskin. I'm a Living God. Fall on your knees right now and worship me, and maybe I'll spare you eons of torment in a loud, nasty black drain hole of Eternity.	CF4A31				
+	CF4A12	Trial of HONOR! Pinkskin intrudes on Trial of Honor. BAAAAD pinkskin!	CF4A1B	&Tayem			Hey. Look at the amulet. Ain't I a trusted and loyal retainer of Xivilai? Why don't you all stand back and let ME make short work of this Herne trash. Say. Is there a prize involved?	CF4A21				
+			CF4A1C	&Tayem			Shh! Shh. See this amulet? I'm on a secret mission for Xivilai. I'm supposed to spy on those Hernes and find out where they're keeping all their cool stuff. So mum's the word.	CF4A41				
+	CF4A21	Oh. We hear whispers. You kill Egahirn with his own Spear. Neat trick. So you strip this Herne clean, yes? Big prize! Has Dagger of the Potent Heart. BIG magic. Beat Herne, get Dagger.	CF4A2A	TRUE			Sounds great. Any rules?	CF4A51				
+	CF4A31	Foolish manling. Such foolish lies. Such insults! To think we would swallow such toad-droppings? You do us a great wrong.	CF4A3A	TRUE			I apologize most sincerely for impugning your modest wit. Forgive me. I didn't even know you had ANY wit! Hah-hah-hah. I slay me.	END	MonsterAttack	&FearMad		
+	CF4A41	Silly manling! Amulet means NOTHING! You TRESPASS upon the Lord's land, and show no token of his pleasure. Perhaps he will be pleased with your SKIN!	CF4A4A	TRUE			Say. You wouldn't have a drink of water handy? 'Cause this skinning Clannfear is thirsty work.	END	MonsterAttack	&FearMad		
+	CF4A51	Rules? Hernes? Hernes dirty cheaters. Rules no point. Just get him.	CF4A5A	TRUE			Fine. He's soup. Here. Hold my coat.	END		&FearFite		
+												
+	CF4A61	WHAAAAT, pinkskin? What now? Want we deal with you?	CF4A6A	TRUE			Go ahead. Take me if you can.	END	MonsterAttack	&FearMad		
+			CF4A6B	&WarAxe			Look. You said. No rules, Right?	CF4A71				
+			CF4A6C	&Dagger			Hey. Look. I won fair and square. I whipped Herne butt. Right? I got the Dagger of the Potent Heart. Right? Clean fight? What's the beef?	CF4A81				
+	CF4A71	But you attack CLANNFEAR! Take War Axe! Shame! Shame!	CF4A7A	TRUE			Ah, get over it.	END	MonsterAttack	&FearMad		
+	CF4A81	Yes. Yes. We say that. Fair. Square.  You GOOD! That GOOD fun. Let's get other Herne trash? You serve Xivilai? Loyal? Clannfear friend?	CF4A8A	TRUE			Sure. Sounds great. Kick some Herne butt? I'm your -- ehr -- manling, I guess. Let's go.	END	PCTeam			
+
+	CF4A91	Vengeance! Our Lord is wounded! Someone has wounded our Lord!	CF4A9A	TRUE			Hi. It was me. I just kicked your Lord's butt into Oblivion. Come over here, and I'll kick your scaly little butt, too.	END	MonsterAttack	&FearMad		
+			CF4A9B	TRUE			Oh. Oh. Betrayal! Treason! Faydra and her Hernes have treacherously cast Xivilai into Oblivion! Fall upon the traitors, and avenge the Exile of our noble Lord.	01-50: CF4A01 51-00: CF4B11				
+	CF4A01	And you? You took no part, flesh? You LIE! And you DIE!	CF4A0A	TRUE			You're green. You know that? Only animals and plants are green. Therefore, you are a stupid animal or a stupid plant. That's logic. Or maybe you're a bug.	END	MonsterAttack	&FearMad		
+	CF4B11	Betrayal! Treason! War upon Faydra, and all her faction!	CF4B1A	TRUE			Yeah! Get 'em! Hang him high! Bake the traitors! Make war on Faydra! Woo, woo!	END	PCTeam			
+												
+												
+	CF4B21	[[It hisses and spits, but speaks no words.]]	CF4B2A	TRUE				END				
+	CF4B31	[[It sniffs and eyes you hungrily.]]	CF4B3A	TRUE				END				
+	CF4B41	[[It peers at you, then its claws, then yawns wide, displaying its teeth.]]	CF4B41	TRUE				END				
+	CF4B51	What? Why talk? What talk? Hates talk!	CF4B5A	TRUE			Hey? Your Lord Xivilai grants me his protection. Why are all your Clannfear mates beating on me?	CF4B61				
+	CF4B61	Clannfear not stained as traitors, no! Lord says, "Flesh not slain – but  chasten flesh as nasty Oathkin, trespass on customs." Flesh provokes us? Feel teeth and claws. But goes quiet, leaves us? Smart flesh, yes.	CF4B6A	TRUE			I was just leaving. Heh-heh-heh.	END	MonsterAttack	&FearMad		
+			CF4B6B	TRUE			Taste my steel. And boot. And fireball. And this old piece of cloth. And this lump of wax. And some lint.	END	MonsterAttack	&FearMad		
+												

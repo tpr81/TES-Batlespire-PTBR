@@ -1,0 +1,7 @@
+		Seducer Oathkin					file SR2T.xls			Good Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR2A11	O que pensas que estas a fazer, tu... Espera...	SR2A1A	TRUE			- Sim, sim! Ves a tua perdicao a tua frente. Fuga enquanto ainda podes.	END	MONSTERFLEE_120	&SeduceNoTalk		
+	SR2A12	As coisas estao sob controlo, embora algumas das irmas mais teimosas ainda se escondam.	SR2A1B	TRUE			- O que? - O que? Tem medo que um pequeno manling te magoe? - Nao, nao. Estamos do mesmo lado. - Relaxa, esta bem? Pode dizer-me como sair daqui?	SR2A21				
+	SR2A13	Tu nao es o Frost. Ou Fogo. Ou Dremora. Entao o que... nao...	SR2A1C	TRUE			Nao julgues pelas aparencias. Eu tomo esta forma para confundir a minha presa. - Depressa. Um filhote esta a solta. Ele procura o portal de saida, e podemos prende-lo la. Vai, mostra-me o caminho e eu seguirei o melhor que puder nesta forma.	SR2A21				
+	SR2A21	Malditos sejam os deuses, e o homem!	SR2A2A	TRUE			- Sim, sim! Vejam o homem ousado e experimentem o medo! Eu... Ola. - Onde e que vais? - Para a casa.	END	MONSTERFLEE_120	&SeduceNoTalk		
+	SR2A31	Nao diz nada.										

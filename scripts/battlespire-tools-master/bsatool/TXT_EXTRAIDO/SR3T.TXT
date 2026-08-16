@@ -1,0 +1,20 @@
+		Seducer Oathkin					file SR3T.xls			Good Seducer Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR3A11	I SPIT on Dagon's treacherous dogs! You'll get no mercy from me, maggot-eater! Come. Come closer so you can hear my EVERY CURSE UPON YOUR AND ALL YOUR SPIT-LICKING KIN!	SR3A1A	TRUE			Sentiments close to my own heart, and spoken like a warrior. But you mistake me for a dog, when I am actually an innocent manling, tossed like a leaf in the flood. Let us join forces and kick dogs that NEED kicking.	SR3A21				
+			SR3A1B	TRUE			Mother of Monsters! I take GREAT offense! Do I LOOK like one of Dagon's dogs? 	SR3A21				
+			SR3A1C	&JacielName			Look. I'm siding with Jaciel and Deyanira, and I don't care WHO knows it! So if we're enemies, have at it. But if we are allies, let's stop burning each other!	SR3A31				
+			SR3A1D	&JacielFree			WAIT! Jaciel is FREE! I set her free! I'm a manling! I'm on your side!	SR3A41				
+	SR3A21	Lying, cowardly, spit-sucking DOGS! Don't try your lying tricks on me! Come CLOSER and let me KISS you, you spotty, craven, CRETIN!	SR3A2A	TRUE			Wait.	END	MonsterAttack	&Dog		
+	SR3A31	Oh. Yes. We've heard about you, and that you favor our cause. Listen. You might be interested. We hear Flamers savaged a boat carrying Frosties and a load of treasure as it ferried across the Pools. The items might be scattered widely, and the water is deep and dark, so be careful.	SR3A3A	TRUE			Thanks for the tip. I'll keep an eye out.	END	PCTeam	&Buddy		
+	SR3A41	Oh. YOU are the one who freed our Lady. We who remained loyal salute you, and praise your name. Our Lady  has commanded us to safeguard you, and treat you as Oathsister. We stand between you and your enemies. Did you hear about the treasure spill in the pools? Did you find anything?	SR3A4A	TRUE			Aw, shucks. It was nothing. But thanks for taking arms against my enemies. I have plenty enough for EVERYbody. And no, I didn't hear about a treasure spill. Why?	SR3A51				
+			SR3A4B	TRUE			I heard about the treasure, but haven't found any. Sorry.	SR3A51				
+			SR3A4C	TRUE			Yes, I heard about the treasure, and did find some. Did you want it back?	SR3A61				
+	SR3A51	Pity. But we haven't time to search right now. Deyanira says you're to take what you need.	SR3A5A	TRUE			That's very generous. Thank you. And now, please excuse me. I must search for my friend, and find my way out of here.	END	PCTeam	&Hero		
+	SR3A61	No, please. The Lady says you are to keep what you find, and use it against our common foes. Now excuse us. There is much to do.	SR3A6A	TRUE			That's very generous. Thank you. And go ahead, by all means. I too have lots to do. Farewell.	END	PCTeam	&Hero		
+	SR3A71	You look familiar, but I must be sure.	SR3A7A	TRUE			I'm the manling, remember? Friend to Deyanira and Jaciel?	SR3A21				
+			SR3A7B	&Buddy			I'm the manling, remember? Friend to Deyanira and Jaciel?	SR3A81	PCTeam			
+			SR3A7C	&Hero			I'm the manling, remember? I helped free Jaciel?	SR3A91	PCTeam			
+			SR3A7D	&JacielName			I'm working with Jaciel and Deyanira. Remember me?	SR3A31	PCTeam			
+			SR3A7E	&JacielFree			Remember me? I'm the guy who freed Jaciel.	SR3A41	PCTeam			
+	SR3A81	Yes. We watch and wait.	SR3A8A	TRUE			Good work. And goodbye.	END				
+	SR3A91	Yes. We welcome our ally  in the crusade to win back Shade Perilous.	SR3A9A	TRUE			And things are coming along marvelously. Keep up the good work.	END				

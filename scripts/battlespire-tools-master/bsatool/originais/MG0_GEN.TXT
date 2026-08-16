@@ -1,0 +1,2121 @@
+Name	“Ayem Sigil of Entry”
+ID#	9001
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Bedt Sigil of Entry”
+ID#	9002
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Cess Sigil of Entry”
+ID#	9003
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Doht Sigil of Entry”
+ID#	9004
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	1
+Level	0
+
+
+Name	“Ekem Sigil of Entry”
+ID#	9005
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Hefhed Sigil of Entry”
+ID#	9006
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Geth Sigil of Entry”
+ID#	9007
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Hekem Sigil of Entry”
+ID#	9008
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Iya Sigil of Entry”
+ID#	9009
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Jeb Sigil of Entry”
+ID#	9010
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Koht Sigil of Entry”
+ID#	9011
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Lyr Sigil of Entry”
+ID#	9012
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Meht Sigil of Entry”
+ID#	9013
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	2
+
+
+Name	“Neht Sigil of Entry”
+ID#	9014
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Oht Sigil of Entry”
+ID#	9015
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Payem Sigil of Entry”
+ID#	9016
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Quam Sigil of Entry”
+ID#	9017
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Roht Sigil of Entry”
+ID#	9018
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	2
+
+
+Name	“Seht Sigil of Entry”
+ID#	9019
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Tayem Sigil of Entry”
+ID#	9020
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Yoodt Sigil of Entry”
+ID#	9021
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Vehk Sigil of Entry”
+ID#	9022
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Web Sigil of Entry”
+ID#	9023
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	2
+
+
+Name	“Xayah Sigil of Entry”
+ID#	9024
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Yahkem Sigil of Entry”
+ID#	9025
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Zyr Sigil of Entry”
+ID#	9026
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	2
+	
+	
+
+
+Name	“Ayem Sigil”
+ID#	9027
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Bedt Sigil”
+ID#	9028
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Cess Sigil”
+ID#	9029
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Doht Sigil”
+ID#	9030
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	1
+Level	0
+
+
+Name	“Ekem Sigil”
+ID#	9031
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Hefhed Sigil”
+ID#	9032
+Item	3
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Geth Sigil”
+ID#	9033
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Hekem Sigil”
+ID#	9034
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Iya Sigil”
+ID#	9035
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Jeb Sigil”
+ID#	9036
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Koht Sigil”
+ID#	9037
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Lyr Sigil”
+ID#	9038
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Meht Sigil”
+ID#	9039
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	1
+Level	2
+
+
+Name	“Neht Sigil”
+ID#	9040
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Oht Sigil”
+ID#	9041
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Payem Sigil”
+ID#	9042
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Quam Sigil”
+ID#	9043
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Roht Sigil”
+ID#	9044
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	2
+
+
+Name	“Seht Sigil”
+ID#	9045
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Tayem Sigil”
+ID#	9046
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Yoodt Sigil”
+ID#	9047
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Vehk Sigil”
+ID#	9048
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Web Sigil”
+ID#	9049
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	1
+Level	2
+
+
+Name	“Xayah Sigil”
+ID#	9050
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Yahkem Sigil”
+ID#	9051
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	8
+
+
+Name	“Zyr Sigil”
+ID#	9052
+Item	3
+Spell	-1, 24, -1, -1, -1
+App	100
+Adv	-1
+Uses	0
+Level	2
+	
+	
+Name	"of Lingering Death"
+ID#	9201
+Item	2
+Spell	-1, 10, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Night"
+ID#	9202
+Item	2
+Spell	-1, 5, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Warning"
+ID#	9203
+Item	2
+Spell	-1, 3, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Service"
+ID#	9204
+Item	2
+Spell	-1, 1, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Hunt"
+ID#	9205
+Item	2
+Spell	-1, 1, -1, 4, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Steward"
+ID#	9206
+Item	2
+Spell	-1, 1, -1, 6, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Warden"
+ID#	9207
+Item	2
+Spell	-1, 1, -1, 8, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Nightmares"
+ID#	9208
+Item	2
+Spell	-1, 1, -1, 10, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Arcane Sight"
+ID#	9209
+Item	2
+Spell	-1, 2, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Unseen World"
+ID#	9210
+Item	2
+Spell	-1, 15, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Averted Eye"
+ID#	9211
+Item	2
+Spell	-1, 5, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Feathered Grace"
+ID#	9212
+Item	2
+Spell	-1, 8, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Withering"
+ID#	9213
+Item	2
+Spell	-1, 9, -1, 1, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Blight"
+ID#	9214
+Item	2
+Spell	-1, 9, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Agony"
+ID#	9215
+Item	2
+Spell	-1, 9, -1, 3, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Spite"
+ID#	9216
+Item	2
+Spell	-1, 9, -1, 4, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Fate"
+ID#	9217
+Item	2
+Spell	-1, 9, -1, 5, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Despair"
+ID#	9218
+Item	2
+Spell	-1, 9, -1, 6, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Convulsion"
+ID#	9219
+Item	2
+Spell	-1, 11, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Vampire"
+ID#	9220
+Item	2
+Spell	-1, 12, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Secrets"
+ID#	9221
+Item	2
+Spell	-1, 13, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Mysteries"
+ID#	9222
+Item	2
+Spell	-1, 13, -1, 4, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Revelations"
+ID#	9223
+Item	2
+Spell	-1, 13, -1, 6, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Spellshifting"
+ID#	9224
+Item	2
+Spell	-1, 15, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Resolve"
+ID#	9225
+Item	2
+Spell	-1, 16, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Bright Well"
+ID#	9226
+Item	2
+Spell	-1, 17, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Chastening Fire"
+ID#	9227
+Item	2
+Spell	-1, 18, -1, 2, 1
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Blistering Fire"
+ID#	9228
+Item	2
+Spell	-1, 18, -1, 4, 1
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Cleansing Fire"
+ID#	9229
+Item	2
+Spell	-1, 18, -1, 6, 1
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Skinchill"
+ID#	9230
+Item	2
+Spell	-1, 18, -1, 2, 2
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Fleshrime"
+ID#	9231
+Item	2
+Spell	-1, 18, -1, 4, 2
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Bonefrost"
+ID#	9232
+Item	2
+Spell	-1, 18, -1, 6, 2
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Magefire"
+ID#	9233
+Item	2
+Spell	-1, 18, -1, 2, 3
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Magepain"
+ID#	9234
+Item	2
+Spell	-1, 18, -1, 4, 3
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Magewrack"
+ID#	9235
+Item	2
+Spell	-1, 18, -1, 6, 3
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Stain"
+ID#	9236
+Item	2
+Spell	-1, 18, -1, 2, 4
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Fleshfire"
+ID#	9237
+Item	2
+Spell	-1, 18, -1, 4, 4
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Corruption"
+ID#	9238
+Item	2
+Spell	-1, 18, -1, 6, 4
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sparking"
+ID#	9239
+Item	2
+Spell	-1, 18, -1, 2, 5
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Storm"
+ID#	9240
+Item	2
+Spell	-1, 18, -1, 4, 5
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Lightning"
+ID#	9241
+Item	2
+Spell	-1, 18, -1, 6, 5
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Handfire"
+ID#	9242
+Item	2
+Spell	-1, 18, -1, 2, 1
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Burning Blows"
+ID#	9243
+Item	2
+Spell	-1, 18, -1, 4, 1
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Bonesear"
+ID#	9244
+Item	2
+Spell	-1, 18, -1, 6, 1
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Snow"
+ID#	9245
+Item	2
+Spell	-1, 18, -1, 2, 2
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Rime"
+ID#	9246
+Item	2
+Spell	-1, 18, -1, 4, 2
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Ice"
+ID#	9247
+Item	2
+Spell	-1, 18, -1, 6, 2
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Baleful Woe"
+ID#	9248
+Item	2
+Spell	-1, 18, -1, 2, 3
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Weirdbane"
+ID#	9249
+Item	2
+Spell	-1, 18, -1, 4, 3
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Wizardbrand"
+ID#	9250
+Item	2
+Spell	-1, 18, -1, 6, 3
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Apprentice"
+ID#	9251
+Item	2
+Spell	-1, 18, -1, 2, 4
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Journeyman"
+ID#	9252
+Item	2
+Spell	-1, 18, -1, 4, 4
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Master"
+ID#	9253
+Item	2
+Spell	-1, 18, -1, 6, 4
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Subtle Force"
+ID#	9254
+Item	2
+Spell	-1, 18, -1, 2, 5
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Broad Force"
+ID#	9255
+Item	2
+Spell	-1, 18, -1, 4, 5
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Grand Force"
+ID#	9256
+Item	2
+Spell	-1, 18, -1, 6, 5
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Biter Bitten"
+ID#	9257
+Item	2
+Spell	-1, 19, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Purity"
+ID#	9258
+Item	2
+Spell	-1, 20, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Healing"
+ID#	9259
+Item	2
+Spell	-1, 21, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Hero"
+ID#	9260
+Item	2
+Spell	-1, 21, -1, 4, 0
+App	100
+Adv	-1
+Uses	50
+Level	0
+
+	
+Name	"of the Whole Flesh"
+ID#	9261
+Item	2
+Spell	-1, 21, -1, 6, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Lightness"
+ID#	9262
+Item	2
+Spell	-1, 22, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Swiftness"
+ID#	9263
+Item	2
+Spell	-1, 24, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Between"
+ID#	9264
+Item	2
+Spell	-1, 25, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Lesser Vigil"
+ID#	9265
+Item	2
+Spell	-1, 26, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+	
+	
+Name	"of the Greater Vigil"
+ID#	9266
+Item	2
+Spell	-1, 26, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Grand Vigil"
+ID#	9267
+Item	2
+Spell	-1, 26, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Grand Warding"
+ID#	9268
+Item	2
+Spell	-1, 27, -1, 2, 0
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Fiery Ward"
+ID#	9269
+Item	2
+Spell	-1, 27, -1, 2, 1
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Frosty Ward"
+ID#	9270
+Item	2
+Spell	-1, 27, -1, 2, 2
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Mana Ward"
+ID#	9271
+Item	2
+Spell	-1, 27, -1, 2, 3
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Poison Ward"
+ID#	9272
+Item	2
+Spell	-1, 27, -1, 2, 4
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Shock Ward"
+ID#	9273
+Item	2
+Spell	-1, 27, -1, 2, 5
+App	100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Stalking"
+ID#	9301
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	3, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Sanguine Swimmer"
+ID#	9302
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	4, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Surprise"
+ID#	9303
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	5, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Leaping"
+ID#	9304
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	1, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Fleetness"
+ID#	9305
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	7, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Red Wisdom"
+ID#	9306
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	8, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Green Wisdom"
+ID#	9307
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	9, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Silver Wisdom"
+ID#	9308
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	10, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Golden Wisdom"
+ID#	9309
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	11, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Unseen Wisdom"
+ID#	9310
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	12, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Unknown Wisdom"
+ID#	9311
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	13, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Swiftblade"
+ID#	9312
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	14, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Hewing"
+ID#	9313
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	15, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine the Horny Fist"
+ID#	9314
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	16, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Deep Biting"
+ID#	9315
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	17, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Smiting"
+ID#	9316
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	18, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Sanguine Sureflight"
+ID#	9317
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	19, 05, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Stalking"
+ID#	9326
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	3, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Assured Swimmer"
+ID#	9327
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	4, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Surprise"
+ID#	9328
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	5, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Leaping"
+ID#	9329
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	1, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Fleetness"
+ID#	9330
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	7, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Red Wisdom"
+ID#	9331
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	8, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Green Wisdom"
+ID#	9332
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	9, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Silver Wisdom"
+ID#	9333
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	10, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Golden Wisdom"
+ID#	9334
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	11, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Unseen Wisdom"
+ID#	9335
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	12, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Unknown Wisdom"
+ID#	9336
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	13, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Swiftblade"
+ID#	9337
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	14, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Hewing"
+ID#	9338
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	15, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Assured Horny Fist"
+ID#	9339
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	16, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Deep Biting"
+ID#	9340
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	17, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Smiting"
+ID#	9341
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	18, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Assured Sureflight"
+ID#	9342
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	19, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Stalking"
+ID#	9351
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	3, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Masterful Swimmer"
+ID#	9352
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	4, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Surprise"
+ID#	9353
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	5, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Leaping"
+ID#	9354
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	1, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Fleetness"
+ID#	9355
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	7, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Red Wisdom"
+ID#	9356
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	8, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Green Wisdom"
+ID#	9357
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	9, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Silver Wisdom"
+ID#	9358
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	10, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Golden Wisdom"
+ID#	9359
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	11, 10, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Unseen Wisdom"
+ID#	9360
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	12, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Unknown Wisdom"
+ID#	9361
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	13, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Swiftblade"
+ID#	9362
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	14, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Hewing"
+ID#	9363
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	15, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Masterful Horny Fist"
+ID#	9364
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	16, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Deep Biting"
+ID#	9365
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	17, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Smiting"
+ID#	9366
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	18, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Masterful Sureflight"
+ID#	9367
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	19, 15, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Stalking"
+ID#	9376
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	3, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Incomparable Swimmer"
+ID#	9377
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	4, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Surprise"
+ID#	9378
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	5, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Leaping"
+ID#	9379
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	1, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Fleetness"
+ID#	9380
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	7, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Red Wisdom"
+ID#	9381
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	8, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Green Wisdom"
+ID#	9382
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	9, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Silver Wisdom"
+ID#	9383
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	10, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Golden Wisdom"
+ID#	9384
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	11, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Unseen Wisdom"
+ID#	9385
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	12, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Unknown Wisdom"
+ID#	9386
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	13, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Swiftblade"
+ID#	9387
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	14, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Hewing"
+ID#	9388
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	15, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Incomparable Horny Fist"
+ID#	9389
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	16, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Deep Biting"
+ID#	9390
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	17, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Smiting"
+ID#	9391
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	18, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of Incomparable Sureflight"
+ID#	9392
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	19, 20, 100
+Adv	-1
+Uses	10
+Level	0
+
+	
+Name	"of the Potent Kin"
+ID#	9401
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	9, 44, 45
+Uses	10
+Level	0
+
+	
+Name	"of the Fire Kin"
+ID#	9402
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	10, 43
+Uses	10
+Level	0
+
+	
+Name	"of the Frost Kin"
+ID#	9403
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	11, 42
+Uses	10
+Level	0
+
+	
+Name	"of the Stolid Kin"
+ID#	9404
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	12, 13, 41
+Uses	10
+Level	0
+
+	
+Name	"of the Potent Heart"
+ID#	9405
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	14, 49, 50
+Uses	10
+Level	0
+
+	
+Name	"of the Fire Heart"
+ID#	9406
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	15, 48
+Uses	10
+Level	0
+
+	
+Name	"of the Frost Heart"
+ID#	9407
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	16, 47
+Uses	10
+Level	0
+
+	
+Name	"of the Stolid Heart"
+ID#	9408
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	17, 18, 46
+Uses	10
+Level	0
+
+	
+Name	"of the Singing Air"
+ID#	9409
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	19
+Uses	10
+Level	0
+
+	
+Name	"of Spirit Vault"
+ID#	9410
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	20, 42, 43
+Uses	10
+Level	0
+
+	
+Name	"of the Pure Heart"
+ID#	9411
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	21
+Uses	10
+Level	0
+
+	
+Name	"of Profane Vitality"
+ID#	9412
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	22, 41
+Uses	10
+Level	0
+
+	
+Name	"of the Profaned Firmament"
+ID#	9413
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	23, 44, 45
+Uses	10
+Level	0
+
+	
+Name	"of the Saintly Dervish""
+ID#	9414
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	24
+Uses	10
+Level	0
+
+	
+Name	"of the Fawn's Gleaning"
+ID#	9415
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	25, 36
+Uses	10
+Level	0
+
+	
+Name	"of the Hawk's Gleaning"
+ID#	9416
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	26, 37
+Uses	10
+Level	0
+
+	
+Name	"of the Eagle's Gleaning"
+ID#	9417
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	27, 38
+Uses	10
+Level	0
+
+	
+Name	"of the Lion's Gleaning"
+ID#	9418
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	28, 39
+Uses	10
+Level	0
+
+	
+Name	"of the Shield-Biter"
+ID#	9419
+Item	2
+Spell	-1, -1, -1, -1, -1
+App	100
+Adv	29, 36
+Uses	10
+Level	0
+

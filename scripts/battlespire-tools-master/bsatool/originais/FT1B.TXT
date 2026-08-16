@@ -1,0 +1,20 @@
+	Random Talk Tables			file Ft1B.xls
+	Frost Daedra			
+	talkcheck			
+	&FrostMad	FT1B71		
+	&FrostPal	FT1B81		
+				
+				
+				
+	talktable			
+	First	FT1A11		
+	Second	FT1B71		
+	Third	FT1A71		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-25	FT1A11		
+	26-50	FT1B71		
+	51-75	FT1B71		
+	76-00	FT1A71		

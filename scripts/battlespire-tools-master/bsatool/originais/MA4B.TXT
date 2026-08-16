@@ -1,0 +1,27 @@
+	Random Talk Tables			file MA4B.xls
+Mastema Rowdies				
+	talkcheck			
+	&FayDupe	MA4A61		
+	&FayEnemy	MA4A91		
+	&HerneMad	MA4B21		
+				
+				
+	talktable			
+	First	MA4A11		
+	Second	MA4B41		
+	Third	MA4A12		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-20	MA4A11		
+	21-40	MA4A12		
+	41-60	MA4B21		
+	61-80	MA4B31		
+	81-00	MA4B41		
+				
+				
+
+
+				
+				

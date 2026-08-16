@@ -1,0 +1,24 @@
+	Random Talk Tables			file dr1m.xls
+	Dremora L1			
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	DR1A11		
+	Second	DR1A21		
+	Third	DR1A31		
+	Fourth +	GotoRandom		
+				
+	Random			
+		TalkGroup	Notes	
+	01-33	DR1A11	NoTalk default	
+	34-66	DR1A21	NoTalk default	
+	67-00	DR1A31	NoTalk default	
+				
+				
+				
+				
+				

@@ -1,0 +1,10 @@
+Mg0_gen.txt = generic magic items [added sigils]
+Mg2_spc.txt = special magic items [added more magic crap]
+Revtalk texts are updated! Hoorah.
+
+MAP IS IN XFER
+
+
+so. What is this text.rsc? Is this a tragically complied version of the Spire.txt?
+ 
+You're welcome.

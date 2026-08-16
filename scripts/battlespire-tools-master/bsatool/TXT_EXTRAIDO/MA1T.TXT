@@ -1,0 +1,19 @@
+		Herne Oathkin					file MA1T.xls			Herne Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MA1A11	Hello little hare. I am a Huntsman. I hunt you in accordance with the laws of the Wild Hunt. How do you like our hunt?	MA1A1A	TRUE			Well, not bad, for the provinces. Not a patch on the Imperial Hunts, of course, but making allowance for the lower status and sophistication of participants here, not a completely embarrassing shambles. Now, if you'll excuse me, I'll think I'll go run circles around a couple of your cute little puppies. Goodbye.	END		&HerneMad		
+			MA1A1B	TRUE			The best ever! Gosh, am I having fun. FAR too much fun to waste time talking with shabby rabble like you. So long.	END		&HerneMad		
+			MA1A1C	TRUE			Why me?	MA1A61				
+			MA1A1D	TRUE			What a complete and total bore. Stop it right now. Lost its entertainment value ages ago. So just stop it.	MA1A21				
+	MA1A21	The Wild Hunt cannot end until the sacred Spear of Bitter Mercy takes the life of the prey, and the victor Calls the Dark Seducer to View the kill. All must be done in accord with the Law. So you see we are not quite finished yet.  	MA1A2A	TRUE			By the way, why aren't YOU attacking me?	MA1A31				
+	MA1A31	I see no reason to not tell you, since you are mere moments from death. We desire that our younger Oathkinsman Egahirn collect the kill. We left our Spears sealed away, so that we are not tempted to kill you in the excitement of the chase.	MA1A3A	TRUE			So, you won't kill me?	MA1A41				
+	MA1A41	Well, we'll TRY not to kill you. It would be a waste. But you are such fragile vessels, and sometimes we get excited. When provoked. When the chase is hot.	MA1A4A	TRUE			Where'd you leave your Spear?	MA1A51				
+	MA1A51	Wouldn't you like to know.	MA1A5A	TRUE			Why are you doing this?	MA1A61				
+	MA1A61	Why? To gain power from the rich magica currents around this isle. The Hunt is but a means to that end, and your death merely a fortunate byproduct. 	MA1A6A	TRUE			Where are the keys that allow me to escape?	MA1A71				
+	MA1A71	Ho, ho! I will never tell you. They are hidden in strict keeping with the Law of the Wild Hunt. 	MA1A7A	TRUE			Nuts. Well. It's been grand talking with you. Hope you choke. Goodbye.	END				
+			MA1A7B	&Egahirn			Right. In strict keeping with the Law, eh? Egahirn has the sixth key tucked inside his invulnerable little trousers, and you call that 'in strict keeping with the Law'? You should be ashamed.	MA1A81				
+	MA1A81	You amaze me, mortal. How did you find that out?	MA1A8A	TRUE			Now how am I suppose to get a key from an invulnerable Huntsman? That's hardly sporting.	MA1A91				
+	MA1A91	I have followed the Law of the Hunt to the letter, mortal! Else the Hunt would be over before it started.	MA1A9A	TRUE			You may have observed the LETTER of the Law, but perverted its SPIRIT.	MA1A01				
+	MA1A01	You amuse me, mortal. MOST gratifying. To dispute the Law with the Hare. Hah. I shall feast free forever on the charm of this tale. I thank you, Hare, and promise that you shall be immortalized in my glorious account of this Hunt. But, now I fear our chat is over, for the Hunt must continue. Run well, little Hare, and give us good sport.	MA1A0A	TRUE			Always good to be appreciated, milord. And rest assured, Huntsman, that you'll not lack for surprises from your little Hare, though some may be very much less to your liking.	END				
+												
+	MA1B11	[[Apparently the daedra has nothing to say to you.]]	MA1B1A	TRUE				END				
+	MA1B21	[[The daedra looks almost fondly upon you, but doesn't say a word.]]	MA1B2A	TRUE				END				

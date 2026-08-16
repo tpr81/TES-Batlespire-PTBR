@@ -1,0 +1,25 @@
+		Vermai Oathkin					file Vm3T.xls			VERMAI TALK		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	VM3A11	HNNNRRGH! HNNNRRGH! HNNNRRGH! HNNNRRGH! HNNNRRGH! HNNNRRGH!	VM3A1A	TRUE			HURT-HURT-HURT-HURT-HURT-HURT! Hurt VERMAI For HOURS!	END	MONSTERATTACK			
+	VM3A12	HNRGH! HNNNRRGH! HNNNRRGH!	VM3A1B	TRUE			Okay. Look. Prit-ty wea-pon! For ex-tra-stu-pid Vermai! See? Put prit-ty wea-pon right here for YOU, you numbskull.	END	DROPREADYWEAPON AND MONSTERWAIT_120			
+	VM3A13	HNNNRR-RRRR-RRRRGH!	VM3A1C	TRUE			HNNNRRGH! 	END	MONSTERATTACK	&VermaiMad		
+			VM3A1D	&ZenaideName AND &WearAmuletZ			Look. Amulet. ZENAIDE! HURT! HURT! HNNNRRGH?	VM3A41				
+	VM3A21	HNNNRRGH! HURT! HNNNRRGH! HURT-HURT-HURT! HNNNRRGH!	VM3A2A	TRUE			Well, in fairness, I admit I aim to hurt-hurt-hurt you, too, you stoneheaded brute.	END	MONSTERATTACK	&VermaiMad		
+	VM3A31	[[It growls at you.]]										
+	VM3A32	[[It shows you a handsome set of teeth.]]										
+	VM3A33	[[It blinks, stares hard, then growls.]]										
+												
+												
+	VM3A41	Hrnn. HRRRRRngh.	VM3A4A				Nice monster. Get lost.	END	PCTeam	&VermaiNice		
+												
+												
+												
+													
+													
+													
+													
+													
+													
+													
+													
+													

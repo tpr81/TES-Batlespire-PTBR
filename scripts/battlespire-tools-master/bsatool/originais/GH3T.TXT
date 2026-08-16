@@ -1,0 +1,35 @@
+	Ghosts						file Gh1T.xls					
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	GH1A11	A morte e a mae da beleza.	GH1A1A	TRUE			"Isso e muito simpatico. Muito poetico. Obrigado por partilhares isso. Preferia, no entanto, que parasse de tentar matar-me. Por favor?"	GH1A31				
+	GH1A12	"As estacoes passam para o inverno. No branco congelado, o tempo para".	GH1A1B	TRUE			Pode dizer-me como sair daqui?	GH1A31				
+	GH1A13	Viemos ate aqui pela beleza. Viemos ate aqui pelo amor. A partir daqui podemos ver para sempre.	GH1A1C	TRUE			"Estas a desperdicar o teu folego. - Por assim dizer. Estou vivo, gosto e vou ficar assim. Adeus".	END				
+												
+	GH1A21	"Nao havera despedidas tristes, nem lagrimas de despedida. Nenhuma morte assombra esta distante praia de paz e amor".	GH1A2A	TRUE			Posso ajuda-la de alguma forma? Aliviar a dor? Liberar-te da maldicao que te prende aqui?	GH1A31				
+	GH1A22	"Nao julgues um homem, mortal, nascido para morrer, feliz antes de morrer. Na morte, tudo e paz e alegria, serena, eterna".	GH1A2B	TRUE			"Eu suponho naturalmente, sendo voce morto e tudo, que voce esta sofrendo angustia e tormento terrivel. Nao e verdade? "Nao me pareces tao infeliz".	GH1A31				
+	GH1A23	"Levantamos o veu e entramos na noite, a noite eterna, gloriosa com estrelas".	GH1A2C	TRUE			Isto nao parece ser muito produtivo. - Adeus. - Adeus.	END				
+												
+	GH1A31	"[[O fantasma brilha e grita, mas nao responde.]]"		TRUE			NOTA: Este e um dialogo padrao do NoTalk.	END		&GhostNoTalk		
+												
+	GH1A41	O amor e mais forte que a morte. Quem serve a morte nao morrera.	GH1A4A	TRUE			"Palavras para viver. - Nao. Foi divertido, mas parece que tenho de recorrer a violencia. Adeus".	END				
+	GH1A42	"Alem da morte, nao ha medo, nem vergonha. Na morte, o espirito surge, puro e orgulhoso".	GH1A4B	TRUE			Onde estou? Quem sao voces? Ou quem eram voces? O que se passa aqui? Nao me podes dar uma dica?	GH1A31				
+	GH1A43	"Sejam profundas as raizes, fortes os ramos, duras as fibras da casca e do tronco.... Mas, mortal, diante dos ventos da morte, nao podes resistir. " Nao .	GH1A4C	TRUE			"Abjuro-te, nascido do alem da sepultura! Abominacao! Fantasma profano! Em nome de tudo o que e bom e justo, eu te amaldicoo, e rezo pela tua destruicao!"	GH1A31				
+	GH1A44	"Tenha a certeza de que a morte e ma, porque se fosse boa, todos os deuses morreriam".	GH1A4D	TRUE			"Isso foi muito instrutivo, mas nao quero impedir-vos de fazer o vosso trabalho muito importante. O que quer que seja".	END				
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												

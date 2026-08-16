@@ -1,0 +1,24 @@
+		Herne Oathkin					file MA4T.xls			Mastema Boxers Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	MA4A11	- Tu! - Nao! Levaste o nosso irmao Egahirn! E agora ele foi-se, o pobre doce! Nos choramos! Nos choramos! Nos rasgamos as nossas peles! ODIAMOS a nossa dor. E tu, mortal, partilharas a nossa dor e cobriras as paredes com os teus gauchos vistosos! Pela alegria da dor! Para desperdicio de perdas! Nos sentimos falta do nosso Playbrother! E rebentem com o seu tomador!	MA4A1A	TRUE			- Olha. Eu disse que lamento. Mas, admito, nao lamento muito. - Nao, nao. Ele recebeu o que merecia, o trapaceiro sujo.	MA4A21				
+	MA4A12	- Entao? Es o homem que nos tirou o nosso Playbrother. Nao pareces muito. Nao devemos ceder ao choro, nao ate espalharmos no chao as vossas partes em toda a sua gloria.	MA4A1B	&Payem OR &Cess			Tudo isso e passado. - E uma pena. Agora, uso o amuleto de Sua Senhoria e sirvo-a como o fazes tu. Podemos nao trabalhar juntos? Ou, se desejar satisfacao, nao o negarei, mas primeiro vamos tratar da turba do Clannfear.	01-50: MA4A31 51-00: MA4A41				
+			MA4A1C	&Payem OR &Cess			Este amuleto diz para nao mexer nas maos. - Esta claro? - Sim. E nao me atrapalhes, ou o que aconteceu ao Egahirn pode acontecer-te a ti.	MA4A21				
+	MA4A21	Morrer. Morre mil vezes e implora por mil mais.	MA4A2A	TRUE			Uma morte e suficiente para mim, e vou guarda-la para a velhice, obrigado.	END	MonsteraAttack	&HerneMad		
+	MA4A31	Isto e um assunto pessoal, que diz respeito ao proximo Oathkin, Manling. Nao consegues entender. E nao vivera tempo suficiente para se preocupar com isso.	MA4A3A	TRUE			Eu entendo muito, idiota, e considerando todas as contas que tenho para liquidar, posso comecar contigo. - Nao, nao.	END	MonsteraAttack	&HerneMad		
+	MA4A41	Por enquanto, Manling, podes esconder-te atras do amuleto. Mas mais tarde, prometo-lhe, havera uma prestacao de contas pelas suas acoes.	MA4A4A	TRUE			Isso fica-me bem, cheiro de cabra.	MA4A51				
+	MA4A51	Como me chamaste, pequeno homem?	MA4A5A	TRUE			- Nao. - Nao, nada. Estou a limpar a garganta.	MA4A71				
+			MA4A5B	TRUE			- Nao. Peco desculpa. Respiracao de Cabra.	END	MonsteraAttack	&HerneMad		
+	MA4A61	Meu Deus! O que e que temos aqui? Um macaco? Um mago de batalha em forma de burro? Um manequim animado para o nosso desporto? Se fosse um homem, teriamos de o deixar em paz, pois sao ordens da minha senhora. Mas certamente, nao pode ser o homem, por isso podemos usa-lo para as nossas piadas.	MA4A6A	TRUE			- A serio? - Sim. Nao me reconheces? - Nao. - Eu entendo. Se e assim que queres jogar, esta-me bem.	END	MonsterAttack	&HerneMad		
+	MA4A71	Devias ter mais cuidado, Manling. Somos criaturas sensiveis e rapidamente ofendidas.	MA4A7A	TRUE			Sinto muito, muito. Tenho vergonha de mim. Por favor, perdoe-me.	MA4A81				
+			MA4A7B	TRUE			- Nao, tens razao. - Desculpa. Sr. Respiracao de Cabra.	END	MonsteraAttack	&HerneMad		
+	MA4A81	No espirito da fraternidade universal entre mortais e imortais, eu perdoo-te graciosamente.	MA4A8A	TRUE			Muito bem feito. Falas como um cavalheiro. Entao vamos matar lagartos, sim?	END	PCTeam			
+			MA4A8B	TRUE			E, por sua vez, perdoo-te por te vestires como uma cabra.	END	MonsteraAttack	&HerneMad		
+	MA4A91	A Lady Faydra foi-se. Ja nao sinto a emocao dela no meu coracao. Nao, nao pode ser que tenhas alguma coisa a ver com isso, pois nao, Manling?	MA4A9A	TRUE			- Nao. - Claro que sim. - Fui eu. - Nao. Acabei de atirar a Senhora onde as estrelas nao brilham. E boa sorte. Velha bruxa ma.	END	MonsterAttack	&HerneMad		
+			MA4A9B	TRUE			Desculpa desaponta-lo, mas nao tenho esse tipo de musculo. E perder a Senhora tambem me deu umas formigas no jantar, rapaz. Tinhamos planos para cozinhar. - Entao? Estava a pensar em ir la e magoar o Xivilai e o bando dele. Estas pronto para isso?	01-50: MA4A01 51-00: MA4B11				
+	MA4A01	Talvez tenha feito o Faydra, e talvez nao. Nao importa para mim, agora. Estamos so nos e os nossos assuntos pessoais. E e hora de pagar pelo que fez ao meu Oathkin, Egahirn.	MA4A0A	TRUE			Isso e historia antiga. Mas vejo que te incomoda. - Esta bem. - Esta bem. Vamos tratar de assuntos inacabados.	END	MonsterAttack	&HerneMad		
+	MA4B11	As coisas estao um pouco confusas agora, Manling. Acho que vou ficar aqui sentado, a ver para onde sopra o vento. Entao talvez seja melhor uma tregua temporaria. Se fores simpatico, eu tambem serei. E mais tarde, quando as coisas acalmarem, vem ver-me e teremos uma conversa agradavel.	MA4B1A	TRUE			Nao posso prometer nada. Mas estou um pouco exausto por partir os torsos e arrancar os bracos. Entao vamos ambos respirar um pouco.	END	PCTeam			
+												
+												
+	MA4B21	Os olhos dele brilham de furia, mas ele nao diz uma palavra.	MA4B2A	TRUE				END				
+	MA4B31	Ele te considera como um pouco mais do que o que tu pensas.	MA4B3A	TRUE				END				
+	MA4B41	Que vos observa,	MA4B4A	TRUE				END				

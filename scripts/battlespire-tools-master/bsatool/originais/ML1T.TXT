@@ -1,0 +1,16 @@
+		Lesser Lord					file ML1T.xls			Minor Lord L6 Talk		
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	ML1A11	Garanti ao meu senhor Imago que nao estara interessado em falar com ele. Nao deve ser dificil convence-lo. E sempre possivel que eu esteja errado. Achas que isso e possivel? Que eu poderia estar errado?	ML1A1A	TRUE			Nao, Vossa Senhoria. Nunca. Nunca. Entao vou-me embora.	END				
+			ML1A1B	TRUE			Nao conhecendo o futuro, Vossa Senhoria, o meu palpite e de pouco interesse. Mas pergunta-me outra vez, se ainda puderes.	END				
+			ML1A1C	TRUE			Se estou interessado em falar com o Lorde Imago e de pouca importancia. O que importa e se o Lorde Imago deseja falar comigo, e nesse sentido, sou o seu servo voluntario.	ML1A21				
+	ML1A21	Se nao te conseguir convencer que nao estas interessada em falar com ele, entao, de facto, o Lorde Imago deseja falar contigo. Eu carrego um amuleto. Quando tiveres esse amuleto, entao podes saber que o meu Senhor falara contigo.	ML1A2A	TRUE			- Eu entendo. E nao me vais dar o amuleto.	ML1A31				
+			ML1A2B				Tenho um amuleto e nao desejo outro.	ML1A41				
+			ML1A2C				Desculpe, mas estou com pressa e nao tenho tempo para conversacoes. Desculpe-me enquanto lhe dou uma sova.	END		&LordMad		
+	ML1A31	Nao, nao. Claro que nao. Estas a brincar?	ML1A3A	TRUE			Nao, nao. Nao estou a brincar. Desejo sinceramente o amuleto, e se estivesse disponivel para pedir, seria arrogante negligenciar pedir. Por isso, honro-vos a vos e aos vossos cargos. Vamos prosseguir com as questoes de peso da persuasao.	END		&LordMad		
+	ML1A41	Isso e muito interessante, e possivelmente verdade. Ainda assim, preciso que me satisfaca com a prova no meu corpo de que e capaz de falar com o meu Senhor.	ML1A4A	TRUE			- Esta bem. - Esta bem. Entao, prova no corpo. - Bater?	END		&LordMad		
+	ML1A51	Nao te consigo ver nem ouvir, Manling. Nao existes. Nao estejas aqui e nao ofendas nem os meus sentidos nem a minha inteligencia.	ML1A5A	TRUE			[Saia sem dizer uma palavra.]	END				
+			ML1A5B	&Iya			Desculpa ter banido o teu compatriota para Oblivion. Ele devia ter-me dado o amuleto e ter acabado com isso.	END	MonsterAtttack			
+			ML1A5C	TRUE			- Nao, nao. Nao es tao duro. Eu podia apanhar-te com as minhas proprias maos. - Nao, nao. Queres lutar?	END	DropReadyWeapon	&LordMad		
+	ML1A61	Ele olha para ti, levantando a sua arma, mas nao diz uma palavra.	ML1A6A	TRUE				END				
+	ML1A71	E ele nao diz nada, mas os seus olhos revelam a sua ira.	ML1A7A	TRUE				END				
+	ML1A81	Que te observa, mas nao fala.	ML1A8A	TRUE				END				

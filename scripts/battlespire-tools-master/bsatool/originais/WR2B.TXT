@@ -1,0 +1,27 @@
+	Random Talk Tables			file WR2B.xls
+L8 Wraith				
+	talkcheck			
+				
+				
+				
+				
+				
+	talktable			
+	First	WR2A11		
+	Second	WR2A11		
+	Third	WR2A11		
+	Fourth +	WR2A11		
+				
+	Random			
+		TalkGroup	Notes	
+				
+				
+				
+				
+				
+				
+				
+
+
+				
+				

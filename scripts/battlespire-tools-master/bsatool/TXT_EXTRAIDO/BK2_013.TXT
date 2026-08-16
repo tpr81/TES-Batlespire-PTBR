@@ -1,0 +1,46 @@
+Codex Arcana, Volume I
+
+ESTUDANTES E ESTUDIOSO: Atentem para nossas Abjuracoes!$DEMONSTRANDO A DEVIDA PROPRIEDADE NA CUSTODIA DOS LIVROS$
+
+Nao apenas prestamos servicos ao Imperador ao preparar volumes de novos livros, mas tambem exercemos um oficio de sagrada piedade quando tratamos os livros com cuidado, e novamente quando os restauramos aos seus devidos lugares e os encarregamos a uma custodia inviolavel; para que eles possam se regozijar na pureza enquanto os temos em nossas maos, e descansar em seguranca quando forem restaurados aos seus repositorios. E certamente, depois das vestes e maquinas dedicadas a gloria do Imperador, os livros arcanos merecem ser devidamente tratados pelo mago de batalha, aos quais grandes danos sao causados todas as vezes que sao tocados por maos impuras. Por isso, julgamos conveniente alertar nossos estudantes contra varias negligencias, tais como as que poderiam ser facilmente evitadas e que causam danos incriveis aos livros.$
+
+Sendo um indice parcial de artefatos arcanos conhecidos pelos estudiosos e alquimistas de Battlespire, para que esses artefatos possam ser mais facilmente conhecidos por todos os estudantes, e nem abusados, nem negligenciados, nem desperdicados em seu uso.$
+
+"Arte da Corrupcao"$
+Produz a conjuracao de Dano Maior por Veneno a Distancia$
+$
+"Bicos de Relampago"$
+Conjura a magia de Dano Maior por Choque a Distancia$
+$
+"Mordida da Geada na Carne"$
+Concede o poder de Dano Medio por Frio a Distancia$
+$
+"Flor do Fogo Castigador"$
+Produz a conjuracao de Dano Menor por Fogo a Distancia$
+$
+"Bolhas de Fogo das Maos"$
+Produz a conjuracao de Dano Menor por Fogo$
+$
+"Osso da Resolucao"$
+Produz a conjuracao de Resistencia a Magia$
+$
+"Sopro do Vampiro"$
+Produz a conjuracao de Dreno Vampirico$
+$
+"Vela da Vigilia Menor"$
+Concede o poder de Escudo Menor$
+$
+"Brasas de Queima-Osso"$
+Concede o poder de Dano Maior por Fogo$
+$
+"Estrondo das Revelacoes"$
+Concede o poder de Dano Maior Retardado$
+$
+"Pomba de Fogo Devastador"$
+Concede o poder de Dano Medio por Fogo a Distancia$
+$
+"Jarra da Pureza"$
+Concede o poder de Curar Veneno$
+$
+"Excrescencia de Gelo"$
+Produz a conjuracao de Dano Maior por Frio$

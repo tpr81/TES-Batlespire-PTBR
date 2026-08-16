@@ -1,0 +1,22 @@
+		Seducer Oathkin					file SR4T.xls		Good Seducer Talk			
+	Saycode	NPC SAY	Replycode	CHECK1	CHECK2	CHECK3	PC REPLY	GoTo	DO THIS ACTION	SET1	SET2	SET3
+	SR4A11	Eu cuspo nos caes traicoeiros de Dagon! Nao vais ter piedade de mim, comedor de vermes! - Vamos. Aproxima-te para ouvires a minha maldicao sobre ti e sobre todo o teu coelho que lambe cuspo!	SR4A1A	TRUE			Sentimentos proximos do meu coracao, e falados como um guerreiro. Mas voce me confunde com um cao, quando na verdade sou um homem inocente, jogado como uma folha na inundacao. Vamos unir forcas e dar pontapes aos caes que precisam de pontapes.	SR4A21				
+			SR4A1B	TRUE			Mae dos Monstros! Estou ofendido! Pareco um dos caes de Dagon?	SR4A21				
+			SR4A1C	&JacielName			- Olha. Estou do lado do Jaciel e da Deyanira, e nao me interessa quem sabe! Entao, se somos inimigos, vamos la. Mas se somos aliados, vamos parar de nos queimar!	SR4A31				
+			SR4A1D	&JacielFree			- Espera! O Jaciel esta livre! Eu libertei-a! Sou um homem! Estou do teu lado!	SR4B21				
+	SR4A21	Caes mentirosos, covardes e chupadores de cuspo! Nao me facas truques de mentiras! Aproxima-te e deixa-me beijar-te, seu cobarde, idiota!	SR4A2A	TRUE			- Espera, espera.	END	MonsterAttack	&Dog		
+	SR4A31	- Nao. - Sim, e verdade. Ja ouvimos falar de si e que favorece a nossa causa. Deyanira diz que vais procurar o Livro das Rodas do Ceu pelo Codigo Sagrado. Ha uma copia do livro aqui e na Camara de Ciencias Mortais. O codigo sera uma serie de quatro letras, mas serao no alfabeto daedrico.	SR4A3A	TRUE			- Optimo. - Optimo. Nao estou muito familiarizado com o alfabeto daedrico.	SR4A41				
+	SR4A41	- Nao importa. - Nao importa. Olha para a Mao da Bondade. Ha o Codigo Sagrado de hoje... - Nao. - O que e? Koht. Ou, em tamrielico, DUSK.	SR4A4A	TRUE			- Nao. Entao, quem precisa do livro?	SR4A51				
+	SR4A51	Talvez a Deyanira pensasse que sabias ler e que seria uma referencia util.	SR4A5A	TRUE			- Sim, sim. Bem, eu leio, muito bem, obrigado. E sabes alguma coisa sobre as fezes?	SR4A61				
+	SR4A61	- Esfregar? Que espreguicadeiras?	SR4A6A	TRUE			A Deyanira disse algo sobre fezes e coisas de tourbillion.	SR4A71				
+	SR4A71	- Tens a certeza? - Sim. - Esfregar?	SR4A7A	TRUE			Claro que tenho a certeza.	SR4A81				
+			SR4A7B	TRUE			- Nao, nao. Estou bastante certa.	SR4A81				
+	SR4A81	Nao sei nada de fezes. Nada de especial, de qualquer forma.	SR4A8A	TRUE			- Esta bem. - Esta bem. Eu vou descobrir. Obrigado pela ajuda. - Adeus. - Adeus.	END	Command SR_13	&Buddy		
+	SR4A91	Pareces-me familiar, mas tenho de ter a certeza.	SR4A9A	TRUE			Sou o homem, lembras-te? Amigo da Deyanira e do Jaciel?	SR4A21	PCTeam			
+			SR4A9B	&Buddy			Sou o homem, lembras-te? Amigo da Deyanira e do Jaciel?	SR4A01	PCTeam			
+			SR4A9C	&Hero			Sou o homem, lembras-te? Ajudei a libertar o Jaciel?	SR4B11	PCTeam			
+			SR4A9D	&JacielName			Estou a trabalhar com o Jaciel e a Deyanira. Lembras-te de mim?	SR4A31	PCTeam			
+			SR4A9E	&JacielFree			Lembras-te de mim? Sou o tipo que libertou o Jaciel.	SR4B21	PCTeam			
+	SR4A01	- Sim, e verdade. Nos observamos e esperamos.	SR4A0A	TRUE			- Bom trabalho. - Sim. E adeus.	END				
+	SR4B11	- Sim, e verdade. Damos as boas vindas ao nosso aliado na cruzada para reconquistar a Sombra Perigosa.	SR4B1A	TRUE			E as coisas estao a correr maravilhosamente bem. Continua com o bom trabalho.	END				
+	SR4B21	- Nao. Foste tu que libertaste a Nossa Senhora. Nos que permanecemos leais te saudamos e louvamos o teu nome. Nossa Senhora ordenou-nos que a salvaguardassemos e a tratassemos como uma irma juramentada. Estamos entre vos e os vossos inimigos.	SR4B2A	TRUE			- Raios partam. Nao foi nada. Mas obrigado por pegar nas armas contra os meus inimigos. Tenho bastante para todos.	END		&Hero		

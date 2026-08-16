@@ -1,0 +1,46 @@
+Codex Arcana, Volume IV
+
+ESTUDANTES E ESTUDIOSO: Atentem para nossas Abjuracoes!$DEMONSTRANDO A DEVIDA PROPRIEDADE NA CUSTODIA DOS LIVROS$
+
+Nao apenas prestamos servicos ao Imperador ao preparar volumes de novos livros, mas tambem exercemos um oficio de sagrada piedade quando tratamos os livros com cuidado, e novamente quando os restauramos aos seus devidos lugares e os encarregamos a uma custodia inviolavel; para que eles possam se regozijar na pureza enquanto os temos em nossas maos, e descansar em seguranca quando forem restaurados aos seus repositorios. E certamente, depois das vestes e maquinas dedicadas a gloria do Imperador, os livros arcanos merecem ser devidamente tratados pelo mago de batalha, aos quais grandes danos sao causados todas as vezes que sao tocados por maos impuras. Por isso, julgamos conveniente alertar nossos estudantes contra varias negligencias, tais como as que poderiam ser facilmente avoided e que causam danos incriveis aos livros.$
+
+Sendo a continuacao de um indice parcial de artefatos arcanos conhecidos pelos estudiosos e alquimistas de Battlespire, para que esses artefatos possam ser mais facilmente conhecidos por todos os estudantes, e nem abusados, nem negligenciados, nem desperdicados em seu uso.$
+$
+"Conto da Carne Inteira"$
+Conjura a magia de Cura Maior de Vida$
+$
+"Lagrima do Desespero"$
+Produz a conjuracao de Dano Contínuo Maior a vitima$
+$
+"Dedal do Fogo do Mago"$
+Produz a conjuracao de Dano Menor por Magia a Distancia$
+$
+"Fio de Faisca"$
+Concede o poder de Dano Menor por Choque a Distancia$
+$
+"Mares do Entre-Lugar"$
+Produz a conjuracao de Teletransporte$
+$
+"Tintura do Aprendiz"$
+Produz a conjuracao de Dano Menor por Veneno$
+$
+"Sopro de Leveza"$
+Produz a conjuracao de Salto$
+$
+"Teia do Mestre"$
+Concede o poder de Dano Maior por Veneno$
+$
+"Capricho da Grande Protecao"$
+Concede o poder de Resistencia a Todos os elementos$
+$
+"Vento da Rapidez"$
+Concede o poder de Corrida$
+$
+"Ventos da Tempestade"$
+Produz a conjuracao de Dano Medio por Choque a Distancia$
+$
+"Asa do Deslocamento de Magia"$
+Conjura a magia de Reflexao de Magia$
+$
+"Vime do Definhamento"$
+Conjura a magia de Dano Contínuo Menor a vitima$
