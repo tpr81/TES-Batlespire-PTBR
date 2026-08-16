@@ -19,19 +19,8 @@ A tradução busca preservar o significado original dos textos, mantendo a ambie
 
 > 🚧 **Projeto em desenvolvimento**
 
-* [ ] Menus
-* [ ] Interface
-* [ ] Diálogos
-* [ ] NPCs
-* [ ] Itens
-* [ ] Magias
-* [ ] Descrições
-* [ ] Livros e documentos
-* [ ] Textos diversos
-* [ ] Revisão da tradução
-* [ ] Testes dentro do jogo
-* [ ] Correção de bugs
-* [ ] Versão final
+COMPLETO: 100%
+Qualquer bug que encontrar vc esta livre pra mecher e republicar como quiser!
 
 # 🧪 Testes
 
